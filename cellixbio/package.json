@@ -1,5 +1,5 @@
 {
-  "homepage": "https://ssvamsee.github.io",
+  "homepage": "http://ssvamsee.github.io/Cellix_Bio",
   "name": "cellixbio",
   "version": "0.1.0",
   "private": true,
@@ -16,7 +16,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && cp build/index.html build/404.html",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
