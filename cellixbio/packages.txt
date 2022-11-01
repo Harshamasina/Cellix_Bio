@@ -1,1 +1,16 @@
 React-router-Dom added on 31st Oct
+
+App>
+    Navbar+Intro+WWD+Patents+TB+Teamwork+Footer
+
+Navbar>Logo>About>contact
+
+Body>
+        Intro>intro.js+background.js
+        WWD
+        Patents>desc.js+years.js
+        TB.js
+        Teamwork.js
+
+Footer>
+        Footer>NOP.js+Social.js
