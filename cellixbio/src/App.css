@@ -22,3 +22,32 @@ font-size: 18px;
 text-decoration: underline;
 color:white ;
 }
+
+.AboutUsTitle{
+  text-align: center;
+  margin-top: 2%;
+  color: #282c34;
+  font-weight: bolder;
+}
+
+.AboutUsPara{
+  text-align: center;
+  height: auto;
+  width: 700px;
+  font-size: large;
+  padding: 10;
+}
+
+.AboutContainer{
+  width:auto;
+  height: auto;
+  margin-left: 27%;
+  margin-top: 3%;
+}
+
+.AboutSpan{
+  color: #282c34;
+  font-size: larger;
+  font-weight: bolder;
+}
+
