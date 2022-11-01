@@ -12,13 +12,13 @@ function Navbar(){
         <div>
             <div className="Navbar">
                 <Logo></Logo>
-                <Link to="/Home">Home</Link>
-                <Link to="/About">About</Link>
-                <Link to="/PT">Platform Technology</Link>
-                <Link to="/IP">Intellectual Property</Link>
-                <Link to="/Pipeline">Pipeline</Link>
-                <Link to="/Leadership">Leadership</Link>
-                <Link to="/Contact">Contact</Link>
+                <Link className="link" to="/Home">Home</Link>
+                <Link className="link" to="/About">About</Link>
+                <Link className="link" to="/PT">Platform Technology</Link>
+                <Link className="link" to="/IP">Intellectual Property</Link>
+                <Link className="link" to="/Pipeline">Pipeline</Link>
+                <Link className="link" to="/Leadership">Leadership</Link>
+                <Link className="link" to="/Contact">Contact</Link>
             </div>
 
             <Routes>
