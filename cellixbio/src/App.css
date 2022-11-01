@@ -3,3 +3,13 @@
   width: 100%;
   background-color: blue;
 }
+
+.AboutUsTitle{
+  text-align: center;
+}
+
+.AboutUsPara{
+  text-align: center;
+  width: 80%;
+  height: 50px;
+}
