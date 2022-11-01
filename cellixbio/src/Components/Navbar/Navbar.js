@@ -18,7 +18,6 @@ function Navbar(){
                 <Link to="/IP">Intellectual Property</Link>
                 <Link to="/Pipeline">Pipeline</Link>
                 <Link to="/Leadership">Leadership</Link>
-                
                 <Link to="/Contact">Contact</Link>
             </div>
 
