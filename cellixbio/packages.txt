@@ -14,3 +14,7 @@ Body>
 
 Footer>
         Footer>NOP.js+Social.js
+
+
+
+Added "bootstrap": "^5.2.2",   "react-bootstrap": "^2.5.0",     on 1st Nov
