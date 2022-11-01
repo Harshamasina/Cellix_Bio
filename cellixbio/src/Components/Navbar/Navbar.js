@@ -10,7 +10,7 @@ import Logo from "./Logo";
 function Navbar(){
     return(
         <div>
-            <div>
+            <div className="Navbar">
                 <Logo></Logo>
                 <Link to="/Home">Home</Link>
                 <Link to="/About">About</Link>
@@ -18,6 +18,7 @@ function Navbar(){
                 <Link to="/IP">Intellectual Property</Link>
                 <Link to="/Pipeline">Pipeline</Link>
                 <Link to="/Leadership">Leadership</Link>
+                
                 <Link to="/Contact">Contact</Link>
             </div>
 

@@ -1,7 +1,7 @@
 function Logo(){
     return(
         <div>
-            <h1>Logo cellix</h1>
+            <img src="https://www.cellixbio.com/images/logo-dark.png" alt="Logo"></img>
         </div>
     )
 }
