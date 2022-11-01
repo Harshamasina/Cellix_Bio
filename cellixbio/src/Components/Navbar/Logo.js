@@ -1,7 +1,7 @@
 function Logo(){
     return(
         <div>
-            <h1>Logo</h1>
+            <h1>Logo cellix</h1>
         </div>
     )
 }
