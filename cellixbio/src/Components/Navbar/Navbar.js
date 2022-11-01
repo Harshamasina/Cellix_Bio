@@ -1,4 +1,4 @@
-import { Link, Routes,  Route } from "react-router-dom"
+import { Link, Routes, Route } from "react-router-dom"
 import Home from "./Home";
 import PT from "./PT";
 import About from "./About";
@@ -33,5 +33,4 @@ function Navbar(){
         </div>
     )
 }
-
 export default Navbar;
