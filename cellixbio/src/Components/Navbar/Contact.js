@@ -36,41 +36,41 @@ function Contact(){
                     <Form.Group className="mb-3" controlId="formBasicEmail">
                         <Form.Label>NAME</Form.Label>
                         <Form.Control 
-                        name= "name" onChange={updateInput}
+                        name= "name" onChange={updateInput} className='shadow-lg'
                         type="text" placeholder="Enter your Name" />
                     </Form.Group>
 
                     <Form.Group className="mb-3" controlId="formBasicEmail">
                         <Form.Label>EMAIL</Form.Label>
                         <Form.Control 
-                        name="email" onChange={updateInput}
+                        name="email" onChange={updateInput} className='shadow-lg'
                         type="email" placeholder="Enter your email" />
                     </Form.Group>
 
                     <Form.Group className="mb-3" controlId="formBasicEmail">
                         <Form.Label>PHONE</Form.Label>
                         <Form.Control
-                        name="phone" onChange={updateInput} 
+                        name="phone" onChange={updateInput} className='shadow-lg'
                         type="text" placeholder="Enter your Phone Number" />
                     </Form.Group>
 
                     <Form.Group className="mb-3" controlId="formBasicPassword">
                         <Form.Label>SUBJECT</Form.Label>
                         <Form.Control 
-                        name="subject" onChange={updateInput}
+                        name="subject" onChange={updateInput} className='shadow-lg'
                         type="text" placeholder="Enter Subject"/>
                     </Form.Group>
                     
                     <Form.Group className="mb-3" controlId="formBasicPassword">
                         <Form.Label>MESSAGE</Form.Label>
                         <Form.Control
-                        name="message" onChange={updateInput} as="textarea"
+                        name="message" onChange={updateInput} as="textarea" className='shadow-lg'
                         type="text" placeholder="Enter your Message" />
                     </Form.Group>
                 
                     <Button 
-                    onClick={register}
-                    variant="outline-primary" type="submit" className='mt-1'>
+                    onClick={register} 
+                    variant="outline-primary" type="submit" className='mt-1 shadow-lg'>
                         SEND MESSAGE
                     </Button>
                 </Form>
