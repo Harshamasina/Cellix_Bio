@@ -75,7 +75,7 @@ function Contact(){
                     </Button>
                 </Form>
             </div>
-             <pre>{JSON.stringify(state)}</pre> 
+             {/* <pre>{JSON.stringify(state)}</pre>  */}
         </div>
     )
 }
