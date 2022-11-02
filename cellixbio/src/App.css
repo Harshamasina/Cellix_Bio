@@ -224,6 +224,9 @@ color:white ;
 tbody,thead{
   text-align: center;
 }
+.form-control[name^=me]{
+  height: 150px ;
+}
 
 
 
