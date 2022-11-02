@@ -179,6 +179,86 @@ function IP(){
                             <td>COMPOSITIONS AND METHODS FOR THE TREATMENT OF NEUROLOGIC DISEASES</td>
                             <td>94,99,526</td>
                         </tr>
+                        <tr>
+                            <td>31</td>
+                            <td>COMPOSITIONS AND METHODS FOR THE TREATMENT OF PERIODONTITIS AND RHEUMATOID ARTHRITIS</td>
+                            <td>94,34,729</td>
+                        </tr>
+                        <tr>
+                            <td>32</td>
+                            <td>COMPOSITIONS AND METHODS FOR THE TREATMENT OF RESPIRATORY DISORDERS</td>
+                            <td>92,27,974</td>
+                        </tr>
+                        <tr>
+                            <td>33</td>
+                            <td>COMPOSITIONS AND METHODS FOR THE TREATMENT OF LOCAL PAIN</td>
+                            <td>94,92,409</td>
+                        </tr>
+                        <tr>
+                            <td>34</td>
+                            <td>COMPOSITIONS AND METHODS FOR THE TREATMENT MIGRAINE AND NEUROLOGIC DISEASES</td>
+                            <td>91,87,427</td>
+                        </tr>
+                        <tr>
+                            <td>35</td>
+                            <td>COMPOSITIONS AND METHODS FOR THE TREATMENT OF EPILEPSY AND NEUROLOGICAL DISEASES</td>
+                            <td>93,03,038</td>
+                        </tr>
+                        <tr>
+                            <td>36</td>
+                            <td>COMPOSITIONS AND METHODS FOR THE TREATMENT OF INFLAMMATION AND LIPID DISORDERS</td>
+                            <td>96,24,168</td>
+                        </tr>
+                        <tr>
+                            <td>37</td>
+                            <td>COMPOSITIONS AND METHODS FOR THE TREATMENT OF MULTIPLE SCLEROSIS</td>
+                            <td>91,02,649</td>
+                        </tr>
+                        <tr>
+                            <td>38</td>
+                            <td>COMPOSITIONS AND METHODS FOR THE TREATMENT OF NEUROLOGICAL DISEASES</td>
+                            <td>92,06,111</td>
+                        </tr>
+                        <tr>
+                            <td>39</td>
+                            <td>COMPOSITIONS AND METHODS FOR THE TREATMENT OF MUCOSITIS</td>
+                            <td>9,096,537</td>
+                        </tr>
+                        <tr>
+                            <td>40</td>
+                            <td>COMPOSITIONS AND METHODS FOR THE TREATMENT OF DIABETES AND PRE-DIABETES</td>
+                            <td>8,952,068</td>
+                        </tr>
+                        <tr>
+                            <td>41</td>
+                            <td>COMPOSITIONS AND METHODS FOR THE TREATMENT OF DIABETES AND PREDIABETES</td>
+                            <td>9,174,931</td>
+                        </tr>
+                        <tr>
+                            <td>42</td>
+                            <td>COMPOSITIONS AND METHODS FOR THE TREATMENT OF INFLAMMATION AND PAIN</td>
+                            <td>94,64,051</td>
+                        </tr>
+                        <tr>
+                            <td>43</td>
+                            <td>COMPOSITIONS AND METHODS FOR THE TREATMENT OF NEUROMUSCULAR DISORDERS AND NEURODEGENERATIVE DISEASES</td>
+                            <td>14/533,118</td>
+                        </tr>
+                        <tr>
+                            <td>44</td>
+                            <td>COMPOSITIONS AND METHODS FOR THE TREATMENT OF INFLAMMATION AND LIPID DISORDERS</td>
+                            <td>14/533,112</td>
+                        </tr>
+                        <tr>
+                            <td>45</td>
+                            <td>COMPOSITIONS AND METHODS FOR THE TREATMENT OF MUCOSITIS</td>
+                            <td>14/533,131</td>
+                        </tr>
+                        <tr>
+                            <td>46</td>
+                            <td>COMPOSITIONS AND METHODS FOR THE TREATMENT OF MUCOSITIS</td>
+                            <td>14/816,089</td>
+                        </tr>
                                  </tbody>
                              </Table>
                         </Accordion.Body>
