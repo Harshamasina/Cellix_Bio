@@ -94,5 +94,116 @@ color:white ;
   list-style: decimal;
 }
 
+.IPh3{
+  text-align: center;
+  font-weight: bold;
+  color: #282c34;
+  margin-top: 1%;
+}
 
+.IPpContainer{
+  text-align: center;
+  height: auto;
+  width: 900px;
+  font-size: large;
+  padding: 10;
+  margin-left: 24%;
+  margin-top: 2%;
+}
+
+.IPp{
+  text-align: center;
+  font-size: large;
+  padding: 10;
+}
+
+
+.IPh4{
+  text-align: center;
+  font-weight: bold;
+  color: #282c34;
+  margin-top: 2%;
+}
+
+.IPTable{
+  width: 75%;
+  margin-left: 12%;
+}
+
+.PLh3{
+  text-align: center;
+  font-weight: bold;
+  color: #282c34;
+  margin-top: 1%;
+}
+
+.PLpContainer{
+  text-align: center;
+  height: auto;
+  width: 900px;
+  font-size: large;
+  padding: 10;
+  margin-left: 24%;
+  margin-top: 2%;
+}
+
+.PLp{
+  text-align: center;
+  font-size: large;
+  padding: 10;
+}
+
+.Lh3{
+  text-align: center;
+  font-weight: bold;
+  color: #282c34;
+  margin-top: 1%;
+}
+
+.Lh4{
+  text-align: center;
+  font-weight: bold;
+  color: #282c34;
+  margin-top: 2%;
+}
+
+.LulContainer{
+  margin-left: 50%;
+}
+
+.Lul{
+  list-style-type: none;
+  font-size: larger;
+  font-weight: 500;
+  color: #282c34;
+}
+
+.LpContainer{
+  text-align: center;
+  height: auto;
+  width: 900px;
+  font-size: large;
+  padding: 10;
+  margin-left: 24%;
+  margin-top: 2%;
+}
+
+.Lp{
+  text-align: center;
+  font-size: large;
+  padding: 10;
+}
+
+.CUh3{
+  text-align: center;
+  font-weight: bold;
+  color: #282c34;
+  margin-top: 1%;
+}
+
+.CUFormContainer{
+  width: 25%;
+  margin-top: 1%;
+  margin-left: 37%;
+}
 
