@@ -1,33 +1,29 @@
 import Table from 'react-bootstrap/Table';
-import Card from 'react-bootstrap/Card';
+import Accordion from 'react-bootstrap/Accordion';
 function IP(){
     return(
         <div>
             <h3 className="IPh3">Intellectual Property</h3>
-            {/* <div>
-                <Card className="bg-dark text-white">
-                    <Card.Img src="https://img.freepik.com/premium-photo/blur-pharmacy-store-filled-with-medicines-background-pharmacy-drugstore-retail-interior-blur-abstract-blue-background_87555-17831.jpg?w=2000" alt="IP" />
-                    <Card.ImgOverlay>
-                        <Card.Title>Intellectual Property</Card.Title>
-                    </Card.ImgOverlay>
-                </Card>
-            </div> */}
             <div className="IPpContainer">
                 <p className="IPp"><span className="AboutSpan">Cellix Bio</span> has a portfolio of over 400+ international patents published. The Company has obtained 63 Composition of Matter Allowed / Issued U.S Patents from the US Patent & Trademark Office and 28 U.S Patent Pending Applications in diverse therapeutic areas. We are also committed to protecting our intellectual property estate of patent rights and trade secrets and the potential commercial and clinical advantages this protection provides for our proprietary technology.</p>
             </div>
             <div>
                 <h4 className="IPh4">Our patent portfolio includes issued patents and patent applications in the world’s major markets</h4>
             </div>
-            <div className='IPTable'>
-                <Table striped bordered hover size="sm" className='mt-3 shadow-lg'>
-                    <thead>
+            
+            <Accordion>
+                <Accordion.Item eventKey="0">
+                    <Accordion.Header><h4>CELLIX BIO's U.S PATENT APPLICATIONS</h4></Accordion.Header>
+                        <Accordion.Body>
+                            <Table striped bordered hover size="sm" className='mt-3 shadow-lg'>
+                                 <thead>
                         <tr>
                         <th>S.No</th>
                         <th>U.S Patent Title</th>
                         <th>U.S Patent Number</th>
                         </tr>
-                    </thead>
-                    <tbody>
+                                 </thead>
+                                 <tbody>
                         <tr>
                         <td>1</td>
                         <td>COMPOSITIONS AND METHODS FOR THE TREATMENT OF EPILEPSY</td>
@@ -183,15 +179,16 @@ function IP(){
                             <td>COMPOSITIONS AND METHODS FOR THE TREATMENT OF NEUROLOGIC DISEASES</td>
                             <td>94,99,526</td>
                         </tr>
-                    </tbody>
-                </Table>
-            </div>
+                                 </tbody>
+                             </Table>
+                        </Accordion.Body>
+                </Accordion.Item>
+            
 
-            <div>
-                <div>
-                    <h4 className='IPh4'>CELLIX BIO's U.S PATENT PENDING APPLICATIONS</h4>
-                </div>
-                <div className='IPTable'>
+           
+                <Accordion.Item eventKey="1">
+        <Accordion.Header><h4>CELLIX BIO's U.S PATENT PENDING APPLICATIONS</h4></Accordion.Header>
+        <Accordion.Body>
                 <Table striped bordered hover className='mt-3 shadow-lg'>
                     <thead>
                         <tr>
@@ -273,8 +270,10 @@ function IP(){
                         </tr>
                      </tbody>
                     </Table>
-                </div>
-            </div>
+                    </Accordion.Body>
+      </Accordion.Item>
+    </Accordion>
+                
         </div>
     )
 }

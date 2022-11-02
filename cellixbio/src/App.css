@@ -207,3 +207,22 @@ color:white ;
   margin-left: 37%;
 }
 
+.accordion-button{
+  color:#4e545f  !important;
+  background-color: #282c34 !important;
+  margin-top: 4%;
+  border-radius: 7px !important;
+}
+.accordion-button:hover{
+  color: whitesmoke !important;
+}
+.accordion-item{
+  width: 65%;
+  margin-left: 17.7%;
+  margin-top: 2%;
+  border: none !important;
+}
+tbody,thead{
+  text-align: center;
+}
+
