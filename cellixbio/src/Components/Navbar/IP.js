@@ -183,9 +183,6 @@ function IP(){
                              </Table>
                         </Accordion.Body>
                 </Accordion.Item>
-            
-
-           
                 <Accordion.Item eventKey="1">
         <Accordion.Header><h4>CELLIX BIO's U.S PATENT PENDING APPLICATIONS</h4></Accordion.Header>
         <Accordion.Body>
@@ -272,8 +269,7 @@ function IP(){
                     </Table>
                     </Accordion.Body>
       </Accordion.Item>
-    </Accordion>
-                
+    </Accordion>             
         </div>
     )
 }
