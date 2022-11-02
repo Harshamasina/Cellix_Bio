@@ -64,7 +64,7 @@ function Contact(){
                     <Form.Group className="mb-3" controlId="formBasicPassword">
                         <Form.Label>MESSAGE</Form.Label>
                         <Form.Control
-                        name="message" onChange={updateInput}
+                        name="message" onChange={updateInput} as="textarea"
                         type="text" placeholder="Enter your Message" />
                     </Form.Group>
                 
