@@ -66,16 +66,16 @@ function Leadership() {
         </Card>
       
       <Card>
-        <Card.Img variant="top" src="https://www.cellixbio.com/images/team/MudherAlbassam.jpg" />
-        <Card.Body>
-          <Card.Title>Mudher Albassam</Card.Title>
-          <Card.Text>
-            Pre-clinical Development
-          </Card.Text>
-        </Card.Body>
-        <Card.Footer>
-          <small className="text-muted">Dr. Mudher Albassam has extensive experience in nonclinical development, pathology, nonclinical safety/risk assessment and toxicology. He was a Principal Director and Senior Director in Toxicology & Pathology at Roche Pharmaceuticals. He obtained his PhD on Veterinary Pathology from Purdue University and MS in Veterinary Pathology from the University of Guelph.</small>
-        </Card.Footer>
+          <Card.Img variant="top" src="https://www.cellixbio.com/images/team/MudherAlbassam.jpg" />
+          <Card.Body>
+              <Card.Title>Mudher Albassam</Card.Title>
+              <Card.Text>
+                Pre-clinical Development
+              </Card.Text>
+          </Card.Body>
+          <Card.Footer>
+            <small className="text-muted">Dr. Mudher Albassam has extensive experience in nonclinical development, pathology, nonclinical safety/risk assessment and toxicology. He was a Principal Director and Senior Director in Toxicology & Pathology at Roche Pharmaceuticals. He obtained his PhD on Veterinary Pathology from Purdue University and MS in Veterinary Pathology from the University of Guelph.</small>
+          </Card.Footer>
       </Card>
       
       <Card>
