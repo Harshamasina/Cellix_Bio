@@ -23,6 +23,143 @@ function Leadership(){
             <div className="LpContainer">
                 <p className="Lp">Mahesh brings over 18 years of scientific and entrepreneurial experience in the life science industry. Mr. Kandula has been named an inventor on 72 United States Issued Patents, 29 United States Patent Pending Applications and more than 226 International Patent Applications. Mr. Kandula received his Master of Technology degree from IIT Kharagpur.</p>
             </div>
+
+            <div className="LFlex">
+                <div className="LImageDiv">
+                <img className="LImage" src="https://www.cellixbio.com/images/team/subbuapparsundaram.jpg" alt="L1"></img>
+                </div>
+
+                <div className="LDetails">
+                    <ul className="Lul">
+                        <li>Subbu Apparsundaram</li>
+                        <li>CDO & COO</li>
+                    </ul>
+                </div>
+            </div>
+            <div className="LpContainer">
+                <p className="Lp">Subbu Apparsundaram is an established scientist with extensive experience in drug discovery and development. Dr. Subbu founded VClinBio that entered into strategic partnership with Cellix Bio. Previously, Subbu was a Drug Discovery Scientist at Hoffmann-La Roche Pharmaceuticals, and a faculty at the University of Kentucky Medical Center. He has published several peer reviewed research papers.</p>
+            </div>
+
+            <div>
+                <h4 className="Lh4">Scientific Team</h4>
+            </div>
+
+            <div className="LFlex">
+                <div className="LImageDiv">
+                <img className="LImage" src="https://www.cellixbio.com/images/team/FrankDiana.jpg" alt="L1"></img>
+                </div>
+
+                <div className="LDetails">
+                    <ul className="Lul">
+                        <li>Frank Diana</li>
+                        <li>CMC & Regulatory</li>
+                    </ul>
+                </div>
+            </div>
+            <div className="LpContainer">
+                <p className="Lp">Dr. Frank Diana is experienced in the areas of CMC, Pharmaceutical and Analytical Development. Dr. Diana had a 40-year career in the Pharmaceutical Industry working for Endo Pharmaceuticals, Johnson & Johnson and DuPont Pharmaceuticals mostly in Pharmaceutical Development, Technical Operations and Quality. He obtained his PhD from St. John’s University in NY and is an adjunct professor in the RA/QA graduate program at Temple University’s School of Pharmacy teaching several courses including Global CMC Issues.</p>
+            </div>
+
+
+            <div className="LFlex">
+                <div className="LImageDiv">
+                <img className="LImage" src="https://www.cellixbio.com/images/team/AshokRampal.png" alt="L1"></img>
+                </div>
+
+                <div className="LDetails">
+                    <ul className="Lul">
+                        <li>Ashok Rampal</li>
+                        <li>Formulation development</li>
+                    </ul>
+                </div>
+            </div>
+            <div className="LpContainer">
+                <p className="Lp">Ashok Rampal has more than 3 decades of experience in R & D management, drug delivery and formulation development in renowned companies like Knoll Pharmaceuticals, Ranbaxy-Lilly, Ranbaxy Research Labs and Alkem Labs Ltd. Mr. Rampal holds Master’s degree in Pharmaceutics from Panjab University and Diploma in Business Management from Mumbai. He is inventor in more than 110 patent applications.</p>
+            </div>
+
+            <div className="LFlex">
+                <div className="LImageDiv">
+                <img className="LImage" src="https://www.cellixbio.com/images/team/MudherAlbassam.jpg" alt="L1"></img>
+                </div>
+
+                <div className="LDetails">
+                    <ul className="Lul">
+                        <li>Mudher Albassam</li>
+                        <li>Pre-clinical Development</li>
+                    </ul>
+                </div>
+            </div>
+            <div className="LpContainer">
+                <p className="Lp">Dr. Mudher Albassam has extensive experience in nonclinical development, pathology, nonclinical safety/risk assessment and toxicology. He was a Principal Director and Senior Director in Toxicology & Pathology at Roche Pharmaceuticals. He obtained his PhD on Veterinary Pathology from Purdue University and MS in Veterinary Pathology from the University of Guelph.</p>
+            </div>
+
+
+            <div className="LFlex">
+                <div className="LImageDiv">
+                <img className="LImage" src="https://www.cellixbio.com/images/team/douglas.png" alt="L1"></img>
+                </div>
+
+                <div className="LDetails">
+                    <ul className="Lul">
+                        <li>Dr. Douglas Greene</li>
+                        <li>Medical Affairs & Strategic Advisor</li>
+                    </ul>
+                </div>
+            </div>
+            <div className="LpContainer">
+                <p className="Lp">Douglas Greene, MD, served as Executive Vice President, Chief Scientific Officer and Head, Research and Development, Ikaria Pharmaceuticals; Senior Vice President and Senior Scientific Advisor and Head of Corporate Regulatory Development at Sanofi-Aventis; Executive Vice President of Clinical Sciences and Product Development at Merck Research Laboratories and Corporate Officer of Merck, Inc.; served as member of the US Food and Drug Administration’s Endocrinologic and Metabolic Drug Advisory Committee and acted as Chairman of the Advisory Committee.</p>
+                <p className="Lp">Dr. Greene was Professor of Internal Medicine, Director of the Michigan Diabetes Research and Training Center, and Chief, Division of Endocrinology & Metabolism at the University of Michigan School of Medicine. Dr. Greene was Associate Professor of Internal Medicine, Director of the Diabetes Research Laboratory and Head of the General Clinical Research Center at the University of Pittsburgh, and Assistant Professor of Internal Medicine at the University of Pennsylvania. Dr. Greene completed a post-doctoral research fellowship at the Cox Research Institute at the University of Pennsylvania, and Internal Medicine internship and residency at Johns Hopkins Hospital. Dr Greene holds an MD from the Johns Hopkins School of Medicine.</p>
+            </div>
+     
+            <h4 className="Lh4">Advisors</h4>
+
+            <div className="LFlex">
+                <div className="LImageDiv">
+                <img className="LImage" src="https://www.cellixbio.com/images/team/boboliver.jpg" alt="L1"></img>
+                </div>
+
+                <div className="LDetails">
+                    <ul className="Lul">
+                        <li>Bob Oliver</li>
+                        <li>Executive Advisor</li>
+                    </ul>
+                </div>
+            </div>
+            <div className="LpContainer">
+                <p className="Lp">Bob managed a $6B P&L at Otsuka while managing a diverse and growing product portfolio across the cardio-renal, neuroscience, oncology, and medical device markets. Having compiled more than 25 years of experience in the pharmaceutical industry, across commercial and general management roles for premium companies within industry he was instrumental in building ABILIFY®, Abilify Maintena®, SAMSCA®, SPRYCEL® and Rexulti®. Previously, Bob held senior level executive roles in Wyeth and Johnson & Johnson. Most recently Bob was in the role of President & CEO of Otsuka America Pharmaceuticals, Inc.</p>
+            </div>
+
+            <div className="LFlex">
+                <div className="LImageDiv">
+                <img className="LImage" src="https://www.cellixbio.com/images/team/pauljeffrey.jpg" alt="L1"></img>
+                </div>
+
+                <div className="LDetails">
+                    <ul className="Lul">
+                        <li>Paul Jeffrey</li>
+                        <li>Business Strategy</li>
+                    </ul>
+                </div>
+            </div>
+            <div className="LpContainer">
+                <p className="Lp">Paul Jeffrey is an accomplished Pharmaceutical business consultant and leader with demonstrated new product development and business development capabilities. He has over 30 years of industry experience building product value by leading global teams and creating and implementing clinical and marketing programs to maximize commercial positioning and launch success. He has led commercial development team and alliance partnerships while at Pfizer as VP of Global Commercial Development group.</p>
+            </div>
+
+            <div className="LFlex">
+                <div className="LImageDiv">
+                <img className="LImage" src="https://www.cellixbio.com/images/team/bruceNemlich.png" alt="L1"></img>
+                </div>
+
+                <div className="LDetails">
+                    <ul className="Lul">
+                        <li>Bruce Nemlich</li>
+                        <li>Business Advisor</li>
+                    </ul>
+                </div>
+            </div>
+            <div className="LpContainer">
+                <p className="Lp">Bruce has worked across a wide range of pharmaceutical commercialization strategy, analysis, and implementation over the past 28 years at Pfizer and McKinsey. At Pfizer, he led the Management Science Group and the Resource Allocation Group where besides supporting sales and marketing optimization, he worked with business development and commercial development. He played key roles on various co-promotion deals including Lipitor, Celebrex, Spiriva, and Eliquis, especially negotiating promotion resource levels. Prior to pharmaceuticals, Bruce gained significant corporate finance experience with Morgan Stanley, Stern Stewart, and McKinsey. Bruce holds an MBA from the University of Chicago, and Bachelor of Science in Civil Engineering from the Massachusetts Institute of Technology.</p>
+            </div>
         </div>
     )
 }
