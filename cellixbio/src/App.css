@@ -167,9 +167,30 @@ color:white ;
   margin-top: 2%;
 }
 
-.LulContainer{
+/* .LulContainer{
   margin-left: 50%;
+} */
+
+.LFlex{
+  display: flex;
+  margin-top: 2%;
 }
+
+.LImageDiv{
+  flex: 1;
+  margin-left: 20%;
+}
+
+.LImage{
+  width: 70%;
+  height: 70%
+}
+
+.LDetails{
+  flex: 1;
+  margin-right: 30%;
+}
+
 
 .Lul{
   list-style-type: none;
@@ -185,7 +206,6 @@ color:white ;
   font-size: large;
   padding: 10;
   margin-left: 24%;
-  margin-top: 2%;
 }
 
 .Lp{
@@ -194,7 +214,7 @@ color:white ;
   padding: 10;
 }
 
-.CUh3{
+.CUh2{
   text-align: center;
   font-weight: bold;
   color: #282c34;
@@ -206,6 +226,62 @@ color:white ;
   margin-top: 1%;
   margin-left: 37%;
 }
+
+.CUContainer{
+  display: flex;
+  width: 100%;
+  margin-left: 10%;
+}
+
+.CUOOA{
+  flex: 1;
+  margin-top: 1.7%;
+}
+
+.CUCN{
+  flex: 1;
+  margin-top: 2%;
+}
+
+.CUBH{
+  flex: 1;
+  margin-top: 2%;
+}
+
+.CUOOAUL{
+  list-style-type: none;
+  margin-top: 2%;
+}
+
+.CUCNUL{
+  list-style-type: none;
+  margin-top: 2%;
+}
+
+.CUBHUL{
+  list-style-type: none;
+  margin-top: 2%;
+}
+
+.CUh3{
+  color: #282c34;
+  text-decoration: overline;
+  text-decoration-color: #4e545f;
+  font-weight: bolder;
+  margin-top: 3%;
+}
+
+.CUh4{
+  color: #282c34;
+  font-weight: bold;
+  margin-top: 2%;
+}
+
+.CUSpan{
+  color: #282c34;
+  font-weight: bold;
+}
+
 .accordion-button{
   color:#4e545f  !important;
   background-color: #282c34 !important;
