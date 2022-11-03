@@ -11,7 +11,7 @@ function Pipeline(){
                 <p className="PLp"><span>Cellix Bio</span>research & drug programmes focus on the understanding of the underlying mechanisms of diseases. Our proprietary technology platform currently focusses to improve success rates, minimise drug discovery costs and speed up development timelines by converging on targets that have been independently validated in diseases.</p>
             </div>
 
-            <Table striped bordered hover size="sm" className='mt-3 shadow-lg'>
+            <Table striped bordered hover size="sm">
                 <thead>
                     <tr>
                         <th>THERAPEUTIC AREA</th>
@@ -21,7 +21,7 @@ function Pipeline(){
                 </thead>
                 <tbody>
                     <tr>
-                        <td rowSpan={9} className = "Tabletest">ONCOLOGY</td>
+                        <td rowSpan={9}>ONCOLOGY</td>
                         <td>CLX-ONC-5516</td>
                         <td>Colorectal Cancer</td>
                     </tr>

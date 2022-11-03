@@ -272,5 +272,11 @@ tbody,thead{
   margin-top: 3% !important;
   text-decoration: underline;
   color: #282c34;
+}
 
+.table{
+  width: 65% !important;
+  margin-left: 18% !important;
+  margin-top: 2% !important;
+  box-shadow:0 1rem 3rem rgba(0,0,0,.175)!important;
 }
