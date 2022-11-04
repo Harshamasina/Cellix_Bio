@@ -1,0 +1,46 @@
+import Carousel from 'react-bootstrap/Carousel';
+
+function CarouselFadeExample() {
+  return (
+    <Carousel fade>
+      <Carousel.Item>
+            <img height={600}
+            className="d-block w-100"
+            src="https://media.istockphoto.com/photos/abstract-futuristic-pills-wireframe-and-capsule-on-glowing-blue-picture-id1368548595?b=1&k=20&m=1368548595&s=170667a&w=0&h=AJM2XS03wmq7Nl8h5YCjXsnWtoWgaFooQXAttr1zrE4="
+            alt="First slide"
+            />
+            <Carousel.Caption className='mb-5'>
+                <h1>Cellix Bio</h1>
+                <p>The Company that never stops innovating and inventing</p>
+            </Carousel.Caption>
+      </Carousel.Item>
+      
+      <Carousel.Item>
+            <img height={600}
+                className="d-block w-100"
+                src="https://www.kilburnstrode.com/KilburnStrode/media/KilburnStrodeMediaLibrary/Knowledge/ai-drug-discovery.png?ext=.png"
+                alt="Second slide"
+            />
+            <Carousel.Caption>
+                <h1>Synergix AI <sup>TM</sup> powered technology</h1>
+                <p>Our Al-driven analysis of large datasets has potential to transform the classic R&D pipeline into new ways of more precise target selection Hospital and accelerating multiple stages of development</p>
+            </Carousel.Caption>
+      </Carousel.Item>
+      
+      <Carousel.Item>
+            <img height={600}
+            className="d-block w-100"
+            src="https://www.dcatvci.org/wp-content/uploads/2022/06/Chemicals_1500x750-1024x512.jpg"
+            alt="Third slide"
+            />
+            <Carousel.Caption>
+                <h1>Harnessing the data</h1>
+                <p>
+                Synergix AITM is pioneering a transformative new big data approach to discovery and development of treatments provides more effective precision treatments for individuals as well as a reduction in costs to our healthcare systems
+                </p>
+            </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
+  );
+}
+export default CarouselFadeExample;

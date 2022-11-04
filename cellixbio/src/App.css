@@ -289,3 +289,34 @@ a{
   text-decoration: none !important;
   /* color: #4e545f !important; */
 }
+
+
+.WWDh3{
+  text-align: center;
+  font-weight: bolder;
+  color: #282c34;
+  margin-top: 1%;
+}
+
+.WWDh4{
+text-align: center;
+font-weight: bold;
+color: #282c34;
+margin-top: 1%;
+}
+
+.WWDPContainer{
+text-align: center;
+height: auto;
+width: 900px;
+font-size: large;
+padding: 10;
+margin-left: 24%;
+margin-top: 2%;
+}
+
+.WWDP{
+text-align: center;
+font-size: large;
+padding: 10;
+}

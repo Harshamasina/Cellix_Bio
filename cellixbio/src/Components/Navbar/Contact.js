@@ -35,7 +35,6 @@ function Contact() {
       <h2 className='CUh2'>Contact Us</h2>
         <CardGroup>
         <Card>
-          <Card.Img variant="top" src="" />
           <Card.Body>
               <Card.Title className='CUCT'>Our Office Address:</Card.Title>
               <Card.Text>
@@ -54,9 +53,8 @@ function Contact() {
         </Card>
         
         <Card>
-          <Card.Img variant="top" src="" />
           <Card.Body>
-            <Card.Title className='CUCT'>Contact No.</Card.Title>
+            <Card.Title className='CUCT'>Contact No:</Card.Title>
             <Card.Text>
               <ul className='CUUL'>
                   <li><span className='CUSpan'>Phone: </span>(+91) 40 23545946</li>
@@ -73,9 +71,8 @@ function Contact() {
         </Card>
         
         <Card>
-          <Card.Img variant="top" src="" />
           <Card.Body>
-            <Card.Title className='CUCT'>Business Hours</Card.Title>
+            <Card.Title className='CUCT'>Business Hours:</Card.Title>
             <Card.Text>
               <ul className='CUUL'>
                 <li className='CUSpan'>Monday - Saturday</li>
