@@ -15,3 +15,6 @@ Body>
 Footer>
         Footer>NOP.js+Social.js
 
+
+
+Installed npm install --save cdbreact   for Footer on 04-Nov'22
