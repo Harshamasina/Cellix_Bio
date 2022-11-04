@@ -252,3 +252,24 @@ tbody,thead{
   color: #282c34;
   margin-top: 1%;
 }
+
+.shadow{
+  background-color: #282c34 !important;
+  /* color: rgb(128, 126, 126); */
+  margin-top: 5% !important;
+  color: #4e545f !important;
+}
+.ml-3{
+  color: white !important;
+}
+.Fimg{
+  width:150px;
+  height: 80px;
+}
+b{
+  color: rgb(154, 156, 162);
+}
+a{
+  text-decoration: none !important;
+  color: #4e545f !important;
+}
