@@ -7,7 +7,7 @@ function Leadership() {
     <h2 className='Lh2'>Management Team</h2>
     <CardGroup>
       <Card>
-        <Card.Img variant="top" src="https://www.cellixbio.com/images/team/MaheshKandula1.jpg" />
+        <Card.Img name="Limage" variant="top" src="https://www.cellixbio.com/images/team/MaheshKandula1.jpg" />
         <Card.Body>
             <Card.Title>Mahesh Kandula,</Card.Title>
               <Card.Text>
@@ -23,7 +23,7 @@ function Leadership() {
       </Card>
       
       <Card>
-        <Card.Img variant="top" src="https://www.cellixbio.com/images/team/subbuapparsundaram.jpg" />
+        <Card.Img name="Limage" variant="top" src="https://www.cellixbio.com/images/team/subbuapparsundaram.jpg" />
             <Card.Body>
               <Card.Title>Subbu Apparsundaram</Card.Title>
                 <Card.Text>CDO & COO</Card.Text>
@@ -46,9 +46,9 @@ function Leadership() {
                   </Card.Text>
             </Card.Body>
             <Card.Footer>
-                  <small className="text-muted">
+                  <small className="text-muted"><p>
                   Dr. Frank Diana is experienced in the areas of CMC, Pharmaceutical and Analytical Development. Dr. Diana had a 40-year career in the Pharmaceutical Industry working for Endo Pharmaceuticals, Johnson & Johnson and DuPont Pharmaceuticals mostly in Pharmaceutical Development, Technical Operations and Quality. He obtained his PhD from St. John's University in NY and is an adjunct professor in the RA/QA graduate program at Temple University’s School of Pharmacy teaching several courses including Global CMC Issues.
-                  </small>
+                  </p> </small>
             </Card.Footer>
         </Card>
         
@@ -87,7 +87,7 @@ function Leadership() {
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-          <small className="text-muted">Douglas Greene, MD, served as Executive Vice President, Chief Scientific Officer and Head, Research and Development, Ikaria Pharmaceuticals; Senior Vice President and Senior Scientific Advisor and Head of Corporate Regulatory Development at Sanofi-Aventis; Executive Vice President of Clinical Sciences and Product Development at Merck Research Laboratories and Corporate Officer of Merck, Inc.; served as member of the US Food and Drug Administration’s Endocrinologic and Metabolic Drug Advisory Committee and acted as Chairman of the Advisory Committee.</small>
+          <small className="text-muted"><p className='Lfm'>He served as Executive Vice President, Chief Scientific Officer and Head, Research and Development, Ikaria Pharmaceuticals; Senior Vice President and Senior Scientific Advisor and Head of Corporate Regulatory Development at Sanofi-Aventis; Executive Vice President of Clinical Sciences and Product Development at Merck Research Laboratories and Corporate Officer of Merck, Inc.; served as member of the US Food and Drug Administration’s Endocrinologic and Metabolic Drug Advisory Committee and acted as Chairman of the Advisory Committee.</p></small>
         </Card.Footer>
       </Card>
     </CardGroup>

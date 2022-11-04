@@ -174,10 +174,23 @@ tbody,thead{
 .form-control[name^=me]{
   height: 100px ;
 }
-
+.card-text{
+  text-align: center !important;
+}
+.card-img-top[name^=Li]{
+  width:40% !important;
+  height: 50% !important;
+  margin-left: 30%;
+  margin-top: 2%;
+  border-radius: 5px !important;
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175) !important;
+}
 .card-img-top{
   width: 50% !important;
-  margin-left: 20%;
+  height: 40% !important;
+  margin-left: 25%;
+  border-radius: 5px !important;
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175) !important;
 }
 .card{
   display: block !important;
@@ -185,13 +198,16 @@ tbody,thead{
   margin-right: 2% !important;
   margin-left: 2% !important;
   border: none !important;
-
-  box-shadow:0 1rem 3rem rgba(0,0,0,.175)!important;
-  
+  box-shadow:0 1rem 3rem rgba(0,0,0,.175)!important; 
+}
+.card-text[name^=Ft]{
+  font-size: 10px !important;
+}
+.Lfm{
+  font-size: 14px !important;
 }
 .card-group{
   padding: 10px !important;
-
 }
 
 .card-title.h5{
