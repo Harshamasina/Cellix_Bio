@@ -28,9 +28,9 @@ function Leadership() {
               <Card.Title>Subbu Apparsundaram</Card.Title>
                 <Card.Text>CDO & COO</Card.Text>
             </Card.Body>
-        <Card.Footer>
-          <small className="text-muted">Subbu Apparsundaram is an established scientist with extensive experience in drug discovery and development. Dr. Subbu founded VClinBio that entered into strategic partnership with Cellix Bio. Previously, Subbu was a Drug Discovery Scientist at Hoffmann-La Roche Pharmaceuticals, and a faculty at the University of Kentucky Medical Center. He has published several peer reviewed research papers.</small>
-        </Card.Footer>
+            <Card.Footer>
+              <small className="text-muted">Subbu Apparsundaram is an established scientist with extensive experience in drug discovery and development. Dr. Subbu founded VClinBio that entered into strategic partnership with Cellix Bio. Previously, Subbu was a Drug Discovery Scientist at Hoffmann-La Roche Pharmaceuticals, and a faculty at the University of Kentucky Medical Center. He has published several peer reviewed research papers.</small>
+            </Card.Footer>
       </Card>
     </CardGroup>
     
