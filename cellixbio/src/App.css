@@ -2,6 +2,7 @@
   height: 100px;
   width: 100%;
   background-color: #282c34;
+  /* background-color: transparent; */
   color:#4e545f ;
 }
 .logo{
@@ -352,7 +353,7 @@ padding: 10;
 
 
 .Carouselh1{
-  margin-bottom: 10%;
+  margin-bottom: 15%;
   font-size: 6vw;
 }
 
@@ -367,4 +368,21 @@ padding: 10;
 
 .FooterUL{
   list-style: none;
+}
+
+.one-page-arrow{
+  bottom: 40px;
+  position: absolute;
+  z-index: 3;
+  left: 50%;
+  margin-left: -16px;
+  width: 32px;
+  height: 32px;
+  font-size: 32px;
+  text-align: center;
+  color: #222;
+}
+.scroll{
+  width:25px;
+  height: 25px;
 }

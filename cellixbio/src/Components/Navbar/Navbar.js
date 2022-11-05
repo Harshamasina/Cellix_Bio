@@ -32,6 +32,7 @@ function Navbar(){
                 <Route path='/Pipeline' element = {<Pipeline></Pipeline>}></Route>
                 <Route path='/Leadership' element = {<Leadership></Leadership>}></Route>
                 <Route path='/Contact' element = {<Contact></Contact>}></Route>
+                <Route path='*'element={<Home></Home>}></Route>
             </Routes>
         </div>
     )
