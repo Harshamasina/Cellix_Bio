@@ -11,8 +11,8 @@ function Home(){
                             alt="First slide"
                         />
                         <Carousel.Caption className='mb-5'>
-                            <h1>Cellix Bio</h1>
-                            <p>The Company that never stops innovating and inventing</p>
+                            <h1 className='Carouselh1'>Welcome to Cellix Bio</h1>
+                            <p className='Carouselp'>The Company that never stops Innovating and Inventing</p>
                         </Carousel.Caption>
                 </Carousel.Item>
                 
@@ -23,8 +23,8 @@ function Home(){
                             alt="Second slide"
                         />
                         <Carousel.Caption>
-                            <h1>Synergix AI<sup>TM</sup> powered technology</h1>
-                            <p>Our Al-driven analysis of large datasets has potential to transform the classic R&D pipeline into new ways of more precise target selection Hospital and accelerating multiple stages of development</p>
+                            <h1 className='Carouselh1'>Synergix AI<sup>TM</sup> powered technology</h1>
+                            <p className='Carouselp'>Our Al-driven analysis of large datasets has potential to transform the classic R&D pipeline into new ways of more precise target selection Hospital and accelerating multiple stages of development</p>
                         </Carousel.Caption>
                 </Carousel.Item>
                 
@@ -35,8 +35,8 @@ function Home(){
                             alt="Third slide"
                         />
                         <Carousel.Caption>
-                            <h1>Harnessing the data</h1>
-                            <p>
+                            <h1 className='Carouselh1'>Harnessing the data</h1>
+                            <p className='Carouselp'>
                             Synergix AI<sup>TM</sup> is pioneering a transformative new big data approach to discovery and development of treatments provides more effective precision treatments for individuals as well as a reduction in costs to our healthcare systems
                             </p>
                         </Carousel.Caption>
