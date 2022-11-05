@@ -13,7 +13,7 @@
 .link{
   color:#8f9091 ;
   text-decoration: none;
-  padding: 55px;
+  padding: 48px;
   font-size: 16px;
 }
 
@@ -275,16 +275,20 @@ tbody,thead{
   margin-top: 5% !important;
   color: #4e545f !important;
 }
+
 .ml-3{
   color: white !important;
 }
+
 .Fimg{
   width:150px;
   height: 80px;
 }
+
 b{
   color: rgb(154, 156, 162);
 }
+
 a{
   text-decoration: none !important;
   /* color: #4e545f !important; */
@@ -320,3 +324,29 @@ text-align: center;
 font-size: large;
 padding: 10;
 }
+
+
+.Desch3{
+  text-align: center;
+  font-weight: bolder;
+  color: #282c34;
+  margin-top: 1%;
+}
+
+
+.DescpContainer{
+  text-align: center;
+  height: auto;
+  width: 900px;
+  font-size: large;
+  padding: 10;
+  margin-left: 24%;
+  margin-top: 2%;
+}
+
+.DescP{
+  text-align: center;
+  font-size: large;
+  padding: 10;
+}
+
