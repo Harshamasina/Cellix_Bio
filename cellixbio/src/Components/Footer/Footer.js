@@ -51,13 +51,22 @@ const Footer = () => {
           <small className="ml-2">&copy; Cellix Bio, 2022. All rights reserved.</small>
           <CDBBox display="flex">
             <CDBBtn flat color="dark" className="p-2">
-              <CDBIcon fab icon="facebook-f" />
+              <CDBIcon fab icon="google" />
             </CDBBtn>
             <CDBBtn flat color="dark" className="mx-3 p-2">
-              <CDBIcon fab icon="twitter" />
+              <CDBIcon fab icon="facebook-f" />
+            </CDBBtn>
+            <CDBBtn flat color="dark" className=" p-2">
+              <CDBIcon fab icon="linkedin" />
+            </CDBBtn>
+            <CDBBtn flat color="dark" className="mx-3 p-2">
+              <CDBIcon fab icon="instagram" />
             </CDBBtn>
             <CDBBtn flat color="dark" className="p-2">
-              <CDBIcon fab icon="instagram" />
+              <CDBIcon fab icon="reddit"/>
+            </CDBBtn>
+            <CDBBtn flat color="dark" className="mx-3 p-2">
+              <CDBIcon fab icon="twitter"/>
             </CDBBtn>
           </CDBBox>
         </CDBBox>
@@ -65,5 +74,4 @@ const Footer = () => {
     </CDBFooter>
   );
 };
-
 export default Footer;

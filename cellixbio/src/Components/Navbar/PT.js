@@ -39,7 +39,7 @@ function PT(){
                     <li>Improved value for patients, caregivers and market payers</li>
                 </ul>
             </div>
-            </div>
+        </div>
     )
 }
 
