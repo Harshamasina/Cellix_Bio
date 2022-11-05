@@ -1,0 +1,417 @@
+.Navbar{
+  height: 100px;
+  width: 100%;
+  background-color: #282c34;
+  /* background-color: transparent; */
+  color:#4e545f ;
+}
+.logo{
+  width:180px;
+  height: 99px;
+  display: inline;
+}
+
+.link{
+  color:#8f9091 ;
+  text-decoration: none;
+  padding: 48px;
+  font-size: 16px;
+}
+
+.link:hover{
+font-size: 18px;
+text-decoration: none;
+color:white ;
+}
+
+.AboutUsTitle{
+  text-align: center;
+  margin-top: 2%;
+  color: #282c34;
+  font-weight: bolder;
+}
+
+.AboutUsPara{
+  text-align: center;
+  height: auto;
+  width: 700px;
+  font-size: large;
+  padding: 10;
+}
+
+.AboutContainer{
+  width:auto;
+  height: auto;
+  margin-left: 27%;
+  margin-top: 3%;
+}
+
+.AboutSpan{
+  color: #282c34;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.PTh2{
+  text-align: center;
+  font-weight: bolder;
+  color: #282c34;
+}
+
+.PTh3{
+  text-align: center;
+  font-weight: bold;
+  color: #282c34;
+  margin-top: 1%;
+}
+
+.PTh4{
+  text-align: center;
+  font-weight: bold;
+  color: #282c34;
+  margin-top: 2%;
+}
+
+.PTpContainer{
+  text-align: center;
+  height: auto;
+  width: 900px;
+  font-size: large;
+  padding: 10;
+  margin-left: 24%;
+  margin-top: 2%;
+}
+
+.PTp{
+  text-align: center;
+  font-size: large;
+  padding: 10;
+}
+
+.PTUL{
+  text-align: center;
+  font-size: large;
+  display: inline;
+  list-style: decimal;
+}
+
+.IPh3{
+  text-align: center;
+  font-weight: bold;
+  color: #282c34;
+  margin-top: 1%;
+}
+
+.IPpContainer{
+  text-align: center;
+  height: auto;
+  width: 900px;
+  font-size: large;
+  padding: 10;
+  margin-left: 24%;
+  margin-top: 2%;
+}
+
+.IPp{
+  text-align: center;
+  font-size: large;
+  padding: 10;
+}
+
+
+.IPh4{
+  text-align: center;
+  font-weight: bold;
+  color: #282c34;
+  margin-top: 2%;
+}
+
+.IPTable{
+  width: 75%;
+  margin-left: 12%;
+}
+
+.PLh3{
+  text-align: center;
+  font-weight: bold;
+  color: #282c34;
+  margin-top: 1%;
+}
+
+.PLpContainer{
+  text-align: center;
+  height: auto;
+  width: 900px;
+  font-size: large;
+  padding: 10;
+  margin-left: 24%;
+  margin-top: 2%;
+}
+
+.PLp{
+  text-align: center;
+  font-size: large;
+  padding: 10;
+}
+
+.accordion-button{
+  color:#4e545f  !important;
+  background-color: #282c34 !important;
+  margin-top: 4%;
+  border-radius: 7px !important;
+}
+.accordion-button:hover{
+  color: whitesmoke !important;
+}
+.accordion-item{
+  width: 65%;
+  margin-left: 17.7%;
+  margin-top: 2%;
+  border: none !important;
+}
+tbody,thead{
+  text-align: center;
+}
+.form-control[name^=me]{
+  height: 100px ;
+}
+.card-text{
+  text-align: center !important;
+}
+.card-img-top[name^=Li]{
+  width:40% !important;
+  height: 50% !important;
+  margin-left: 30%;
+  margin-top: 2%;
+  border-radius: 5px !important;
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175) !important;
+}
+.card-img-top{
+  width: 50% !important;
+  height: 40% !important;
+  margin-left: 25%;
+  border-radius: 5px !important;
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175) !important;
+}
+.card{
+  display: block !important;
+  margin-top: 3% !important;
+  margin-right: 2% !important;
+  margin-left: 2% !important;
+  border: none !important;
+  box-shadow:0 1rem 3rem rgba(0,0,0,.175)!important; 
+}
+.card-text[name^=Ft]{
+  font-size: 10px !important;
+}
+.Lfm{
+  font-size: 14px !important;
+}
+.card-group{
+  padding: 10px !important;
+}
+
+.card-title.h5{
+  text-align: center !important ;
+}
+
+.Lh2{
+  margin-left: 42%;
+  margin-top: 3% !important;
+  text-decoration: underline;
+  color: #282c34;
+}
+
+.Ptable{
+  width: 65% !important;
+  margin-left: 18% !important;
+  margin-top: 2% !important;
+  box-shadow:0 1rem 3rem rgba(0,0,0,.175)!important;
+}
+
+
+.CUFormContainer{
+  width: 25%;
+  margin-top: 1%;
+  margin-left: 37%;
+}
+
+
+.CUUL{
+  list-style-type: none;
+}
+
+.CULI{
+  font-weight: bold;
+  color: #282c34;
+}
+
+.CUCT{
+  font-weight: bolder;
+  color: #282c34;
+}
+
+.CUSpan{
+  font-weight: 500;
+  color: #282c34;
+}
+
+.CUh2{
+  text-align: center;
+  font-weight: bolder;
+  color: #282c34;
+  margin-top: 2%;
+}
+
+.CUh3{
+  text-align: center;
+  font-weight: bold;
+  color: #282c34;
+  margin-top: 1%;
+}
+
+.shadow{
+  background-color: #282c34 !important;
+  /* color: rgb(128, 126, 126); */
+  margin-top: 5% !important;
+  color: #4e545f !important;
+}
+
+.ml-3{
+  color: white !important;
+}
+
+.Fimg{
+  width:150px;
+  height: 80px;
+}
+
+b{
+  color: rgb(154, 156, 162);
+}
+
+a{
+  text-decoration: none !important;
+  /* color: #4e545f !important; */
+}
+
+
+.WWDh3{
+  text-align: center;
+  font-weight: bolder;
+  color: #282c34;
+  margin-top: 1%;
+}
+
+.WWDh4{
+text-align: center;
+font-weight: bold;
+color: #282c34;
+margin-top: 1%;
+}
+
+.WWDPContainer{
+text-align: center;
+height: auto;
+width: 900px;
+font-size: large;
+padding: 10;
+margin-left: 24%;
+margin-top: 2%;
+}
+
+.WWDP{
+text-align: center;
+font-size: large;
+padding: 10;
+}
+
+
+.Desch3{
+  text-align: center;
+  font-weight: bolder;
+  color: #282c34;
+  margin-top: 1%;
+}
+
+
+.DescpContainer{
+  text-align: center;
+  height: auto;
+  width: 900px;
+  font-size: large;
+  padding: 10;
+  margin-left: 24%;
+  margin-top: 2%;
+}
+
+.DescP{
+  text-align: center;
+  font-size: large;
+  padding: 10;
+}
+
+
+.Carouselh1{
+  margin-bottom: 15%;
+  font-size: 6vw;
+}
+
+.Carouselp{
+  margin-top: 2%;
+  font-size: 1.2vw;
+}
+
+.Carouselul{
+  list-style-type: none;
+}
+
+.FooterUL{
+  list-style: none;
+}
+
+.one-page-arrow{
+  bottom: 40px;
+  position: absolute;
+  z-index: 3;
+  left: 50%;
+  margin-left: -16px;
+  width: 32px;
+  height: 32px;
+  font-size: 32px;
+  text-align: center;
+  color: #222;
+}
+.scroll{
+  width:25px;
+  height: 25px;
+}
+.Mimg{
+  height: 50%;
+  width: 50%;
+  margin-left: 30%;
+}
+.Mimg2{
+  width:65%;
+  margin-left: 30%;
+}
+.Mcont1{
+  flex-basis: 40%;
+}
+.Mcount2{
+  font-size: 20px;
+  padding-left: 20px;
+}
+.Mcont{
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+.Mtext{
+  margin-left: 5%;
+}
+.modal-title{
+  text-align: center !important;
+  margin-left: 44% !important;
+  text-decoration: underline !important;
+}
