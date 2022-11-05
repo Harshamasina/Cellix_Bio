@@ -32,7 +32,7 @@ function Desc(){
                         />
                         <Carousel.Caption>
                             <h2>Number of U.S. patents that have been issued or are pending</h2>
-                            <ul>
+                            <ul className='Carouselul'>
                                 <li><span>GLOBAL PATENTS: </span><b>432</b></li>
                                 <li><span>ISSUED U.S. PATENTS: </span><b>63</b></li>
                                 <li><span>PENDING U.S. PATENETS: </span><b>28</b></li>

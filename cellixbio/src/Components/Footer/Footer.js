@@ -17,7 +17,7 @@ const Footer = () => {
               <p className="my-3" style={{ width: '600px' }}>
                 We are focusing to develop best-in-class therapies for the treatment of Neurological, Inflammatory and Metabolic Diseases.
               </p>
-              <ul>
+              <ul className='FooterUL'>
                 <li><span>GLOBAL PATENTS: </span><b>432</b></li>
                 <li><span>ISSUED U.S. PATENTS: </span><b>63</b></li>
                 <li><span>PENDING U.S. PATENETS: </span><b>28</b></li>

@@ -360,3 +360,11 @@ padding: 10;
   margin-top: 2%;
   font-size: 1.2vw;
 }
+
+.Carouselul{
+  list-style-type: none;
+}
+
+.FooterUL{
+  list-style: none;
+}
