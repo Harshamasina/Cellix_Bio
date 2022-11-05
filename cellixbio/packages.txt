@@ -24,3 +24,4 @@ Modified Home.js(Adjusted size of the image)
 added mouse icon in home page for future animation
 added main page as home page on Navbar
 added image reference to home page on logo page
+added ModalDialog under Intro

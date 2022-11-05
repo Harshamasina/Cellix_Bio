@@ -386,3 +386,32 @@ padding: 10;
   width:25px;
   height: 25px;
 }
+.Mimg{
+  height: 50%;
+  width: 50%;
+  margin-left: 30%;
+}
+.Mimg2{
+  width:65%;
+  margin-left: 30%;
+}
+.Mcont1{
+  flex-basis: 40%;
+}
+.Mcount2{
+  font-size: 20px;
+  padding-left: 20px;
+}
+.Mcont{
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+.Mtext{
+  margin-left: 5%;
+}
+.modal-title{
+  text-align: center !important;
+  margin-left: 44% !important;
+  text-decoration: underline !important;
+}

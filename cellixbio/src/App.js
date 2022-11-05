@@ -4,6 +4,7 @@ import { BrowserRouter } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from './Components/Footer/Footer';
 import React from 'react';
+import ModalDialog from './Components/Body/Intro/ModalDialog';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <NavBar></NavBar>
       </BrowserRouter>
       <Footer></Footer>
+      <ModalDialog/>
     </div>
   );
 }
