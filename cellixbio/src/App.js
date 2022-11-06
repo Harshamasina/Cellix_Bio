@@ -13,7 +13,7 @@ function App() {
         <NavBar></NavBar>
       </BrowserRouter>
       <Footer></Footer>
-      <ModalDialog/>
+      
     </div>
   );
 }

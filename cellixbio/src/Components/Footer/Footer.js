@@ -29,10 +29,10 @@ const Footer = () => {
                 Product
               </p>
               <CDBBox flex="column" display="flex" style={{ cursor: 'pointer', padding: '0'}}>
-                <CDBFooterLink href="/">Home</CDBFooterLink>
-                <CDBFooterLink href="/">Patents</CDBFooterLink>
-                <CDBFooterLink href="/">Intellectual Property</CDBFooterLink>
-                <CDBFooterLink href="/">Pipeline</CDBFooterLink>
+                <CDBFooterLink href="./Home">Home</CDBFooterLink>
+                <CDBFooterLink href="./Patents">Patents</CDBFooterLink>
+                <CDBFooterLink href="./IP">Intellectual Property</CDBFooterLink>
+                <CDBFooterLink href="./Pipeline">Pipeline</CDBFooterLink>
               </CDBBox>
             </CDBBox>
             <CDBBox>
@@ -40,9 +40,9 @@ const Footer = () => {
                 About Us
               </p>
               <CDBBox display="flex" flex="column" style={{ cursor: 'pointer', padding: '0' }}>
-                <CDBFooterLink href="/">About</CDBFooterLink>
-                <CDBFooterLink href="/">Leadership</CDBFooterLink>
-                <CDBFooterLink href="/">Contact Us</CDBFooterLink>
+                <CDBFooterLink href="./About">About</CDBFooterLink>
+                <CDBFooterLink href="./Leadership">Leadership</CDBFooterLink>
+                <CDBFooterLink href="./Contact">Contact Us</CDBFooterLink>
               </CDBBox>
             </CDBBox>
           </CDBBox>

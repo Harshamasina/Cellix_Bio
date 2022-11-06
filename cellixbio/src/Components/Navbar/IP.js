@@ -11,7 +11,7 @@ function IP(){
                 <h4 className="IPh4">Our patent portfolio includes issued patents and patent applications in the world’s major markets</h4>
             </div>
             
-            <Accordion>
+            <Accordion defaultActiveKey="0">
                 <Accordion.Item eventKey="0">
                     <Accordion.Header><h4>CELLIX BIO's U.S PATENT APPLICATIONS</h4></Accordion.Header>
                         <Accordion.Body>
