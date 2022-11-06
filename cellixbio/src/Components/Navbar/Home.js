@@ -1,11 +1,12 @@
 import Carousel from 'react-bootstrap/Carousel';
+import Teamwork from '../Body/Teamwork';
 import WWD from '../Body/WWD';
 function Home(){
     return(
         <div>
            <Carousel fade interval={3000}>
                 <Carousel.Item>
-                        <img height={700}
+                        <img height={600}
                             className="d-block w-100"
                             src="https://media.istockphoto.com/photos/abstract-futuristic-pills-wireframe-and-capsule-on-glowing-blue-picture-id1368548595?b=1&k=20&m=1368548595&s=170667a&w=0&h=AJM2XS03wmq7Nl8h5YCjXsnWtoWgaFooQXAttr1zrE4="
                             alt="First slide"
@@ -17,7 +18,7 @@ function Home(){
                 </Carousel.Item>
                 
                 <Carousel.Item>
-                        <img height={700}
+                        <img height={600}
                             className="d-block w-100"
                             src="https://www.kilburnstrode.com/KilburnStrode/media/KilburnStrodeMediaLibrary/Knowledge/ai-drug-discovery.png?ext=.png"
                             alt="Second slide"
@@ -29,7 +30,7 @@ function Home(){
                 </Carousel.Item>
                 
                 <Carousel.Item>
-                        <img height={700}
+                        <img height={600}
                             className="d-block w-100"
                             src="https://www.dcatvci.org/wp-content/uploads/2022/06/Chemicals_1500x750-1024x512.jpg"
                             alt="Third slide"
@@ -43,8 +44,9 @@ function Home(){
                 </Carousel.Item>
             </Carousel>
             <a href='./Home' className='one-page-arrow'>
-                    <img className="scroll" src='https://www.cellixbio.com/demos/business/images/mouse.svg'></img></a>
+                    <img className="scroll" src='https://www.cellixbio.com/demos/business/images/mouse.svg' alt='mouse'></img></a>
             <WWD></WWD>
+            <Teamwork></Teamwork>
         </div>
     )
 }
