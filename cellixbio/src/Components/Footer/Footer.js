@@ -54,19 +54,19 @@ const Footer = () => {
               <CDBIcon fab icon="google" />
             </CDBBtn>
             <CDBBtn flat color="dark" className="mx-3 p-2">
-              <CDBIcon fab icon="facebook-f" />
+              <CDBIcon fab icon="linkedin" />
             </CDBBtn>
             <CDBBtn flat color="dark" className=" p-2">
-              <CDBIcon fab icon="linkedin" />
+              <CDBIcon fab icon="facebook-f" />
             </CDBBtn>
             <CDBBtn flat color="dark" className="mx-3 p-2">
               <CDBIcon fab icon="instagram" />
             </CDBBtn>
             <CDBBtn flat color="dark" className="p-2">
-              <CDBIcon fab icon="reddit"/>
+              <CDBIcon fab icon="twitter"/>
             </CDBBtn>
             <CDBBtn flat color="dark" className="mx-3 p-2">
-              <CDBIcon fab icon="twitter"/>
+              <CDBIcon fab icon="reddit"/>
             </CDBBtn>
           </CDBBox>
         </CDBBox>
