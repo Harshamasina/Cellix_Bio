@@ -296,10 +296,16 @@ a{
 }
 
 
+.wwd{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
 .WWDContainerh34{
-  display: block;
   text-align: center;
   width: 100%;
+  justify-content: center;
 }
 
 .WWDh3{
@@ -309,6 +315,7 @@ a{
   margin-top: 1%;
   display: block;
   margin-bottom: 20px;
+  font-size: 2vw;
   background-color: white;
   position: relative;
   animation: header 3s 1;
@@ -332,25 +339,23 @@ a{
 .WWDh4{
 text-align: center;
 font-weight: bold;
+font-size: 1.5vw;
 color: #282c34;
-margin-top: 1%;
 display: block;
 }
 
 .WWDPContainer{
 text-align: center;
-height: auto;
-width: 900px;
-font-size: large;
-padding: 10;
-margin-left: 24%;
 margin-top: 2%;
+justify-content: center;
+width: 70%;
+margin-left: 16%;
 }
 
 .WWDP{
 text-align: center;
-font-size: large;
 padding: 10;
+font-size: 1vw;
 }
 
 
