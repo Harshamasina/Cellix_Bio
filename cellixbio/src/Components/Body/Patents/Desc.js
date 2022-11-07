@@ -7,13 +7,12 @@ function Desc(){
     const handleSelect = (selectedIndex, e) => {
       setIndex(selectedIndex);
     };
-
     return(
         <div>
             <div>
                 <Carousel activeIndex={index} onSelect={handleSelect}>
                     <Carousel.Item>
-                        <img height={600}
+                        <img height={740}
                         className="d-block w-100"
                         src="https://content.presspage.com/uploads/1369/1920_epsrc-290721-brainartificialintelligence-gettyimages-1186776186.jpg?10000"
                         alt="First slide"
@@ -25,7 +24,7 @@ function Desc(){
                     </Carousel.Item>
                     
                     <Carousel.Item>
-                        <img height={600}
+                        <img height={740}
                         className="d-block w-100"
                         src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/imqNVS26NcCM/v0/-1x-1.jpg"
                         alt="Second slide"
@@ -41,7 +40,7 @@ function Desc(){
                     </Carousel.Item>
                     
                     <Carousel.Item>
-                        <img height={600}
+                        <img height={740}
                         className="d-block w-100"
                         src="https://www.intellectsoft.net/blog/wp-content/uploads/Blockchain-in-Pharma-Cover.jpg"
                         alt="Third slide"

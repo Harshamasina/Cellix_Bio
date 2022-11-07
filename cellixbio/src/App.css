@@ -478,7 +478,7 @@ padding: 10;
 .TeamWorkImg{
   display: block;
   /* width: 100%; */
-  border-radius: 5px;
+  border-radius: 8px;
 }
 
 .TeamWorkImg:hover{

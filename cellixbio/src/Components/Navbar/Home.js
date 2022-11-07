@@ -17,6 +17,18 @@ function Home(){
                             <p className='Carouselp'>The Company that never stops Innovating and Inventing</p>
                         </Carousel.Caption>
                 </Carousel.Item>
+
+                <Carousel.Item>
+                        <img height={740}
+                            className="d-block w-100"
+                            src="https://assets.website-files.com/5f902c64ef70f699f7a0c50d/61b8b1f66a60158811362997_omnichannel_guide_header.jpg"
+                            alt="First slide"
+                        />
+                        <Carousel.Caption className='mb-5'>
+                            <h1 className='Carouselh1'>Cellix Bio's patents filed between 2009 and 2022</h1>
+                            <p className='Carouselp'>Access WIPO No's, Formulas, Claims, Diseases and Compounds Year wise here</p>
+                        </Carousel.Caption>
+                </Carousel.Item>
                 
                 <Carousel.Item>
                         <img height={740}
@@ -52,5 +64,4 @@ function Home(){
         </div>
     )
 }
-
 export default Home;
