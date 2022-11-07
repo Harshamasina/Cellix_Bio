@@ -40,32 +40,31 @@ function NavBar() {
                             </Nav>
                            
                             <Form className="Navform">
-            <Form.Control
-              type="search"
-              placeholder="Enter WIPO Number"
-              className="me-2 Navform"
-              aria-label="Search"
-            />
-            <Button classname="Navbutton" variant="secondary">Search</Button>
-          </Form>
-          </Navbar.Collapse>
+                                <Form.Control
+                                type="search"
+                                placeholder="Enter WIPO Number"
+                                className="me-2 Navform"
+                                aria-label="Search"
+                                />
+                                <Button classname="Navbutton" variant="outline-secondary" size="sm">Search</Button>
+                            </Form>
+                        </Navbar.Collapse>
                     </Navbar>
                 </div>
                 <div>
                     <Routes>
-                    <Route path='/Home' element = {<Home></Home>}></Route>
-                <Route path='/About' element = {<About></About>}></Route>
-                <Route path='/Patents' element = {<Patents></Patents>}></Route>
-                <Route path='/PT' element = {<PT></PT>}></Route>
-                <Route path='/IP' element = {<IP></IP>}></Route>
-                <Route path='/Pipeline' element = {<Pipeline></Pipeline>}></Route>
-                <Route path='/Leadership' element = {<Leadership></Leadership>}></Route>
-                <Route path='/Contact' element = {<Contact></Contact>}></Route>
-                <Route path='*' element={<Home></Home>}></Route>
+                        <Route path='/Home' element = {<Home></Home>}></Route>
+                        <Route path='/About' element = {<About></About>}></Route>
+                        <Route path='/Patents' element = {<Patents></Patents>}></Route>
+                        <Route path='/PT' element = {<PT></PT>}></Route>
+                        <Route path='/IP' element = {<IP></IP>}></Route>
+                        <Route path='/Pipeline' element = {<Pipeline></Pipeline>}></Route>
+                        <Route path='/Leadership' element = {<Leadership></Leadership>}></Route>
+                        <Route path='/Contact' element = {<Contact></Contact>}></Route>
+                        <Route path='*' element={<Home></Home>}></Route>
                     </Routes>
                 </div>
                 </div>
         );
     }
-
-    export default NavBar;
+export default NavBar;
