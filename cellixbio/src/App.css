@@ -66,45 +66,87 @@ color:white ;
   font-weight: bolder;
 }
 
+.PT{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.PTContainerImg{
+  width: 100%;
+}
+
+.PTimg{
+  width: 100%;
+  height: 50%;
+}
+
+.PTContainerh2h3h4{
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+}
+
 .PTh2{
   text-align: center;
   font-weight: bolder;
   color: #282c34;
+  display: block;
+  font-size: 2vw;
+  background-color: white;
+  position: relative;
+  animation: header 3s 1;
+}
+
+@keyframes header {
+  0%{
+   color: white;
+   margin-bottom: -45px;
+  }
+  30%{
+   letter-spacing: 25%;
+   margin-bottom: -45px;
+  }
+  85%{
+   letter-spacing: 8px;
+   margin-bottom: -45px;
+  }
 }
 
 .PTh3{
   text-align: center;
   font-weight: bold;
   color: #282c34;
-  margin-top: 1%;
+  display: block;
+  font-size: 1.5vw;
 }
 
 .PTh4{
   text-align: center;
   font-weight: bold;
   color: #282c34;
-  margin-top: 2%;
+  display: block;
+  margin-bottom: 20px;
+  font-size: 1.5vw;
 }
 
 .PTpContainer{
   text-align: center;
-  height: auto;
-  width: 900px;
-  font-size: large;
-  padding: 10;
-  margin-left: 24%;
-  margin-top: 2%;
+  margin-top: 1%;
+  justify-content: center;
+  width: 70%;
+  margin-left: 16%;
 }
 
 .PTp{
   text-align: center;
-  font-size: large;
   padding: 10;
+  font-size: 1vw;
 }
 
 .PTUL{
   text-align: center;
-  font-size: large;
+  font-size: 1vw;
   display: inline;
   list-style: decimal;
 }
