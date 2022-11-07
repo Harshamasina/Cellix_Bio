@@ -4,8 +4,15 @@
   display: inline;
 }
 
-.d-flex{
-  margin-left: 25% !important;
+.Navform{
+  margin-left: 20%;
+  margin-right: 2%;
+  width: 22%;
+  display: flex;
+}
+.Navbutton{
+  margin-left: 0.5rem;
+  display: flex;
 }
 
 .About{

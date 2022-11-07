@@ -39,14 +39,14 @@ function NavBar() {
 
                             </Nav>
                            
-                            <Form className="d-flex">
+                            <Form className="Navform">
             <Form.Control
               type="search"
               placeholder="Enter WIPO Number"
               className="me-2 Navform"
               aria-label="Search"
             />
-            <Button classname="Navbutton"variant="outline-success">Search</Button>
+            <Button classname="Navbutton" variant="secondary">Search</Button>
           </Form>
           </Navbar.Collapse>
                     </Navbar>
