@@ -11,8 +11,26 @@ import Leadership from "./Leadership";
 import Contact from "./Contact";
 import Logo from "./Logo";
 import Patents from "../Body/Patents/Patents";
+import { useState } from 'react';
 
 function NavBar() {
+
+        const [search, setSearch] = useState({
+            searchTerm: {searchNumber: ''}
+        });
+        let updateSearch = (event) => {
+            setSearch({
+                ...search,
+                searchTerm: {
+                    ...search.searchTerm,
+                    [event.target.name] : event.target.value
+                }
+            })
+        };
+        let searchClick = (event) => {
+            event.preventDefault();
+            console.log(search.searchTerm);
+        }
         return (
             <div>
                 <div>
@@ -41,12 +59,13 @@ function NavBar() {
                            
                             <Form className="Navform">
                                 <Form.Control
+                                onChange={updateSearch}
                                 type="search"
                                 placeholder="Enter WIPO Number"
                                 className="me-2 Navform"
                                 aria-label="Search"
                                 />
-                                <Button classname="Navbutton" variant="outline-secondary" size="sm">Search</Button>
+                                <Button classname="Navbutton" variant="outline-secondary" size="sm" onClick={searchClick}>Search</Button>
                             </Form>
                         </Navbar.Collapse>
                     </Navbar>
@@ -64,7 +83,7 @@ function NavBar() {
                         <Route path='*' element={<Home></Home>}></Route>
                     </Routes>
                 </div>
-                </div>
+            </div>
         );
     }
 export default NavBar;
