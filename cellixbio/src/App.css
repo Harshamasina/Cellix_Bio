@@ -561,3 +561,22 @@ font-size: 1vw;
   margin-left: 2%;
 }
 
+
+.FooterContainerp{
+  display: flex;
+  font-size: 1vw;
+}
+
+.smallContainer{
+  display: flex;
+  font-size: 1vw;
+}
+
+.FooterIcons{
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  min-width: 100%;
+}
+
+

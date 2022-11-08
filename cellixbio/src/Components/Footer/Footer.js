@@ -14,14 +14,18 @@ const Footer = () => {
                 />
                 {/* <span className="ml-3 h5 font-weight-bold">Cellix Bio</span> */}
               </a>
-              <p className="my-3" style={{ width: '600px' }}>
-                We are focusing to develop best-in-class therapies for the treatment of Neurological, Inflammatory and Metabolic Diseases.
-              </p>
-              <ul className='FooterUL'>
-                <li><span>GLOBAL PATENTS: </span><b>432</b></li>
-                <li><span>ISSUED U.S. PATENTS: </span><b>63</b></li>
-                <li><span>PENDING U.S. PATENETS: </span><b>28</b></li>
-              </ul>
+              <div className='FooterContainerp'>
+                <p className="my-3" style={{ width: '600px' }}>
+                  We are focusing to develop best-in-class therapies for the treatment of Neurological, Inflammatory and Metabolic Diseases.
+                </p>
+              </div>
+              <div className='FooterContainerp'>
+                <ul className='FooterUL'>
+                  <li><span>GLOBAL PATENTS: </span><b>432</b></li>
+                  <li><span>ISSUED U.S. PATENTS: </span><b>63</b></li>
+                  <li><span>PENDING U.S. PATENETS: </span><b>28</b></li>
+                </ul>
+              </div>
           </CDBBox>
           <CDBBox display="flex" style={{ width: '50%' }} justifyContent="between">
             <CDBBox>
@@ -47,27 +51,32 @@ const Footer = () => {
             </CDBBox>
           </CDBBox>
         </CDBBox>
-        <CDBBox display="flex" className="mt-4" justifyContent="between">
-          <small className="ml-2">&copy; Cellix Bio, 2022. All rights reserved.</small>
-          <CDBBox display="flex">
-            <CDBBtn flat color="dark" className="p-2">
-              <CDBIcon fab icon="google" />
-            </CDBBtn>
-            <CDBBtn flat color="dark" className="mx-3 p-2">
-              <CDBIcon fab icon="linkedin" />
-            </CDBBtn>
-            <CDBBtn flat color="dark" className=" p-2">
-              <CDBIcon fab icon="facebook-f" />
-            </CDBBtn>
-            <CDBBtn flat color="dark" className="mx-3 p-2">
-              <CDBIcon fab icon="instagram" />
-            </CDBBtn>
-            <CDBBtn flat color="dark" className="p-2">
-              <CDBIcon fab icon="twitter"/>
-            </CDBBtn>
-            <CDBBtn flat color="dark" className="mx-3 p-2">
-              <CDBIcon fab icon="reddit"/>
-            </CDBBtn>
+          <CDBBox display="flex" className="mt-4" justifyContent="between">
+            <div className='smallContainer'>
+               <small className="ml-2">&copy; Cellix Bio, 2022. All rights reserved.</small>
+            </div>
+             
+             <CDBBox display="flex">
+                <div className='FooterIcons'>
+                    <CDBBtn flat color="dark" className="p-2">
+                      <CDBIcon fab icon="google" />
+                    </CDBBtn>
+                    <CDBBtn flat color="dark" className="mx-3 p-2">
+                      <CDBIcon fab icon="linkedin" />
+                    </CDBBtn>
+                    <CDBBtn flat color="dark" className=" p-2">
+                      <CDBIcon fab icon="facebook-f" />
+                    </CDBBtn>
+                    <CDBBtn flat color="dark" className="mx-3 p-2">
+                      <CDBIcon fab icon="instagram" />
+                    </CDBBtn>
+                    <CDBBtn flat color="dark" className="p-2">
+                      <CDBIcon fab icon="twitter"/>
+                    </CDBBtn>
+                    <CDBBtn flat color="dark" className="mx-3 p-2">
+                      <CDBIcon fab icon="reddit"/>
+                    </CDBBtn>
+                </div>
           </CDBBox>
         </CDBBox>
       </CDBBox>
