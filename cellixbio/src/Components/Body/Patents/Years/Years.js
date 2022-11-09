@@ -1,7 +1,7 @@
 import Button from 'react-bootstrap/Button';
-// import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 function Years(){
-    // const navigate = useNavigate();
+    const navigate = useNavigate();
     return(
         <div>
             <div className="YearsContainerh2">
@@ -10,13 +10,13 @@ function Years(){
             <div className='ButtonsContainer'>
                 <div className="d-grid gap-2 shadow-lg YearsButtonContainer">
                         {/* <Link to="/PatentsDashboard"></Link> */}
-                        <Button variant="dark" size="lg">
+                        <Button onClick={() => navigate()} variant="dark" size="lg">
                             2022
                         </Button>
                 </div>
 
                 <div className="d-grid gap-2 shadow-lg YearsButtonContainer">
-                        <Button variant="secondary" size="lg">
+                        <Button variant="dark" size="lg">
                             2021
                         </Button>
                 </div>
@@ -28,7 +28,7 @@ function Years(){
                 </div>
 
                 <div className="d-grid gap-2 shadow-lg YearsButtonContainer">
-                        <Button variant="secondary" size="lg">
+                        <Button variant="dark" size="lg">
                             2018
                         </Button>
                 </div>
@@ -40,7 +40,7 @@ function Years(){
                 </div>
 
                 <div className="d-grid gap-2 shadow-lg YearsButtonContainer">
-                        <Button variant="secondary" size="lg">
+                        <Button variant="dark" size="lg">
                             2016
                         </Button>
                 </div>
@@ -52,7 +52,7 @@ function Years(){
                 </div>
 
                 <div className="d-grid gap-2 shadow-lg YearsButtonContainer">
-                        <Button variant="secondary" size="lg">
+                        <Button variant="dark" size="lg">
                             2014
                         </Button>
                 </div>
@@ -64,7 +64,7 @@ function Years(){
                 </div>
 
                 <div className="d-grid gap-2 shadow-lg YearsButtonContainer">
-                        <Button variant="secondary" size="lg">
+                        <Button variant="dark" size="lg">
                             2012
                         </Button>
                 </div>
@@ -76,7 +76,7 @@ function Years(){
                 </div>
 
                 <div className="d-grid gap-2 shadow-lg YearsButtonContainer">
-                        <Button variant="secondary" size="lg">
+                        <Button variant="dark" size="lg">
                             2010
                         </Button>
                 </div>
