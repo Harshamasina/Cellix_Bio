@@ -142,35 +142,57 @@
   list-style: decimal;
 }
 
-.IPh3{
-  text-align: center;
-  font-weight: bold;
-  color: #282c34;
-  margin-top: 1%;
+.IPContainer{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
-.IPpContainer{
+.IPContainerh3{
   text-align: center;
-  height: auto;
-  width: 900px;
-  font-size: large;
-  padding: 10;
-  margin-left: 24%;
+  width: 100%;
+  justify-content: center;
   margin-top: 2%;
+}
+
+.IPh3{
+  text-align: center;
+  font-weight: bolder;
+  color: #282c34;
+  display: block;
+  margin-bottom: 20px;
+  font-size: 2vw;
+}
+
+.IPpContainerp{
+  text-align: center;
+  margin-top: 2%;
+  justify-content: center;
+  width: 70%;
+  margin-left: 16%;
 }
 
 .IPp{
   text-align: center;
-  font-size: large;
   padding: 10;
+  font-size: 1vw;
 }
 
 
+.IPContainerh4{
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+  margin-top: 2%;
+}
+
 .IPh4{
   text-align: center;
-  font-weight: bold;
+  font-weight: bolder;
   color: #282c34;
-  margin-top: 2%;
+  display: block;
+  margin-bottom: 20px;
+  font-size: 1.5vw;
 }
 
 .IPTable{
@@ -178,27 +200,40 @@
   margin-left: 12%;
 }
 
-.PLh3{
-  text-align: center;
-  font-weight: bold;
-  color: #282c34;
-  margin-top: 1%;
+.PLContainer{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
-.PLpContainer{
+.PLContainerh3{
   text-align: center;
-  height: auto;
-  width: 900px;
-  font-size: large;
-  padding: 10;
-  margin-left: 24%;
+  width: 100%;
+  justify-content: center;
   margin-top: 2%;
+}
+
+.PLh3{
+  text-align: center;
+  font-weight: bolder;
+  color: #282c34;
+  display: block;
+  margin-bottom: 20px;
+  font-size: 2vw;
+}
+
+.PLpContainerp{
+  text-align: center;
+  margin-top: 2%;
+  justify-content: center;
+  width: 70%;
+  margin-left: 16%;
 }
 
 .PLp{
   text-align: center;
-  font-size: large;
   padding: 10;
+  font-size: 1vw;
 }
 
 .accordion-button{
@@ -207,24 +242,30 @@
   margin-top: 4%;
   border-radius: 7px !important;
 }
+
 .accordion-button:hover{
   color: whitesmoke !important;
 }
+
 .accordion-item{
   width: 65%;
   margin-left: 17.7%;
   margin-top: 2%;
   border: none !important;
 }
+
 tbody,thead{
   text-align: center;
 }
+
 .form-control[name^=me]{
   height: 100px ;
 }
+
 .card-text{
   text-align: center !important;
 }
+
 .card-img-top[name^=Li]{
   width:40% !important;
   height: 50% !important;
@@ -233,6 +274,7 @@ tbody,thead{
   border-radius: 5px !important;
   box-shadow: 0 1rem 3rem rgba(0,0,0,.175) !important;
 }
+
 .card-img-top{
   width: 50% !important;
   height: 40% !important;
@@ -240,6 +282,7 @@ tbody,thead{
   border-radius: 5px !important;
   box-shadow: 0 1rem 3rem rgba(0,0,0,.175) !important;
 }
+
 .card{
   display: block !important;
   margin-top: 3% !important;
@@ -248,12 +291,15 @@ tbody,thead{
   border: none !important;
   box-shadow:0 1rem 3rem rgba(0,0,0,.175)!important; 
 }
+
 .card-text[name^=Ft]{
   font-size: 10px !important;
 }
+
 .Lfm{
   font-size: 14px !important;
 }
+
 .card-group{
   padding: 10px !important;
 }

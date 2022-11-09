@@ -58,22 +58,22 @@ const Footer = () => {
              
              <CDBBox display="flex">
                 <div className='FooterIcons'>
-                    <CDBBtn flat color="dark" className="p-2">
+                    <CDBBtn href="https://www.cellixbio.com/" flat color="dark" className="p-2">
                       <CDBIcon fab icon="google" />
                     </CDBBtn>
-                    <CDBBtn flat color="dark" className="mx-3 p-2">
+                    <CDBBtn href="https://www.cellixbio.com/" flat color="dark" className="mx-3 p-2">
                       <CDBIcon fab icon="linkedin" />
                     </CDBBtn>
-                    <CDBBtn flat color="dark" className=" p-2">
+                    <CDBBtn href="https://www.cellixbio.com/" flat color="dark" className=" p-2">
                       <CDBIcon fab icon="facebook-f" />
                     </CDBBtn>
-                    <CDBBtn flat color="dark" className="mx-3 p-2">
+                    <CDBBtn href="https://www.cellixbio.com/" flat color="dark" className="mx-3 p-2">
                       <CDBIcon fab icon="instagram" />
                     </CDBBtn>
-                    <CDBBtn flat color="dark" className="p-2">
+                    <CDBBtn href="https://www.cellixbio.com/" flat color="dark" className="p-2">
                       <CDBIcon fab icon="twitter"/>
                     </CDBBtn>
-                    <CDBBtn flat color="dark" className="mx-3 p-2">
+                    <CDBBtn href="https://www.cellixbio.com/" flat color="dark" className="mx-3 p-2">
                       <CDBIcon fab icon="reddit"/>
                     </CDBBtn>
                 </div>
