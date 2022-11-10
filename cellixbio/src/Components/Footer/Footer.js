@@ -67,7 +67,7 @@ const Footer = () => {
                     <CDBBtn href="https://www.linkedin.com/in/mahesh-kandula-b052a752/" flat color="dark" className="mx-3 p-2">
                       <CDBIcon fab icon="linkedin" />
                     </CDBBtn>
-                    <CDBBtn href="https://www.facebook.com/" flat color="dark" className=" p-2">
+                    <CDBBtn href="https://www.instagram.com/" flat color="dark" className=" p-2">
                       <CDBIcon fab icon="facebook-f" />
                     </CDBBtn>
                     <CDBBtn href="https://www.instagram.com/" flat color="dark" className="mx-3 p-2">
