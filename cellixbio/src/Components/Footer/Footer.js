@@ -1,7 +1,10 @@
 import React from 'react';
-import { CDBFooter, CDBFooterLink, CDBBtn, CDBIcon, CDBBox } from 'cdbreact';
+import { NavLink} from "react-router-dom";
+import { CDBFooter, CDBBtn, CDBIcon, CDBBox } from 'cdbreact';
+import GoToTop from './GoToTop';
 const Footer = () => {
   return (
+    <div>
     <CDBFooter className="shadow">
       <CDBBox display="flex" flex="column" className=" mx-auto py-5" style={{ width: '80%' }}>
         <CDBBox display="flex" justifyContent="between" className="flex-wrap">
@@ -33,10 +36,10 @@ const Footer = () => {
                 Product
               </p>
               <CDBBox flex="column" display="flex" style={{ cursor: 'pointer', padding: '0'}}>
-                <CDBFooterLink href="./Home">Home</CDBFooterLink>
-                <CDBFooterLink href="./Patents">Patents</CDBFooterLink>
-                <CDBFooterLink href="./IP">Intellectual Property</CDBFooterLink>
-                <CDBFooterLink href="./Pipeline">Pipeline</CDBFooterLink>
+                      <NavLink to="/Home">Home</NavLink>
+                      <NavLink to="/Patents">Patents</NavLink>
+                      <NavLink to="/IP">Intellectual Property</NavLink>
+                      <NavLink to="/Pipeline">Pipeline</NavLink>
               </CDBBox>
             </CDBBox>
             <CDBBox>
@@ -44,9 +47,9 @@ const Footer = () => {
                 About Us
               </p>
               <CDBBox display="flex" flex="column" style={{ cursor: 'pointer', padding: '0' }}>
-                <CDBFooterLink href="./About">About</CDBFooterLink>
-                <CDBFooterLink href="./Leadership">Leadership</CDBFooterLink>
-                <CDBFooterLink href="./Contact">Contact Us</CDBFooterLink>
+                      <NavLink to="/About">About</NavLink>
+                      <NavLink to="/Leadership">Leadership</NavLink>
+                      <NavLink to="/Contact">Contact Us</NavLink>
               </CDBBox>
             </CDBBox>
           </CDBBox>
@@ -81,6 +84,8 @@ const Footer = () => {
         </CDBBox>
       </CDBBox>
     </CDBFooter>
+  <GoToTop/>
+</div>
   );
 };
 export default Footer;
