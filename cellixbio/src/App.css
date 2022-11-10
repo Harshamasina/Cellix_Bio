@@ -574,6 +574,10 @@ font-size: 1vw;
 .Navlink{
   color: #4e545f !important;
 }
+.Navlink:hover{
+  color: aliceblue !important;
+  font-size: 15px;
+}
 
 .TeamWorkh3{
   text-align: center;
