@@ -11,6 +11,7 @@ import Leadership from "./Leadership";
 import Contact from "./Contact";
 import Logo from "./Logo";
 import Patents from "../Body/Patents/Patents";
+import PatentsDashboard from '../Body/Patents/Years/PatentsDashboard';
 import { useState } from 'react';
 
 function NavBar() {
@@ -80,6 +81,7 @@ function NavBar() {
                         <Route path='/Pipeline' element = {<Pipeline></Pipeline>}></Route>
                         <Route path='/Leadership' element = {<Leadership></Leadership>}></Route>
                         <Route path='/Contact' element = {<Contact></Contact>}></Route>
+                        <Route path='/PatentsDashboard' element = {<PatentsDashboard></PatentsDashboard>}></Route>
                         <Route path='*' element={<Home></Home>}></Route>
                     </Routes>
                 </div>
