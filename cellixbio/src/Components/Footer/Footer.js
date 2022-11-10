@@ -61,22 +61,22 @@ const Footer = () => {
              
              <CDBBox display="flex">
                 <div className='FooterIcons'>
-                    <CDBBtn href="https://www.cellixbio.com/" flat color="dark" className="p-2">
+                    <CDBBtn href="https://www.cellixbio.com/" target={"_blank"} flat color="dark" className="p-2">
                       <CDBIcon fab icon="google" />
                     </CDBBtn>
-                    <CDBBtn href="https://www.linkedin.com/in/mahesh-kandula-b052a752/" flat color="dark" className="mx-3 p-2">
+                    <CDBBtn href="https://www.linkedin.com/in/mahesh-kandula-b052a752/" target={"_blank"} flat color="dark" className="mx-3 p-2">
                       <CDBIcon fab icon="linkedin" />
                     </CDBBtn>
-                    <CDBBtn href="https://www.instagram.com/" flat color="dark" className=" p-2">
+                    <CDBBtn href="https://www.facebook.com/" flat color="dark" target={"_blank"} className=" p-2">
                       <CDBIcon fab icon="facebook-f" />
                     </CDBBtn>
-                    <CDBBtn href="https://www.instagram.com/" flat color="dark" className="mx-3 p-2">
+                    <CDBBtn href="https://www.instagram.com/" flat color="dark" target={"_blank"} className="mx-3 p-2">
                       <CDBIcon fab icon="instagram" />
                     </CDBBtn>
-                    <CDBBtn href="https://www.twitter.com/" flat color="dark" className="p-2">
+                    <CDBBtn href="https://www.twitter.com/" flat color="dark" target={"_blank"} className="p-2">
                       <CDBIcon fab icon="twitter"/>
                     </CDBBtn>
-                    <CDBBtn href="https://www.reddit.com/" flat color="dark" className="mx-3 p-2">
+                    <CDBBtn href="https://www.reddit.com/" flat color="dark" target={"_blank"} className="mx-3 p-2">
                       <CDBIcon fab icon="reddit"/>
                     </CDBBtn>
                 </div>
