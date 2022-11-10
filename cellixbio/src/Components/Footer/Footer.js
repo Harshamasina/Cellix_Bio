@@ -36,10 +36,10 @@ const Footer = () => {
                 Product
               </p>
               <CDBBox flex="column" display="flex" style={{ cursor: 'pointer', padding: '0'}}>
-                      <NavLink to="/Home">Home</NavLink>
-                      <NavLink to="/Patents">Patents</NavLink>
-                      <NavLink to="/IP">Intellectual Property</NavLink>
-                      <NavLink to="/Pipeline">Pipeline</NavLink>
+                      <NavLink className={"Navlink"} to="/Home">Home</NavLink>
+                      <NavLink className={"Navlink"} to="/Patents">Patents</NavLink>
+                      <NavLink className={"Navlink"} to="/IP">Intellectual Property</NavLink>
+                      <NavLink className={"Navlink"} to="/Pipeline">Pipeline</NavLink>
               </CDBBox>
             </CDBBox>
             <CDBBox>
@@ -47,9 +47,9 @@ const Footer = () => {
                 About Us
               </p>
               <CDBBox display="flex" flex="column" style={{ cursor: 'pointer', padding: '0' }}>
-                      <NavLink to="/About">About</NavLink>
-                      <NavLink to="/Leadership">Leadership</NavLink>
-                      <NavLink to="/Contact">Contact Us</NavLink>
+                      <NavLink className={"Navlink"} to="/About">About</NavLink>
+                      <NavLink className={"Navlink"} to="/Leadership">Leadership</NavLink>
+                      <NavLink className={"Navlink"} to="/Contact">Contact Us</NavLink>
               </CDBBox>
             </CDBBox>
           </CDBBox>
