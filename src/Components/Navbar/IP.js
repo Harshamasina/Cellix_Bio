@@ -3,15 +3,19 @@ import Accordion from 'react-bootstrap/Accordion';
 function IP(){
     return(
         <div>
-            <h3 className="IPh3">Intellectual Property</h3>
-            <div className="IPpContainer">
-                <p className="IPp"><span className="AboutSpan">Cellix Bio</span> has a portfolio of over 400+ international patents published. The Company has obtained 63 Composition of Matter Allowed / Issued U.S Patents from the US Patent & Trademark Office and 28 U.S Patent Pending Applications in diverse therapeutic areas. We are also committed to protecting our intellectual property estate of patent rights and trade secrets and the potential commercial and clinical advantages this protection provides for our proprietary technology.</p>
-            </div>
-            <div>
-                <h4 className="IPh4">Our patent portfolio includes issued patents and patent applications in the world’s major markets</h4>
+            <div className='IPContainer'>
+                <div className='IPContainerh3'>
+                   <h3 className="IPh3">Intellectual Property</h3>
+                </div>
+                <div className="IPpContainerp">
+                    <p className="IPp"><span className="AboutSpan">Cellix Bio</span> has a portfolio of over 400+ international patents published. The Company has obtained 63 Composition of Matter Allowed / Issued U.S Patents from the US Patent & Trademark Office and 28 U.S Patent Pending Applications in diverse therapeutic areas. We are also committed to protecting our intellectual property estate of patent rights and trade secrets and the potential commercial and clinical advantages this protection provides for our proprietary technology.</p>
+                </div>
+                <div className='IPContainerh4'>
+                    <h4 className="IPh4">Our patent portfolio includes issued patents and patent applications in the world’s major markets</h4>
+                </div>
             </div>
             
-            <Accordion>
+            <Accordion defaultActiveKey="0">
                 <Accordion.Item eventKey="0">
                     <Accordion.Header><h4>CELLIX BIO's U.S PATENT APPLICATIONS</h4></Accordion.Header>
                         <Accordion.Body>
