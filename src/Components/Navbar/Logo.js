@@ -1,8 +1,11 @@
+import { NavLink} from "react-router-dom";
+
 function Logo(){
     return(
         <div className="logo">
-            <a href='./Home'>
-            <img className="logo" src="https://www.cellixbio.com/images/logo-dark.png" alt="Logo"></img></a>
+            <NavLink to="/Home">
+            
+            <img className="logo" src="https://www.cellixbio.com/images/logo-dark.png" alt="Logo"></img></NavLink>
         </div>
     )
 }
