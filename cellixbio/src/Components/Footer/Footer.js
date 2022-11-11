@@ -3,7 +3,7 @@ import { NavLink} from "react-router-dom";
 import { CDBFooter, CDBBtn, CDBIcon, CDBBox } from 'cdbreact';
 import GoToTop from './GoToTop';
 const Footer = () => {
-  return (
+  return(
     <div>
     <CDBFooter className="shadow">
       <CDBBox display="flex" flex="column" className=" mx-auto py-5" style={{ width: '80%' }}>
@@ -58,7 +58,6 @@ const Footer = () => {
             <div className='smallContainer'>
                <small className="ml-2">&copy; Cellix Bio, 2022. All rights reserved.</small>
             </div>
-             
              <CDBBox display="flex">
                 <div className='FooterIcons'>
                     <CDBBtn href="https://www.cellixbio.com/" target={"_blank"} flat color="dark" className="p-2">
