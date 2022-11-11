@@ -22,6 +22,12 @@ function Years(){
                 </div>
 
                 <div className="d-grid gap-2 shadow-lg YearsButtonContainer">
+                        <Button onClick={() => navigate('/PatentsDashboard')} variant="dark" size="lg">
+                            2020
+                        </Button>
+                </div>
+
+                <div className="d-grid gap-2 shadow-lg YearsButtonContainer">
                         <Button variant="dark" size="lg">
                             2019
                         </Button>
