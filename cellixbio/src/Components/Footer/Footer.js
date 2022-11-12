@@ -24,9 +24,9 @@ const Footer = () => {
               </div>
               <div className='FooterContainerp'>
                 <ul className='FooterUL'>
-                  <li><span>GLOBAL PATENTS: </span><b>432</b></li>
-                  <li><span>ISSUED U.S PATENTS: </span><b>63</b></li>
-                  <li><span>PENDING U.S. PATENETS: </span><b>28</b></li>
+                  <li><span className='Fdetails'>GLOBAL PATENTS: </span><b className='Fdetails'>432</b></li>
+                  <li><span className='Fdetails'>ISSUED U.S PATENTS: </span><b className='Fdetails'>63</b></li>
+                  <li><span className='Fdetails'>PENDING U.S. PATENETS: </span><b className='Fdetails'>28</b></li>
                 </ul>
               </div>
           </CDBBox>

@@ -15,7 +15,7 @@ function PT(){
                 </div>
 
                 <div className="PTh2">
-                   <h4 className="PTh4">CELLIX BIO's SCIENCE OF DRUG INNOVATION</h4>
+                   <h4 className="PTh3">CELLIX BIO's SCIENCE OF DRUG INNOVATION</h4>
                 </div>
                 
                 <div className="PTpContainer">

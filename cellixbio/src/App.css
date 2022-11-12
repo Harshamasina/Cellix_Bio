@@ -79,6 +79,31 @@
   width: 100%;
   justify-content: center;
 }
+@media screen and (max-width: 600px) {
+  h2.PTh2 {
+    font-size: 3vh;
+  }
+}
+@media screen and (max-width: 600px) {
+  h3.PTh3 {
+    font-size: 2vh;
+  }
+}
+@media screen and (max-width: 600px) {
+  h4.PTh3 {
+    font-size: 1.5vh;
+  }
+}
+@media screen and (max-width: 600px) {
+  p.PTp {
+    font-size: 2vh;
+  }
+}
+@media screen and (max-width: 600px) {
+  ul.PTUL {
+    font-size: 2vh;
+  }
+}
 
 .PTh2{
   text-align: center;
@@ -165,7 +190,21 @@
   margin-bottom: 20px;
   font-size: 2vw;
 }
-
+@media screen and (max-width: 600px) {
+  h3.IPh3 {
+    font-size: 3vh;
+  }
+}
+@media screen and (max-width: 600px) {
+  h4.IPh3 {
+    font-size: 2vh;
+  }
+}
+@media screen and (max-width: 600px) {
+  p.IPp {
+    font-size: 2vh;
+  }
+}
 .IPpContainerp{
   text-align: center;
   margin-top: 2%;
@@ -215,6 +254,16 @@
   display: block;
   margin-bottom: 20px;
   font-size: 2vw;
+}
+@media screen and (max-width: 600px) {
+  h3.PLh3 {
+    font-size: 3vh;
+  }
+}
+@media screen and (max-width: 600px) {
+  p.PLp {
+    font-size: 2vh;
+  }
 }
 
 .PLpContainerp{
@@ -408,6 +457,21 @@ a{
   position: relative;
   animation: header 3s 1;
 }
+@media screen and (max-width: 600px) {
+  h3.WWDh3 {
+    font-size: 2.5vh;
+  }
+}
+@media screen and (max-width: 600px) {
+  h4.WWDh4 {
+    font-size: 2vh;
+  }
+}
+@media screen and (max-width: 600px) {
+  p.WWDP {
+    font-size: 1.8vh;
+  }
+}
 
 @keyframes header {
    0%{
@@ -468,7 +532,15 @@ font-size: 1vw;
   margin-bottom: 20px;
   font-size: 2vw;
 }
-
+@media screen and (max-width: 600px) {
+  h3.Desch3 {
+font-size: 3vh;  }
+}
+@media screen and (max-width: 600px) {
+  h2.PH2 {
+    margin-bottom: 60%;
+  }
+}
 
 .DescpContainerp{
   text-align: center;
@@ -482,16 +554,30 @@ font-size: 1vw;
   padding: 10;
   font-size: 1vw;
 }
+@media screen and (max-width: 600px) {
+  p.Descp {
+font-size: 2vh;  }
+}
 
 
 .Carouselh1{
   margin-bottom: 15%;
   font-size: 6vw;
 }
+@media screen and (max-width: 600px) {
+  h1.Carouselh1 {
+    margin-bottom: 65%;
+  }
+}
 
 .Carouselp{
   margin-top: 2%;
   font-size: 1.2vw;
+}
+@media screen and (max-width: 600px) {
+  p.Carouselp {
+font-size: 1.2vh;
+  }
 }
 
 .Carouselul{
@@ -616,6 +702,24 @@ font-size: 1vw;
   margin-right: 15%;
   margin-left: 2%;
 }
+@media screen and (max-width: 600px) {
+  p.TWp {
+    font-size: 2vh;
+  }
+}
+@media screen and (max-width: 600px) {
+  h3.TeamWorkh3 {
+    font-size: 2.5vh;
+    margin-bottom: 5%;
+    margin-top: 8%;
+  }
+}
+@media screen and (max-width: 600px) {
+  img.TeamWorkImg {
+    width:150px;
+    height: 180px;
+  }
+}
 
 
 .FooterContainerp{
@@ -633,6 +737,21 @@ font-size: 1vw;
   flex-direction: row;
   max-width: 100%;
   min-width: 100%;
+}
+@media screen and (max-width: 600px) {
+  p.my-3 {
+    font-size: 2vh;
+  }
+}
+@media screen and (max-width: 600px) {
+  span.Fdetails {
+    font-size: 2vh;
+  }
+}
+@media screen and (max-width: 600px) {
+  b.Fdetails {
+    font-size: 2vh;
+  }
 }
 
 
@@ -653,6 +772,11 @@ font-size: 1vw;
   display: block;
   margin-bottom: 20px;
   font-size: 2vw;
+}
+@media screen and (max-width: 600px) {
+  h2.Yearsh2 {
+    font-size: 2vh; 
+ }
 }
 
 .ButtonsContainer{
