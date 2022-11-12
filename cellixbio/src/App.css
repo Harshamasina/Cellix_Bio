@@ -172,6 +172,7 @@
   justify-content: center;
   width: 70%;
   margin-left: 16%;
+
 }
 
 .IPp{
@@ -188,14 +189,6 @@
   margin-top: 2%;
 }
 
-.IPh4{
-  text-align: center;
-  font-weight: bolder;
-  color: #282c34;
-  display: block;
-  margin-bottom: 20px;
-  font-size: 1.5vw;
-}
 
 .IPTable{
   width: 75%;
