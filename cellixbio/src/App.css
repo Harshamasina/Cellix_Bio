@@ -757,6 +757,11 @@ font-size: 1.2vh;
   }
 }
 @media screen and (max-width: 600px) {
+  b.Fdetails {
+    font-size: 2vh;
+  }
+}
+@media screen and (max-width: 600px) {
   small.ml-2 {
     font-size: 1vh;
   }
