@@ -18,9 +18,9 @@ const Footer = () => {
                 {/* <span className="ml-3 h5 font-weight-bold">Cellix Bio</span> */}
               </a>
               <div className='FooterContainerp'>
-                <p className="my-3" style={{ width: '600px' }}>
+                <span className="my-3">
                   We are focusing to develop best-in-class therapies for the treatment of Neurological, Inflammatory and Metabolic Diseases.
-                </p>
+                </span>
               </div>
               <div className='FooterContainerp'>
                 <ul className='FooterUL'>
