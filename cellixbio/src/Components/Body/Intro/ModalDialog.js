@@ -12,7 +12,7 @@ function ModalDialog() {
           aria-labelledby="contained-modal-title-vcenter"
           centered className='modalContainer'>
             <Modal.Header closeButton onLoad={initModal}>
-              <Modal.Title>Cellix Bio</Modal.Title>
+              <Modal.Title>CELLIX BIO</Modal.Title>
             </Modal.Header>
             <Modal.Body>
               <div className='Mcont'>
