@@ -851,7 +851,6 @@ font-size: 1.2vh;
 
 
 .PatentHomeContainer{
-  /* display: flex; */
   position: relative;
   width: 100%;
   max-width: 100%;
@@ -862,10 +861,14 @@ font-size: 1.2vh;
   height: 500px;
   margin-top: 2%;
 }
+@media screen and (max-width: 600px) {
+  img.PatentHomeImg {
+ height: 250px;  }
+}
 
 .PatentHomep{
   position: absolute;
-  top: 35%;
+  top: 27%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -879,15 +882,22 @@ font-size: 1.2vh;
 
 .PatentHomeButton{
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+  top: 38%;
+  left: 46%;
   color: white;
   font-size: 2vw;
   border: none;
   cursor: pointer;
   text-align: center;
-  width: 20%;
+  width: 10%;
   height: 10%;
+  opacity: 1;
+}
+@media screen and (max-width: 600px) {
+  button.PatentHomeButton {
+top:35%;
+left:46%;
+font-size:1.5vw;
+padding: 0px !important;
+  }
 }
