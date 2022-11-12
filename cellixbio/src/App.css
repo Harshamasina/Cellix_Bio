@@ -744,13 +744,18 @@ font-size: 1.2vh;
   }
 }
 @media screen and (max-width: 600px) {
+  p.IPp {
+    font-size: 2vh;
+  }
+}
+@media screen and (max-width: 600px) {
   span.Fdetails {
     font-size: 2vh;
   }
 }
 @media screen and (max-width: 600px) {
-  b.Fdetails {
-    font-size: 2vh;
+  small.ml-2 {
+    font-size: 1vh;
   }
 }
 
