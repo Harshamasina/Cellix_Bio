@@ -23,6 +23,12 @@ body{
   margin-left: 0.5rem;
   display: flex;
 }
+@media screen and (max-width: 600px) {
+  .Navform {
+width: 80% !important;
+margin-left: 7% !important;
+  }
+}
 
 .About{
   display: flex;
@@ -245,6 +251,13 @@ body{
     font-size: 3vh;
   }
 } */
+@media screen and (max-width: 600px) {
+  .IPAB {
+    /* font-size: 3vh; */
+    margin-left: -18% !important;
+  }
+}
+
 
 
 .PLContainer{
@@ -372,12 +385,22 @@ tbody,thead{
   text-align: center;
   font-weight: bold;
 }
+@media screen and (max-width: 600px) {
+  .Lh2 {
+    margin-left: 1% !important;
+  }
+}
 
 .Ptable{
   width: 65% !important;
   margin-left: 18% !important;
   margin-top: 2% !important;
   box-shadow:0 1rem 3rem rgba(0,0,0,.175)!important;
+}
+@media screen and (max-width: 600px) {
+  .Ptable {
+    margin-left: 1% !important;
+  }
 }
 
 

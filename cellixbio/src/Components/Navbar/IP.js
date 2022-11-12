@@ -18,7 +18,7 @@ function IP(){
             <Accordion defaultActiveKey="0">
                 <Accordion.Item eventKey="0">
                     <Accordion.Header><h4>CELLIX BIO's U.S PATENT APPLICATIONS</h4></Accordion.Header>
-                        <Accordion.Body>
+                        <Accordion.Body className='IPAB'>
                             <Table striped bordered hover size="sm" className='mt-3 shadow-lg'>
                                  <thead>
                         <tr>
@@ -269,7 +269,7 @@ function IP(){
                 </Accordion.Item>
                 <Accordion.Item eventKey="1">
         <Accordion.Header><h4>CELLIX BIO's U.S PATENT PENDING APPLICATIONS</h4></Accordion.Header>
-        <Accordion.Body>
+        <Accordion.Body  className='IPAB'>
                 <Table striped bordered hover className='mt-3 shadow-lg'>
                     <thead>
                         <tr>

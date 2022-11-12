@@ -44,7 +44,7 @@ function NavBar() {
                         <Navbar.Collapse id="navbarScroll">
                             <Nav
                                 className="mr-auto my-2 my-xxl-0"
-                                style={{ maxHeight: '100%' }}
+                                style={{ maxHeight: '100%'}}
                                 navbarScroll
                             >
                                 <Nav.Link as={Link} to="/Home">Home</Nav.Link>
