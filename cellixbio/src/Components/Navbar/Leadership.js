@@ -4,7 +4,7 @@ import CardGroup from 'react-bootstrap/CardGroup';
 function Leadership() {
   return (
    <CardGroup>
-    <h2 className='Lh2'>Management Team</h2>
+    <h2 className='Lh2'>MANAGEMENT TEAM</h2>
     <CardGroup>
       <Card>
         <Card.Img name="Limage" variant="top" src="https://www.cellixbio.com/images/team/MaheshKandula1.jpg" />
@@ -34,7 +34,7 @@ function Leadership() {
       </Card>
     </CardGroup>
     
-    <h2 className='Lh2'>Scientific Team</h2>
+    <h2 className='Lh2'>SCIENTIFIC TEAM</h2>
 
       <CardGroup>
         <Card>
@@ -92,7 +92,7 @@ function Leadership() {
       </Card>
     </CardGroup>
 
-  <h2 className='Lh2'>Advisors Team</h2>
+  <h2 className='Lh2'>ADVISOR'S TEAM</h2>
   <CardGroup>
         <Card>
           <Card.Img variant="top" src="https://www.cellixbio.com/images/team/boboliver.jpg" />

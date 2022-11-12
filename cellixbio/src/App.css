@@ -358,8 +358,9 @@ tbody,thead{
 .Lh2{
   margin-left: 42%;
   margin-top: 3% !important;
-  text-decoration: underline;
   color: #282c34;
+  text-align: center;
+  font-weight: bold;
 }
 
 .Ptable{
