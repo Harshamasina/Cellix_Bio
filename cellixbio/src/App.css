@@ -532,6 +532,9 @@ font-size: 1vw;
   margin-bottom: 20px;
   font-size: 2vw;
 }
+.PH2{
+  margin-bottom: 19%;
+}
 @media screen and (max-width: 600px) {
   h3.Desch3 {
 font-size: 3vh;  }
