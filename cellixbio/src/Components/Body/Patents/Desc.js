@@ -20,8 +20,8 @@ function Desc(){
                             alt="First slide"
                             />
                             <Carousel.Caption>
-                                <h2 className='PH2'>PATENTS UNDER CELLIX BIO</h2>
-                                <p className='PP'>Under <b className='PP'>Mr. Mahesh Kandula's</b> direction We have created world-class medications that are powerful and effective.</p>
+                                <h1 className='Carouselh1'>PATENTS UNDER CELLIX BIO</h1>
+                                <p className='Carouselp'>Under <b className='PP'>Mr. Mahesh Kandula's</b> direction We have created world-class medications that are powerful and effective.</p>
                             </Carousel.Caption>
                         </Carousel.Item>
                         
@@ -32,8 +32,8 @@ function Desc(){
                             alt="Second slide"
                             />
                             <Carousel.Caption>
-                                <h2 className='PH2'>Number of U.S. patents that have been issued or are pending</h2>
-                                <ul className='Carouselul'>
+                                <h1 className='Carouselh1'>Number of U.S. patents that have been issued or are pending</h1>
+                                <ul className='Carouselp'>
                                     <li><span>GLOBAL PATENTS: </span><b>432</b></li>
                                     <li><span>ISSUED U.S. PATENTS: </span><b>63</b></li>
                                     <li><span>PENDING U.S. PATENETS: </span><b>28</b></li>
@@ -48,8 +48,8 @@ function Desc(){
                             alt="Third slide"
                             />
                             <Carousel.Caption>
-                            <h2 className='PH2'>List of patents that Cellix Bio issued each year on a global basis.</h2>
-                            <p className='PP'>View the patents that were issued between 2009 and 2022 by scrolling down.</p>
+                            <h1 className='Carouselh1'>List of patents that Cellix Bio issued each year on a global basis.</h1>
+                            <p className='Carouselp'>View the patents that were issued between 2009 and 2022 by scrolling down.</p>
                             </Carousel.Caption>
                         </Carousel.Item>
                     </Carousel>
