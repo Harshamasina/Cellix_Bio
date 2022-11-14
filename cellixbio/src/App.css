@@ -469,7 +469,7 @@ tbody,thead{
 }
 @media screen and (max-width:600px) {
   .shadow{
-    height: 70vh !important;
+    height: 72vh !important;
   }
 }
 
