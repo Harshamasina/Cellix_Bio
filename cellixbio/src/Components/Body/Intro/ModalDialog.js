@@ -36,4 +36,4 @@ function ModalDialog() {
     </>
   )
 }
-export default ModalDialog
+export default ModalDialog;

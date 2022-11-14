@@ -25,8 +25,8 @@ body{
 }
 @media screen and (max-width: 600px) {
   .Navform {
-width: 80% !important;
-margin-left: 7% !important;
+  width: 80% !important;
+  margin-left: 7% !important;
   }
 }
 
@@ -449,6 +449,14 @@ tbody,thead{
   /* color: rgb(128, 126, 126); */
   margin-top: 5% !important;
   color: #4e545f !important;
+  height: 430px!important;
+  display: flex;
+  flex-direction: row;
+}
+
+.FooterInfoContainer{
+  display: flex;
+  flex-direction: row;
 }
 
 .ml-3{
@@ -626,6 +634,8 @@ font-size: 1.2vh;
 
 .FooterUL{
   list-style: none;
+  display: flex;
+  flex-direction: column;
 }
 
 .one-page-arrow{
@@ -690,6 +700,8 @@ font-size: 1.2vh;
   margin-left: 44% !important;
   text-decoration: underline !important;
 }
+
+
 .Navlink{
   color: #4e545f !important;
 }

@@ -32,7 +32,7 @@ function Contact() {
     };
   return (
     <div>
-      <h2 className='CUh2'>Contact Us</h2>
+      <h2 className='CUh2'>CONTACT US</h2>
         <CardGroup>
         <Card>
           <Card.Body>

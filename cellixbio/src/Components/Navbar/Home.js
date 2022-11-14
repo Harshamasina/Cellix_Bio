@@ -6,7 +6,7 @@ import WWD from '../Body/WWD';
 function Home(){
     return(
         <div>
-           <Carousel fade interval={3000}>
+           <Carousel fade interval={1000}>
                 <Carousel.Item>
                         <img height={740}
                             className="d-block w-100"

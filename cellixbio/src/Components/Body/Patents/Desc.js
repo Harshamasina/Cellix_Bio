@@ -7,7 +7,6 @@ function Desc(){
     const handleSelect = (selectedIndex, e) => {
       setIndex(selectedIndex);
     };
-
     return(
         <div>
             <div className='Desc'>

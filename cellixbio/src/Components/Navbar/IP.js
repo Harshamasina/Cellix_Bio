@@ -5,7 +5,7 @@ function IP(){
         <div>
             <div className='IPContainer'>
                 <div className='IPContainerh3'>
-                   <h3 className="IPh3">Intellectual Property</h3>
+                   <h3 className="IPh3">INTELLECTUAL PROPERTY</h3>
                 </div>
                 <div className="IPpContainerp">
                     <p className="IPp"><span className="AboutSpan">Cellix Bio</span> has a portfolio of over 400+ international patents published. The Company has obtained 63 Composition of Matter Allowed / Issued U.S Patents from the US Patent & Trademark Office and 28 U.S Patent Pending Applications in diverse therapeutic areas. We are also committed to protecting our intellectual property estate of patent rights and trade secrets and the potential commercial and clinical advantages this protection provides for our proprietary technology.</p>
