@@ -5,7 +5,6 @@ function PT(){
                 {/* <div className="PTContainerImg">
                     <img className="PTimg" src="https://pharmaceuticalmanufacturer.media/downloads/8719/download/shutterstock_1952492305.jpg?cb=6a0449b64584f77e8d4d0bb7585d324f&w=1000&h=" alt="EOS"></img>
                 </div> */}
-                
                 <div className="PTContainerh2h3h4">
                    <h2 className="PTh2">PLATFORM TECHNOLOGY</h2>
                 </div>
