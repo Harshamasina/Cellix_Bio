@@ -463,9 +463,14 @@ tbody,thead{
   /* color: rgb(128, 126, 126); */
   margin-top: 5% !important;
   color: #4e545f !important;
-  height: 430px!important;
+  height: 50vh !important;
   display: flex;
   flex-direction: row;
+}
+@media screen and (max-width:600px) {
+  .shadow{
+    height: 70vh !important;
+  }
 }
 
 .FooterInfoContainer{
@@ -999,5 +1004,14 @@ padding: 0px !important;
   img {
 background-size: cover;
   }
+}
+
+.Errorpage{
+  background-color: #282c34;
+  width: 100%;
+  height: 100%;
+  margin-bottom: -5%;
+  background-position: center;
+  background-size: cover;
 }
 

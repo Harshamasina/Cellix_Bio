@@ -13,6 +13,7 @@ import Logo from "./Logo";
 import Patents from "../Body/Patents/Patents";
 import PatentsDashboard from '../Body/Patents/Years/PatentsDashboard';
 import { useState } from 'react';
+import Error404 from '../Body/Error404';
 
 function NavBar() {
 
@@ -82,7 +83,8 @@ function NavBar() {
                         <Route path='/Leadership' element = {<Leadership></Leadership>}></Route>
                         <Route path='/Contact' element = {<Contact></Contact>}></Route>
                         <Route path='/PatentsDashboard' element = {<PatentsDashboard></PatentsDashboard>}></Route>
-                        <Route path='*' element={<Home></Home>}></Route>
+                        <Route path='/Cellix_Bio' element={<Home></Home>}></Route>
+                        <Route path='*' element={<Error404/>}></Route>
                     </Routes>
                 </div>
             </div>
