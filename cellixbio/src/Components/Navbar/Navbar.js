@@ -37,7 +37,7 @@ function NavBar() {
             <div>
                 <div>
                 
-                    <Navbar bg="dark" variant={"dark"} expand="lg" sticky="top"><Logo></Logo>
+                    <Navbar bg="dark" variant={"dark"} expand="lg"><Logo></Logo>
                         <Navbar.Brand href="#">
                            
                         </Navbar.Brand>

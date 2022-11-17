@@ -599,8 +599,10 @@ font-size: 1vw;
   margin-bottom: 20px;
   font-size: 2vw;
 }
+
 .PH2{
   margin-bottom: 19%;
+  font-size: 3vw;
 }
 @media screen and (max-width: 600px) {
   h3.Desch3 {
@@ -894,9 +896,29 @@ width: 100% !important;
   margin-right: 30%;
 }
 
-.YearButton{
-  background-color: #282c34;
+/* .yearsButton{
+  position: relative !important;
+  border: none !important;
+  transition: .4s ease-in !important;
+  z-index: 1 !important;
 }
+
+.yearsButton::before{
+  position: absolute !important;
+  content: "" !important;
+  z-index: -1 !important;
+}
+
+.yearsButton::after{
+  position: absolute !important;
+  content: "" !important;
+  z-index: -1  !important;
+}
+
+.yearsButton:hover::after{
+  width: 100% !important;
+  color: #4e545f !important;
+} */
 
 
 .PDcontainer{
