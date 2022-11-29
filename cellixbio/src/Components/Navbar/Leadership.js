@@ -7,7 +7,7 @@ function Leadership() {
     <h2 className='Lh2'>MANAGEMENT TEAM</h2>
     <CardGroup>
       <Card>
-        <Card.Img name="Limage" variant="top" src="https://www.cellixbio.com/images/team/MaheshKandula1.jpg" />
+        <Card.Img name="Limage" variant="top" src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Leadership.Mahesh.PNG" />
         <Card.Body>
             <Card.Title>Mahesh Kandula,</Card.Title>
               <Card.Text>
@@ -23,7 +23,7 @@ function Leadership() {
       </Card>
       
       <Card>
-        <Card.Img name="Limage" variant="top" src="https://www.cellixbio.com/images/team/subbuapparsundaram.jpg" />
+        <Card.Img name="Limage" variant="top" src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Leadership.SubbuApparsundaram.PNG" />
             <Card.Body>
               <Card.Title>Subbu Apparsundaram</Card.Title>
                 <Card.Text>CDO & COO</Card.Text>
@@ -38,7 +38,7 @@ function Leadership() {
 
       <CardGroup>
         <Card>
-            <Card.Img variant="top" src="https://www.cellixbio.com/images/team/FrankDiana.jpg" />
+            <Card.Img variant="top" src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Leadership.FrankDiana.PNG" />
             <Card.Body>
                 <Card.Title>Frank Diana</Card.Title>
                   <Card.Text>
@@ -53,7 +53,7 @@ function Leadership() {
         </Card>
         
         <Card>
-            <Card.Img variant="top" src="https://www.cellixbio.com/images/team/AshokRampal.png" />
+            <Card.Img variant="top" src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Leadership.AshokRampal.png" />
               <Card.Body>
                     <Card.Title>Ashok Rampal</Card.Title>
                       <Card.Text>
@@ -79,7 +79,7 @@ function Leadership() {
       </Card>
       
       <Card>
-        <Card.Img variant="top" src="https://www.cellixbio.com/images/team/douglas.png" />
+        <Card.Img variant="top" src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Leadership.Mudher.PNG" />
         <Card.Body>
           <Card.Title>Dr. Douglas Greene</Card.Title>
           <Card.Text>
@@ -95,7 +95,7 @@ function Leadership() {
   <h2 className='Lh2'>ADVISOR'S TEAM</h2>
   <CardGroup>
         <Card>
-          <Card.Img variant="top" src="https://www.cellixbio.com/images/team/boboliver.jpg" />
+          <Card.Img variant="top" src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Leadership.Boboliver.PNG" />
           <Card.Body>
             <Card.Title>Bob Oliver</Card.Title>
             <Card.Text>
@@ -110,7 +110,7 @@ function Leadership() {
         </Card>
         
         <Card>
-          <Card.Img variant="top" src="https://www.cellixbio.com/images/team/pauljeffrey.jpg" />
+          <Card.Img variant="top" src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Leadership.PaulJeffery.PNG" />
           <Card.Body>
             <Card.Title>Paul Jeffrey</Card.Title>
             <Card.Text>
@@ -125,7 +125,7 @@ function Leadership() {
         </Card>
         
         <Card>
-          <Card.Img variant="top" src="https://www.cellixbio.com/images/team/bruceNemlich.png" />
+          <Card.Img variant="top" src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Leadership.BruceNemlich.png" />
           <Card.Body>
             <Card.Title>Bruce Nemlich</Card.Title>
             <Card.Text>

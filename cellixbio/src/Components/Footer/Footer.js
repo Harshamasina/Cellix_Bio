@@ -13,7 +13,7 @@ const Footer = () => {
                             <a href="/" className="d-flex align-items-center p-0 text-dark">
                               <img className='Fimg'
                                 alt="logo"
-                                src="https://www.cellixbio.com/images/logo-dark.png"
+                                src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Icon.png"
                                 width="30px"
                               />
                               {/* <span className="ml-3 h5 font-weight-bold">Cellix Bio</span> */}

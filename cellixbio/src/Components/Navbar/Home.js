@@ -10,7 +10,7 @@ function Home(){
                 <Carousel.Item>
                         <img height={740}
                             className="d-block w-100"
-                            src="https://media.istockphoto.com/photos/abstract-futuristic-pills-wireframe-and-capsule-on-glowing-blue-picture-id1368548595?b=1&k=20&m=1368548595&s=170667a&w=0&h=AJM2XS03wmq7Nl8h5YCjXsnWtoWgaFooQXAttr1zrE4="
+                            src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Home.Carousel.1.PNG"
                             alt="First slide"
                         />
                         <Carousel.Caption className='mb-5'>
@@ -22,7 +22,7 @@ function Home(){
                 <Carousel.Item>
                         <img height={740}
                             className="d-block w-100"
-                            src="https://assets.website-files.com/5f902c64ef70f699f7a0c50d/61b8b1f66a60158811362997_omnichannel_guide_header.jpg"
+                            src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Home.Carousel.2.PNG"
                             alt="First slide"
                         />
                         <Carousel.Caption className='mb-5'>
@@ -34,7 +34,7 @@ function Home(){
                 <Carousel.Item>
                         <img height={740}
                             className="d-block w-100"
-                            src="https://www.kilburnstrode.com/KilburnStrode/media/KilburnStrodeMediaLibrary/Knowledge/ai-drug-discovery.png?ext=.png"
+                            src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Home.Carousel.3.png"
                             alt="Second slide"
                         />
                         <Carousel.Caption>
@@ -46,7 +46,7 @@ function Home(){
                 <Carousel.Item>
                         <img height={740}
                             className="d-block w-100"
-                            src="https://www.dcatvci.org/wp-content/uploads/2022/06/Chemicals_1500x750-1024x512.jpg"
+                            src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Home.Carousel.4.PNG"
                             alt="Third slide"
                         />
                         <Carousel.Caption>
