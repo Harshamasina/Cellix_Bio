@@ -4,6 +4,7 @@ body{
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
+  /* font-family: 'simplon',arial,sans-serif; */
 }
 
 .logo{
@@ -1042,6 +1043,7 @@ background-size: cover;
   width: 100%;
   height: 100%;
 }
+
 .Errorbutton{
   position: relative;
   opacity: 1;
@@ -1056,6 +1058,7 @@ background-size: cover;
   background-color: #609FE2 !important;
   color: whitesmoke !important;
 }
+
 .Errorbutton:hover{
   background-color: #2072c1 !important;
 }
