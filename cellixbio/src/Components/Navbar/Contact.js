@@ -31,7 +31,7 @@ function Contact() {
         console.log(state.user);
     };
   return (
-    <div>
+    <>
       <h2 className='CUh2'>CONTACT US</h2>
         <CardGroup>
         <Card>
@@ -128,7 +128,7 @@ function Contact() {
                     </Button>
                 </Form>
           </div>
-    </div>
+    </>
   );
 }
 export default Contact;

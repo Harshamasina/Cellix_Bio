@@ -1,6 +1,6 @@
 function PT(){
     return(
-        <div>
+        <>
             <div className="PT">
                 {/* <div className="PTContainerImg">
                     <img className="PTimg" src="https://pharmaceuticalmanufacturer.media/downloads/8719/download/shutterstock_1952492305.jpg?cb=6a0449b64584f77e8d4d0bb7585d324f&w=1000&h=" alt="EOS"></img>
@@ -47,7 +47,7 @@ function PT(){
                         <li>Improved value for patients, caregivers and market payers</li>
                     </ul>
                 </div>
-        </div>
+        </>
     )
 }
 

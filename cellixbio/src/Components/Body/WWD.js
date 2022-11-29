@@ -1,6 +1,6 @@
 function WWD(){
     return(
-     <div>
+     <>
              <div className="WWD">
                  <div className="WWDContainerh34">
                      <h3 className="WWDh3">WHAT WE DO</h3>
@@ -19,7 +19,7 @@ function WWD(){
                      <p className="WWDP">Using our Synergix AI<sup>TM</sup> drug discovery platform and the insights from our successful drug development and clinical data, we can identify synergistic pharmacology between bio-actives, combining them to address disease related biochemical pathways and targets. However the rubrics of drug discovery are very complex - not all are known and some are not readily describable as a restricted set of moves.</p>
                  </div>
              </div>
-     </div>
+     </>
     );
  }
  export default WWD;

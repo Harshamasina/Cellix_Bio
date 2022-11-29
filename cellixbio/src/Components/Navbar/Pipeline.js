@@ -3,7 +3,7 @@ import Table from 'react-bootstrap/Table';
 function Pipeline(){
 
     return(
-        <div>
+        <>
             <div className='PLContainer'>
                 <div className='PLContainerh3'>
                   <h3 className="PLh3">PIPELINE</h3>
@@ -164,7 +164,7 @@ function Pipeline(){
                     </tr>
                 </tbody>
             </Table>
-        </div>
+        </>
     )
 }
 

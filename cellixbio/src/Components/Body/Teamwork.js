@@ -1,6 +1,6 @@
 function Teamwork(){
     return(
-        <div>
+        <>
             <h3 className="TeamWorkh3">TEAM WORK</h3>
             <div className="TeamWorkContainer">
                 <div className="TeamWorkImgdiv">
@@ -11,7 +11,7 @@ function Teamwork(){
                  <span className='TWp'>Our team has extensive scientific and entrepreneurial experience in the life science industry, including R&D management, formulation development, and business development at well-known biopharmaceutical firms.</span>
                 </div>
             </div>
-        </div>
+        </>
     );
 }
 export default Teamwork;

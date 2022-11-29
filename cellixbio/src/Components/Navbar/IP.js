@@ -2,7 +2,7 @@ import Table from 'react-bootstrap/Table';
 import Accordion from 'react-bootstrap/Accordion';
 function IP(){
     return(
-        <div>
+        <>
             <div className='IPContainer'>
                 <div className='IPContainerh3'>
                    <h3 className="IPh3">INTELLECTUAL PROPERTY</h3>
@@ -354,7 +354,7 @@ function IP(){
                     </Accordion.Body>
       </Accordion.Item>
     </Accordion>             
-        </div>
+        </>
     )
 }
 

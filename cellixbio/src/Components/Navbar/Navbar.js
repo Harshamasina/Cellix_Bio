@@ -34,7 +34,7 @@ function NavBar() {
             console.log(search.searchTerm);
         }
         return (
-            <div>
+            <>
                 <div>
                 
                     <Navbar bg="dark" variant={"dark"} expand="lg"><Logo></Logo>
@@ -87,7 +87,7 @@ function NavBar() {
                         <Route path='*' element={<Error404/>}></Route>
                     </Routes>
                 </div>
-            </div>
+            </>
         );
     }
 export default NavBar;

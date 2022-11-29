@@ -5,7 +5,7 @@ import Teamwork from '../Body/Teamwork';
 import WWD from '../Body/WWD';
 function Home(){
     return(
-        <div>
+        <>
            <Carousel fade interval={1000}>
                 <Carousel.Item>
                         <img height={740}
@@ -63,7 +63,7 @@ function Home(){
             <PatentHome></PatentHome>
             <Teamwork></Teamwork>
             <ModalDialog/>
-        </div>
+        </>
     )
 }
 export default Home;

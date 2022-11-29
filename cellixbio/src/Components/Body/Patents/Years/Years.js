@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 function Years(){
     const navigate = useNavigate();
     return(
-        <div>
+        <>
             <div className="YearsContainerh2">
                 <h2 className="Yearsh2">Cellix Bio's Patents Yearwise (2022 to 2009)</h2>
             </div>
@@ -97,7 +97,7 @@ function Years(){
             {/* <div>
                 <button onClick={() => navigate('/PatentsDashboard')}>Click me</button>
             </div> */}
-        </div>
+        </>
     );
 }
 export default Years;
