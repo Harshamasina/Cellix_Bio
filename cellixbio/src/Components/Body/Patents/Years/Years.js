@@ -28,67 +28,67 @@ function Years(){
                 </div>
 
                 <div className="d-grid gap-2 shadow-lg YearsButtonContainer">
-                        <Button variant="dark" size="lg">
+                        <Button onClick={() => navigate('/PatentsDashboard')} variant="dark" size="lg">
                             2019
                         </Button>
                 </div>
 
                 <div className="d-grid gap-2 shadow-lg YearsButtonContainer">
-                        <Button variant="dark" size="lg">
+                        <Button onClick={() => navigate('/PatentsDashboard')} variant="dark" size="lg">
                             2018
                         </Button>
                 </div>
 
                 <div className="d-grid gap-2 shadow-lg YearsButtonContainer">
-                        <Button variant="dark" size="lg">
+                        <Button onClick={() => navigate('/PatentsDashboard')} variant="dark" size="lg">
                             2017
                         </Button>
                 </div>
 
                 <div className="d-grid gap-2 shadow-lg YearsButtonContainer">
-                        <Button variant="dark" size="lg">
+                        <Button onClick={() => navigate('/PatentsDashboard')} variant="dark" size="lg">
                             2016
                         </Button>
                 </div>
 
                 <div className="d-grid gap-2 shadow-lg YearsButtonContainer">
-                        <Button variant="dark" size="lg">
+                        <Button onClick={() => navigate('/PatentsDashboard')} variant="dark" size="lg">
                             2015
                         </Button>
                 </div>
 
                 <div className="d-grid gap-2 shadow-lg YearsButtonContainer">
-                        <Button variant="dark" size="lg">
+                        <Button onClick={() => navigate('/PatentsDashboard')} variant="dark" size="lg">
                             2014
                         </Button>
                 </div>
 
                 <div className="d-grid gap-2 shadow-lg YearsButtonContainer">
-                        <Button variant="dark" size="lg">
+                        <Button onClick={() => navigate('/PatentsDashboard')} variant="dark" size="lg">
                             2013
                         </Button>
                 </div>
 
                 <div className="d-grid gap-2 shadow-lg YearsButtonContainer">
-                        <Button variant="dark" size="lg">
+                        <Button onClick={() => navigate('/PatentsDashboard')} variant="dark" size="lg">
                             2012
                         </Button>
                 </div>
 
                 <div className="d-grid gap-2 shadow-lg YearsButtonContainer">
-                        <Button variant="dark" size="lg">
+                        <Button onClick={() => navigate('/PatentsDashboard')} variant="dark" size="lg">
                             2011
                         </Button>
                 </div>
 
                 <div className="d-grid gap-2 shadow-lg YearsButtonContainer">
-                        <Button variant="dark" size="lg">
+                        <Button onClick={() => navigate('/PatentsDashboard')} variant="dark" size="lg">
                             2010
                         </Button>
                 </div>
 
                 <div className="d-grid gap-2 shadow-lg YearsButtonContainer">
-                        <Button variant="dark" size="lg">
+                        <Button onClick={() => navigate('/PatentsDashboard')} variant="dark" size="lg">
                             2009
                         </Button>
                 </div>
