@@ -6,7 +6,7 @@ FRONTEND:
 -> Add Loading Animation while loading home page, patentDashboard, PatentInfo
 -> Add pagination in patentDashboard
 -> Display Patent WIPO no in PatentInfo
--> Search Bar should be functioned
+-> Search Bar should be functioned with both WIPO No and Therapeutic Area
 -> Store Contact Us Information in new Collection in MongoDB
 -> GotoTop Arrow in PatentInfo
 -> Make it SEO
