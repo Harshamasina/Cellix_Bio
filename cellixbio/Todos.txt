@@ -8,5 +8,6 @@ FRONTEND:
 -> Display Patent WIPO no in PatentInfo
 -> Search Bar should be functioned
 -> Store Contact Us Information in new Collection in MongoDB
+-> GotoTop Arrow in PatentInfo
 -> Make it SEO
 -> Lazy Loading
