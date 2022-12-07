@@ -1230,4 +1230,9 @@ img{
   z-index: 999;
 }
 
+.top-btn:hover{
+  cursor: pointer;
+  font-size: 2.3rem;
+}
+
 
