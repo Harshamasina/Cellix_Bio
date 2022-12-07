@@ -62,7 +62,6 @@ function Home(){
             <PatentHome></PatentHome>
             <Teamwork></Teamwork>
             <ModalDialog/>
-            <GoToTopButton></GoToTopButton>
         </>
     )
 }

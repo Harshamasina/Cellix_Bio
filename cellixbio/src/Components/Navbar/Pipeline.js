@@ -165,7 +165,6 @@ function Pipeline(){
                     </tr>
                 </tbody>
             </Table>
-            <GoToTopButton></GoToTopButton>
         </>
     )
 }

@@ -354,8 +354,7 @@ function IP(){
                         </Table>
                         </Accordion.Body>
               </Accordion.Item>
-        </Accordion> 
-        <GoToTopButton></GoToTopButton>           
+        </Accordion>           
         </>
     )
 }
