@@ -58,8 +58,6 @@ function Home(){
                         </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
-            <a href='./Home' className='one-page-arrow'>
-                    <img className="scroll" src='https://www.cellixbio.com/demos/business/images/mouse.svg' alt='mouse'></img></a>
             <WWD></WWD>
             <PatentHome></PatentHome>
             <Teamwork></Teamwork>
