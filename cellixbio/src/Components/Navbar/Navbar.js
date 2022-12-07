@@ -12,7 +12,7 @@ import Contact from "./Contact";
 import Logo from "./Logo";
 import Patents from "../Body/Patents/Patents";
 import PatentsDashboard from '../Body/Patents/Years/PatentsDashboard';
-import { useState } from 'react';
+import { useState} from 'react';
 import Error404 from '../Body/Error404';
 import PatentInfo from '../Body/Patents/Years/PatentInfo';
 
@@ -34,29 +34,31 @@ function NavBar() {
             event.preventDefault();
             console.log(search.searchTerm);
         }
+
+
         return (
             <>
                 <div>
                 
-                    <Navbar bg="dark" variant={"dark"} expand="lg"><Logo></Logo>
+                    <Navbar collapseOnSelect bg="dark" variant={"dark"} expand="lg" ><Logo></Logo>
                         <Navbar.Brand href="#">
                            
                         </Navbar.Brand>
-                        <Navbar.Toggle aria-controls="navbarScroll" />
-                        <Navbar.Collapse id="navbarScroll">
+                        <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
+                        <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav
                                 className="mr-auto my-2 my-xxl-0"
                                 style={{ maxHeight: '100%'}}
-                                navbarScroll
+                                responsive-navbar-nav
                             >
-                                <Nav.Link as={Link} to="/Home">Home</Nav.Link>
-                                <Nav.Link as={Link} to="/About">About</Nav.Link>
-                                <Nav.Link as={Link} to="/Patents">Patents</Nav.Link>
-                                <Nav.Link as={Link} to="/PT">Platform Technologies</Nav.Link>
-                                <Nav.Link as={Link} to="/IP">Intellectual Property</Nav.Link>
-                                <Nav.Link as={Link} to="/Pipeline">Pipeline</Nav.Link>
-                                <Nav.Link as={Link} to="/Leadership">Leadership</Nav.Link>
-                                <Nav.Link as={Link} to="/Contact">Contact</Nav.Link>
+                                <Nav.Link as={Link} to="/Home" eventKey="1">Home</Nav.Link>
+                                <Nav.Link as={Link} to="/About" eventKey="2">About</Nav.Link>
+                                <Nav.Link as={Link} to="/Patents" eventKey="3">Patents</Nav.Link>
+                                <Nav.Link as={Link} to="/PT" eventKey="4">Platform Technologies</Nav.Link>
+                                <Nav.Link as={Link} to="/IP" eventKey="5">Intellectual Property</Nav.Link>
+                                <Nav.Link as={Link} to="/Pipeline" eventKey="6">Pipeline</Nav.Link>
+                                <Nav.Link as={Link} to="/Leadership" eventKey="7">Leadership</Nav.Link>
+                                <Nav.Link as={Link} to="/Contact" eventKey="8">Contact</Nav.Link>
 
                             </Nav>
                            
