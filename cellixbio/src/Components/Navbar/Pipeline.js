@@ -161,7 +161,7 @@ function Pipeline(){
                     </tr>
                     <tr>
                         <td>CLX-DER-64C3</td>
-                        <td>Rosacea</td>
+                        <td>Rosacnjnea</td>
                     </tr>
                 </tbody>
             </Table>
