@@ -12,9 +12,9 @@ function PatentsDashboard(){
                 </div>
             </div>
             <div className='CardContainer'>
-                <Card style={{ width: '90rem' }} className = "shadow-lg PatentsCard">
+                <Card className = "shadow-lg PatentsCard">
                     <Card.Body>
-                        <Card.Title>
+                        <Card.Title className='PDCardTitle'>
                             {/* <p className='Wno' onClick={() => navigate('/PatentInfo')}>US20210380525</p> */}
                             <Link className='Wno'  to = "/PatentInfo/US20210380525">US20210380525</Link>
                         </Card.Title>

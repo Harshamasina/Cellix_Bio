@@ -395,6 +395,10 @@ tbody,thead{
   text-align: center !important ;
 }
 
+.PDCardTitle.card-title.h5{
+  text-align: left !important;
+}
+
 .Lh2{
   margin-left: 42%;
   margin-top: 3% !important;
@@ -1056,7 +1060,7 @@ background-size: cover;
 }
 
 .PatentsCard{
-margin-left: -2% !important;
+margin-left: -8% !important;
 }
 
 .PatentsCard:hover{
@@ -1094,12 +1098,12 @@ margin-left: -2% !important;
 
 .Wno{
   font-weight: bolder;
-  text-align: left;
+  text-align: left !important;
   text-decoration-line: underline;
   text-decoration-color: #282c34;
   cursor: pointer;
   display: inline !important;
-  margin-right: 89% !important;
+  /* margin-left: -89% !important; */
   color: #282c34;
 }
 
@@ -1217,7 +1221,7 @@ img{
   border-color: #4e545f;
   box-shadow: 0 0.5rem 3rem 0.5rem rgba(0,0,0,.175);
   width: 50%;
-  margin-left: 26.5rem;
+  margin-left: 25%;
   border-radius: 15px;
 }
 
@@ -1249,12 +1253,12 @@ img{
 @media screen and (max-width: 600px) {
   .CompoundsImgContainer {
   width: 25rem !important;
-  margin-left: 1% !important;
+  margin-left: 5% !important;
 
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px ) {
   .CompoundsImgContainer img{
     width: 90%;
   }
