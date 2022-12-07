@@ -1,4 +1,5 @@
 import Table from 'react-bootstrap/Table';
+import GoToTopButton from '../Body/Patents/Years/GoToTopButton';
 
 function Pipeline(){
 
@@ -164,6 +165,7 @@ function Pipeline(){
                     </tr>
                 </tbody>
             </Table>
+            <GoToTopButton></GoToTopButton>
         </>
     )
 }
