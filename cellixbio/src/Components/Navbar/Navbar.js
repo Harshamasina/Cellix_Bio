@@ -14,6 +14,7 @@ import Patents from "../Body/Patents/Patents";
 import PatentsDashboard from '../Body/Patents/Years/PatentsDashboard';
 import { useState } from 'react';
 import Error404 from '../Body/Error404';
+import PatentInfo from '../Body/Patents/Years/PatentInfo';
 
 function NavBar() {
 
@@ -83,6 +84,7 @@ function NavBar() {
                         <Route path='/Leadership' element = {<Leadership></Leadership>}></Route>
                         <Route path='/Contact' element = {<Contact></Contact>}></Route>
                         <Route path='/PatentsDashboard/:years' element = {<PatentsDashboard></PatentsDashboard>}></Route>
+                        <Route path='/PatentInfo/:wno' element = {<PatentInfo></PatentInfo>}></Route>
                         <Route path='/Cellix_Bio' element={<Home></Home>}></Route>
                         <Route path='*' element={<Error404/>}></Route>
                     </Routes>
