@@ -1,6 +1,5 @@
 import Table from 'react-bootstrap/Table';
 import Accordion from 'react-bootstrap/Accordion';
-import GoToTopButton from '../Body/Patents/Years/GoToTopButton';
 function IP(){
     return(
         <>
