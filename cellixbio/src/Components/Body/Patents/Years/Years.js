@@ -1,102 +1,103 @@
 import Button from 'react-bootstrap/Button';
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
+import { Link } from 'react-router-dom';
 function Years(){
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
     return(
         <>
+            <div className="d-grid gap-2 shadow-lg YearsButtonContainer">
+                        <Button variant="dark" size="lg">
+                            <Link className='YearsLinks' to="/PatentsDashboard/Worldwide Patents">Cellix Bio's Worldwide Patents</Link>
+                        </Button>
+            </div>
             <div className="YearsContainerh2">
                 <h2 className="Yearsh2">Cellix Bio's Patents Yearwise (2022 to 2009)</h2>
             </div>
             <div className='ButtonsContainer'>
                 <div className="d-grid gap-2 shadow-lg YearsButtonContainer">
-                        {/* <Link to="/PatentsDashboard"></Link> */}
-                        <Button onClick={() => navigate('/PatentsDashboard')} variant="dark" size="lg">
-                            2022
+                        <Button variant="dark" size="lg">
+                            <Link className='YearsLinks' to="/PatentsDashboard/2022">2022</Link>
+                        </Button>
+                 </div>
+
+                <div className="d-grid gap-2 shadow-lg YearsButtonContainer">
+                        <Button variant="dark" size="lg">
+                            <Link className='YearsLinks' to="/PatentsDashboard/2021">2021</Link>
                         </Button>
                 </div>
 
                 <div className="d-grid gap-2 shadow-lg YearsButtonContainer">
-                        <Button className='' onClick={() => navigate('/PatentsDashboard')} variant="dark" size="lg">
-                            2021
+                        <Button variant="dark" size="lg">
+                            <Link className='YearsLinks' to="/PatentsDashboard/2020">2020</Link>
                         </Button>
                 </div>
 
                 <div className="d-grid gap-2 shadow-lg YearsButtonContainer">
-                        <Button onClick={() => navigate('/PatentsDashboard')} variant="dark" size="lg">
-                            2020
+                        <Button variant="dark" size="lg">
+                            <Link className='YearsLinks' to="/PatentsDashboard/2019">2019</Link>
                         </Button>
                 </div>
 
                 <div className="d-grid gap-2 shadow-lg YearsButtonContainer">
-                        <Button onClick={() => navigate('/PatentsDashboard')} variant="dark" size="lg">
-                            2019
+                        <Button variant="dark" size="lg">
+                            <Link className='YearsLinks' to="/PatentsDashboard/2018">2018</Link>
                         </Button>
                 </div>
 
                 <div className="d-grid gap-2 shadow-lg YearsButtonContainer">
-                        <Button onClick={() => navigate('/PatentsDashboard')} variant="dark" size="lg">
-                            2018
+                        <Button variant="dark" size="lg">
+                            <Link className='YearsLinks' to="/PatentsDashboard/2017">2017</Link>
                         </Button>
                 </div>
 
                 <div className="d-grid gap-2 shadow-lg YearsButtonContainer">
-                        <Button onClick={() => navigate('/PatentsDashboard')} variant="dark" size="lg">
-                            2017
+                        <Button variant="dark" size="lg">
+                            <Link className='YearsLinks' to="/PatentsDashboard/2016">2016</Link>
                         </Button>
                 </div>
 
                 <div className="d-grid gap-2 shadow-lg YearsButtonContainer">
-                        <Button onClick={() => navigate('/PatentsDashboard')} variant="dark" size="lg">
-                            2016
+                        <Button variant="dark" size="lg">
+                           <Link className='YearsLinks' to="/PatentsDashboard/2015">2015</Link>
                         </Button>
                 </div>
 
                 <div className="d-grid gap-2 shadow-lg YearsButtonContainer">
-                        <Button onClick={() => navigate('/PatentsDashboard')} variant="dark" size="lg">
-                            2015
+                        <Button variant="dark" size="lg">
+                           <Link className='YearsLinks' to="/PatentsDashboard/2014">2014</Link>
                         </Button>
                 </div>
 
                 <div className="d-grid gap-2 shadow-lg YearsButtonContainer">
-                        <Button onClick={() => navigate('/PatentsDashboard')} variant="dark" size="lg">
-                            2014
+                        <Button variant="dark" size="lg">
+                            <Link className='YearsLinks' to="/PatentsDashboard/2013">2013</Link>
                         </Button>
                 </div>
 
                 <div className="d-grid gap-2 shadow-lg YearsButtonContainer">
-                        <Button onClick={() => navigate('/PatentsDashboard')} variant="dark" size="lg">
-                            2013
+                        <Button variant="dark" size="lg">
+                            <Link className='YearsLinks' to="/PatentsDashboard/2012">2012</Link>
                         </Button>
                 </div>
 
                 <div className="d-grid gap-2 shadow-lg YearsButtonContainer">
-                        <Button onClick={() => navigate('/PatentsDashboard')} variant="dark" size="lg">
-                            2012
+                        <Button variant="dark" size="lg">
+                            <Link className='YearsLinks' to="/PatentsDashboard/2011">2011</Link>
                         </Button>
                 </div>
 
                 <div className="d-grid gap-2 shadow-lg YearsButtonContainer">
-                        <Button onClick={() => navigate('/PatentsDashboard')} variant="dark" size="lg">
-                            2011
+                        <Button variant="dark" size="lg">
+                            <Link className='YearsLinks' to="/PatentsDashboard/2010">2010</Link>
                         </Button>
                 </div>
 
                 <div className="d-grid gap-2 shadow-lg YearsButtonContainer">
-                        <Button onClick={() => navigate('/PatentsDashboard')} variant="dark" size="lg">
-                            2010
-                        </Button>
-                </div>
-
-                <div className="d-grid gap-2 shadow-lg YearsButtonContainer">
-                        <Button onClick={() => navigate('/PatentsDashboard')} variant="dark" size="lg">
-                            2009
+                        <Button variant="dark" size="lg">
+                            <Link className='YearsLinks' to="/PatentsDashboard/2009">2009</Link>
                         </Button>
                 </div>
             </div>
-
-            {/* <div>
-                <button onClick={() => navigate('/PatentsDashboard')}>Click me</button>
-            </div> */}
         </>
     );
 }

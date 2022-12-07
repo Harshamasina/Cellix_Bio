@@ -14,15 +14,18 @@ body{
 
 .Navform{
   margin-left: 20%;
-  margin-right: 2%;
-  width: 22%;
+  /* margin-right: 2%; */
+  width: 30%;
   display: flex;
+  border-color: #282c34 !important;
+  border-radius: 25px !important;
 }
 
 .Navbutton{
   margin-left: 0.5rem;
   display: flex;
 }
+
 @media screen and (max-width: 600px) {
   .Navform {
   width: 80% !important;
@@ -896,30 +899,14 @@ width: 100% !important;
   margin-right: 30%;
 }
 
-/* .yearsButton{
-  position: relative !important;
-  border: none !important;
-  transition: .4s ease-in !important;
-  z-index: 1 !important;
+.YearsLinks{
+  color: white;
+  display: block;
 }
 
-.yearsButton::before{
-  position: absolute !important;
-  content: "" !important;
-  z-index: -1 !important;
+.YearsLinks:hover{
+  color: white;
 }
-
-.yearsButton::after{
-  position: absolute !important;
-  content: "" !important;
-  z-index: -1  !important;
-}
-
-.yearsButton:hover::after{
-  width: 100% !important;
-  color: #4e545f !important;
-} */
-
 
 .PDcontainer{
   display: flex;

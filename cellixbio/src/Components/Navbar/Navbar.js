@@ -63,7 +63,7 @@ function NavBar() {
                                 <Form.Control
                                 onChange={updateSearch}
                                 type="search"
-                                placeholder="Enter WIPO Number"
+                                placeholder="Enter WIPO Number or Therapeutic Area"
                                 className="me-2 Navform"
                                 aria-label="Search"
                                 />
@@ -82,7 +82,7 @@ function NavBar() {
                         <Route path='/Pipeline' element = {<Pipeline></Pipeline>}></Route>
                         <Route path='/Leadership' element = {<Leadership></Leadership>}></Route>
                         <Route path='/Contact' element = {<Contact></Contact>}></Route>
-                        <Route path='/PatentsDashboard' element = {<PatentsDashboard></PatentsDashboard>}></Route>
+                        <Route path='/PatentsDashboard/:years' element = {<PatentsDashboard></PatentsDashboard>}></Route>
                         <Route path='/Cellix_Bio' element={<Home></Home>}></Route>
                         <Route path='*' element={<Error404/>}></Route>
                     </Routes>
