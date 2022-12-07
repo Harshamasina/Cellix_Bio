@@ -9,12 +9,11 @@ import GoToTopButton from './Components/Body/Patents/Years/GoToTopButton';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
-        <NavBar></NavBar>
-        <Footer></Footer>
-      </BrowserRouter>
-      <GoToTopButton></GoToTopButton>
-
+        <BrowserRouter>
+          <NavBar></NavBar>
+          <Footer></Footer>
+        </BrowserRouter>
+        <GoToTopButton></GoToTopButton>
     </div>
   );
 }

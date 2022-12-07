@@ -1,7 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel';
 import ModalDialog from '../Body/Intro/ModalDialog';
 import PatentHome from '../Body/PatentHome';
-import GoToTopButton from '../Body/Patents/Years/GoToTopButton';
 import Teamwork from '../Body/Teamwork';
 import WWD from '../Body/WWD';
 function Home(){
