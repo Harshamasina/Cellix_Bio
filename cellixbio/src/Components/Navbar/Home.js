@@ -1,7 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel';
 import ModalDialog from '../Body/Intro/ModalDialog';
 import PatentHome from '../Body/PatentHome';
-import GoToTopButton from '../Body/Patents/Years/GoToTopButton';
 import Teamwork from '../Body/Teamwork';
 import WWD from '../Body/WWD';
 function Home(){
@@ -58,8 +57,6 @@ function Home(){
                         </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
-            <a href='./Home' className='one-page-arrow'>
-                    <img className="scroll" src='https://www.cellixbio.com/demos/business/images/mouse.svg' alt='mouse'></img></a>
             <WWD></WWD>
             <PatentHome></PatentHome>
             <Teamwork></Teamwork>
