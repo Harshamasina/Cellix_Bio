@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Cellix_Bio/static/css/main.73a4bdf1.css",
-    "main.js": "/Cellix_Bio/static/js/main.86b2d761.js",
+    "main.css": "/Cellix_Bio/static/css/main.ea9ca8ec.css",
+    "main.js": "/Cellix_Bio/static/js/main.6a3feb7e.js",
     "static/js/787.b767f59d.chunk.js": "/Cellix_Bio/static/js/787.b767f59d.chunk.js",
     "static/media/fa-solid-900.svg": "/Cellix_Bio/static/media/fa-solid-900.7a8b4f130182d19a2d7c.svg",
     "static/media/fa-brands-400.svg": "/Cellix_Bio/static/media/fa-brands-400.2f517e09eb2ca6650ff5.svg",
@@ -20,12 +20,12 @@
     "static/media/fa-regular-400.woff": "/Cellix_Bio/static/media/fa-regular-400.bb58e57c48a3e911f15f.woff",
     "static/media/fa-regular-400.woff2": "/Cellix_Bio/static/media/fa-regular-400.7a3337626410ca2f4071.woff2",
     "index.html": "/Cellix_Bio/index.html",
-    "main.73a4bdf1.css.map": "/Cellix_Bio/static/css/main.73a4bdf1.css.map",
-    "main.86b2d761.js.map": "/Cellix_Bio/static/js/main.86b2d761.js.map",
+    "main.ea9ca8ec.css.map": "/Cellix_Bio/static/css/main.ea9ca8ec.css.map",
+    "main.6a3feb7e.js.map": "/Cellix_Bio/static/js/main.6a3feb7e.js.map",
     "787.b767f59d.chunk.js.map": "/Cellix_Bio/static/js/787.b767f59d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.73a4bdf1.css",
-    "static/js/main.86b2d761.js"
+    "static/css/main.ea9ca8ec.css",
+    "static/js/main.6a3feb7e.js"
   ]
 }
