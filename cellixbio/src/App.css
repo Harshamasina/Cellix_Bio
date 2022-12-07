@@ -1055,6 +1055,10 @@ background-size: cover;
   margin-left: 10%;
 }
 
+.PatentsCard{
+margin-left: -2% !important;
+}
+
 .PatentsCard:hover{
   background-color: #f2f2f2 !important;
   height: 30% !important;
@@ -1213,9 +1217,10 @@ img{
   border-color: #4e545f;
   box-shadow: 0 0.5rem 3rem 0.5rem rgba(0,0,0,.175);
   width: 50%;
-  margin-left: 25%;
+  margin-left: 26.5rem;
   border-radius: 15px;
 }
+
 
 .top-btn{
   display: flex;
@@ -1229,5 +1234,31 @@ img{
   right: 2rem;
   z-index: 999;
 }
+
+@media screen and (max-width: 600px) {
+  .card {
+  width: 25rem !important;
+  margin-left: -10.3% !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .Wno {
+  margin-right: 55% !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .CompoundsImgContainer {
+  width: 25rem !important;
+  margin-left: 1% !important;
+
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .CompoundsImgContainer img{
+    width: 90%;
+  }
+}
+
 
 
