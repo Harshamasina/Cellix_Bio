@@ -1049,3 +1049,17 @@ background-size: cover;
   background-color: #2072c1 !important;
 }
 
+.top-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.2rem;
+  width: 4rem;
+  color: #4e545f;
+  position: fixed;
+  bottom: 5rem;
+  right: 2rem;
+  z-index: 999;
+}
+
+
