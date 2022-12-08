@@ -18,7 +18,6 @@ function GoToTopButton(){
            setIsVisible(false); 
         }
     }
-
     useEffect(() => {
         window.addEventListener('scroll', listenToScroll);
         return () => window.removeEventListener("scroll", listenToScroll);

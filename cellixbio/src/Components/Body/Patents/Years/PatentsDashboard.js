@@ -26,7 +26,7 @@ function PatentsDashboard(){
                             </div>
                             <div className='cardTextDateContainer'>
                                 <Card.Text>
-                                    <p><span className='CardTextSpan'>Publishing Date: </span>09.12.2021</p>
+                                    <p><span className='CardTextSpan'>Publication Date: </span>09.12.2021</p>
                                 </Card.Text>
                             </div>
                         </div>
