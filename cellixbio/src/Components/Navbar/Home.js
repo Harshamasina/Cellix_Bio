@@ -8,7 +8,7 @@ function Home(){
         <>
            <Carousel fade interval={1000}>
                 <Carousel.Item>
-                        <img height={740}
+                        <img height={840}
                             className="d-block w-100"
                             src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Home.Carousel.1.PNG"
                             alt="First slide"
@@ -20,7 +20,7 @@ function Home(){
                 </Carousel.Item>
 
                 <Carousel.Item>
-                        <img height={740}
+                        <img height={840}
                             className="d-block w-100"
                             src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Home.Carousel.2.PNG"
                             alt="First slide"
@@ -32,7 +32,7 @@ function Home(){
                 </Carousel.Item>
                 
                 <Carousel.Item>
-                        <img height={740}
+                        <img height={840}
                             className="d-block w-100"
                             src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Home.Carousel.3.png"
                             alt="Second slide"
@@ -44,7 +44,7 @@ function Home(){
                 </Carousel.Item>
                 
                 <Carousel.Item>
-                        <img height={740}
+                        <img height={840}
                             className="d-block w-100"
                             src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Home.Carousel.4.PNG"
                             alt="Third slide"

@@ -13,7 +13,7 @@ function Desc(){
                 <div>
                     <Carousel activeIndex={index} onSelect={handleSelect}>
                         <Carousel.Item>
-                            <img height={740}
+                            <img height={840}
                             className="d-block w-100"
                             src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Patents.Carousel.1.PNG"
                             alt="First slide"
@@ -25,7 +25,7 @@ function Desc(){
                         </Carousel.Item>
                         
                         <Carousel.Item>
-                            <img height={740}
+                            <img height={840}
                             className="d-block w-100"
                             src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Patents.Carousel.2.PNG"
                             alt="Second slide"
@@ -41,7 +41,7 @@ function Desc(){
                         </Carousel.Item>
                         
                         <Carousel.Item>
-                            <img height={740}
+                            <img height={840}
                             className="d-block w-100"
                             src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Patents.Carousel.3.PNG"
                             alt="Third slide"
