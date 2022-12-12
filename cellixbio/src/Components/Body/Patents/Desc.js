@@ -13,7 +13,7 @@ function Desc(){
                             alt="First slide"
                             />
                             <Carousel.Caption>
-                                <h1 className='Carouselh1'>PATENTS UNDER CELLIX BIO</h1>
+                                <h1 className='Carouselh1'>Patents under Cellix Bio</h1>
                                 <p className='Carouselp'>Under <b className='PP'>Mr. Mahesh Kandula's</b> direction We have created world-class medications that are powerful and effective.</p>
                             </Carousel.Caption>
                         </Carousel.Item>

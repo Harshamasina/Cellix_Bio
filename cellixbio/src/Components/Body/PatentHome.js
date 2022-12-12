@@ -6,7 +6,7 @@ function PatentHome(){
         <>
             <div className='PatentHomeContainer'>
                 <img className='PatentHomeImg' src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.PatentHome.bg.PNG" alt="hands"></img>
-                <p className='PatentHomep'>CELLIX BIO's HAS OVER 432 GLOBAL PATENTS FROM 2009 TO 2022</p>
+                <p className='PatentHomep'>CELLIX BIO's HAS OVER 630 GLOBAL PATENTS FROM 2009 TO 2022</p>
                 <Button onClick={() => navigate('/Patents')} variant="outline-info" className='PatentHomeButton'>Know More</Button>
             </div>
         </>
