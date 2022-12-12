@@ -1,39 +1,58 @@
 import Card from 'react-bootstrap/Card';
 import React from 'react';
+import axios from 'axios';
+import { useState } from 'react';
+import { useEffect } from 'react';
 import { Link } from "react-router-dom";
 import {useParams} from 'react-router-dom'
+
 function PatentsDashboard(){
+    const [patents, setPatents] = useState("");
     const {years} = useParams();
+
+    useEffect(() => {
+        const fetchData = async () => {
+            const data = await axios.get(`http://localhost:3003/patents/years/${years}`);
+            console.log(data);
+            setPatents(data);
+        };
+        fetchData();
+    });
     return(
-        <>
+        <div>
             <div className="PDcontainer">
                 <div className="PDcontainerh2">
                     <h2 className="PDh2">Access the Patents filed by Cellix bio in {years} below</h2>
                 </div>
             </div>
-            <div className='CardContainer'>
-                <Card className = "shadow-lg PatentsCard">
-                    <Card.Body>
-                        <Card.Title className='PDCardTitle'>
-                            {/* <p className='Wno' onClick={() => navigate('/PatentInfo')}>US20210380525</p> */}
-                            <Link className='Wno'  to = "/PatentInfo/US20210380525">US20210380525</Link>
-                        </Card.Title>
-                        <div className='cardTextContainer'>
-                            <div className='cardTextInfoContainer'>
-                                <Card.Text className='CardTextInfo'>
-                                    <p> treating or preventing Parkinson's disease may be formulated for oral, buccal, rectal, topical, transdermal, transmucosal, intravenous, parenteral administration, subcutaneous, depot, intramuscular, syrup, or injection.</p>
-                                </Card.Text>
-                            </div>
-                            <div className='cardTextDateContainer'>
-                                <Card.Text>
-                                    <p><span className='CardTextSpan'>Publication Date: </span>09.12.2021</p>
-                                </Card.Text>
-                            </div>
+            {
+                patents && patents.data.map((patent) => (
+                        <div className='CardContainer'>
+                                <Card
+                                    style={{ width: '90rem' }} 
+                                    className = "shadow-lg PatentsCard">
+                                   <Card.Body>
+                                        <Card.Title>
+                                            <Link className='Wno' to= {"/patentInfo/"+patent.wno} target={"_blank"}>{patent.wno}</Link>
+                                        </Card.Title>
+                                        <div className='cardTextContainer'>
+                                            <div className='cardTextInfoContainer'>
+                                                <Card.Text className='CardTextInfo'>
+                                                    <p>{patent.diseases}</p>
+                                                </Card.Text>
+                                            </div>
+                                            <div className='cardTextDateContainer'>
+                                                <Card.Text>
+                                                    <p><span className='CardTextSpan'>Publication Date: </span>{patent.publication_date}</p>
+                                                </Card.Text>
+                                            </div>
+                                        </div>
+                                    </Card.Body>
+                                </Card>
                         </div>
-                    </Card.Body>
-                </Card>
-            </div>
-        </>
+                ))
+            }  
+        </div>
     );
 }
 export default PatentsDashboard;

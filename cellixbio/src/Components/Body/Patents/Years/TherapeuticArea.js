@@ -1,11 +1,14 @@
-function TherapeuticArea(){
+function TherapeuticArea(props){
+    console.log(props.therapeuticArea);
+    console.log(props.diseases);
+
     return(
         <div>
             <div className="TAContainer">
-               <h3 className="PITBh3">THERAPEUTIC AREA</h3>
-               <h4 className="PITBh4">TREATMENT TO PARKINSON'S DISEASE</h4>
+               <h2 className="PITBh3">THERAPEUTIC AREA</h2>
+               <h3 className="PITBh4">{props.therapeuticArea}</h3>
                <div className="PITBpContainer">
-                  <p className="PITBp"> Treating or preventing Parkinson's disease may be formulated for oral, buccal, rectal, topical, transdermal, transmucosal, intravenous, parenteral administration, subcutaneous, depot, intramuscular, syrup, or injection.</p>
+                  <p className="PITBp">{props.diseases}</p>
                </div>
             </div>
         </div>

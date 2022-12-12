@@ -1,8 +1,6 @@
 import Button from 'react-bootstrap/Button';
-// import { useNavigate } from "react-router-dom";
 import { Link } from 'react-router-dom';
 function Years(){
-    // const navigate = useNavigate();
     return(
         <>
             <div className="d-grid gap-2 shadow-lg YearsButtonContainer">

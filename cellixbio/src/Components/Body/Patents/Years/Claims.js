@@ -1,8 +1,6 @@
-import TherapeuticArea from './TherapeuticArea';
 function Claims(){
     return(
         <div>
-            <TherapeuticArea></TherapeuticArea>
             <h1 className="PITBh3">CLAIMS</h1>
             <div className="ClaimsContainer">
                 <img width={600} height={700}  src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/2014/WO2014174425/WO2014174425.Claims.1.png" alt="AWS"></img>

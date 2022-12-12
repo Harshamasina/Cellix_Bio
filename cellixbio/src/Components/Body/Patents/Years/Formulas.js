@@ -1,12 +1,20 @@
-import TherapeuticArea from './TherapeuticArea';
-function Formulas(){
+function Formulas({formula}){
+    console.log(formula);
+    const FormulaArray = formula.split("\n");
+    console.log(FormulaArray);
+    console.log("Array Length: ", FormulaArray.length);
+
     return(
         <div>
-            <TherapeuticArea></TherapeuticArea>
             <h3 className="PITBh3">FORMULAS</h3>
-            <div className="PatentsImgContainer">
-                <img className="PatentFormulas" src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/2014/AU2013264896/AU2013264896.Formulas.1.PNG" alt="AWS"></img>
-                <img src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/2014/AU2013264896/AU2013264896.Formulas.2.PNG" alt="AWS"></img>
+                        <div className="PatentsImgContainer">
+                {
+                    FormulaArray.length>0 ? FormulaArray.map((image) => {
+                        return(
+                        <img className='PatentImages' src={image} alt=""></img>
+                        )
+                    }) : <h1>Data Not Found</h1>
+                }
             </div>
         </div>
     );

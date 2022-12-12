@@ -1059,9 +1059,9 @@ background-size: cover;
   margin-left: 10%;
 }
 
-.PatentsCard{
-margin-left: -8% !important;
-}
+/* .PatentsCard{
+margin-left: -1% !important;
+} */
 
 .PatentsCard:hover{
   background-color: #f2f2f2 !important;
@@ -1103,7 +1103,7 @@ margin-left: -8% !important;
   text-decoration-color: #282c34;
   cursor: pointer;
   display: inline !important;
-  /* margin-left: -89% !important; */
+  margin-right: 85% !important;
   color: #282c34;
 }
 
@@ -1113,18 +1113,8 @@ margin-left: -8% !important;
   text-decoration-color: #282c34;
 }
 
-.PaginationContainerTop{
-  /* margin-top: 2%; */
-  margin-left: 40%;
-}
-
-.PaginationContainer{
-  margin-top: 2%;
-  margin-left: 38%;
-}
-
 .TAContainer{
-  margin-top: 2.5%;
+  margin-top: 1%;
 }
 
 .PatentsImgContainer{
@@ -1176,7 +1166,7 @@ margin-left: -8% !important;
   text-align: center;
   justify-content: center;
   width: 70%;
-  /* margin-top: 2%; */
+  margin-top: 1%;
 }
 
 img{
@@ -1269,4 +1259,64 @@ img{
   font-size: 2.3rem;
 }
 
+.SearchPatentsh2Container{
+  width: 50%;
+  text-align: center;
+  align-items: center;
+  margin-left: 25%;
+}
 
+.SearchPatentsh2{
+  text-align: center;
+  font-weight: bold;
+  color: #282c34;
+  display: block;
+  font-size: 2vw;
+  margin: 1%;
+}
+
+.SearchPatentContainer{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 800px;
+  align-items: center;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 5px 10px;
+  border: 0.5px solid;
+  border-color: #282c34 1px;
+  margin-left: 28%;
+  /* margin-top: 1.5%; */
+  margin-top: 1.5%;
+  margin-bottom: 2%;
+}
+
+.SearchBarPatents{
+  width: 100%;
+  background: transparent;
+  border: 0;
+  outline: none;
+  padding: 10px 25px;
+  font-size: 20px;
+  color: #282c34;
+}
+
+.SearchBarButton{
+  width: 10%;
+  border: 0;
+  background-color: white;
+  margin-bottom: 1%;
+}
+
+.SearchBarPatentsButton{
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #282c34;
+  color: #f2f2f2;
+}
+
+
+.PatentImages{
+  margin: 1%;
+}
