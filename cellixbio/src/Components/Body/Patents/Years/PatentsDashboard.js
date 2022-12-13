@@ -22,7 +22,7 @@ function PatentsDashboard(){
         <div>
             <div className="PDcontainer">
                 <div className="PDcontainerh2">
-                    <h2 className="PDh2">Access the Patents filed by Cellix bio in {years} below</h2>
+                    <h2 className="PDh2">Access the Patents filed by Cellix Bio in {years} below</h2>
                 </div>
             </div>
             {

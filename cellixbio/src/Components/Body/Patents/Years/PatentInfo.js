@@ -14,6 +14,7 @@ function PatentInfo(){
     const [patentCompounds, setPatentCompounds] = useState("Compounds are Loading");
     const [therapeuticArea, setTherapeuticArea] = useState("Therapeutic Area is Loading");
     const [diseases, setDiseases] = useState("Diseases are loading");
+    const [claims, setClaims] = useState("Claims are Loading");
 
     useEffect(() => {
         const fetchData = async () => {
@@ -24,6 +25,7 @@ function PatentInfo(){
             setPatentCompounds(data.data[0].compounds);
             setTherapeuticArea(data.data[0].therapeutic_area);
             setDiseases(data.data[0].diseases);
+            setClaims(data.data[0].claims);
         };
         fetchData();
     });
@@ -43,7 +45,7 @@ function PatentInfo(){
                     <Formulas formula = {patentFormulas}></Formulas>
                 </Tab>
                 <Tab eventKey="Claims" title="Claims">
-                    <Claims></Claims>
+                    <Claims claim = {claims}></Claims>
                 </Tab>
                 <Tab eventKey="Compounds" title="Compounds and Methods">
                     <Compounds compound = {patentCompounds}></Compounds>

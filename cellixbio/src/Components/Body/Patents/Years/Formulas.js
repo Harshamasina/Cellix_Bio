@@ -11,6 +11,7 @@ function Formulas({formula}){
                 {
                     FormulaArray.length>0 ? FormulaArray.map((image) => {
                         return(
+                            
                         <img className='PatentImages' src={image} alt=""></img>
                         )
                     }) : <h1>Data Not Found</h1>

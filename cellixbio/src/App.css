@@ -1320,3 +1320,9 @@ img{
 .PatentImages{
   margin: 1%;
 }
+
+.patentClaimsp{
+  width: 90%;
+  text-align: left;
+  align-items: center;
+}
