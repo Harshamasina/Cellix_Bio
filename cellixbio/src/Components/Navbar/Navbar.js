@@ -1,7 +1,5 @@
 import { Navbar, Nav } from 'react-bootstrap';
-import Button from 'react-bootstrap/Button';
 import { Link, Routes, Route } from "react-router-dom";
-import Form from 'react-bootstrap/Form';
 import Home from "./Home";
 import PT from "./PT";
 import About from "./About";
@@ -12,43 +10,23 @@ import Contact from "./Contact";
 import Logo from "./Logo";
 import Patents from "../Body/Patents/Patents";
 import PatentsDashboard from '../Body/Patents/Years/PatentsDashboard';
-import { useState} from 'react';
 import Error404 from '../Body/Error404';
 import PatentInfo from '../Body/Patents/Years/PatentInfo';
 
 function NavBar() {
-
-        const [search, setSearch] = useState({
-            searchTerm: {searchNumber: ''}
-        });
-        let updateSearch = (event) => {
-            setSearch({
-                ...search,
-                searchTerm: {
-                    ...search.searchTerm,
-                    [event.target.name] : event.target.value
-                }
-            })
-        };
-        let searchClick = (event) => {
-            event.preventDefault();
-            console.log(search.searchTerm);
-        }
-
-
         return (
             <>
                 <div>
                 
-                    <Navbar collapseOnSelect bg="dark" variant={"dark"} expand="lg" ><Logo></Logo>
+                    <Navbar collapseOnSelect bg="dark" variant={"dark"} expand="lg" sticky='top'><Logo></Logo>
                         <Navbar.Brand href="#">
                            
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav
-                                className="mr-auto my-2 my-xxl-0"
-                                style={{ maxHeight: '100%'}}
+                                className="ms-auto my-2 my-xxl-0 gap-4 me-5"
+                                style={{ maxHeight: '100%',fontSize:'17px'}}
                                 responsive-navbar-nav
                             >
                                 <Nav.Link as={Link} to="/Home" eventKey="1">Home</Nav.Link>
@@ -61,17 +39,6 @@ function NavBar() {
                                 <Nav.Link as={Link} to="/Contact" eventKey="8">Contact</Nav.Link>
 
                             </Nav>
-                           
-                            <Form className="Navform">
-                                <Form.Control
-                                onChange={updateSearch}
-                                type="search"
-                                placeholder="Enter WIPO Number or Therapeutic Area"
-                                className="me-2 Navform"
-                                aria-label="Search"
-                                />
-                                <Button classname="Navbutton" variant="outline-secondary" size="sm" onClick={searchClick}>Search</Button>
-                            </Form>
                         </Navbar.Collapse>
                     </Navbar>
                 </div>
