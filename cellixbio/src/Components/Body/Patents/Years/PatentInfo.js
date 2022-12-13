@@ -29,6 +29,7 @@ function PatentInfo(){
         };
         fetchData();
     });
+    
     return(
         <div>
              <h2 className='PatentInfoh2'>{wno}</h2>

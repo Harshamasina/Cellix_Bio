@@ -9,7 +9,7 @@ function Formulas({formula}){
             <h3 className="PITBh3">FORMULAS</h3>
                         <div className="PatentsImgContainer">
                 {
-                    FormulaArray.length>0 ? FormulaArray.map((image) => {
+                    FormulaArray.length>1 ? FormulaArray.map((image) => {
                         return(
                             
                         <img className='PatentImages' src={image} alt=""></img>
