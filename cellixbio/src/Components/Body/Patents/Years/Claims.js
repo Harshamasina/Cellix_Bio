@@ -8,7 +8,7 @@ function Claims({claim}){
             <h1 className="PITBh3">CLAIMS</h1>
             <div className="ClaimsContainer">
             {
-                    ClaimArray.length>0 ? ClaimArray.map((image) => {
+                    ClaimArray.length>1 ? ClaimArray.map((image) => {
                         return(
                           <div>
                             <div className="patentClaimsp">

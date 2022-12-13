@@ -707,7 +707,8 @@ margin-left: -18% !important;
   }
 }
 
-
+input[type="search"]::-webkit-search-cancel-button
+{ display: none; }
 
 .Mimg{
   height: 50%;
