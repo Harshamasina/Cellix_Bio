@@ -1322,7 +1322,8 @@ img{
 }
 
 .patentClaimsp{
-  width: 90%;
+  max-width: 90%;
+  margin-left: 2%;
+  font-size: small;
   text-align: left;
-  align-items: center;
 }

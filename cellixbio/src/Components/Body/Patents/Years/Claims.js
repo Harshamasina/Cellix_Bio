@@ -12,7 +12,7 @@ function Claims({claim}){
                         return(
                           <div>
                             <div className="patentClaimsp">
-                                <p>{image}</p>
+                                <span>{image}</span>
                             </div>
                             <img className='PatentImages' src={image} alt=""></img>
                           </div>
