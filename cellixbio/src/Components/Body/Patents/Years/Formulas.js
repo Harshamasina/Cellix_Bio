@@ -14,7 +14,7 @@ function Formulas({formula}){
                             
                         <img className='PatentImages' src={image} alt=""></img>
                         )
-                    }) : <h1>Data Not Found</h1>
+                    }) : <img width={500} height={450} src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.DataNotFound.png" alt="aws"></img>
                 }
             </div>
         </div>
