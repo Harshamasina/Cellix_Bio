@@ -17,7 +17,7 @@ function Claims({claim}){
                             <img src={image} alt=""></img>
                           </div>
                         )
-                    }) : <img width={500} height={450} src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CLAIMS.png" alt="aws"></img>
+                    }) : <img width={500} height={450} src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.DataNotFound.png" alt="aws"></img>
                 }
             </div>
         </div>
