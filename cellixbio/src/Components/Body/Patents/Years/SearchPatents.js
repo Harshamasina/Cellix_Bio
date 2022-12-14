@@ -22,12 +22,11 @@ function SearchPatents(){
     return(
         <div>
             <div className="SearchPatentsh2Container">
-                <h3 className="SearchPatentsh2">Search For Patents by entering WIPO Number or Therapeutic Area under Cellix Bio</h3>
+                <h3 className="SearchPatentsh2">Search For Patents under Cellix Bio by entering WIPO Number or Therapeutic Area</h3>
             </div>
-            {/* <span>* Please Enter All Caps</span> */}
             <div>
                 <div className="SearchPatentContainer">
-                   <input onChange={searchHandle} className="SearchBarPatents" type="search" placeholder="Enter WIPO Number or Therapeutic Area"></input>
+                   <input onChange={searchHandle} className="SearchBarPatents" type="search" placeholder="ENTER WIPO NUMBER OR THERAPEUTIC AREA (All Caps)"></input>
                    <button className="SearchBarButton"><TfiSearch /></button>
                 </div>
                 {      

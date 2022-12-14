@@ -210,24 +210,26 @@ body{
   margin-right: 15%;
   margin-left: 2%;
 }
+
 .PatentHomeButton{
-  background-color: #609FE2 !important;
-  color: white !important;
-  border: none !important;
-  font-size: 1vw !important;
+  position: absolute;
+  top: 34%;
+  left: 46%;
+  color: white;
+  font-size: 2vw;
+  border: none;
   cursor: pointer;
   text-align: center;
-  width: 10vw;
-  height: 3vw;
-  position: absolute;
-  top: 80%;
-  left: 15%;
-  transform: translate(-50%, -50%);  
+  width: 10%;
+  height: 10%;
+  opacity: 1;
 }
 
 @media screen and (max-width: 600px) {
-.PatentHomeButton {
-font-size:1vw !important;
+  button.PatentHomeButton {
+top:35%;
+left:46%;
+font-size:1.5vw;
 padding: 0px !important;
   }
 }
@@ -376,7 +378,7 @@ font-size: 3vh;
 .SearchPatentContainer{
   display: flex;
   flex-direction: row;
-  margin-top: 2%;
+  margin-top: 1%;
   margin-bottom: 2%;
   position: relative;
 }
@@ -416,7 +418,7 @@ font-size: 3vh;
   background-color: white;
   margin-bottom: 1%;
   margin-left: 68vw;
-  margin-top: 2.5vw;
+  margin-top: 2.3vw;
   position: relative;
 }
 /* ................... */
@@ -995,7 +997,7 @@ width: 100% !important;
   font-size: 1.5vw;
 }
 
-/* 
+
 .PatentHomeContainer{
   position: relative;
   width: 100%;
@@ -1026,8 +1028,6 @@ width: 100% !important;
   width: 100%;
   font-weight: 600;
 }
- */
-
 
 
 @media screen and (max-width: 600px) {
