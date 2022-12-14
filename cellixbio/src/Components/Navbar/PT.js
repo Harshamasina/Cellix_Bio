@@ -20,7 +20,7 @@ function PT(){
                 </div>
                 
                 <div className="PTpContainer">
-                   <p className="PTp">an effective methodology to drug design that focuses on creating new molecular entities encompassing synergistic pharmacology. Since 2014, we have successfully build our pipeline and partnerships to more than 15 active projects.</p>
+                   <p className="PTp">An effective methodology to drug design that focuses on creating new molecular entities encompassing synergistic pharmacology. Since 2014, we have successfully build our pipeline and partnerships to more than 15 active projects.</p>
                 </div>
                 
                 <div className="PTpContainer">
