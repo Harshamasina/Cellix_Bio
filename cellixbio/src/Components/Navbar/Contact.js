@@ -2,6 +2,7 @@ import Address from './Contacts/Address';
 import SendUsEmail from './Contacts/SendUsEmail';
 
 function Contact() {
+  document.title = 'Contact - Cellix Bio';
   return (
     <>
       <h2 className='CUh2'>CONTACT US</h2>

@@ -1,7 +1,7 @@
 import Table from 'react-bootstrap/Table';
 
 function Pipeline(){
-
+    document.title = 'Pipeline - Cellix Bio';
     return(
         <>
             <div className='PLContainer'>

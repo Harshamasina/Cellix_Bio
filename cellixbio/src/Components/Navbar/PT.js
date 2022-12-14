@@ -1,4 +1,5 @@
 function PT(){
+   document.title = 'Platform Technologies - Cellix Bio';
     return(
         <>
             <div className="PT">

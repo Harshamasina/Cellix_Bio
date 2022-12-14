@@ -1,4 +1,5 @@
 function About(){
+    document.title = 'About - Cellix Bio';
     return(
         <>
             <div className="About">

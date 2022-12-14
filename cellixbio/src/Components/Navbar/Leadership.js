@@ -2,6 +2,7 @@ import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
 
 function Leadership() {
+  document.title = 'Leadership - Cellix Bio';
   return (
       <CardGroup>
         <h2 className='Lh2'>MANAGEMENT TEAM</h2>

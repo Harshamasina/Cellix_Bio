@@ -1,6 +1,7 @@
 import Table from 'react-bootstrap/Table';
 import Accordion from 'react-bootstrap/Accordion';
 function IP(){
+    document.title = 'Intellectual Property - Cellix Bio';
     return(
         <>
             <div className='IPContainer'>

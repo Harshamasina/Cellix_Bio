@@ -4,6 +4,7 @@ import PatentHome from '../Body/PatentHome';
 import Teamwork from '../Body/Teamwork';
 import WWD from '../Body/WWD';
 function Home(){
+    document.title = 'Home - Cellix Bio';
     return(
         <>
            <Carousel fade interval={500}>
