@@ -5,7 +5,7 @@ function Desc(){
         <>
             <div className='Desc'>
                 <div>
-                    <Carousel fade interval={1000}>
+                    <Carousel fade interval={2000}>
                         <Carousel.Item>
                             <img height={840}
                             className="d-block w-100"
@@ -14,7 +14,7 @@ function Desc(){
                             />
                             <Carousel.Caption>
                                 <h1 className='Carouselh1'>Patents under Cellix Bio</h1>
-                                <p className='Carouselp'>Under <b className='PP'>Mr. Mahesh Kandula's</b> direction We have created world-class medications that are powerful and effective.</p>
+                                <p className='Carouselp'>Under <b>Mr. Mahesh Kandula's</b> direction We have created world-class medications that are powerful and effective.</p>
                             </Carousel.Caption>
                         </Carousel.Item>
                         
@@ -33,7 +33,6 @@ function Desc(){
                                 </ul>
                             </Carousel.Caption>
                         </Carousel.Item>
-                        
                         <Carousel.Item>
                             <img height={840}
                             className="d-block w-100"

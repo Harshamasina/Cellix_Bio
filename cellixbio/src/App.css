@@ -12,27 +12,247 @@ body{
   display: inline;
 }
 
-.Navform{
-  margin-left: 20%;
-  /* margin-right: 2%; */
-  width: 30%;
-  display: flex;
-  border-color: #282c34 !important;
-  border-radius: 25px !important;
+/* Used for Footer */
+.Navlink{
+  color: #4e545f !important;
 }
-
-.Navbutton{
-  margin-left: 0.5rem;
-  display: flex;
+.Navlink:hover{
+  color: aliceblue !important;
+  font-size: 15px;
 }
-
+.FooterInfoContainer{
+  display: flex;
+  flex-direction: row;
+}
+.FooterUL{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+.FooterIcons{
+  display: flex;
+  flex-direction: row;
+  /* max-width: 100%;
+  min-width: 100%; */
+}
+.FooterContainerp{
+  display: flex;
+  font-size: 1vw;
+}
+.Fimg{
+  width:150px;
+  height: 80px;
+}
+.shadow{
+  background-color: #282c34 !important;
+  margin-top: 5% !important;
+  color: #4e545f !important;
+  height: 45vh !important;
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (max-width:600px) {
+  .shadow{
+    height: 50vh !important;
+  }
+}
 @media screen and (max-width: 600px) {
-  .Navform {
-  width: 80% !important;
-  margin-left: 7% !important;
+  span.Fdetails {
+    font-size: 2vh;
+  }
+}
+@media screen and (max-width: 600px) {
+  b.Fdetails {
+    font-size: 2vh;
+  }
+}
+@media screen and (max-width: 600px) {
+  small.ml-2 {
+    font-size: 1vh;
+  }
+}
+@media screen and (max-width: 600px) {
+  span.my-3 {
+    font-size: 2vh;
+  }
+}
+/* .............. */
+
+/* Used for Carousel for Home Page */
+.Carouselh1{
+  margin-top: -50vh !important;
+  font-size: 4vw;
+}
+
+.Carouselp{
+  font-size: 1.5vw;
+  margin-top: 5% !important;
+}
+@media screen and (max-width: 600px) {
+  p.Carouselp {
+    font-size: 1.2vh;
+    text-align: center;
+    justify-content: center;
+ }
+}
+/* ............................... */
+/* Used for What We Do */
+.WWD{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.WWDContainerh34{
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.WWDPContainer{
+  text-align: justify;
+  margin-top: 2%;
+  justify-content: center;
+  width: 70%;
+  margin-left: 15%;
+  }
+
+.WWDP{
+  text-align: justify;
+  padding: 10;
+  font-size: 1vw;
+  }
+
+.WWDh3{
+  text-align: center;
+  font-weight: bolder;
+  color: #282c34;
+  margin-top: 1%;
+  display: block;
+  margin-bottom: 20px;
+  font-size: 2vw;
+  background-color: white;
+  position: relative;
+  animation: header 3s 1;
+}
+@keyframes header {
+  0%{
+   color: white;
+   margin-bottom: -45px;
+  }
+  30%{
+   letter-spacing: 25%;
+   margin-bottom: -45px;
+  }
+  85%{
+   letter-spacing: 8px;
+   margin-bottom: -45px;
   }
 }
 
+.WWDh4{
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5vw;
+  color: #282c34;
+  display: block;
+  }
+  
+@media screen and (max-width: 600px) {
+  h3.WWDh3 {
+    font-size: 2.5vh;
+  }
+}
+@media screen and (max-width: 600px) {
+  h4.WWDh4 {
+    font-size: 2vh;
+  }
+}
+@media screen and (max-width: 600px) {
+  p.WWDP {
+    font-size: 1.8vh;
+    text-align: justify;
+  }
+}
+/* .................... */
+/* Used for Team Work */
+.TeamWorkh3{
+  text-align: center;
+  font-weight: bolder;
+  color: #282c34;
+  margin-top: 2%;
+  font-size: 2vw;
+}
+
+.TeamWorkImgdiv{
+   justify-content: center;
+   margin-top: 3%;
+   margin-left: 10%;
+   margin-right: 10%;
+   box-shadow: 0 0 20px 2px rgba(0,0,0, .1);
+   transition: 2s;
+   position: relative;
+}
+
+.TeamWorkImg{
+  display: block;
+  width: 100% !important;
+  height: 50% !important;
+  border-radius: 5px;
+  height: 35vh;
+  width: 25vw;
+}
+
+.TeamWorkp{
+  text-align: justify;
+  font-size: 1vw;
+  padding: 10;
+  margin-right: 15%;
+  margin-left: 2%;
+}
+.PatentHomeButton{
+  background-color: #609FE2 !important;
+  color: white !important;
+  border: none !important;
+  font-size: 1vw !important;
+  cursor: pointer;
+  text-align: center;
+  width: 10vw;
+  height: 3vw;
+  position: absolute;
+  top: 80%;
+  left: 15%;
+  transform: translate(-50%, -50%);  
+}
+
+@media screen and (max-width: 600px) {
+.PatentHomeButton {
+font-size:1vw !important;
+padding: 0px !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  span.TWp {
+    font-size: 1.5vh;
+    text-align: justify;
+  }
+}
+@media screen and (max-width: 600px) {
+  h3.TeamWorkh3 {
+    font-size: 2.5vh;
+    margin-bottom: 5%;
+    margin-top: 8%;
+  }
+}
+@media screen and (max-width: 600px) {
+  img.TeamWorkImg {
+    width:150px;
+    height: 180px;
+  }
+}
+/* ......................... */
+/* Used for About */
 .About{
   display: flex;
   flex-direction: column;
@@ -44,14 +264,13 @@ body{
   width: 100%;
   justify-content: center;
   margin-top: 2%;
+  margin-bottom: 1%;
 }
 
-.Abouth2{
-  text-align: center;
+.AboutUsh2{
   font-weight: bolder;
   color: #282c34;
   display: block;
-  margin-bottom: 20px;
   font-size: 2vw;
 }
 
@@ -64,15 +283,19 @@ body{
 }
 
 .Aboutp{
-  text-align: center;
-  padding: 10;
+  text-align: justify;
+  padding: 10px;
   font-size: 1vw;
 }
 @media screen and (max-width: 600px) {
-  p.Aboutp {
+  .Aboutp {
     font-size: 2vh;
     text-align: justify;
-
+  }
+}
+@media screen and (max-width: 600px) {
+  .AboutUsh2 {
+    font-size: 3vh;
   }
 }
 
@@ -81,27 +304,129 @@ body{
   font-size: larger;
   font-weight: bolder;
 }
+/* .................. */
+/* Used for Patents Page */
+.Desc{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
 
+.DescContainerh3{
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+  margin-top: 1%;
+}
+
+.Desch3{
+  text-align: center;
+  font-weight: bolder;
+  color: #282c34;
+  margin-top: 1%;
+  display: block;
+  margin-bottom: 20px;
+  font-size: 2vw;
+}
+.DescpContainerp{
+  text-align: center;
+  justify-content: center;
+  width: 70%;
+  margin-left: 16%;
+}
+
+.Descp{
+  text-align: justify;
+  padding: 10px;
+  font-size: 1vw;
+}
+@media screen and (max-width: 600px) {
+  .Descp {
+font-size: 2vh; 
+text-align: justify;
+  }
+}
+@media screen and (max-width: 600px) {
+  .Desch3 {
+font-size: 3vh; 
+  }
+}
+.Carouselul{
+  list-style-type: none;
+}
+
+.SearchPatentsh2Container{
+  text-align: center;
+  align-items: center;
+}
+
+.SearchPatentsh2{
+  font-weight: bold;
+  color: #282c34;
+  display: block;
+  font-size: 2vw;
+  margin: 1%;
+}
+@media screen and (max-width: 600px) {
+  .SearchPatentsh2 {
+font-size: 3vh; 
+  }
+}
+
+.SearchPatentContainer{
+  display: flex;
+  flex-direction: row;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  position: relative;
+}
+@media screen and (max-width: 600px) {
+  .SearchPatentContainer {
+    margin-left: -10vh;
+  }
+}
+@media screen and (max-width: 600px) {
+  .SearchBarPatents {
+    width: 45vh !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .SearchBarButton {
+    margin-left: 58vh !important;
+  }
+}
+
+.SearchBarPatents{
+  width: 43vw;
+  border: 0.5px solid;
+  padding: 10px 25px;
+  font-size: 20px;
+  color: #282c34;
+  padding: 5px 10px;
+  border-radius: 10px;
+  align-items: center;
+  border-color: #282c34 1px;
+  margin-left: 28vw;
+  margin-top: 2vw;
+  position: absolute;
+}
+
+.SearchBarButton{
+  border: none;
+  background-color: white;
+  margin-bottom: 1%;
+  margin-left: 68vw;
+  margin-top: 2.5vw;
+  position: relative;
+}
+/* ................... */
+/* Used For Platform technology */
 .PT{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 }
 
-.PTContainerImg{
-  width: 100%;
-}
-
-.PTimg{
-  width: 100%;
-  height: 50%;
-}
-
-.PTContainerh2h3h4{
-  text-align: center;
-  width: 100%;
-  justify-content: center;
-}
 @media screen and (max-width: 600px) {
   h2.PTh2 {
     font-size: 3vh;
@@ -137,23 +462,21 @@ body{
   color: #282c34;
   display: block;
   font-size: 2vw;
-  background-color: white;
-  position: relative;
   animation: header 3s 1;
 }
 
 @keyframes header {
   0%{
    color: white;
-   margin-bottom: -45px;
+   margin-bottom: 20px;
   }
   30%{
    letter-spacing: 25%;
-   margin-bottom: -45px;
+   margin-bottom: 20px;
   }
   85%{
    letter-spacing: 8px;
-   margin-bottom: -45px;
+   margin-bottom: 20px;
   }
 }
 
@@ -175,16 +498,14 @@ body{
 }
 
 .PTpContainer{
-  text-align: center;
   margin-top: 1%;
-  justify-content: center;
   width: 70%;
   margin-left: 16%;
 }
 
 .PTp{
-  text-align: center;
-  padding: 10;
+  text-align: justify;
+  padding: 5px;
   font-size: 1vw;
 }
 
@@ -194,6 +515,7 @@ body{
   display: inline;
   list-style: decimal;
 }
+/* ..................... */
 
 .IPContainer{
   display: flex;
@@ -465,33 +787,10 @@ tbody,thead{
   margin-top: 1%;
 }
 
-.shadow{
-  background-color: #282c34 !important;
-  /* color: rgb(128, 126, 126); */
-  margin-top: 5% !important;
-  color: #4e545f !important;
-  height: 50vh !important;
-  display: flex;
-  flex-direction: row;
-}
-@media screen and (max-width:600px) {
-  .shadow{
-    height: 72vh !important;
-  }
-}
 
-.FooterInfoContainer{
-  display: flex;
-  flex-direction: row;
-}
 
 .ml-3{
   color: white !important;
-}
-
-.Fimg{
-  width:150px;
-  height: 80px;
 }
 
 b{
@@ -503,118 +802,11 @@ a{
   /* color: #4e545f !important; */
 }
 
-
-.wwd{
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-
-.WWDContainerh34{
-  text-align: center;
-  width: 100%;
-  justify-content: center;
-}
-
-.WWDh3{
-  text-align: center;
-  font-weight: bolder;
-  color: #282c34;
-  margin-top: 1%;
-  display: block;
-  margin-bottom: 20px;
-  font-size: 2vw;
-  background-color: white;
-  position: relative;
-  animation: header 3s 1;
-}
-@media screen and (max-width: 600px) {
-  h3.WWDh3 {
-    font-size: 2.5vh;
-  }
-}
-@media screen and (max-width: 600px) {
-  h4.WWDh4 {
-    font-size: 2vh;
-  }
-}
-@media screen and (max-width: 600px) {
-  p.WWDP {
-    font-size: 1.8vh;
-    text-align: justify;
-    /* text-justify: auto; */
-
-  }
-}
-
-@keyframes header {
-   0%{
-    color: white;
-    margin-bottom: -45px;
-   }
-   30%{
-    letter-spacing: 25%;
-    margin-bottom: -45px;
-   }
-   85%{
-    letter-spacing: 8px;
-    margin-bottom: -45px;
-   }
-}
-
-.WWDh4{
-text-align: center;
-font-weight: bold;
-font-size: 1.5vw;
-color: #282c34;
-display: block;
-}
-
-.WWDPContainer{
-text-align: center;
-margin-top: 2%;
-justify-content: center;
-width: 70%;
-margin-left: 16%;
-}
-
-.WWDP{
-text-align: center;
-padding: 10;
-font-size: 1vw;
-}
-
-.Desc{
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-
-.DescContainerh3{
-  text-align: center;
-  width: 100%;
-  justify-content: center;
-  margin-top: 1%;
-}
-
-.Desch3{
-  text-align: center;
-  font-weight: bolder;
-  color: #282c34;
-  margin-top: 1%;
-  display: block;
-  margin-bottom: 20px;
-  font-size: 2vw;
-}
-
 .PH2{
   margin-bottom: 19%;
   font-size: 3vw;
 }
-@media screen and (max-width: 600px) {
-  h3.Desch3 {
-font-size: 3vh;  }
-}
+
 @media screen and (max-width: 600px) {
   h2.PH2 {
     margin-bottom: 60%;
@@ -623,57 +815,7 @@ font-size: 3vh;  }
   }
 }
 
-.DescpContainerp{
-  text-align: center;
-  justify-content: center;
-  width: 70%;
-  margin-left: 16%;
-}
 
-.Descp{
-  text-align: center;
-  padding: 10;
-  font-size: 1vw;
-}
-@media screen and (max-width: 600px) {
-  p.Descp {
-font-size: 2vh; 
-text-align: justify;
-}
-}
-
-.Carouselh1{
-  margin-bottom: 15%;
-  font-size: 6vw;
-}
-@media screen and (max-width: 600px) {
-  h1.Carouselh1 {
-    margin-bottom: 65%;
-  }
-}
-
-.Carouselp{
-  margin-top: 2%;
-  font-size: 1.2vw;
-}
-@media screen and (max-width: 600px) {
-  p.Carouselp {
-font-size: 1.2vh;
-text-align: center;
-justify-content: center;
-
-  }
-}
-
-.Carouselul{
-  list-style-type: none;
-}
-
-.FooterUL{
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-}
 
 .one-page-arrow{
   bottom: 26px;
@@ -746,104 +888,15 @@ input[type="search"]::-webkit-search-cancel-button
   text-decoration: underline !important;
 }
 
-
-.Navlink{
-  color: #4e545f !important;
-}
-.Navlink:hover{
-  color: aliceblue !important;
-  font-size: 15px;
-}
-
-.TeamWorkh3{
-  text-align: center;
-  font-weight: bolder;
-  color: #282c34;
-  margin-top: 2%;
-  font-size: 2vw;
-}
-
-
-.TeamWorkContainer{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-}
-
-.TeamWorkImgdiv{
-   justify-content: center;
-   margin-left: 12%;
-   box-shadow: 0 0 20px 2px rgba(0,0,0, .1);
-   transition: 2s;
-}
-
-.TeamWorkImg{
-  display: block;
-  width: 100%;
-  height: 100%;
-  border-radius: 5px;
-  height: 35vh;
-  width: 25vw;
-}
-
-.TeamWorkImg:hover{
-    transform: scale(1.1);
-    z-index: 2;
-}
-
-.TeamWorkp{
-  text-align: center;
-  font-size: 1vw;
-  padding: 10;
-  margin-right: 15%;
-  margin-left: 2%;
-}
-@media screen and (max-width: 600px) {
-  span.TWp {
-    font-size: 1.5vh;
-    text-align: justify;
-  }
-}
-@media screen and (max-width: 600px) {
-  h3.TeamWorkh3 {
-    font-size: 2.5vh;
-    margin-bottom: 5%;
-    margin-top: 8%;
-  }
-}
-@media screen and (max-width: 600px) {
-  img.TeamWorkImg {
-    width:150px;
-    height: 180px;
-  }
-}
-
-
-.FooterContainerp{
-  display: flex;
-  font-size: 1vw;
-}
-
 .smallContainer{
   display: flex;
   font-size: 1vw;
 }
 
-.FooterIcons{
-  display: flex;
-  flex-direction: row;
-  max-width: 100%;
-  min-width: 100%;
-}
 /* p.my-3{
 width: 100% !important;
 } */
-@media screen and (max-width: 600px) {
-  span.my-3 {
-    font-size: 2vh;
-  }
-}
+
 @media screen and (max-width: 600px) {
   p.IPp {
     font-size: 2vh;
@@ -851,22 +904,6 @@ width: 100% !important;
 
   }
 }
-@media screen and (max-width: 600px) {
-  span.Fdetails {
-    font-size: 2vh;
-  }
-}
-@media screen and (max-width: 600px) {
-  b.Fdetails {
-    font-size: 2vh;
-  }
-}
-@media screen and (max-width: 600px) {
-  small.ml-2 {
-    font-size: 1vh;
-  }
-}
-
 
 .YearsContainerh2{
   display: flex;
@@ -958,7 +995,7 @@ width: 100% !important;
   font-size: 1.5vw;
 }
 
-
+/* 
 .PatentHomeContainer{
   position: relative;
   width: 100%;
@@ -989,29 +1026,8 @@ width: 100% !important;
   width: 100%;
   font-weight: 600;
 }
+ */
 
-.PatentHomeButton{
-  position: absolute;
-  top: 34%;
-  left: 46%;
-  color: white;
-  font-size: 2vw;
-  border: none;
-  cursor: pointer;
-  text-align: center;
-  width: 10%;
-  height: 10%;
-  opacity: 1;
-}
-
-@media screen and (max-width: 600px) {
-  button.PatentHomeButton {
-top:35%;
-left:46%;
-font-size:1.5vw;
-padding: 0px !important;
-  }
-}
 
 
 @media screen and (max-width: 600px) {
@@ -1260,62 +1276,7 @@ img{
   font-size: 2.3rem;
 }
 
-.SearchPatentsh2Container{
-  width: 50%;
-  text-align: center;
-  align-items: center;
-  margin-left: 25%;
-}
 
-.SearchPatentsh2{
-  text-align: center;
-  font-weight: bold;
-  color: #282c34;
-  display: block;
-  font-size: 2vw;
-  margin: 1%;
-}
-
-.SearchPatentContainer{
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  max-width: 800px;
-  align-items: center;
-  border-radius: 10px;
-  background: rgba(255, 255, 255, 0.2);
-  padding: 5px 10px;
-  border: 0.5px solid;
-  border-color: #282c34 1px;
-  margin-left: 28%;
-  /* margin-top: 1.5%; */
-  margin-top: 1.5%;
-  margin-bottom: 2%;
-}
-
-.SearchBarPatents{
-  width: 100%;
-  background: transparent;
-  border: 0;
-  outline: none;
-  padding: 10px 25px;
-  font-size: 20px;
-  color: #282c34;
-}
-
-.SearchBarButton{
-  width: 10%;
-  border: 0;
-  background-color: white;
-  margin-bottom: 1%;
-}
-
-.SearchBarPatentsButton{
-  padding: 10px;
-  border-radius: 10px;
-  background-color: #282c34;
-  color: #f2f2f2;
-}
 
 
 .PatentImages{
