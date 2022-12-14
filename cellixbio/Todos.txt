@@ -18,3 +18,5 @@ CHANGES REQUIRED:
 -> Carousel Text should be responsive
 -> Testing should be done
 -> Deploy React App in AWS using EC2 in multiple instances
+
+
