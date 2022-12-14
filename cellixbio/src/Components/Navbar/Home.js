@@ -1,5 +1,5 @@
 import Carousel from 'react-bootstrap/Carousel';
-import ModalDialog from '../Body/Intro/ModalDialog';
+// import ModalDialog from '../Body/Intro/ModalDialog';
 import PatentHome from '../Body/PatentHome';
 import Teamwork from '../Body/Teamwork';
 import WWD from '../Body/WWD';
@@ -46,7 +46,7 @@ function Home(){
             <WWD></WWD>
             <PatentHome></PatentHome>
             <Teamwork></Teamwork>
-            <ModalDialog/>
+            {/* <ModalDialog/> */}
         </>
     )
 }

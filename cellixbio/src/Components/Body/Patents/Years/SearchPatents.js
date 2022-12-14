@@ -26,7 +26,7 @@ function SearchPatents(){
             </div>
             <div>
                 <div className="SearchPatentContainer">
-                   <input onChange={searchHandle} className="SearchBarPatents" type="search" placeholder="ENTER WIPO NUMBER OR THERAPEUTIC AREA (All Caps)"></input>
+                   <input onChange={searchHandle} className="SearchBarPatents" type="search" placeholder="ENTER WIPO NUMBER OR THERAPEUTIC AREA"></input>
                    <button className="SearchBarButton"><TfiSearch /></button>
                 </div>
                 {      
