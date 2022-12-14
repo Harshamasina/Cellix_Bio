@@ -15,7 +15,7 @@ function PatentInfo(){
     const [therapeuticArea, setTherapeuticArea] = useState("Therapeutic Area is Loading");
     const [diseases, setDiseases] = useState("Diseases are loading");
     const [claims, setClaims] = useState("Claims are Loading");
-    document.title = '{wno} - Cellix Bio';
+    // document.title = '{wno} - Cellix Bio';
 
     useEffect(() => {
         const fetchData = async () => {

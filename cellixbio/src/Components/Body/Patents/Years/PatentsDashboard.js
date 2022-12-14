@@ -12,7 +12,7 @@ function PatentsDashboard(){
     const [patents, setPatents] = useState("");
     const {years} = useParams();
     const [loading, setLoading] = useState(true);
-    document.title = '{year} - Cellix Bio Patents';
+    // document.title = '{year} - Cellix Bio Patents';
 
     useEffect(() => {
         const fetchData = async () => {
