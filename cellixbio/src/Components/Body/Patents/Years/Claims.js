@@ -7,7 +7,7 @@ function Claims({claim}){
         <div>
             <h1 className="PITBh4">CLAIMS</h1>
             <div className="ClaimsContainer">
-            {
+                {
                     ClaimArray.length>1 ? ClaimArray.map((image) => {
                         return(
                           <div>
@@ -19,7 +19,7 @@ function Claims({claim}){
                             </div>
                           </div>
                         )
-                    }) : <img width={500} height={450} src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.DataNotFound.png" alt="aws"></img>
+                    }) : <img width={500} height={450}  src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.DataNotFound.png" alt="aws"></img>
                 }
             </div>
         </div>
