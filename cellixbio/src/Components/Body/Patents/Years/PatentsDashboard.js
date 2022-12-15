@@ -25,12 +25,15 @@ function PatentsDashboard(){
         };
         fetchData();
     }, []);
+    // console.log(patents);
+    // console.log(patents.data.length);
 
     return(
         <div>
             <div className="PDcontainer">
                 <div className="PDcontainerh2">
                     <h2 className="PDh2">Access the Patents filed by Cellix Bio in {years} below</h2>
+                    {/* <h3 className="PDh2">No of International Patents in {years} are {patents.data.length}</h3> */}
                 </div>
             </div>
             {loading ? (<PatentCardSkeleton></PatentCardSkeleton>) : (
