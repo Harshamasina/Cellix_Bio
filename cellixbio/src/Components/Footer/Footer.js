@@ -63,7 +63,7 @@ const Footer = () => {
                 <CDBBox display="flex">
                     <div className='FooterIcons'>
                         <CDBBtn href="https://www.cellixbio.com/" target={"_blank"} flat color="dark" className="p-2">
-                          <CDBIcon fab icon="google" />
+                          <CDBIcon  className='Ficon' fab icon="google" />
                         </CDBBtn>
                         <CDBBtn href="https://www.linkedin.com/in/mahesh-kandula-b052a752/" target={"_blank"} flat color="dark" className="mx-3 p-2">
                           <CDBIcon fab icon="linkedin" />
