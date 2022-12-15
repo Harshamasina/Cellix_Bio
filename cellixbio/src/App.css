@@ -417,6 +417,7 @@ font-size: 3vh;
   font-size: 2vw;
   margin: 1%;
 }
+
 @media screen and (max-width: 600px) {
   .SearchPatentsh2 {
 font-size: 3vh; 
@@ -429,6 +430,8 @@ font-size: 3vh;
   margin-top: 1%;
   margin-bottom: 2%;
   position: relative;
+  -webkit-box-shadow: none;
+  outline: none;
 }
 @media screen and (max-width: 600px) {
   .SearchPatentContainer {
@@ -450,21 +453,21 @@ font-size: 3vh;
 
 .SearchBarPatents{
   width: 43vw;
-  border: 0.5px solid;
+  border: 1px solid;
   padding: 10px 25px;
   font-size: 20px;
   color: #282c34;
   padding: 5px 10px;
   border-radius: 10px;
   align-items: center;
-  border-color: #282c34 1px;
   margin-left: 28vw;
   margin-top: 2vw;
   position: absolute;
+  outline: none;
 }
 
 .SearchBarButton{
-  border: none;
+  border: 0;
   background-color: white;
   margin-bottom: 1%;
   margin-left: 68vw;
