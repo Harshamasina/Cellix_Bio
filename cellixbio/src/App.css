@@ -45,7 +45,7 @@ body{
 }
 .shadow{
   background-color: #282c34 !important;
-  margin-top: 5% !important;
+  margin-top: 8% !important;
   color: #4e545f !important;
   height: 45vh !important;
   display: flex;
@@ -53,7 +53,7 @@ body{
 }
 @media screen and (max-width:600px) {
   .shadow{
-    height: 50vh !important;
+    height: 70vh !important;
   }
 }
 @media screen and (max-width: 600px) {
@@ -175,6 +175,57 @@ body{
   }
 }
 /* .................... */
+/* Used for Patent Home */
+.PatentHomeContainer{
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+}
+
+.PatentHomeImg{
+  width: 100%;
+  height: 500px;
+  margin-top: 2%;
+  box-shadow: 0 0.5rem 3rem 0.5rem rgba(0,0,0,.175) !important;
+}
+@media screen and (max-width: 600px) {
+  img.PatentHomeImg {
+ height: 250px;  }
+}
+
+.PatentHomep{
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color: white;
+  font-size: 3vw;
+  border: none;
+  text-align: center;
+  width: 100%;
+  font-weight: 600;
+}
+.PatentHomeButton{
+  position: absolute;
+  top: 34%;
+  left: 46%;
+  color: white;
+  font-size: 2vw;
+  width: 10% !important;
+  height: 10% !important;
+  opacity: 1;
+}
+
+@media screen and (max-width: 600px) {
+  .PatentHomeButton {
+top:35%;
+left:46%;
+font-size:1vh !important;
+padding: 0px !important;
+  }
+}
+/* ...................... */
 /* Used for Team Work */
 .TeamWorkh3{
   text-align: center;
@@ -210,27 +261,23 @@ body{
   margin-right: 15%;
   margin-left: 2%;
 }
-
-.PatentHomeButton{
+.TeamworkButton{
   position: absolute;
-  top: 34%;
-  left: 46%;
-  color: white;
+  top: 75%;
+  left: 6%;
+  background-color: #609FE2 !important;
+  color: white !important;
   font-size: 2vw;
-  border: none;
-  cursor: pointer;
-  text-align: center;
-  width: 10%;
-  height: 10%;
+  width: 13% !important;
+  height: 10% !important;
   opacity: 1;
 }
-
 @media screen and (max-width: 600px) {
-  button.PatentHomeButton {
-top:35%;
-left:46%;
-font-size:1.5vw;
-padding: 0px !important;
+  .TeamworkButton {
+  top:75%;
+  left:6%;
+  font-size:0.8vh !important;
+  padding: 0px !important;
   }
 }
 
@@ -388,13 +435,15 @@ font-size: 3vh;
   }
 }
 @media screen and (max-width: 600px) {
-  .SearchBarPatents {
-    width: 45vh !important;
+  input.SearchBarPatents {
+    width: 40vh !important;
+    font-size: 1.5vh;
   }
 }
 @media screen and (max-width: 600px) {
   .SearchBarButton {
-    margin-left: 58vh !important;
+    margin-left: 48vh !important;
+    background-color: transparent !important;
   }
 }
 
@@ -420,6 +469,142 @@ font-size: 3vh;
   margin-left: 68vw;
   margin-top: 2.3vw;
   position: relative;
+}
+.PatentsCard{
+  width:75vw !important;
+}
+.skPatentCard{
+  width: 75vw !important;
+}
+
+.PatentsCard:hover{
+  background-color: #f2f2f2 !important;
+}
+@media screen and (max-width: 600px) {
+  .CardContainer {
+    margin-left: 13% !important;
+  }
+}
+.CardContainer{
+  height: 20% !important;
+  margin-left: 10%;
+}
+
+.cardTextContainer{
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.cardTextInfoContainer{
+  flex: 5 !important;
+}
+
+p.CardTextInfo{
+  text-align: left !important;
+  text-transform: capitalize;
+}
+@media screen and (max-width: 600px) {
+  p.CardTextInfo   {
+    text-align: justify !important;
+    text-transform: capitalize;
+  }
+}
+
+.cardTextDateContainer{
+  flex: 1 !important;
+  margin-left: 3%;
+}
+
+.CardTextSpan{
+  font-weight: 500;
+}
+.card-title.h5{
+  text-align: left !important;
+}
+
+.Wno{
+  font-weight: bolder;
+  text-align: left !important;
+  text-decoration-color: #282c34;
+  cursor: pointer;
+  display: inline !important;
+  color: #282c34;
+}
+.skwno{
+  width: 10vw !important;
+  margin-bottom: 20px;
+  height: 25px;
+  animation: skeleton-loading 1s linear infinite alternate;
+  border-radius: 20px;
+  opacity: 0.7;
+}
+
+.Wno:hover{
+  color: #4e545f;
+  font-size: 1.07vw;
+  text-decoration: underline solid !important;
+}
+.PDcontainer{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.PDcontainerh2{
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.PDh2{
+  font-weight: bolder;
+  color: #282c34;
+  display: block;
+  margin-bottom: 20px;
+  font-size: 2vw;
+}
+@media screen and (max-width: 600px) {
+  .PDh2   {
+    font-size: 2vh;
+  }
+}
+
+.skcardTextInfoContainer{
+  flex: 5 !important;
+  animation: skeleton-loading 1s linear infinite alternate;
+  border-radius: 23px;
+  width: 400px;
+  height: 20px;
+  opacity: 0.7;
+}
+
+.skcardTextDateContainer{
+  flex: 1;
+  margin-left: 3%;
+  animation: skeleton-loading 1s linear infinite alternate;
+  border-radius: 20px;
+  width: 100px;
+  height: 23px;
+  opacity: 0.7;
+}
+
+.skcardTextInfoContainer1{
+  margin-top: 1%;
+  animation: skeleton-loading 1s linear infinite alternate;
+  border-radius: 20px;
+  width: 81%;
+  height: 20px;
+  opacity: 0.7;
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-color: hsl(200, 20%, 70%);
+  }
+  100% {
+    background-color: hsl(200, 20%, 95%);
+  }
 }
 /* ................... */
 /* Used For Platform technology */
@@ -518,7 +703,158 @@ font-size: 3vh;
   list-style: decimal;
 }
 /* ..................... */
+/* Used for Patent Info */
+.PatentInfoh2{
+  text-align: center;
+  font-weight: bold;
+  color: #282c34;
+  display: block;
+  font-size: 2vw;
+  text-decoration: underline;
+  cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+  .PatentInfoh2 {
+    font-size: 2vh;
+  }
+}
+.Tabs{
+  width: 55vw;
+  margin-top: 1%;
+  margin-left: 22%;
+  color: #4e545f !important;
+  border-radius: 10px;
+}
+@media screen and (max-width: 600px) {
+  .Tabs {
+    width: 45vh;
+    margin-left: 3%;
+  }
+}
+/* ....................... */
+/* Used for Therapuetic Area */
+.TAContainer{
+  margin-top: 1%;
+}
 
+.PITBh4{
+  text-align: center;
+  font-weight: bold;
+  color: #282c34;
+  display: block;
+  font-size: 1vw;
+}
+@media screen and (max-width: 600px){
+  .PITBh4{
+font-size: 2vh;
+   }  
+}
+
+.PITBpContainer{
+  display: flex;
+  flex-direction: column;
+  width: 55vw;
+  align-items: center;
+  margin-left: 22%;
+}
+@media screen and (max-width: 600px){
+  .PITBpContainer{
+    width:40vh;
+    margin-left: 8%; 
+ }  
+}
+
+.PITBp{
+  text-align: justify;
+  text-transform: capitalize;
+  margin-top: 1%;
+}
+/* ...................... */
+/* Used For Formula */
+.FormulaImgContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-color: #4e545f;
+  box-shadow: 0 0.5rem 3rem 0.5rem rgba(0,0,0,.175);
+  width: 100vh;
+  margin-left: 25%;
+  border-radius: 15px;
+  margin-top: 1% !important;
+}
+@media screen and (max-width: 600px){
+  .FormulaImgContainer{
+    width:45vh;
+    margin-left: 3% !important;
+ }  
+}
+@media screen and (max-width: 600px){
+  .PatentImages{
+    width:40vh;
+ }  
+}
+
+.PatentImages{
+  margin: 1%;
+}
+
+/* ................ */
+/* Used for Claims */
+.ClaimsContainer{
+  display: flex;
+  flex-direction: column;
+  border-color: #4e545f;
+  /* align-items: center; */
+  box-shadow: 0 0.5rem 3rem 0.5rem rgba(0,0,0,.175);
+  width: 50%;
+  margin-left: 25%;
+  border-radius: 15px;
+}
+.ClaimstextCon{
+  font-size: 0.8vw;
+  text-align: left;
+  margin-left: 2%;
+}
+.ClaimsImgCon{
+  align-items: center;
+}
+span.ClaimsText{
+  text-align: left;
+}
+@media screen and (max-width: 600px){
+  .ClaimsContainer{
+    width:45vh;
+    margin-left: 3% !important;
+ }  
+}
+@media screen and (max-width: 600px){
+  .ClaimsText{
+    font-size: 1vh;
+ }  
+}
+/* ............... */
+/* Used for Compounds */
+.CompoundsImgContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 0.5rem 3rem 0.5rem rgba(0,0,0,.175);
+  width: 100vh;
+  margin-left: 25%;
+  border-radius: 15px;
+  margin-top: 1% !important;
+}
+
+@media screen and (max-width: 600px) {
+  .CompoundsImgContainer {
+  width: 45vh !important;
+  margin-left: 3% !important;
+
+  }
+}
+
+/* .................... */
+/* Used for Intellectual Property */
 .IPContainer{
   display: flex;
   flex-direction: column;
@@ -527,13 +863,10 @@ font-size: 3vh;
 
 .IPContainerh3{
   text-align: center;
-  width: 100%;
-  justify-content: center;
   margin-top: 2%;
 }
 
 .IPh3{
-  text-align: center;
   font-weight: bolder;
   color: #282c34;
   display: block;
@@ -567,11 +900,9 @@ font-size: 3vh;
 }
 
 .IPp{
-  text-align: center;
-  padding: 10;
+  padding: 10px;
   font-size: 1vw;
 }
-
 
 .IPContainerh4{
   text-align: center;
@@ -580,25 +911,37 @@ font-size: 3vh;
   margin-top: 2%;
 }
 
-
-/* .IPTable{
-  width: 75%;
-  margin-left: 12%;
-} */
-/* @media screen and (max-width: 600px) {
-  h3.PLh3 {
-    font-size: 3vh;
-  }
-} */
 @media screen and (max-width: 600px) {
   .IPAB {
-    /* font-size: 3vh; */
     margin-left: -18% !important;
+    width: 52vh !important;
   }
 }
+@media screen and (max-width: 600px) {
+  .accordion-button {
+    margin-left: -18% !important;
+    width: 52vh !important;
+  }
+}
+.accordion-button{
+  color:#4e545f  !important;
+  background-color: #282c34 !important;
+  margin-top: 4% !important;
+  border-radius: 7px !important;
+}
 
+.accordion-button:hover{
+  color: whitesmoke !important;
+}
 
-
+.accordion-item{
+  width: 65%;
+  margin-left: 17.7%;
+  margin-top: 2%;
+  border: none !important;
+}
+/* .......................... */
+/* Used for Pipeline */
 .PLContainer{
   display: flex;
   flex-direction: column;
@@ -636,47 +979,95 @@ font-size: 3vh;
 .PLpContainerp{
   text-align: center;
   margin-top: 2%;
-  justify-content: center;
   width: 70%;
   margin-left: 16%;
 }
 
 .PLp{
-  text-align: center;
-  padding: 10;
+  padding: 10px;
   font-size: 1vw;
 }
-
-.accordion-button{
-  color:#4e545f  !important;
-  background-color: #282c34 !important;
-  margin-top: 4%;
-  border-radius: 7px !important;
+.Ptable{
+  width: 65% !important;
+  margin-left: 18% !important;
+  margin-top: 2% !important;
+  box-shadow:0 1rem 3rem rgba(0,0,0,.175)!important;
 }
-
-.accordion-button:hover{
-  color: whitesmoke !important;
+@media screen and (max-width: 600px) {
+  .Ptable {
+    margin-left: 3% !important;
+    width: 53vh !important;
+  }
 }
-
-.accordion-item{
-  width: 65%;
-  margin-left: 17.7%;
-  margin-top: 2%;
-  border: none !important;
-}
-
 tbody,thead{
   text-align: center;
 }
-
-.form-control[name^=me]{
-  height: 100px ;
+/* ............................ */
+/* Used for Contact Us */
+.CUFormContainer{
+  width: 25%;
+  margin-top: 1%;
+  margin-left: 37%;
 }
 
-.card-text{
+.CUUL{
+  list-style-type: none;
+  margin-left: -5%;
+}
+
+.CULI{
+  font-weight: bold;
+  color: #282c34;
+}
+
+.CUCT{
+  font-weight: bolder;
+  color: #282c34;
   text-align: center !important;
 }
 
+.CUSpan{
+  font-weight: 500;
+  color: #282c34;
+}
+
+.CUh2{
+  text-align: center;
+  font-weight: bolder;
+  color: #282c34;
+  margin-top: 2%;
+}
+
+.CUh3{
+  text-align: center;
+  font-weight: bold;
+  color: #282c34;
+  margin-top: 5%;
+}
+@media screen and (max-width: 600px) {
+  .CUCard {
+    margin-left: 8% !important;
+  }
+}
+.form-control[name^=me]{
+  height: 100px;
+}
+@media screen and (max-width: 600px) {
+  .CUFormContainer{
+    width: 40vh;
+    margin-top: 1%;
+    margin-left: 4%;
+  }
+}
+/* ........................... */
+
+/* For All Cards */
+.card-text{
+  text-align: center !important;
+}
+/* ............ */
+
+/* Used for Leadership */
 .card-img-top[name^=Li]{
   width:40% !important;
   height: 50% !important;
@@ -702,21 +1093,31 @@ tbody,thead{
   border: none !important;
   box-shadow:0 1rem 3rem rgba(0,0,0,.175)!important; 
 }
+.card-footer {
+  text-align: center;
+  font-size: 1vw !important;
+}
 
+@media screen and (max-width: 600px) {
+  .Leadership.card {
+    margin-left: -4% !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .card-footer {
+    text-align: justify;
+  }
+}
 .card-text[name^=Ft]{
   font-size: 10px !important;
 }
 
-.Lfm{
-  font-size: 14px !important;
+small.Lfm{
+  font-size: 2vh !important;
 }
 
 .card-group{
   padding: 10px !important;
-}
-
-.card-title.h5{
-  text-align: center !important ;
 }
 
 .PDCardTitle.card-title.h5{
@@ -736,58 +1137,7 @@ tbody,thead{
   }
 }
 
-.Ptable{
-  width: 65% !important;
-  margin-left: 18% !important;
-  margin-top: 2% !important;
-  box-shadow:0 1rem 3rem rgba(0,0,0,.175)!important;
-}
-@media screen and (max-width: 600px) {
-  .Ptable {
-    margin-left: 1% !important;
-  }
-}
 
-
-.CUFormContainer{
-  width: 25%;
-  margin-top: 1%;
-  margin-left: 37%;
-}
-
-
-.CUUL{
-  list-style-type: none;
-}
-
-.CULI{
-  font-weight: bold;
-  color: #282c34;
-}
-
-.CUCT{
-  font-weight: bolder;
-  color: #282c34;
-}
-
-.CUSpan{
-  font-weight: 500;
-  color: #282c34;
-}
-
-.CUh2{
-  text-align: center;
-  font-weight: bolder;
-  color: #282c34;
-  margin-top: 2%;
-}
-
-.CUh3{
-  text-align: center;
-  font-weight: bold;
-  color: #282c34;
-  margin-top: 1%;
-}
 
 
 
@@ -952,30 +1302,7 @@ width: 100% !important;
   color: white;
 }
 
-.PDcontainer{
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
 
-.PDcontainerh2{
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  text-align: center;
-  width: 100%;
-  justify-content: center;
-  margin-top: 2%;
-}
-
-.PDh2{
-  text-align: center;
-  font-weight: bolder;
-  color: #282c34;
-  display: block;
-  margin-bottom: 20px;
-  font-size: 2vw;
-}
 
 
 .PDcontainerh3{
@@ -998,36 +1325,7 @@ width: 100% !important;
 }
 
 
-.PatentHomeContainer{
-  position: relative;
-  width: 100%;
-  max-width: 100%;
-}
 
-.PatentHomeImg{
-  width: 100%;
-  height: 500px;
-  margin-top: 2%;
-  box-shadow: 0 0.5rem 3rem 0.5rem rgba(0,0,0,.175) !important;
-}
-@media screen and (max-width: 600px) {
-  img.PatentHomeImg {
- height: 250px;  }
-}
-
-.PatentHomep{
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  color: white;
-  font-size: 3vw;
-  border: none;
-  text-align: center;
-  width: 100%;
-  font-weight: 600;
-}
 
 
 @media screen and (max-width: 600px) {
@@ -1070,167 +1368,26 @@ background-size: cover;
   background-color: #2072c1 !important;
 }
 
-.CardContainer{
-  height: 20% !important;
-  /* margin-top: 1%; */
-  margin-left: 10%;
-}
 
-/* .PatentsCard{
-margin-left: -1% !important;
-} */
 
-.PatentsCard:hover{
-  background-color: #f2f2f2 !important;
-  height: 30% !important;
-}
-
-/* .CardContainer:hover{
-  cursor: pointer;
-  background-color: #4e545f;
-} */
-
-.cardTextContainer{
-  display: flex !important;
-  flex-direction: row !important;
-}
-
-.cardTextInfoContainer{
-  flex: 5 !important;
-  text-align: left !important; 
-}
-
-.CardTextInfo{
-  text-align: left !important;
-}
-
-.cardTextDateContainer{
-  flex: 1 !important;
-  margin-left: 3%;
-}
-
-.CardTextSpan{
-  font-weight: 500;
-}
-
-.Wno{
-  font-weight: bolder;
-  text-align: left !important;
-  text-decoration-line: underline;
-  text-decoration-color: #282c34;
-  cursor: pointer;
-  display: inline !important;
-  margin-right: 85% !important;
-  color: #282c34;
-}
-
-.Wno:hover{
-  color: #4e545f;
-  text-decoration: underline solid;
-  text-decoration-color: #282c34;
-}
-
-.TAContainer{
-  margin-top: 1%;
-}
-
-.PatentsImgContainer{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  /* border: 0.1rem solid; */
-  border-color: #4e545f;
-  box-shadow: 0 0.5rem 3rem 0.5rem rgba(0,0,0,.175);
-  width: 50%;
-  margin-left: 25%;
-  border-radius: 15px;
-  margin-top: 1% !important;
-}
-
+/* 
 .PatentFormulas{
   margin-top: 1%;
-}
+} */
 
-.PITBh3{
-  text-align: center;
-  font-weight: bold;
-  color: #282c34;
-  display: block;
-  /* margin-bottom: 20px; */
-  font-size: 1.5vw;
-}
 
-.PITBh4{
-  text-align: center;
-  font-weight: bold;
-  color: #282c34;
-  display: block;
-  /* margin-bottom: 20px; */
-  font-size: 1vw;
-  /* margin-top: 2%; */
-}
-
-.PITBpContainer{
-  display: flex;
-  flex-direction: column;
-  /* margin-top: 3%; */
-  width: 60%;
-  align-items: center;
-  margin-left: 21%;
-}
-
-.PITBp{
-  text-align: center;
-  justify-content: center;
-  width: 70%;
-  margin-top: 1%;
-}
 
 img{
   display: block;
 }
 
-.Tabs{
-  width: 50%;
-  margin-top: 1%;
-  margin-left: 25%;
-  color: #4e545f !important;
-  border-radius: 10px;
-}
 
-.PatentInfoh2{
-  text-align: center;
-  font-weight: bold;
-  color: #282c34;
-  display: block;
-  font-size: 2vw;
-  text-decoration: underline;
-  cursor: pointer;
-}
 
-.ClaimsContainer{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  /* border: 1px solid; */
-  border-color: #4e545f;
-  box-shadow: 0 0.5rem 3rem 0.5rem rgba(0,0,0,.175);
-  width: 50%;
-  margin-left: 25%;
-  border-radius: 15px;
-}
 
-.CompoundsImgContainer{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  /* border: 1px solid; */
-  border-color: #4e545f;
-  box-shadow: 0 0.5rem 3rem 0.5rem rgba(0,0,0,.175);
-  width: 50%;
-  margin-left: 25%;
-  border-radius: 15px;
-}
+
+
+
+
 
 
 .top-btn{
@@ -1257,19 +1414,7 @@ img{
   margin-right: 55% !important;
   }
 }
-@media screen and (max-width: 600px) {
-  .CompoundsImgContainer {
-  width: 25rem !important;
-  margin-left: 5% !important;
 
-  }
-}
-
-@media screen and (max-width: 600px ) {
-  .CompoundsImgContainer img{
-    width: 90%;
-  }
-}
 
 .top-btn:hover{
   cursor: pointer;
@@ -1279,69 +1424,7 @@ img{
 
 
 
-.PatentImages{
-  margin: 1%;
-}
 
-.patentClaimsp{
-  max-width: 90%;
-  margin-left: 2%;
-  font-size: 15px;
-  text-align: left;
-  justify-content: left;
-}
 
-.skPatentCard{
-  height: 20% !important;
-  margin-left: 12% !important;
-}
 
-.skwno{
-  text-align: left;
-  width: 18%;
-  margin-bottom: 20px;
-  height: 25px;
-  animation: skeleton-loading 1s linear infinite alternate;
-  border-radius: 20px;
-  opacity: 0.7;
-  margin-left: 2%;
-}
 
-.skcardTextInfoContainer{
-  flex: 5 !important;
-  text-align: left !important;
-  animation: skeleton-loading 1s linear infinite alternate;
-  border-radius: 23px;
-  width: 400px;
-  height: 20px;
-  opacity: 0.7;
-}
-
-.skcardTextDateContainer{
-  flex: 1;
-  margin-left: 3%;
-  animation: skeleton-loading 1s linear infinite alternate;
-  border-radius: 20px;
-  width: 100px;
-  height: 23px;
-  opacity: 0.7;
-
-}
-
-.skcardTextInfoContainer1{
-  margin-top: 1%;
-  animation: skeleton-loading 1s linear infinite alternate;
-  border-radius: 20px;
-  width: 81%;
-  height: 20px;
-  opacity: 0.7;
-}
-
-@keyframes skeleton-loading {
-  0% {
-    background-color: hsl(200, 20%, 70%);
-  }
-  100% {
-    background-color: hsl(200, 20%, 95%);
-  }
-}

@@ -5,16 +5,18 @@ function Claims({claim}){
     console.log("Array Length: ", ClaimArray.length);
     return(
         <div>
-            <h1 className="PITBh3">CLAIMS</h1>
+            <h1 className="PITBh4">CLAIMS</h1>
             <div className="ClaimsContainer">
             {
                     ClaimArray.length>1 ? ClaimArray.map((image) => {
                         return(
                           <div>
-                            <div className="patentClaimsp">
-                                <span className = "PatentClaimsText">{image}</span>
+                            <div className="ClaimstextCon">
+                                <span className = "ClaimsText">{image}</span>
                             </div>
-                            <img src={image} alt=""></img>
+                            <div className="ClaimsImgCon">
+                            <img className='PatentImages' src={image} alt=""></img>
+                            </div>
                           </div>
                         )
                     }) : <img width={500} height={450} src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.DataNotFound.png" alt="aws"></img>

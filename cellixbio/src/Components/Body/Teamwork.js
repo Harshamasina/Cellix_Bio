@@ -10,7 +10,7 @@ function Teamwork(){
                 <div className="TeamWorkImgdiv">
                   <img className="TeamWorkImg"
                    src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Team.png" alt="Teamwork"></img>
-                   <Button onClick={() => navigate('/Leadership')} variant="outline-info" className='PatentHomeButton'>Know More</Button>
+                   <Button onClick={() => navigate('/Leadership')} variant="outline-info" className='TeamworkButton'>Know More</Button>
                 </div>
             </div>
         </>

@@ -5,7 +5,7 @@ function Compounds({compound}){
 
     return(
         <div>
-            <h3 className="PITBh3">COMPOUNDS/METHODS</h3>
+            <h3 className="PITBh4">COMPOUNDS/METHODS</h3>
             <div className="CompoundsImgContainer">
                 {
                         CompoundArray.length>1 ? CompoundArray.map((image) => {

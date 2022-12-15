@@ -49,7 +49,7 @@ const PostData = async (e) => {
                         name= "name"
                         value={user.name}
                         onChange={handleInputs} 
-                        className='shadow-lg'
+                        className='shadow-lg CUForm'
                         type="text" placeholder="Enter your Name" />
                     </Form.Group>
 
@@ -59,7 +59,7 @@ const PostData = async (e) => {
                         name="email"
                         value={user.email}
                         onChange={handleInputs}
-                        className='shadow-lg'
+                        className='shadow-lg CUForm'
                         type="email" placeholder="Enter your email" />
                     </Form.Group>
 
@@ -69,7 +69,7 @@ const PostData = async (e) => {
                         name="phone" 
                         value={user.phone}
                         onChange={handleInputs} 
-                        className='shadow-lg'
+                        className='shadow-lg CUForm'
                         type="text" placeholder="Enter your Phone Number" />
                     </Form.Group>
 
@@ -79,7 +79,7 @@ const PostData = async (e) => {
                         name="subject" 
                         value={user.subject}
                         onChange={handleInputs} 
-                        className='shadow-lg'
+                        className='shadow-lg CUForm'
                         type="text" placeholder="Enter Subject"/>
                     </Form.Group>
                     
@@ -90,7 +90,7 @@ const PostData = async (e) => {
                         value={user.message}
                         onChange={handleInputs}
                         as="textarea" c
-                        lassName='shadow-lg'
+                        className='shadow-lg CUForm'
                         type="text" placeholder="Enter your Message" />
                     </Form.Group>
                 
@@ -98,7 +98,7 @@ const PostData = async (e) => {
                     onClick={PostData}
                     variant="outline-primary" 
                     type="submit" 
-                    className='mt-1 shadow-lg'>
+                    className='mt-1 shadow-lg CUForm'>
                         SEND MESSAGE
                     </Button>
                 </Form>
