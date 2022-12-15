@@ -2,13 +2,15 @@ import Card from 'react-bootstrap/Card';
 
 function PatentCardSkeleton(){
     return(
-        <div>
+        <div className='CardContainer'>
             <Card 
             style={{ width: '90rem' }}
             className = " shadow-lg skPatentCard"
             >
                 <Card.Body>
+                <Card.Title>
                         <div className='skwno'></div>
+                </Card.Title>
                     <div className='cardTextContainer'>
                         <div className='skcardTextInfoContainer'></div>
                         <div className='skcardTextDateContainer'></div>

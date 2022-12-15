@@ -3,7 +3,7 @@ import CardGroup from 'react-bootstrap/CardGroup';
 function Address(){
     return(
         <>
-            <CardGroup>
+            <CardGroup  className='CUCard'>
                 <Card>
                 <Card.Body>
                     <Card.Title className='CUCT'>Our Office Address:</Card.Title>
@@ -46,8 +46,8 @@ function Address(){
                     <Card.Text>
                     <ul className='CUUL'>
                         <li className='CUSpan'>Monday - Saturday</li>
-                        <li>9:30am to 6pm</li>
-                        <li>Sunday - Closed</li>
+                        <li className='CUSpan'>9:30am to 6pm</li>
+                        <li className='CUSpan'>Sunday - Closed</li>
                     </ul>
                     </Card.Text>
                 </Card.Body>
