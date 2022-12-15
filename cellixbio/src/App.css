@@ -914,13 +914,13 @@ span.ClaimsText{
 @media screen and (max-width: 600px) {
   .IPAB {
     margin-left: -18% !important;
-    width: 52vh !important;
+    width: 45vh !important;
   }
 }
 @media screen and (max-width: 600px) {
   .accordion-button {
     margin-left: -18% !important;
-    width: 52vh !important;
+    width: 45vh !important;
   }
 }
 .accordion-button{
