@@ -611,6 +611,58 @@ p.CardTextInfo{
   }
 }
 /* ................... */
+/* Used for Years */
+.yearcontainer{
+  margin-top: 5% !important;
+  align-content: space-around;
+  display: grid;
+  justify-content: space-between;
+}
+.col-md-2{
+  margin-right: 40px !important;
+  margin-bottom: 20px;
+}
+.yearbtn{
+  width:10vw !important;
+  height: 100px;
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175) !important;
+}
+
+@media screen and (max-width:600px) {
+ div.col-md-2{
+  width: 25vh !important;
+ } 
+}
+@media screen and (max-width:600px) {
+  Button.yearbtn{
+   width: 30vh !important;
+   margin-left: 4% !important;
+  } 
+ }
+.yearp{
+  margin-top: 7px !important;
+  font-size: 15px;
+  color:#f2f2f2;
+}
+.yearp:hover{
+text-decoration: underline;
+}
+
+.YearsButtonContainer{
+  margin-top: 1%;
+  margin-left: 30%;
+}
+
+.YearsLinks{
+  color: white;
+  display: block;
+}
+
+.YearsLinks:hover{
+  color: white;
+}
+
+/* ....................... */
 /* Used For Platform technology */
 .PT{
   display: flex;
@@ -1285,26 +1337,7 @@ width: 100% !important;
  }
 }
 
-.ButtonsContainer{
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
 
-.YearsButtonContainer{
-  margin-top: 1%;
-  margin-left: 30%;
-  margin-right: 30%;
-}
-
-.YearsLinks{
-  color: white;
-  display: block;
-}
-
-.YearsLinks:hover{
-  color: white;
-}
 
 
 
