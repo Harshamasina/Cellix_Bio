@@ -25,7 +25,7 @@ function PatentsDashboard(){
         };
         fetchData();
     }, []);
-    // console.log(patents);
+    console.log(patents.data);
     // console.log(patents.data.length);
 
     return(
