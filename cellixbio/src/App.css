@@ -1084,6 +1084,7 @@ tbody,thead{
   font-weight: bolder;
   color: #282c34;
   text-align: center !important;
+  margin-left: 33% !important;
 }
 
 .CUSpan{
