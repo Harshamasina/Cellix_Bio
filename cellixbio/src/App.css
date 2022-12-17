@@ -619,7 +619,7 @@ p.CardTextInfo{
   justify-content: space-between;
 }
 .col-md-2{
-  margin-right: 40px !important;
+  margin-right: 2vw !important;
   margin-bottom: 20px;
 }
 .yearbtn{
@@ -860,7 +860,7 @@ font-size: 2vh;
   display: flex;
   flex-direction: column;
   border-color: #4e545f;
-  /* align-items: center; */
+  margin-top: 1% !important;
   box-shadow: 0 0.5rem 3rem 0.5rem rgba(0,0,0,.175);
   width: 50%;
   margin-left: 25%;
@@ -887,6 +887,10 @@ span.ClaimsText{
   .ClaimsText{
     font-size: 1vh;
  }  
+}
+.claimsdatanotfound{
+  align-items: center;
+  margin-left: 10vw;
 }
 /* ............... */
 /* Used for Compounds */
@@ -1081,6 +1085,7 @@ tbody,thead{
   font-weight: bolder;
   color: #282c34;
   text-align: center !important;
+  margin-left: 33% !important;
 }
 
 .CUSpan{
