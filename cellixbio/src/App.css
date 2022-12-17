@@ -946,6 +946,7 @@ span.ClaimsText{
 
   }
 }
+
 .IPpContainerp{
   text-align: center;
   margin-top: 2%;
@@ -1338,10 +1339,6 @@ width: 100% !important;
 }
 
 
-
-
-
-
 .PDcontainerh3{
   display: flex;
   flex-direction: column;
@@ -1360,10 +1357,6 @@ width: 100% !important;
   margin-bottom: 20px;
   font-size: 1.5vw;
 }
-
-
-
-
 
 @media screen and (max-width: 600px) {
   img {
@@ -1417,15 +1410,6 @@ background-size: cover;
 img{
   display: block;
 }
-
-
-
-
-
-
-
-
-
 
 .top-btn{
   display: flex;
