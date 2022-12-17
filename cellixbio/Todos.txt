@@ -15,8 +15,8 @@ CHANGES REQUIRED:
 -> Add sort Asc or Desc in PatentsDashboard
 -> World Wide Patents should be Displayed (Optional)
 -> Build should be worked
--> Carousel Text should be responsive
+-> Carousel Text should be responsive (Done)
 -> Testing should be done
--> Deploy React App in AWS using EC2 in multiple instances
+-> Deploy React App in AWS using EC2 in multiple instances (Done Partially)
 
 
