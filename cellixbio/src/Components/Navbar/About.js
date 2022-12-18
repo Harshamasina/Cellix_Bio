@@ -21,7 +21,7 @@ function About(){
                     
                     <div className="AboutContainer">
                         <p className="Aboutp">
-                        We aspire to intensely contribute to the healthcare system, and improve the lives of patients around the world. Cellix Bio's therapeutic portfolio is focused on diverse therapeutic areas including neurology, dermatology, gastrointestinal, inflammation, metabolic & life style, oncology, ophthalmology and infectious diseases.
+                        We aspire to intensely contribute to the healthcare system, and improve the lives of patients and doctors around the world. Cellix Bio's therapeutic portfolio is focused on diverse therapeutic areas including neurology, dermatology, gastrointestinal, inflammation, metabolic & life style, oncology, ophthalmology and infectious diseases.
                         </p>
                     </div>
             </div>
