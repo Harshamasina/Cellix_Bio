@@ -15,7 +15,7 @@ function Claims({claim}){
                                 <span className = "ClaimsText">{image}</span>
                             </div>
                             <div className="ClaimsImgCon">
-                            <img className='PatentImages' src={image} alt=""></img>
+                                <img className='PatentImages' src={image} alt=""></img>
                             </div>
                           </div>
                         )
