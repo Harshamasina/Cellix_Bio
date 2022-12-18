@@ -8,7 +8,7 @@ function Compounds({compound}){
             <h3 className="PITBh4">COMPOUNDS/METHODS</h3>
             <div className="CompoundsImgContainer">
                 {
-                        CompoundArray.length>1 ? CompoundArray.map((image) => {
+                        CompoundArray.length>=1 ? CompoundArray.map((image) => {
                             return(
                             <img className='PatentImages' src={image} alt=""></img>
                             )
