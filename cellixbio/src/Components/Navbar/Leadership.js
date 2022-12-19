@@ -4,13 +4,13 @@ import CardGroup from 'react-bootstrap/CardGroup';
 function Leadership() {
   document.title = 'Leadership - Cellix Bio';
   return (
-      <CardGroup>
-        <h2 className='Lh2'>MANAGEMENT TEAM</h2>
-        <CardGroup>
+      <CardGroup className='LeadCard'>
+        {/* <h1 className='Lh2'>MANAGEMENT TEAM</h1> */}
+        
           <Card className='Leadership'>
             <Card.Img name="Limage" variant="top" src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Leadership.Mahesh.PNG" />
             <Card.Body>
-                <Card.Title>Mahesh Kandula,</Card.Title>
+                <Card.Title className='LCardTitle'>Mahesh Kandula</Card.Title>
                   <Card.Text>
                   Director Drug Design and Development, Innovation & IPFounder
                   </Card.Text>
@@ -139,7 +139,7 @@ function Leadership() {
             </Card> */}
             
           </CardGroup>
-      </CardGroup>
+      
   );
 }
 

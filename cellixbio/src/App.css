@@ -522,9 +522,9 @@ p.CardTextInfo{
 .CardTextSpan{
   font-weight: 500;
 }
-.card-title.h5{
+/* .card-title.h5{
   text-align: left !important;
-}
+} */
 
 .Wno{
   font-weight: bolder;
@@ -1082,6 +1082,7 @@ tbody,thead{
 .CUUL{
   list-style-type: none;
   margin-left: -5%;
+  text-align: center;
 }
 
 .CULI{
@@ -1093,12 +1094,15 @@ tbody,thead{
   font-weight: bolder;
   color: #282c34;
   text-align: center !important;
-  margin-left: 33% !important;
+  margin-bottom: 5% !important;
+  text-decoration: underline !important;
 }
 
 .CUSpan{
   font-weight: 500;
   color: #282c34;
+  text-align: center;
+  margin-top: 2%;
 }
 
 .CUh2{
@@ -1186,26 +1190,46 @@ small.Lfm{
   font-size: 2vh !important;
 }
 
-.card-group{
+.LeadCard{
   padding: 10px !important;
+  width: 45vw !important;
+  align-items: center;
+  margin-left: 28%; 
+  margin-top: 2%;
+}
+@media screen and (max-width: 600px) {
+  CardGroup .LeadCard{
+    padding: 10px !important;
+    width: 10vh !important;
+    /* align-items: center; */
+    margin-left: 2%; 
+  }
 }
 
-.PDCardTitle.card-title.h5{
+/* .PDCardTitle.card-title.h5{
   text-align: left !important;
+} */
+.LCardTitle.h5{
+  text-align: center !important;
+  font-weight: bolder;
 }
 
 .Lh2{
-  margin-left: 42%;
+  margin-left: 45%;
   margin-top: 3% !important;
   color: #282c34;
   text-align: center;
   font-weight: bold;
+  /* text-align: center; */
 }
-@media screen and (max-width: 600px) {
-  .Lh2 {
+/* @media screen and (max-width: 600px) {
+  h1.Lh2 {
     margin-left: 1% !important;
+    text-align: center;
+    width: 100% !important;
+    font-size: 25px;
   }
-}
+} */
 
 
 
