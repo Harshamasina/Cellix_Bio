@@ -15,6 +15,7 @@ function PatentInfo(){
     const [therapeuticArea, setTherapeuticArea] = useState("Therapeutic Area is Loading");
     const [diseases, setDiseases] = useState("Diseases are loading");
     const [claims, setClaims] = useState("Claims are Loading");
+    const [pubDate, setPubDate] = useState("Publication Date is Loading")
     document.title = `${wno} - Cellix Bio`;
 
     useEffect(() => {
@@ -27,13 +28,17 @@ function PatentInfo(){
             setTherapeuticArea(data.data[0].therapeutic_area);
             setDiseases(data.data[0].diseases);
             setClaims(data.data[0].claims);
+            setPubDate(data.data[0].publication_date);
         };
         fetchData();
     });
     
     return(
         <div>
-             <h2 className='PatentInfoh2'>{wno}</h2>
+             <div className='PatentInfoContainer'>
+                <h2 className='PatentInfoh2'>{wno}</h2>
+                <span className='PatentInfoh3'>Publication Date: {pubDate}</span>
+            </div>
             <Tabs
                 defaultActiveKey="Formulas"
                 id="uncontrolled-tab-example"
