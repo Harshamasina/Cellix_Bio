@@ -1188,24 +1188,44 @@ small.Lfm{
 
 .card-group{
   padding: 10px !important;
+  width: 45vw !important;
+  align-items: center;
+  margin-left: 28%; 
+  margin-top: 2%;
+}
+@media screen and (max-width: 600px) {
+  .card-group{
+    padding: 10px !important;
+    width: 10vh !important;
+    /* align-items: center; */
+    margin-left: 2%; 
+  }
 }
 
 .PDCardTitle.card-title.h5{
   text-align: left !important;
 }
+.LCardTitle.h5{
+  text-align: center !important;
+  font-weight: bolder;
+}
 
 .Lh2{
-  margin-left: 42%;
+  margin-left: 45%;
   margin-top: 3% !important;
   color: #282c34;
   text-align: center;
   font-weight: bold;
+  /* text-align: center; */
 }
-@media screen and (max-width: 600px) {
-  .Lh2 {
+/* @media screen and (max-width: 600px) {
+  h1.Lh2 {
     margin-left: 1% !important;
+    text-align: center;
+    width: 100% !important;
+    font-size: 25px;
   }
-}
+} */
 
 
 
