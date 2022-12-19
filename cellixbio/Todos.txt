@@ -12,11 +12,12 @@ CHANGES REQUIRED:
 -> Implement React Memoization
 -> Make it SEO 
 -> Lazy Loading
+-> Make website responsive in every device (Tablets)
 -> Add sort Asc or Desc in PatentsDashboard
 -> World Wide Patents should be Displayed (Optional)
--> Build should be worked
+-> Build should be worked (Done)
 -> Carousel Text should be responsive (Done)
--> Testing should be done
--> Deploy React App in AWS using EC2 in multiple instances (Done Partially)
+-> Require Testing
+-> Deploy React App in AWS using EC2 in multiple instances (Done in Default VPC)
 
 
