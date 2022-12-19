@@ -4,7 +4,7 @@ import CardGroup from 'react-bootstrap/CardGroup';
 function Leadership() {
   document.title = 'Leadership - Cellix Bio';
   return (
-      <CardGroup>
+      <CardGroup className='LeadCard'>
         {/* <h1 className='Lh2'>MANAGEMENT TEAM</h1> */}
         
           <Card className='Leadership'>

@@ -27,14 +27,14 @@ function Address(){
                     <Card.Title className='CUCT'>Contact No:</Card.Title>
                     <Card.Text>
                     <ul className='CUUL'>
-                        <li><span className='CUSpan'>Phone: </span>(+91) 40 23545946</li>
-                        <li><span className='CUSpan'>Fax: </span>(+91) 40 23545949</li>
-                        <li><span className='CUSpan'>Email: </span>info@cellixbio.com</li>
+                        <li className='CUSpan'>Phone: (+91) 40 23545946</li>
+                        <li className='CUSpan'>Fax: (+91) 40 23545949</li>
+                        <li className='CUSpan'>Email: info@cellixbio.com</li>
                     
                     </ul>
                     <ul className='CUUL'>
-                        <li><span className='CUSpan'>phone: </span>+1 862 485 7489</li>
-                        <li><span className='CUSpan'>Email: </span>info@cellixbio.com</li>
+                        <li className='CUSpan'>phone: +1 862 485 7489</li>
+                        <li className='CUSpan'>Email: info@cellixbio.com</li>
                     </ul>
                     </Card.Text>
                 </Card.Body>
@@ -45,8 +45,12 @@ function Address(){
                     <Card.Title className='CUCT'>Business Hours:</Card.Title>
                     <Card.Text>
                     <ul className='CUUL'>
-                        <li className='CUSpan'>Monday - Saturday</li>
-                        <li className='CUSpan'>9:30am to 6pm</li>
+                        <li className='CUSpan'>Monday: 9:30AM to 6:00PM</li>
+                        <li className='CUSpan'>Tuesday: 9:30AM to 6:00PM</li>
+                        <li className='CUSpan'>Wednesday: 9:30AM to 6:00PM</li>
+                        <li className='CUSpan'>Thursday: 9:30AM to 6:00PM</li>
+                        <li className='CUSpan'>Friday: 9:30AM to 6:00PM</li>
+                        <li className='CUSpan'>Saturday: 9:30AM to 6:00PM</li>
                         <li className='CUSpan'>Sunday - Closed</li>
                     </ul>
                     </Card.Text>
