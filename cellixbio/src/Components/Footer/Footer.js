@@ -19,38 +19,38 @@ const Footer = () => {
                                   {/* <span className="ml-3 h5 font-weight-bold">Cellix Bio</span> */}
                                 </a>
                             <div className='FooterContainerp'>
-                                <span className="my-3">
+                                <p className="my-3">
                                   We are focusing to develop best-in-class therapies for the treatment of Neurological, Inflammatory and Metabolic Diseases.
-                                </span>
+                                </p>
                             </div>
                             <div className='FooterContainerp'>
                                   <ul className='FooterUL'>
-                                    <li><span className='Fdetails'>GLOBAL PATENTS: </span><b className='Fdetailspan'>640</b></li>
-                                    <li><span className='Fdetails'>ISSUED U.S PATENTS: </span><b className='Fdetailspan'>112</b></li>
-                                    <li><span className='Fdetails'>PENDING U.S. PATENETS: </span><b className='Fdetailspan'>28</b></li>
+                                    <li><p className='Fdetails'>GLOBAL PATENTS: </p><b className='Fdetail'>432</b></li>
+                                    <li><p className='Fdetails'>ISSUED U.S PATENTS: </p><b className='Fdetail'>63</b></li>
+                                    <li><p className='Fdetails'>PENDING U.S. PATENETS: </p><b className='Fdetail'>28</b></li>
                                   </ul>
                             </div>
                         </CDBBox>
                         <CDBBox display="flex" style={{ width: '50%' }} justifyContent="between">
                               <CDBBox>
                                 <p className="h5 mb-4" style={{ fontWeight: '500', color:'whitesmoke' }}>
-                                  PRODUCT
+                                  Product
                                 </p>
                                 <CDBBox flex="column" display="flex" style={{ cursor: 'pointer', padding: '0'}}>
-                                        <NavLink className={"Navlink"} to="/Home">HOME</NavLink>
-                                        <NavLink className={"Navlink"} to="/Patents">PATENTS</NavLink>
-                                        <NavLink className={"Navlink"} to="/IP">INTELLECTUAL PROPERTY</NavLink>
-                                        <NavLink className={"Navlink"} to="/Pipeline">PIPELINE</NavLink>
+                                        <NavLink className={"Navlink"} to="/Home">Home</NavLink>
+                                        <NavLink className={"Navlink"} to="/Patents">Patents</NavLink>
+                                        <NavLink className={"Navlink"} to="/IP">Intellectual Property</NavLink>
+                                        <NavLink className={"Navlink"} to="/Pipeline">Pipeline</NavLink>
                                 </CDBBox>
                               </CDBBox>
                               <CDBBox>
                                 <p className="h5 mb-4" style={{ fontWeight: '500',color:'whitesmoke' }}>
-                                  ABOUT US
+                                  About Us
                                 </p>
                                 <CDBBox display="flex" flex="column" style={{ cursor: 'pointer', padding: '0' }}>
-                                        <NavLink className={"Navlink"} to="/About">ABOUT</NavLink>
-                                        <NavLink className={"Navlink"} to="/Leadership">LEADERSHIP</NavLink>
-                                        <NavLink className={"Navlink"} to="/Contact">CONTACT US</NavLink>
+                                        {/* <NavLink className={"Navlink"} to="/About">About</NavLink> */}
+                                        <NavLink className={"Navlink"} to="/Leadership">Leadership</NavLink>
+                                        <NavLink className={"Navlink"} to="/Contact">Contact Us</NavLink>
                                 </CDBBox>
                               </CDBBox>
                         </CDBBox>
