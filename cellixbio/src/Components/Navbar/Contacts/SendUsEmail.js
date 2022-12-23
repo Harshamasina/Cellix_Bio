@@ -40,7 +40,7 @@ const PostData = async (e) => {
 }
     return(
         <>
-            <h3 className='CUh3'>Send Us an Email</h3>
+            {/* <h3 className='CUh3'>Send Us an Email</h3> */}
                 <div className='CUFormContainer'>
                     <Form method="POST">
                         <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -49,7 +49,7 @@ const PostData = async (e) => {
                             name= "name"
                             value={user.name}
                             onChange={handleInputs} 
-                            className='shadow-lg CUForm'
+                            className='shadow-lg'
                             type="text" placeholder="Enter your Name" />
                         </Form.Group>
 
@@ -59,7 +59,7 @@ const PostData = async (e) => {
                             name="email"
                             value={user.email}
                             onChange={handleInputs}
-                            className='shadow-lg CUForm'
+                            className='shadow-lg'
                             type="email" placeholder="Enter your email" />
                         </Form.Group>
 
@@ -69,7 +69,7 @@ const PostData = async (e) => {
                             name="phone" 
                             value={user.phone}
                             onChange={handleInputs} 
-                            className='shadow-lg CUForm'
+                            className='shadow-lg'
                             type="text" placeholder="Enter your Phone Number" />
                         </Form.Group>
 
@@ -79,7 +79,7 @@ const PostData = async (e) => {
                             name="subject" 
                             value={user.subject}
                             onChange={handleInputs} 
-                            className='shadow-lg CUForm'
+                            className='shadow-lg'
                             type="text" placeholder="Enter Subject"/>
                         </Form.Group>
                         
@@ -90,7 +90,7 @@ const PostData = async (e) => {
                             value={user.message}
                             onChange={handleInputs}
                             as="textarea" c
-                            className='shadow-lg CUForm'
+                            className='shadow-lg'
                             type="text" placeholder="Enter your Message" />
                         </Form.Group>
                     
