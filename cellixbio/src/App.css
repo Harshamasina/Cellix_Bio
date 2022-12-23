@@ -199,6 +199,7 @@ body{
     opacity: 1;
   }
 }
+
 .home_div{
   background: black;
   overflow: hidden !important; 
@@ -217,16 +218,15 @@ body{
   text-align: left !important;
 
 }
+
 @media screen and (max-width: 600px) {
   p.Carouselp {
     font-size: 1em;
     text-align: center;
     justify-content: center;
  }
- /* .home_img{
-  height: 400px !important;
- } */
 }
+
 @media screen and (max-width: 600px) {
   .Carouselh1 {
     font-size: 2em;
@@ -530,6 +530,8 @@ padding: 0px !important;
 }
 /* .................. */
 /* Used for Patents Page */
+
+
 .Desc{
   display: flex;
   flex-direction: column;
@@ -541,17 +543,81 @@ padding: 0px !important;
   width: 100%;
   justify-content: center;
   margin-top: 1%;
+  display: table;
+  font-size: 2vw;
+  font-weight: bolder;
+}
+@media screen and (max-width:600px) {
+  .DescContainerh3{
+    margin-top: 5%;
+  }
 }
 
-.Desch3{
-  text-align: center;
-  font-weight: bolder;
+.DescContainerh3 span{
+  /* text-align: center; */
+  /* font-weight: bolder;
   color: #282c34;
   margin-top: 1%;
   display: block;
   margin-bottom: 20px;
-  font-size: 2vw;
+  font-size: 2vw; */
+  display: table-cell; 
+  position: relative;
+  animation: header 3s 1;
 }
+@keyframes header {
+  0%{
+   color: white;
+   margin-bottom: -45px;
+  }
+  30%{
+   letter-spacing: 25%;
+   margin-bottom: -45px;
+  }
+  85%{
+   letter-spacing: 8px;
+   margin-bottom: -45px;
+  }
+}
+@media screen and (max-width:600px) {
+  .DescContainerh3 span:first-child, .DescContainerh3 span:last-child{
+    top:14px !important;
+  }
+}
+
+.DescContainerh3 span:first-child, .DescContainerh3 span:last-child {
+  width: 50%;
+  top: 28px;							/* adjust vertical align */
+  -moz-background-size: 100% 2px; 	/* line width */
+  background-size: 100% 2px; 			/* line width */
+  background-position: 0 0, 0 100%;
+  background-repeat: no-repeat;
+}
+.DescContainerh3 span:first-child {				/* color changes in here */
+            background-image: -webkit-gradient(linear, 0 0, 0 100%, from(transparent), to(#15B39D));
+            background-image: -webkit-linear-gradient(180deg, transparent, #15B39D);
+            background-image: -moz-linear-gradient(180deg, transparent, #15B39D);
+            background-image: -o-linear-gradient(180deg, transparent, #15B39D);
+            background-image: linear-gradient(90deg, transparent, #15B39D);
+        }
+         /* span:first-child {				
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(transparent), to(#15B39D));
+  background-image: -webkit-linear-gradient(180deg, transparent, #15B39D);
+  background-image: -moz-linear-gradient(180deg, transparent, #15B39D);
+  background-image: -o-linear-gradient(180deg, transparent, #15B39D);
+  background-image: linear-gradient(90deg, transparent, #15B39D);
+} */
+.DescContainerh3 span:nth-child(2) {
+  color:#0E6E59; padding: 0px 5px; width: auto; white-space: nowrap;
+}
+.DescContainerh3 span:last-child {				/* color changes in here */
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#15B39D), to(transparent));
+  background-image: -webkit-linear-gradient(180deg, #15B39D, transparent);
+  background-image: -moz-linear-gradient(180deg, #15B39D, transparent);
+  background-image: -o-linear-gradient(180deg, #15B39D, transparent);
+  background-image: linear-gradient(90deg, #15B39D, transparent);
+}
+
 .DescpContainerp{
   text-align: center;
   justify-content: center;
@@ -575,8 +641,36 @@ text-align: justify;
 font-size: 3vh; 
   }
 }
-.Carouselul{
+.PCarouselp{
+  font-size: 1.5vw;
+  margin-top: 5% !important;
+  opacity: 1;
+}
+
+@media screen and (max-width: 600px) {
+  p.PCarouselp {
+    font-size: 1.2vh;
+    text-align: center;
+    justify-content: center;
+ }
+ .carouseltextcont{
+  margin-bottom: 50%;
+ }
+ .liCarouselp{
+  font-size: 1vh;
+ }
+
+}
+
+.PCarouselh1{
+  margin-top: 1vw !important;
+  font-size: 4vw;
+  color: white;
+}
+
+.PCarouselul{
   list-style-type: none;
+  margin-top: 5% !important;
 }
 
 .SearchPatentsh2Container{
@@ -610,23 +704,28 @@ font-size: 3vh;
 @media screen and (max-width: 600px) {
   .SearchPatentContainer {
     margin-left: -10vh;
+    height: 10vh;
   }
 }
 @media screen and (max-width: 600px) {
   input.SearchBarPatents {
-    width: 40vh !important;
+    width: 37vh !important;
+    height: 5vh !important;
     font-size: 1.5vh;
   }
 }
 @media screen and (max-width: 600px) {
   .SearchBarButton {
-    margin-left: 48vh !important;
+    /* margin-left: 45vh !important; */
+    left: 29%;
+    top: -20%;
     background-color: transparent !important;
   }
 }
 
 .SearchBarPatents{
   width: 43vw;
+  height: 3vw !important;
   border: 1px solid;
   padding: 10px 25px;
   font-size: 20px;
@@ -645,7 +744,7 @@ font-size: 3vh;
   background-color: white;
   margin-bottom: 1%;
   margin-left: 68vw;
-  margin-top: 2.3vw;
+  margin-top: 2.7vw;
   position: relative;
 }
 .PatentsCard{
@@ -794,6 +893,31 @@ p.CardTextInfo{
 }
 /* ................... */
 /* Used for Years */
+
+.YearsContainerh2{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.Yearsh2{
+  text-align: center;
+  font-weight: bolder;
+  color: #282c34;
+  display: block;
+  margin-bottom: 20px;
+  font-size: 2vw;
+}
+@media screen and (max-width: 600px) {
+  h2.Yearsh2 {
+    font-size: 2vh; 
+ }
+}
+
 .yearcontainer{
   margin-top: 5% !important;
   align-content: space-around;

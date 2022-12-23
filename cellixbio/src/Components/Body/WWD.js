@@ -1,9 +1,11 @@
 function WWD(){
     return(
      <>
-             <div className="WWD">
+             <div className="c">
                  <div className="WWDContainerh34">
-                     <h3 className="WWDh3">WHAT WE DO</h3>
+                 <div className='DescContainerh3'><span></span>
+                <span className="WWDh3">WHAT WE DO</span><span></span>
+                </div>
                      <h4 className="WWDh4">REVEALING THE POWER OF AI AND HUMANOID INVENTIVENESS TO DISCOVER NEW THERAPEUTICS</h4>
                  </div>
                  
