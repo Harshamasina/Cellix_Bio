@@ -11,45 +11,45 @@ body{
   height: 5rem;
   display: inline;
 }
-.mainNavbar{
-	height: 200px;
-	width: 100%;
-	background-color: #15B39D !important;
-	color:#4e545f ;
-	display: flex;
-	justify-content: space-around;
-	min-height: 8vh;
-	/* position: absolute; */
-	align-items: center;
-	/* position: sticky; */
-  }
 
 /* Used for Footer */
 .p-2:hover{
   background-color: #15B39D !important;
 }
+
 .Navlink{
   color: #4e545f !important;
   font-size: 1.2rem !important;
 }
+
 .Navlink:hover{
   color: #15B39D !important;
   font-size: 15px;
-  text-decoration: #15B39D underline 2px !important;
+  text-decoration: #15B39D !important;
 }
+
 .Fdetails{
   display: inline;
+  /* color: #fff; */
+}
+
+.Fdetailspan{
+  display: inline;
+  color: #15B39D;
+  font-weight: 500;
 }
 
 .FooterInfoContainer{
   display: flex;
   flex-direction: row;
 }
+
 .FooterUL{
   list-style: none;
   display: flex;
   flex-direction: column;
 }
+
 .FooterIcons{
   display: flex;
   flex-direction: row;
@@ -57,10 +57,12 @@ body{
   /* max-width: 100%;
   min-width: 100%; */
 }
+
 .FooterContainerp{
   display: flex;
   font-size: 1vw;
 }
+
 .Fimg{
   width:150px;
   height: 80px;
@@ -1801,6 +1803,7 @@ width: 100% !important;
   width: 100%;
   justify-content: center;
   margin-top: 2%;
+  margin-bottom: -3%;
 }
 
 .Yearsh2{
