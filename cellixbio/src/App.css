@@ -328,11 +328,12 @@ body{
   font-size: 1.5vw;
   color: #282c34;
   display: block;
+  margin-top: 2%;
   }
   
 @media screen and (max-width: 600px) {
-  h3.WWDh3 {
-    font-size: 2.5vh;
+  .WWDh3 {
+    font-size: 2.3em;
   }
 }
 @media screen and (max-width: 600px) {
@@ -1044,6 +1045,7 @@ text-decoration: underline;
   color: #282c34;
   display: block;
   font-size: 1.5vw;
+  margin-top: 1%;
 }
 
 .PTh4{
@@ -1076,22 +1078,38 @@ text-decoration: underline;
 /* ..................... */
 /* Used for Patent Info */
 
-.PatentInfoContainer{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+.heading-primary {
+  color:#0E6E59;
+  text-transform: uppercase;
 }
-
 .PatentInfoh2{
   text-align: center;
   font-weight: bold;
-  color: #282c34;
+  color: #0E6E59;
   display: block;
   font-size: 2vw;
   text-decoration: underline;
   cursor: pointer;
+    letter-spacing: 2px;
+   /*  Animation decalaration   */
+    animation-name: moveInleft;
+    animation-duration: 3s;
 }
+@keyframes moveInleft {
+  0% {
+      opacity: 0;
+      transform: translateX(-100px);
+  }
+
+  80% {
+      transform: translateX(10px);
+  }
+  100% {
+      opacity: 1;
+      transform: translate(0);
+  }
+}
+
 @media screen and (max-width: 600px) {
   .PatentInfoh2 {
     font-size: 2vh;
@@ -1100,6 +1118,7 @@ text-decoration: underline;
 
 .PatentInfoh3{
   text-align: center;
+  align-items: center;
   color: #282c34;
   font-weight: bold;
   font-size: medium;
@@ -1387,12 +1406,13 @@ span.ClaimsText{
 }
 @media screen and (max-width: 600px) {
   .Ptable {
-    margin-left: 3% !important;
-    width: 53vh !important;
+    margin-left: 2% !important;
+    width: 43vh !important;
   }
 }
 tbody,thead{
   text-align: center;
+  font-size: 1rem;
 }
 /* ............................ */
 /* Used for Contact Us */

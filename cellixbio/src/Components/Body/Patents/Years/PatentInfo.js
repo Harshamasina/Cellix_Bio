@@ -35,10 +35,8 @@ function PatentInfo(){
     
     return(
         <div>
-             <div className='PatentInfoContainer'>
-                <h2 className='PatentInfoh2'>{wno}</h2>
-                <span className='PatentInfoh3'>Publication Date: {pubDate}</span>
-            </div>
+                <h2 className='heading-primary'><p className='PatentInfoh2'>{wno}</p></h2>
+                <p className='PatentInfoh3'>Publication Date: {pubDate}</p>
             <Tabs
                 defaultActiveKey="Formulas"
                 id="uncontrolled-tab-example"

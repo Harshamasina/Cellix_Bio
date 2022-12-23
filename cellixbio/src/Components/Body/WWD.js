@@ -1,7 +1,7 @@
 function WWD(){
     return(
      <>
-             <div className="c">
+            <div className="c">
                  <div className="WWDContainerh34">
                  <div className='DescContainerh3'><span></span>
                 <span className="WWDh3">WHAT WE DO</span><span></span>

@@ -3,8 +3,10 @@ function PT(){
     return(
         <>
             <div className="PT">
-                <div className="PTContainerh2h3h4">
-                   <h2 className="PTh2">PLATFORM TECHNOLOGY</h2>
+            <div className="PTContainerh2h3h4">
+                <div className='DescContainerh3'><span></span>
+                <span className="WWDh3">PLATFORM TECHNOLOGIES</span><span></span>
+                </div>
                 </div>
 
                 <div className="PTh2">
