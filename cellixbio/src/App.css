@@ -1940,6 +1940,10 @@ img{
   width: 25rem !important;
   margin-left: -10.3% !important;
   }
+  .top-btn{
+    right: 0.2em;
+    width: 2rem;
+  }
 }
 @media screen and (max-width: 600px) {
   .Wno {
