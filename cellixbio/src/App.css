@@ -1325,7 +1325,8 @@ span.ClaimsText{
 }
 
 .accordion-button:hover{
-  color: whitesmoke !important;
+  color: #0E6E59 !important;
+  background-color: #15B39D !important;
 }
 
 .accordion-item{

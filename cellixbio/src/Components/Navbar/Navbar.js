@@ -19,7 +19,7 @@ function NavBar() {
             <>
                 <div>
                 
-                    <Navbar collapseOnSelect bg="dark" variant={"dark"} expand="lg" sticky='top'><Logo></Logo>
+                    <Navbar collapseOnSelect bg="dark" variant={"dark"} expand="lg" sticky='top' className='color-nav'><Logo></Logo>
                         <Navbar.Brand href="#">
                            
                         </Navbar.Brand>
@@ -42,7 +42,7 @@ function NavBar() {
                             </Nav>
                         </Navbar.Collapse>
                     </Navbar>
-                    <div className='color-nav'></div>
+                    <div className='navspan'></div>
                 </div>
                 
                 <div>
