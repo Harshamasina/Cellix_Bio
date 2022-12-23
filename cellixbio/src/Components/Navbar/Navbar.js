@@ -42,7 +42,7 @@ function NavBar() {
                             </Nav>
                         </Navbar.Collapse>
                     </Navbar>
-                    <div className='navspan'></div>
+                    <div className='color-nav'></div>
                 </div>
                 
                 <div>

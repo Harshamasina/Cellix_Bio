@@ -41,68 +41,68 @@ const PostData = async (e) => {
     return(
         <>
             <h3 className='CUh3'>Send Us an Email</h3>
-             <div className='CUFormContainer'>
-                <Form method="POST">
-                    <Form.Group className="mb-3" controlId="formBasicEmail">
-                        <Form.Label>NAME<sup>*</sup></Form.Label>
-                        <Form.Control 
-                        name= "name"
-                        value={user.name}
-                        onChange={handleInputs} 
-                        className='shadow-lg CUForm'
-                        type="text" placeholder="Enter your Name" />
-                    </Form.Group>
+                <div className='CUFormContainer'>
+                    <Form method="POST">
+                        <Form.Group className="mb-3" controlId="formBasicEmail">
+                            <Form.Label>NAME<sup>*</sup></Form.Label>
+                            <Form.Control 
+                            name= "name"
+                            value={user.name}
+                            onChange={handleInputs} 
+                            className='shadow-lg CUForm'
+                            type="text" placeholder="Enter your Name" />
+                        </Form.Group>
 
-                    <Form.Group className="mb-3" controlId="formBasicEmail">
-                        <Form.Label>EMAIL<sup>*</sup></Form.Label>
-                        <Form.Control 
-                        name="email"
-                        value={user.email}
-                        onChange={handleInputs}
-                        className='shadow-lg CUForm'
-                        type="email" placeholder="Enter your email" />
-                    </Form.Group>
+                        <Form.Group className="mb-3" controlId="formBasicEmail">
+                            <Form.Label>EMAIL<sup>*</sup></Form.Label>
+                            <Form.Control 
+                            name="email"
+                            value={user.email}
+                            onChange={handleInputs}
+                            className='shadow-lg CUForm'
+                            type="email" placeholder="Enter your email" />
+                        </Form.Group>
 
-                    <Form.Group className="mb-3" controlId="formBasicEmail">
-                        <Form.Label>PHONE</Form.Label>
-                        <Form.Control
-                        name="phone" 
-                        value={user.phone}
-                        onChange={handleInputs} 
-                        className='shadow-lg CUForm'
-                        type="text" placeholder="Enter your Phone Number" />
-                    </Form.Group>
+                        <Form.Group className="mb-3" controlId="formBasicEmail">
+                            <Form.Label>PHONE</Form.Label>
+                            <Form.Control
+                            name="phone" 
+                            value={user.phone}
+                            onChange={handleInputs} 
+                            className='shadow-lg CUForm'
+                            type="text" placeholder="Enter your Phone Number" />
+                        </Form.Group>
 
-                    <Form.Group className="mb-3" controlId="formBasicPassword">
-                        <Form.Label>SUBJECT<sup>*</sup></Form.Label>
-                        <Form.Control 
-                        name="subject" 
-                        value={user.subject}
-                        onChange={handleInputs} 
-                        className='shadow-lg CUForm'
-                        type="text" placeholder="Enter Subject"/>
-                    </Form.Group>
+                        <Form.Group className="mb-3" controlId="formBasicPassword">
+                            <Form.Label>SUBJECT<sup>*</sup></Form.Label>
+                            <Form.Control 
+                            name="subject" 
+                            value={user.subject}
+                            onChange={handleInputs} 
+                            className='shadow-lg CUForm'
+                            type="text" placeholder="Enter Subject"/>
+                        </Form.Group>
+                        
+                        <Form.Group className="mb-3" controlId="formBasicPassword">
+                            <Form.Label>MESSAGE<sup>*</sup></Form.Label>
+                            <Form.Control
+                            name="message" 
+                            value={user.message}
+                            onChange={handleInputs}
+                            as="textarea" c
+                            className='shadow-lg CUForm'
+                            type="text" placeholder="Enter your Message" />
+                        </Form.Group>
                     
-                    <Form.Group className="mb-3" controlId="formBasicPassword">
-                        <Form.Label>MESSAGE<sup>*</sup></Form.Label>
-                        <Form.Control
-                        name="message" 
-                        value={user.message}
-                        onChange={handleInputs}
-                        as="textarea" c
-                        className='shadow-lg CUForm'
-                        type="text" placeholder="Enter your Message" />
-                    </Form.Group>
-                
-                    <Button
-                    onClick={PostData}
-                    variant="outline-dark" 
-                    type="submit" 
-                    className='mt-1 shadow-lg CUForm'>
-                        SEND MESSAGE
-                    </Button>
-                </Form>
-          </div>
+                        <Button
+                        onClick={PostData}
+                        variant="outline-dark" 
+                        type="submit" 
+                        className='mt-1 shadow-lg CUForm'>
+                            SEND MESSAGE
+                        </Button>
+                    </Form>
+            </div>
         </>
     );
 }
