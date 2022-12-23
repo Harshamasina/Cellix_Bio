@@ -34,23 +34,23 @@ const Footer = () => {
                         <CDBBox display="flex" style={{ width: '50%' }} justifyContent="between">
                               <CDBBox>
                                 <p className="h5 mb-4" style={{ fontWeight: '500', color:'whitesmoke' }}>
-                                  Product
+                                  PRODUCT
                                 </p>
                                 <CDBBox flex="column" display="flex" style={{ cursor: 'pointer', padding: '0'}}>
-                                        <NavLink className={"Navlink"} to="/Home">Home</NavLink>
-                                        <NavLink className={"Navlink"} to="/Patents">Patents</NavLink>
-                                        <NavLink className={"Navlink"} to="/IP">Intellectual Property</NavLink>
-                                        <NavLink className={"Navlink"} to="/Pipeline">Pipeline</NavLink>
+                                        <NavLink className={"Navlink"} to="/Home">HOME</NavLink>
+                                        <NavLink className={"Navlink"} to="/Patents">PATENTS</NavLink>
+                                        <NavLink className={"Navlink"} to="/IP">INTELLECTUAL PROPERTY</NavLink>
+                                        <NavLink className={"Navlink"} to="/Pipeline">PIPELINE</NavLink>
                                 </CDBBox>
                               </CDBBox>
                               <CDBBox>
                                 <p className="h5 mb-4" style={{ fontWeight: '500',color:'whitesmoke' }}>
-                                  About Us
+                                  ABOUT US
                                 </p>
                                 <CDBBox display="flex" flex="column" style={{ cursor: 'pointer', padding: '0' }}>
-                                        <NavLink className={"Navlink"} to="/About">About</NavLink>
-                                        <NavLink className={"Navlink"} to="/Leadership">Leadership</NavLink>
-                                        <NavLink className={"Navlink"} to="/Contact">Contact Us</NavLink>
+                                        <NavLink className={"Navlink"} to="/About">ABOUT</NavLink>
+                                        <NavLink className={"Navlink"} to="/Leadership">LEADERSHIP</NavLink>
+                                        <NavLink className={"Navlink"} to="/Contact">CONTACT US</NavLink>
                                 </CDBBox>
                               </CDBBox>
                         </CDBBox>

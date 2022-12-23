@@ -25,7 +25,7 @@ body{
 .Navlink:hover{
   color: #15B39D !important;
   font-size: 15px;
-  text-decoration: #15B39D underline 2px !important;
+  text-decoration: #15B39D !important;
 }
 
 .Fdetails{
@@ -35,7 +35,8 @@ body{
 
 .Fdetailspan{
   display: inline;
-  color: #fff;
+  color: #15B39D;
+  font-weight: 500;
 }
 
 .FooterInfoContainer{
@@ -397,6 +398,7 @@ padding: 0px !important;
   }
 }
 /* ...................... */
+
 /* Used for Team Work */
 .TeamWorkh3{
   text-align: center;
