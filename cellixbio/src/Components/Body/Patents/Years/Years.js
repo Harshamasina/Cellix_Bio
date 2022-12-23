@@ -6,7 +6,7 @@ import Col from 'react-bootstrap/Col';
 function Years(){
     return(
         <>
-                   <div className="YearsContainerh2">
+            <div className="YearsContainerh2">
                 <h2 className="Yearsh2">Cellix Bio's Patents Yearwise (2009 to 2022)</h2>
             </div>
             
