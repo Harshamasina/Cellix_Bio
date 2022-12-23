@@ -1136,6 +1136,11 @@ text-decoration: underline;
   color: #4e545f !important;
   border-radius: 10px;
 }
+.nav-link{
+  color: #15B39D !important;
+  font-size: 1em !important;
+  font-weight: 500 !important;
+}
 @media screen and (max-width: 600px) {
   .Tabs {
     width: 45vh;
