@@ -841,6 +841,14 @@ p.CardTextInfo{
   flex-direction: column;
   flex-wrap: wrap;
 }
+.PDhead{
+  font-size: 2rem;
+  }
+@media screen and (max-width:600px) {
+  .PDhead{
+    font-size: 2.2em;
+  }
+}
 
 .PDcontainerh2{
   text-align: center;
