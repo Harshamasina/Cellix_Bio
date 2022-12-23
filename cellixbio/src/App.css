@@ -724,7 +724,7 @@ font-size: 3vh;
 @media screen and (max-width: 600px) {
   .SearchBarButton {
     /* margin-left: 45vh !important; */
-    left: 29%;
+    left: 26%;
     top: -20%;
     background-color: transparent !important;
   }
