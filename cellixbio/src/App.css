@@ -13,22 +13,42 @@ body{
 }
 
 /* Used for Footer */
+.p-2:hover{
+  background-color: #15B39D !important;
+}
+
 .Navlink{
   color: #4e545f !important;
+  font-size: 1.2rem !important;
 }
+
 .Navlink:hover{
-  color: aliceblue !important;
+  color: #15B39D !important;
   font-size: 15px;
+  text-decoration: #15B39D underline 2px !important;
 }
+
+.Fdetails{
+  display: inline;
+  /* color: #fff; */
+}
+
+.Fdetailspan{
+  display: inline;
+  color: #fff;
+}
+
 .FooterInfoContainer{
   display: flex;
   flex-direction: row;
 }
+
 .FooterUL{
   list-style: none;
   display: flex;
   flex-direction: column;
 }
+
 .FooterIcons{
   display: flex;
   flex-direction: row;
@@ -36,14 +56,17 @@ body{
   /* max-width: 100%;
   min-width: 100%; */
 }
+
 .FooterContainerp{
   display: flex;
   font-size: 1vw;
 }
+
 .Fimg{
   width:150px;
   height: 80px;
 }
+
 .shadow{
   background-color: #282c34 !important;
   margin-top: 8% !important;
@@ -58,12 +81,12 @@ body{
   }
 }
 @media screen and (max-width: 600px) {
-  span.Fdetails {
+  p.Fdetails {
     font-size: 2vh;
   }
 }
 @media screen and (max-width: 600px) {
-  b.Fdetails {
+  b.Fdetail {
     font-size: 2vh;
   }
 }
@@ -73,7 +96,7 @@ body{
   }
 }
 @media screen and (max-width: 600px) {
-  span.my-3 {
+  p.my-3 {
     font-size: 2vh;
   }
 }

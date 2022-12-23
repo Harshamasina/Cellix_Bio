@@ -1,4 +1,4 @@
-import Teamwork from '../Body/Teamwork';
+// import Teamwork from '../Body/Teamwork';
 import WWD from '../Body/WWD';
 import { Link } from 'react-router-dom';
 function Home(){
@@ -30,7 +30,7 @@ function Home(){
                     <Link className='homeBtn' to="/Patents">Get Started</Link>
              </div>
             <WWD></WWD>
-            <Teamwork></Teamwork>
+            {/* <Teamwork></Teamwork> */}
         </>
     )
 }
