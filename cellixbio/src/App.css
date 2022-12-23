@@ -83,7 +83,7 @@ body{
 @media screen and (max-width:600px) {
   .shadow{
     height: 70vh !important;
-    position: fixed;
+    /* position: fixed; */
     z-index: -1;
   }
 }
@@ -1540,6 +1540,8 @@ tbody,thead{
     height: 60vh !important;
     display: block !important;
     box-shadow: none !important;
+    margin-top: 20% !important;
+    margin-bottom: 45% !important;
   }
   .LeaderContainer1{
     width: 100% !important;
