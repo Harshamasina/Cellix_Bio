@@ -1900,18 +1900,18 @@ background-size: cover;
   opacity: 1;
   font-size: 1.5vw !important;
   left:43%;
-  margin-top: 32.5%;
-  border-radius: 50px !important;
+  margin-top: 5%;
   border: none;
   height: 70px;
   text-align: center;
   width: 15%;
-  background-color: #609FE2 !important;
+  background-color: #15B39D !important;
   color: whitesmoke !important;
+  border: none !important;
 }
 
 .Errorbutton:hover{
-  background-color: #2072c1 !important;
+  background-color: #0E6E59 !important;
 }
 
 
