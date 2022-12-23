@@ -2,7 +2,7 @@ import { Navbar, Nav } from 'react-bootstrap';
 import { Link, Routes, Route } from "react-router-dom";
 import Home from "./Home";
 import PT from "./PT";
-import About from "./About";
+// import About from "./About";
 import IP from "./IP";
 import Pipeline from "./Pipeline";
 import Leadership from "./Leadership";
@@ -31,7 +31,7 @@ function NavBar() {
                                 responsive-navbar-nav
                             >
                                 <Nav.Link className='navbar_link' as={Link} to="/Home" eventKey="1">Home</Nav.Link>
-                                <Nav.Link className='navbar_link' as={Link} to="/About" eventKey="2">About</Nav.Link>
+                                {/* <Nav.Link className='navbar_link' as={Link} to="/About" eventKey="2">About</Nav.Link> */}
                                 <Nav.Link className='navbar_link' as={Link} to="/Patents" eventKey="3">Patents</Nav.Link>
                                 <Nav.Link className='navbar_link' as={Link} to="/PT" eventKey="4">Platform Technologies</Nav.Link>
                                 <Nav.Link className='navbar_link' as={Link} to="/IP" eventKey="5">Intellectual Property</Nav.Link>
@@ -48,7 +48,7 @@ function NavBar() {
                 <div>
                     <Routes>
                         <Route path='/Home' element = {<Home></Home>}></Route>
-                        <Route path='/About' element = {<About></About>}></Route>
+                        {/* <Route path='/About' element = {<About></About>}></Route> */}
                         <Route path='/Patents' element = {<Patents></Patents>}></Route>
                         <Route path='/PT' element = {<PT></PT>}></Route>
                         <Route path='/IP' element = {<IP></IP>}></Route>
