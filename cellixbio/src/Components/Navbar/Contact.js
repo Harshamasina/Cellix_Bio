@@ -6,7 +6,7 @@ function Contact() {
   return (
     <>
       <div className='DescContainerh3'><span></span>
-                <span className="WWDh3">GET IN TOUCH</span><span></span>
+                <span className="WWDh3">Send your Queries</span><span></span>
                 </div>
       {/* <Address></Address> */}
       <SendUsEmail></SendUsEmail>
