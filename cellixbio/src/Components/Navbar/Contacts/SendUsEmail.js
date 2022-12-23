@@ -96,7 +96,7 @@ const PostData = async (e) => {
                 
                     <Button
                     onClick={PostData}
-                    variant="outline-primary" 
+                    variant="outline-dark" 
                     type="submit" 
                     className='mt-1 shadow-lg CUForm'>
                         SEND MESSAGE

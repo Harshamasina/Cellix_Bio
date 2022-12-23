@@ -12,6 +12,7 @@ import Patents from "../Body/Patents/Patents";
 import PatentsDashboard from '../Body/Patents/Years/PatentsDashboard';
 import Error404 from '../Body/Error404';
 import PatentInfo from '../Body/Patents/Years/PatentInfo';
+import './Navbar.css';
 
 function NavBar() {
         return (
@@ -29,19 +30,21 @@ function NavBar() {
                                 style={{ maxHeight: '100%',fontSize:'17px'}}
                                 responsive-navbar-nav
                             >
-                                <Nav.Link as={Link} to="/Home" eventKey="1">Home</Nav.Link>
-                                <Nav.Link as={Link} to="/About" eventKey="2">About</Nav.Link>
-                                <Nav.Link as={Link} to="/Patents" eventKey="3">Patents</Nav.Link>
-                                <Nav.Link as={Link} to="/PT" eventKey="4">Platform Technologies</Nav.Link>
-                                <Nav.Link as={Link} to="/IP" eventKey="5">Intellectual Property</Nav.Link>
-                                <Nav.Link as={Link} to="/Pipeline" eventKey="6">Pipeline</Nav.Link>
-                                <Nav.Link as={Link} to="/Leadership" eventKey="7">Leadership</Nav.Link>
-                                <Nav.Link as={Link} to="/Contact" eventKey="8">Contact</Nav.Link>
+                                <Nav.Link className='navbar_link' as={Link} to="/Home" eventKey="1">Home</Nav.Link>
+                                <Nav.Link className='navbar_link' as={Link} to="/About" eventKey="2">About</Nav.Link>
+                                <Nav.Link className='navbar_link' as={Link} to="/Patents" eventKey="3">Patents</Nav.Link>
+                                <Nav.Link className='navbar_link' as={Link} to="/PT" eventKey="4">Platform Technologies</Nav.Link>
+                                <Nav.Link className='navbar_link' as={Link} to="/IP" eventKey="5">Intellectual Property</Nav.Link>
+                                <Nav.Link className='navbar_link' as={Link} to="/Pipeline" eventKey="6">Pipeline</Nav.Link>
+                                <Nav.Link className='navbar_link' as={Link} to="/Leadership" eventKey="7">Leadership</Nav.Link>
+                                <Nav.Link className='navbar_link' as={Link} to="/Contact" eventKey="8">Contact</Nav.Link>
 
                             </Nav>
                         </Navbar.Collapse>
                     </Navbar>
+                    <div className='navspan'></div>
                 </div>
+                
                 <div>
                     <Routes>
                         <Route path='/Home' element = {<Home></Home>}></Route>
