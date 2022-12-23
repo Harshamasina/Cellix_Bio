@@ -40,7 +40,7 @@ function Desc(){
                         <Carousel.Item className='home_div'>
                             <img height={500}
                             className="d-block w-100"
-                            src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Pattern.PNG"
+                            src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Bacteria.jpg"
                             alt="Third slide"
                             />
                             <Carousel.Caption>
