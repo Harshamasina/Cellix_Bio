@@ -1026,10 +1026,10 @@ text-decoration: underline;
   color: #282c34;
   display: block;
   font-size: 2vw;
-  animation: header 3s 1;
+  /* animation: header 3s 1; */
 }
 
-@keyframes header {
+/* @keyframes header {
   0%{
    color: white;
    margin-bottom: 20px;
@@ -1042,7 +1042,7 @@ text-decoration: underline;
    letter-spacing: 8px;
    margin-bottom: 20px;
   }
-}
+} */
 
 .PTh3{
   text-align: center;
