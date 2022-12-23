@@ -820,8 +820,8 @@ p.CardTextInfo{
 }
 
 .Wno:hover{
-  color: #4e545f;
-  font-size: 1.07vw;
+  color: #15B39D;
+  font-size: 1.3rem;
   text-decoration: underline solid !important;
 }
 @media screen and (max-width:600px) {
