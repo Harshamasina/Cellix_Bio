@@ -1,7 +1,7 @@
 function Compounds({compound}){
     console.log(compound);
     const CompoundArray = compound.split("\n");
-    console.log(CompoundArray);
+    // console.log(CompoundArray);
 
     return(
         <div>

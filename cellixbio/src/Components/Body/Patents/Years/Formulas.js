@@ -1,8 +1,8 @@
 function Formulas({formula}){
     console.log(formula);
     const FormulaArray = formula.split("\n");
-    console.log(FormulaArray);
-    console.log("Array Length: ", FormulaArray.length);
+    // console.log(FormulaArray);
+    // console.log("Array Length: ", FormulaArray.length);
 
     return(
         <div>

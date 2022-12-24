@@ -17,7 +17,7 @@ function SearchPatents(){
             console.log("No Patent Found");
         }
     }
-    console.log(searchPatent);
+    // console.log(searchPatent);
 
     return(
         <div>

@@ -1,5 +1,5 @@
 function Claims({claim}){
-    console.log(claim);
+    // console.log(claim);
     const ClaimArray = claim.split("\n");
     console.log(ClaimArray);
     console.log("Array Length: ", ClaimArray.length);

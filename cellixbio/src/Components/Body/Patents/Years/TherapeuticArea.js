@@ -1,6 +1,6 @@
 function TherapeuticArea(props){
-    console.log(props.therapeuticArea);
-    console.log(props.diseases);
+    // console.log(props.therapeuticArea);
+    // console.log(props.diseases);
 
     return(
         <div>
