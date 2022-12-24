@@ -92,21 +92,35 @@ body{
     font-size: 2vh;
   }
 }
+@media screen and (max-width:768px) and (min-width:601px) {
+  p.Fdetails {
+    font-size: 2vh;
+  } 
+  b.Fdetail {
+    font-size: 2vh;
+  }
+  small.ml-2 {
+    font-size: 0.8vh;
+  }
+  p.my-3 {
+    font-size: 2vh;
+  }
+}
 @media screen and (max-width: 600px) {
   b.Fdetail {
     font-size: 2vh;
   }
+  p.my-3 {
+    font-size: 2vh;
+  }
 }
+
 @media screen and (max-width: 600px) {
   small.ml-2 {
     font-size: 0.8vh;
   }
 }
-@media screen and (max-width: 600px) {
-  p.my-3 {
-    font-size: 2vh;
-  }
-}
+
 /* .............. */
 
 /* Used for Carousel for Home Page */
@@ -166,6 +180,12 @@ body{
     height: 88vh;
   }
 }
+@media screen and (max-width:768px) and (min-width:601px){
+  .home-text{
+    margin-bottom: 25%;
+  }
+}
+
 
 .home-text > * {
   animation: 18s autoplay infinite linear;
@@ -344,10 +364,20 @@ body{
     font-size: 2.3em;
   }
 }
+@media screen and (max-width:768px) and (min-width:601px) {
+  .WWDh3{
+    font-size: 2.3em;
+  }
+}
 @media screen and (max-width: 600px) {
   h4.WWDh4 {
     font-size: 2vh;
   }
+}
+@media screen and (max-width:768px) and (min-width:601px) {
+  h4.WWDh4 {
+    font-size: 1.5vh;
+  } 
 }
 @media screen and (max-width: 600px) {
   p.WWDP {
@@ -355,6 +385,12 @@ body{
     text-align: justify;
   }
 }
+@media screen and (max-width:768px) and (min-width:601px) {
+  p.WWDP {
+    font-size: 1.8vh;
+  } 
+}
+
 /* .................... */
 /* Used for Patent Home */
 .PatentHomeContainer{
@@ -648,6 +684,46 @@ text-align: justify;
 font-size: 3vh; 
   }
 }
+@media screen and (max-width:768px) and (min-width:601px) {
+  .Desch3 {
+    font-size: 3vh; 
+  }
+  .Descp {
+    font-size: 2vh; 
+    text-align: justify;
+  }
+  p.PCarouselp {
+    font-size: 1.8vh;
+    text-align: center;
+    justify-content: center;
+ }
+ .carouseltextcont{
+  margin-bottom: 25% !important;
+ }
+ .liCarouselp{
+  font-size: 1vh;
+ }
+ .PCarouselh1{
+  margin-top: 1vw !important;
+  font-size: 4vh !important;
+  color: white;
+}
+ .SearchPatentsh2 {
+  font-size: 1.8vh !important; 
+    }
+    input.SearchBarPatents {
+      width: 37vh !important;
+      height: 5vh !important;
+      font-size: 1.5vh;
+    }
+    .SearchBarButton {
+      /* margin-left: 45vh !important; */
+      left: 5%;
+      top: 10%;
+      background-color: transparent !important;
+    }
+  
+}
 .PCarouselp{
   font-size: 1.5vw;
   margin-top: 5% !important;
@@ -893,6 +969,11 @@ p.CardTextInfo{
     font-size: 1.5vh;
   }
 }
+@media screen and (max-width:768px) and (min-width:601px) {
+  .PDh2   {
+    font-size: 1.5vh;
+  }
+}
 
 .skcardTextInfoContainer{
   flex: 5 !important;
@@ -954,6 +1035,19 @@ p.CardTextInfo{
 @media screen and (max-width: 600px) {
   h2.Yearsh2 {
     font-size: 2vh; 
+ }
+}
+@media screen and (max-width:768px) and (min-width:601px) {
+  h2.Yearsh2 {
+    font-size: 2vh; 
+ }
+ div.col-md-2{
+  width: 12vh !important;
+ } 
+ Button.yearbtn{
+  width: 12vh !important;
+  margin-left: -2.5vh !important;
+  font-size: 3vh !important;
  }
 }
 
@@ -1029,6 +1123,24 @@ text-decoration: underline;
 @media screen and (max-width: 600px) {
   h2.PTh2 {
     font-size: 3vh;
+  }
+}
+@media screen and (max-width:768px) and (min-width:601px) {
+  h2.PTh2 {
+    font-size: 3vh;
+  }
+  h3.PTh3 {
+    font-size: 2vh;
+  }
+  h4.PTh3 {
+    font-size: 1.5vh;
+  }
+  p.PTp {
+    font-size: 2vh;
+    text-align: justify;
+  }
+  ul.PTUL {
+    font-size: 2vh;
   }
 }
 @media screen and (max-width: 600px) {
@@ -1155,6 +1267,26 @@ text-decoration: underline;
     font-size: 2vh;
   }
 }
+@media screen and (max-width:768px) and (min-width:601px) {
+  .PatentInfoh2 {
+    font-size: 3vh;
+  }
+  .Tabs {
+    width: 50vh !important;
+    margin-left: 17% !important;
+    font-size: 2vh !important;
+  }
+  .PatentInfoh3{
+    font-size: 2vh !important;
+  }
+  .PITBh4{
+    font-size: 2vh !important;
+       } 
+       .PITBp{
+        font-size: 2vh !important;
+
+      }
+}
 
 .PatentInfoh3{
   text-align: center;
@@ -1239,6 +1371,12 @@ font-size: 2vh;
     margin-left: 3% !important;
  }  
 }
+@media screen and (max-width:768px) and (min-width:601px) {
+  .FormulaImgContainer{
+    width:55vh;
+    margin-left: 13% !important;
+ } 
+}
 @media screen and (max-width: 600px){
   .PatentImages{
     width:40vh;
@@ -1283,6 +1421,15 @@ span.ClaimsText{
     font-size: 1vh;
  }  
 }
+@media screen and (max-width:768px) and (min-width:601px) {
+  .ClaimsContainer{
+    width:55vh;
+    margin-left: 13% !important;
+ }
+ .ClaimsText{
+  font-size: 1.5vh;
+} 
+}
 .claimsdatanotfound{
   align-items: center;
   margin-left: 10vw;
@@ -1307,6 +1454,13 @@ span.ClaimsText{
 
   }
 }
+@media screen and (max-width:768px) and (min-width:601px) {
+  .CompoundsImgContainer {
+    width: 55vh !important;
+    margin-left: 13% !important;
+  
+    }
+}
 
 /* .................... */
 /* Used for Intellectual Property */
@@ -1328,11 +1482,25 @@ span.ClaimsText{
   margin-bottom: 20px;
   font-size: 2vw;
 }
+@media screen and (max-width:768px) and (min-width:601px) {
+  h3.IPh3 {
+    font-size: 3vh !important;
+  } 
+  h4.IPh3 {
+    font-size: 2vh;
+  }
+  p.IPp {
+    font-size: 2vh;
+    text-align: justify;
+
+  }
+}
 @media screen and (max-width: 600px) {
   h3.IPh3 {
     font-size: 3vh;
   }
 }
+
 @media screen and (max-width: 600px) {
   h4.IPh3 {
     font-size: 2vh;
@@ -1366,7 +1534,16 @@ span.ClaimsText{
   justify-content: center;
   margin-top: 2%;
 }
-
+@media screen and (max-width:768px) and (min-width:601px) {
+  .IPAB {
+    margin-left: -15% !important;
+    width: 60vh !important;
+  }
+  .accordion-button {
+    margin-left: -15% !important;
+    width: 60vh !important;
+  }
+}
 @media screen and (max-width: 600px) {
   .IPAB {
     margin-left: -18% !important;
@@ -1483,6 +1660,27 @@ tbody,thead{
     font-size: 1em !important;
     /* margin-top: 5% !important; */
     margin-bottom:25% !important;
+  }
+}
+@media screen and (max-width:768px) and (min-width:601px) {
+  .CUForm{
+    width: 40vh !important;
+    height: 5vh !important;
+    font-size: 1em !important;
+    margin-bottom:25% !important;
+  }
+  .CUFormContainer{
+    width: 40vh;
+    margin-top: 5% !important;
+    margin-left: 22% !important;
+    margin-bottom: 15%;
+  }
+  .form-control{
+    width:40vh !important;
+    height: 5vh !important;
+  }
+  .form-control[name^=me]{
+    height: 10vh !important;
   }
 }
 .CUForm:hover{
@@ -1610,6 +1808,59 @@ tbody,thead{
   .LeaderMsg{
     font-size: 1em !important;
     width: 33vh !important;
+  }
+}
+@media screen and (max-width:768px) and (min-width:601px) {
+  .LeaderImgContainer{
+    width: 20vh !important;
+    height: 30vh !important;
+    /* position: relative; */
+    text-align: center;
+    /* color: white; */
+  }
+  .LeaderContainer{
+    width: 70vh !important;
+    height: 30vh !important;
+    margin-left: 3% !important;
+  }
+  .LeaderContainer1{
+    width: 20vh !important;
+    position: relative;
+  }
+  .LeaderTitleContainer{
+    /* left: 8vh !important; */
+    top: 22vh !important;
+    width: 23vh !important;
+    height: 7.8vh !important;
+    border-radius: 0 !important;
+  }
+  h1.LeaderTitle{
+    font-size: 1.5em !important;
+    margin-bottom: -2% !important;
+  }
+  .Leadertext{
+    font-size: 0.7em !important;
+    display: inline;
+  }
+  div.LeaderContainer2{
+    width: 40vh !important;
+    margin-left: 16% !important;
+        /* border: red 2px solid; */
+
+  }
+  .LeaderSubTitleContainer{
+    margin-left: 2% !important;
+    width:40vw;
+    /* border: red 2px solid; */
+  }
+  .LeaderMsg{
+    font-size: 1.5vh !important;
+    margin-left: 5% !important;
+    text-align: center;
+    /* border: red 2px solid; */
+  }
+  .LeaderHR{
+    margin-left: 5% !important;
   }
 }
 
