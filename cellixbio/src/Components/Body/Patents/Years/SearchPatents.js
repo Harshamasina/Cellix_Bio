@@ -29,7 +29,9 @@ function SearchPatents(){
                    <input onChange={searchHandle} className="SearchBarPatents" type="search" placeholder="ENTER WIPO NUMBER OR THERAPEUTIC AREA"></input>
                    <button className="SearchBarButton"><TfiSearch /></button>
                 </div>
-                <p className="searchPatentsp">Patents Found: <span className="searchPatentspan">{searchPatent && searchPatent.length}</span></p> 
+                <div className="PatentsFoundContainer">
+                    <p className="searchPatentsp">Patents Found : <span className="searchPatentspan">{searchPatent && searchPatent.length}</span></p> 
+                </div>
                 {     
                         searchPatent && searchPatent.length === 0 ? 
                         <img className="searchPatentImg" src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Patent+Data+Not+Found.PNG" alt="not Found"></img> : 

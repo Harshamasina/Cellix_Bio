@@ -255,7 +255,7 @@ body{
   font-weight: bold;
   border: rgb(21,177,156) 1px solid;
   text-decoration: none;
-  width: 200px;
+  width: 400px;
   padding: 20px;
   text-align: center;
   color: #fff;
@@ -670,9 +670,10 @@ font-size: 3vh;
 }
 
 .PCarouselh1{
-  margin-top: 1vw !important;
+  /* margin-top: 1vw !important; */
   font-size: 4vw;
   color: white;
+  margin-bottom: 12%;
 }
 
 .PCarouselul{
@@ -755,21 +756,23 @@ font-size: 3vh;
   position: relative;
 }
 
+.PatentsFoundContainer{
+  display: flex;
+  flex-direction: row;
+  margin-left: 46%;
+}
+
 .searchPatentsp{
   /* display: flex; */
   color: #282c34;
   font-size: larger;
   font-weight: bold;
-  text-align: center;
-  align-items: center;
 }
 
 .searchPatentspan{
   color: #15B39D;
   font-size: larger;
   font-weight: bold;
-  text-align: center;
-  align-items: center;
 }
 
 .searchPatentImg{
@@ -1109,12 +1112,20 @@ text-decoration: underline;
   font-size: 1vw;
 }
 
-.PTUL{
-  text-align: center;
+/* .PTUL{
   font-size: 1vw;
   display: inline;
-  list-style: decimal;
+  margin-left: 300px;
+} */
+
+.PTUL{
+  font-size: 1vw;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin-left: 14.5%;
 }
+
 /* ..................... */
 /* Used for Patent Info */
 
@@ -2018,6 +2029,7 @@ img{
 .top-btn:hover{
   cursor: pointer;
   font-size: 2.3rem;
+  color: #15B39D;
 }
 
 
