@@ -32,11 +32,10 @@ function PatentsDashboard(){
         <div>
             <div className="PDcontainer">
                 <div className="PDcontainerh2">
-                    {/* <h2 className="PDh2">Access the Patents filed by Cellix Bio in {years} below</h2> */}
                     <div className='DescContainerh3'><span></span>
-                <span className="PDhead">Patents filed by CELLIX BIO in {years}</span><span></span>
+                <span className="PDhead">Patents filed by Cellix Bio in {years}</span><span></span>
                 </div>
-                    {/* <h3 className="PDh2">No of International Patents in {years} are {patents.data.length}</h3> */}
+                    <h3 className="PDh2">No of Patents in {years} are {patents.data && patents.data.length}</h3>
                 </div>
             </div>
             {loading ? (<PatentCardSkeleton></PatentCardSkeleton>) : (
