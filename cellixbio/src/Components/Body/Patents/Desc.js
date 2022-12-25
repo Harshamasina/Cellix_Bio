@@ -9,7 +9,7 @@ function Desc(){
                     <Carousel.Item className='home_div'>
                             <img height={500}
                             className="d-block w-100"
-                            src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Tablets.PNG"
+                            src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/particles+green.PNG"
                             alt="First slide"
                             />
                             <Carousel.Caption>
@@ -23,7 +23,7 @@ function Desc(){
                         <Carousel.Item className='home_div'>
                             <img height={500}
                             className="d-block w-100"
-                            src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/gruene-chemie.PNG"
+                            src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Plant.jpg"
                             alt="Second slide"
                             />
                             <Carousel.Caption>
@@ -40,7 +40,7 @@ function Desc(){
                         <Carousel.Item className='home_div'>
                             <img height={500}
                             className="d-block w-100"
-                            src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Bacteria.jpg"
+                            src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Brain.jpg"
                             alt="Third slide"
                             />
                             <Carousel.Caption>

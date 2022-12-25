@@ -60,8 +60,8 @@ width: 100% !important;
 a:hover::after { width: 100%; } */
 .navbar_link:hover{
 	color: #6CC8C2 !important;
-	border-bottom: #15B39D 1px solid !important;
-	transition: all 0.4s ease;
+	border-bottom: #15B39D 2px solid !important;
+	/* transition: all 0.4s ease; */
 }
 
 .nav-link.active{
@@ -88,8 +88,8 @@ a:hover::after { width: 100%; } */
   }
   
  .logo{
-	width:140px;
-	height: 75px;
+	width:120px;
+	height: 60px;
 	display: inline;
   }
 

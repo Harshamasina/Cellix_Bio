@@ -38,7 +38,7 @@ function IP(){
                     <Accordion.Item eventKey="0">
                         <Accordion.Header><h4>U.S PATENT PORTFOLIO</h4></Accordion.Header>
                             <Accordion.Body className='IPAB'>
-                                <Table striped bordered hover responsive className='mt-3 shadow-lg'>
+                                <Table striped bordered hover responsive className='mt-3 shadow-sm'>
                                     <thead>
                                         <tr>
                                             <th className='IPPatentTableHead'>S.NO</th>

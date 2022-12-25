@@ -8,7 +8,7 @@ body{
 
 .logo{
   width:10rem;
-  height: 5rem;
+  height: 4rem;
   display: inline;
 }
 
@@ -334,7 +334,7 @@ body{
 
 .WWDh3{
   text-align: center;
-  font-weight: bolder;
+  font-weight: bold;
   color: #282c34;
   margin-top: 1%;
   display: block;
@@ -955,9 +955,11 @@ p.CardTextInfo{
   flex-direction: column;
   flex-wrap: wrap;
 }
+
 .PDhead{
   font-size: 2rem;
-  }
+}
+
 @media screen and (max-width:600px) {
   .PDhead{
     font-size: 2.2em;
@@ -968,6 +970,7 @@ p.CardTextInfo{
   text-align: center;
   width: 100%;
   justify-content: center;
+  margin-top: 5%;
 }
 
 .PDh2{
@@ -1265,6 +1268,7 @@ text-decoration: underline;
   color:#0E6E59;
   text-transform: uppercase;
 }
+
 .PatentInfoh2{
   text-align: center;
   font-weight: bold;
@@ -1277,7 +1281,9 @@ text-decoration: underline;
    /*  Animation decalaration   */
     animation-name: moveInleft;
     animation-duration: 3s;
+    margin-top: 5%;
 }
+
 @keyframes moveInleft {
   0% {
       opacity: 0;
@@ -1298,6 +1304,7 @@ text-decoration: underline;
     font-size: 2vh;
   }
 }
+
 @media screen and (max-width:768px) and (min-width:601px) {
   .PatentInfoh2 {
     font-size: 3vh;
@@ -1667,7 +1674,6 @@ span.ClaimsText{
 .usPatentTitle{
   text-transform: uppercase;
   text-align: left;
-
 }
 /* .......................... */
 /* Used for Pipeline */
@@ -1675,6 +1681,7 @@ span.ClaimsText{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  margin-top: 5%;
 }
 
 .PLContainerh3{
