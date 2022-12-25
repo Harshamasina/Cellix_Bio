@@ -18,14 +18,17 @@ body{
 }
 
 .Navlink{
-  color: #4e545f !important;
+  /* color: #4e545f !important; */
+  color: white !important;
+  /* color: #034c3c !important; */
+
   font-size: 1.2rem !important;
 }
 
 .Navlink:hover{
   color: #15B39D !important;
   font-size: 15px;
-  text-decoration: #15B39D !important;
+  text-decoration:underline #15B39D !important;
 }
 
 .Fdetails{
@@ -72,9 +75,11 @@ body{
 }
 
 .shadow{
-  background-color: #282c34 !important;
+  /* background-color: #282c34 !important;*/
+  background-color: #034c3c !important;
+
   margin-top: 8% !important;
-  color: #4e545f !important;
+  color: white !important;
   height: 45vh !important;
   display: flex;
   flex-direction: row;
@@ -171,13 +176,17 @@ body{
 
 @media screen and (max-width:600px) {
   .home-text{ 
-    height: 17em;
+    height: 1em;
+    margin-top: 15% !important;
   }
   .video-bg{
-    height: 88vh;
+    height: 100vh;
   }
   .landingpage{
-    height: 88vh;
+    height: 100vh;
+  }
+  .homeBtn{
+    margin-bottom: 2% !important;
   }
 }
 @media screen and (max-width:768px) and (min-width:601px){
@@ -1118,11 +1127,19 @@ text-decoration: underline;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  margin-top: 5% ;
 }
 
 @media screen and (max-width: 600px) {
   h2.PTh2 {
     font-size: 3vh;
+  }
+  .PTh2{
+    margin-top: 3% !important;
+
+  }
+  .PT{
+    margin-top: 25% !important;
   }
 }
 @media screen and (max-width:768px) and (min-width:601px) {
@@ -1141,6 +1158,9 @@ text-decoration: underline;
   }
   ul.PTUL {
     font-size: 2vh;
+  }
+  .PT{
+    margin-top: 15% !important;
   }
 }
 @media screen and (max-width: 600px) {
@@ -1468,6 +1488,7 @@ span.ClaimsText{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  margin-top: 5%;
 }
 
 .IPContainerh3{
@@ -1492,8 +1513,11 @@ span.ClaimsText{
   p.IPp {
     font-size: 2vh;
     text-align: justify;
-
   }
+  .IPContainer{
+    margin-top: 15% !important;
+  }
+
 }
 @media screen and (max-width: 600px) {
   h3.IPh3 {
@@ -1510,7 +1534,9 @@ span.ClaimsText{
   p.IPp {
     font-size: 2vh;
     text-align: justify;
-
+  }
+  .IPContainer{
+    margin-top: 25% !important;
   }
 }
 
@@ -1547,13 +1573,13 @@ span.ClaimsText{
 @media screen and (max-width: 600px) {
   .IPAB {
     margin-left: -18% !important;
-    width: 45vh !important;
+    width: 42vh !important;
   }
 }
 @media screen and (max-width: 600px) {
   .accordion-button {
     margin-left: -18% !important;
-    width: 45vh !important;
+    width: 42vh !important;
   }
 }
 .accordion-button{
@@ -1639,6 +1665,9 @@ tbody,thead{
 }
 /* ............................ */
 /* Used for Contact Us */
+.ContactCont{
+  margin-top: 5%;
+}
 .CUForm{
   width: 24.7vw !important;
   height: 2.5vw !important;
@@ -1661,6 +1690,10 @@ tbody,thead{
     /* margin-top: 5% !important; */
     margin-bottom:25% !important;
   }
+  .ContactCont{
+    margin-top: 30% !important;
+    margin-bottom: 10% !important;
+  }
 }
 @media screen and (max-width:768px) and (min-width:601px) {
   .CUForm{
@@ -1668,6 +1701,9 @@ tbody,thead{
     height: 5vh !important;
     font-size: 1em !important;
     margin-bottom:25% !important;
+  }
+  .ContactCont{
+    margin-top: 15% !important;
   }
   .CUFormContainer{
     width: 40vh;
@@ -1770,7 +1806,7 @@ tbody,thead{
     height: 60vh !important;
     display: block !important;
     box-shadow: none !important;
-    margin-top: 20% !important;
+    margin-top: 35% !important;
     margin-bottom: 45% !important;
   }
   .LeaderContainer1{
@@ -1809,6 +1845,14 @@ tbody,thead{
     font-size: 1em !important;
     width: 33vh !important;
   }
+  .LeaderHR{
+  margin-left: 16% !important;
+  width: 25vh !important;
+  }
+  .LeaderSubTitleContainer{
+    margin-left: 15% !important;
+  }
+
 }
 @media screen and (max-width:768px) and (min-width:601px) {
   .LeaderImgContainer{
@@ -1822,6 +1866,7 @@ tbody,thead{
     width: 70vh !important;
     height: 30vh !important;
     margin-left: 3% !important;
+    margin-top: 25% !important;
   }
   .LeaderContainer1{
     width: 20vh !important;
@@ -1889,7 +1934,7 @@ tbody,thead{
 position: absolute;
 bottom:0.2vw;
 /* top:20%; */
-background-color: #0E6E59;
+background-color: #0E6E59 !important;
 color: white;
 left: 0.25vw;
 width: 16.65vw;
