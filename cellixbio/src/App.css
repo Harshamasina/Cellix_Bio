@@ -1595,27 +1595,31 @@ span.ClaimsText{
   margin-top: 2%;
 }
 
+
 @media screen and (max-width:768px) and (min-width:601px) {
   .IPAB {
-    margin-left: -15% !important;
+    /* margin-left: -15% !important; */
     width: 60vh !important;
   }
   .accordion-button {
-    margin-left: -15% !important;
+    /* margin-left: -% !important; */
     width: 60vh !important;
   }
 }
 
 @media screen and (max-width: 600px) {
   .IPAB {
-    margin-left: -18% !important;
-    width: 42vh !important;
+    margin-left: -8% !important;
+  } 
+  .table-responsive{
+    width:38vh !important;
   }
-}
+}  
+
 
 @media screen and (max-width: 600px) {
   .accordion-button {
-    margin-left: -18% !important;
+    margin-left: -8% !important;
     width: 42vh !important;
   }
 }
@@ -1718,7 +1722,7 @@ span.ClaimsText{
 }
 tbody,thead{
   text-align: center;
-  font-size: 1rem;
+  font-size: 0.6em;
 }
 /* ............................ */
 /* Used for Contact Us */
