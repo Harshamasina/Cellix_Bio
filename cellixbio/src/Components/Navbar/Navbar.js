@@ -19,11 +19,11 @@ function NavBar() {
             <>
                 <div>
                 
-                    <Navbar collapseOnSelect bg="dark" variant={"dark"} expand="lg" sticky='top' className='color-nav'><Logo></Logo>
+                    <Navbar collapseOnSelect  variant={"dark"} expand="lg" sticky='top' className='color-nav'><Logo></Logo>
                         <Navbar.Brand href="#">
                            
                         </Navbar.Brand>
-                        <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
+                        <Navbar.Toggle aria-controls="responsive-navbar-nav" className='toggle'/>
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav
                                 className="ms-auto my-2 my-xxl-0 gap-4 me-5"
