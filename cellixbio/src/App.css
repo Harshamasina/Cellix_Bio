@@ -1290,6 +1290,9 @@ text-decoration: underline;
   .PatentInfoh3{
     font-size: 2vh !important;
   }
+  .PatentInfoh3link{
+    font-size: 2vh !important;
+  }
   .PITBh4{
     font-size: 2vh !important;
        } 
@@ -1306,6 +1309,26 @@ text-decoration: underline;
   font-weight: bold;
   font-size: medium;
 }
+
+.PatentInfoh3link{
+  text-align: center;
+  align-items: center;
+  color: #282c34;
+  font-weight: bold;
+  font-size: large;
+  margin: 2%;
+}
+
+.PatentInfoa{
+  color: #15B39D;
+}
+
+.PatentInfoa:hover{
+  color: #0E6E59;
+  text-decoration: underline 2px solid !important;
+  text-decoration-color: #0E6E59;
+}
+
 
 .Tabs{
   width: 55vw;
@@ -1545,6 +1568,7 @@ span.ClaimsText{
   justify-content: center;
   margin-top: 2%;
 }
+
 @media screen and (max-width:768px) and (min-width:601px) {
   .IPAB {
     margin-left: -15% !important;
@@ -1555,18 +1579,21 @@ span.ClaimsText{
     width: 60vh !important;
   }
 }
+
 @media screen and (max-width: 600px) {
   .IPAB {
     margin-left: -18% !important;
     width: 45vh !important;
   }
 }
+
 @media screen and (max-width: 600px) {
   .accordion-button {
     margin-left: -18% !important;
     width: 45vh !important;
   }
 }
+
 .accordion-button{
   color:whitesmoke  !important;
   background-color: #0E6E59 !important;
@@ -1580,10 +1607,29 @@ span.ClaimsText{
 }
 
 .accordion-item{
-  width: 65%;
-  margin-left: 17.7%;
+  width: 80%;
+  margin-left: 10%;
   margin-top: 2%;
   border: none !important;
+}
+
+.IPPatentTableHead{
+  font-weight: bolder;
+  color: #0E6E59;
+  font-size: larger;
+  text-align: center;
+  align-items: center;
+}
+
+.usPatentNumber{
+  font-weight: 600;
+  text-align: left;
+}
+
+.usPatentTitle{
+  text-transform: uppercase;
+  text-align: left;
+
 }
 /* .......................... */
 /* Used for Pipeline */

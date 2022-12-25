@@ -22,7 +22,7 @@ function SearchPatents(){
     return(
         <div>
             <div className="SearchPatentsh2Container">
-                <h3 className="SearchPatentsh2">Search For Patents under Cellix Bio by entering WIPO Number or Therapeutic Area</h3>
+                <h3 className="SearchPatentsh2">Search Patents of Cellix Bio by entering WIPO Number or Therapeutic Area</h3>
             </div>
             <div>
                 <div className="SearchPatentContainer">
@@ -30,7 +30,7 @@ function SearchPatents(){
                    <button className="SearchBarButton"><TfiSearch /></button>
                 </div>
                 <div className="PatentsFoundContainer">
-                    <p className="searchPatentsp">Patents Found : <span className="searchPatentspan">{searchPatent && searchPatent.length}</span></p> 
+                    <p className="searchPatentsp">Search Results : <span className="searchPatentspan">{searchPatent && searchPatent.length}</span></p> 
                 </div>
                 {     
                         searchPatent && searchPatent.length === 0 ? 

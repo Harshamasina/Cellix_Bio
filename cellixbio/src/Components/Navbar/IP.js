@@ -1,6 +1,22 @@
 import Table from 'react-bootstrap/Table';
 import Accordion from 'react-bootstrap/Accordion';
+import axios from 'axios';
+import { useState, useEffect } from 'react';
+
 function IP(){
+    const [usPatents, setUSPatents] = useState([]);
+    useEffect(() => {
+        const fetchData = async () => {
+            try {
+                const data = await axios.get(`http://13.233.51.172/uspatents`);
+                setUSPatents(data);
+            } catch (err) {
+                console.log(err);
+            }
+        };
+        fetchData();
+    },[]);
+    console.log(usPatents);
     document.title = 'Intellectual Property - Cellix Bio';
     return(
         <>
@@ -20,31 +36,34 @@ function IP(){
             
                 <Accordion defaultActiveKey="0">
                     <Accordion.Item eventKey="0">
-                        <Accordion.Header><h4>CELLIX BIO's U.S PATENT APPLICATIONS</h4></Accordion.Header>
+                        <Accordion.Header><h4>U.S PATENT PORTFOLIO</h4></Accordion.Header>
                             <Accordion.Body className='IPAB'>
-                            <Table striped bordered hover size="sm" className='mt-3 shadow-lg'>
-                                <thead>
-                                    <tr>
-                                        <th>S.No</th>
-                                        <th>Document/Patent Number</th>
-                                        <th>Title</th>
-                                        <th>Publication Date</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                <tr>
-                                    <td>1</td>
-                                    <td>US-11485730-B2</td>
-                                    <td>Compositions and methods for the treatment of fungal infections</td>
-                                    <td>2022-11-01</td>
-                                </tr>
-                            </tbody>
-                        </Table>
-                    </Accordion.Body>
-                </Accordion.Item>
-        </Accordion>           
+                                <Table striped bordered hover size="sm" className='mt-3 shadow-lg'>
+                                    <thead>
+                                        <tr>
+                                            <th className='IPPatentTableHead'>S.NO</th>
+                                            <th className='IPPatentTableHead'>PATENT NUMBER</th>
+                                            <th className='IPPatentTableHead'>TITLE</th>
+                                            <th className='IPPatentTableHead'>PUBLICATION DATE</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {
+                                            usPatents.data && usPatents.data.map((uspatent) => (
+                                                <tr>
+                                                    <td>{uspatent.sno}</td>
+                                                    <td className='usPatentNumber'>{uspatent.patent_number}</td>
+                                                    <td className='usPatentTitle'>{uspatent.title}</td>
+                                                    <td>{uspatent.publication_date}</td>
+                                                </tr>
+                                            ))
+                                        }
+                                    </tbody>
+                                </Table>
+                            </Accordion.Body>
+                        </Accordion.Item>
+                </Accordion>           
         </>
     )
 }
-
 export default IP;
