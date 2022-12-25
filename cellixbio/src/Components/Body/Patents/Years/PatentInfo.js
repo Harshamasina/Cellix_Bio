@@ -56,6 +56,7 @@ function PatentInfo(){
                     <Compounds compound = {patentCompounds}></Compounds>
                 </Tab>
             </Tabs>
+            <p className='PatentInfoh3link'>For more Information : <a className='PatentInfoa' target="_blank" href='https://patentscope.wipo.int/search/en/search.jsf'>WIPO Patent Scope</a></p>
         </div>
     );
 }

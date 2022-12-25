@@ -25,32 +25,32 @@ const Footer = () => {
                             </div>
                             <div className='FooterContainerp'>
                                   <ul className='FooterUL'>
-                                    <li><p className='Fdetails'>GLOBAL PATENTS: </p><b className='Fdetail'>432</b></li>
-                                    <li><p className='Fdetails'>ISSUED U.S PATENTS: </p><b className='Fdetail'>63</b></li>
-                                    <li><p className='Fdetails'>PENDING U.S. PATENETS: </p><b className='Fdetail'>28</b></li>
+                                    <li><p className='Fdetails'>GLOBAL PATENTS: </p><b className='Fdetail'>635</b></li>
+                                    <li><p className='Fdetails'>ISSUED U.S PATENTS: </p><b className='Fdetail'>184</b></li>
+                                    {/* <li><p className='Fdetails'>PENDING U.S. PATENETS: </p><b className='Fdetail'>28</b></li> */}
                                   </ul>
                             </div>
                         </CDBBox>
                         <CDBBox display="flex" style={{ width: '50%' }} justifyContent="between">
                               <CDBBox>
-                                <p className="h5 mb-4" style={{ fontWeight: '500', color:'whitesmoke' }}>
+                                {/* <p className="h5 mb-4" style={{ fontWeight: '500', color:'whitesmoke' }}>
                                   Product
-                                </p>
+                                </p> */}
                                 <CDBBox flex="column" display="flex" style={{ cursor: 'pointer', padding: '0'}}>
                                         <NavLink className={"Navlink"} to="/Home">Home</NavLink>
                                         <NavLink className={"Navlink"} to="/Patents">Patents</NavLink>
                                         <NavLink className={"Navlink"} to="/IP">Intellectual Property</NavLink>
-                                        <NavLink className={"Navlink"} to="/Pipeline">Pipeline</NavLink>
+                                        {/* <NavLink className={"Navlink"} to="/Pipeline">Pipeline</NavLink> */}
                                 </CDBBox>
                               </CDBBox>
                               <CDBBox>
-                                <p className="h5 mb-4" style={{ fontWeight: '500',color:'whitesmoke' }}>
+                                {/* <p className="h5 mb-4" style={{ fontWeight: '500',color:'whitesmoke' }}>
                                   About Us
-                                </p>
+                                </p> */}
                                 <CDBBox display="flex" flex="column" style={{ cursor: 'pointer', padding: '0' }}>
                                         {/* <NavLink className={"Navlink"} to="/About">About</NavLink> */}
-                                        <NavLink className={"Navlink"} to="/Leadership">Leadership</NavLink>
-                                        <NavLink className={"Navlink"} to="/Contact">Contact Us</NavLink>
+                                        <NavLink className={"Navlink"} to="/Leadership">Inventor</NavLink>
+                                        <NavLink className={"Navlink"} to="/Contact">Contact</NavLink>
                                 </CDBBox>
                               </CDBBox>
                         </CDBBox>

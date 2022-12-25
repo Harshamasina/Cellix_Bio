@@ -35,7 +35,7 @@ function PatentsDashboard(){
                     <div className='DescContainerh3'><span></span>
                 <span className="PDhead">Patents filed by Cellix Bio in {years}</span><span></span>
                 </div>
-                    <h3 className="PDh2">No of Patents in {years} are {patents.data && patents.data.length}</h3>
+                    {/* <h3 className="PDh2">No of Patents in {years} are {patents.data && patents.data.length}</h3> */}
                 </div>
             </div>
             {loading ? (<PatentCardSkeleton></PatentCardSkeleton>) : (

@@ -16,18 +16,18 @@ function Home(){
                             
                             <div>
                                 <h1 className='Carouselh1'>Synergix AI<sup>TM</sup> Powered Technology</h1>
-                                <p className='Carouselp'>Our Al-driven analysis of large datasets has potential to transform the classic R&D pipeline into new ways of more precise target selection Hospital and accelerating multiple stages of development</p>
+                                {/* <p className='Carouselp'>Our Al-driven analysis of large datasets has potential to transform the classic R&D pipeline into new ways of more precise target selection Hospital and accelerating multiple stages of development</p> */}
                             </div>
                             
                             <div>
                                 <h1 className='Carouselh1'>Harnessing the Data</h1>
-                                <p className='Carouselp'>Synergix AI<sup>TM</sup> is pioneering a transformative new big data approach to discovery and development of treatments provides more effective precision treatments for individuals as well as a reduction in costs to our healthcare systems</p>
+                                {/* <p className='Carouselp'>Synergix AI<sup>TM</sup> is pioneering a transformative new big data approach to discovery and development of treatments provides more effective precision treatments for individuals as well as a reduction in costs to our healthcare systems</p> */}
                             </div>
                      </div>
                      {/* <div>
                         <span className='Carouselspan'>Access the Patents filed by Mahesh Kandula by clicking Below</span>
                     </div> */}
-                    <Link className='homeBtn' to="/Patents">Get Started</Link>
+                    <Link className='homeBtn' to="/Patents">Search For Patents and Therapeutic Areas</Link>
              </div>
             <WWD></WWD>
             {/* <Teamwork></Teamwork> */}
