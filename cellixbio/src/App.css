@@ -590,7 +590,135 @@ padding: 0px !important;
 }
 /* .................. */
 /* Used for Patents Page */
+.patentlandingpage{
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  position: relative;
+  transition: 0.5s;
+}
+.patents_text_1{
+margin-left: 35% ;
+}
+.patents_text_2{
+  margin-left: 10% ;
+  }
+.patents-text{
+  width: 80%;
+  /* height: 60%; */
+  text-align: center;
+  align-items: center;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  z-index: 2;
+  height: 10em; 
+  position: relative;
+  margin-top: 6%;
+  /* margin-left: 5%; */
+}
+.patents-text > *{
+  animation: 8s autoplay infinite linear;
+  position: absolute; top: 0; left: 0; opacity: 0.0
+}
 
+@keyframes autoplay {
+  0% {opacity: 0.0;}
+  4% {opacity: 1.0}
+  33.33% {opacity: 1.0}
+  37.33% {opacity: 0.0}
+  100% {opacity: 0.0}
+}
+
+.patents-text>*:nth-child(1) {animation-delay: 0s}
+.patents-text>*:nth-child(2) {animation-delay: 4s}
+/* .patents-text>*:nth-child(3) {animation-delay: 12s} */
+
+.patents_video_bg{
+  width: 100%;
+  height: 50vh;
+  position: absolute;
+  z-index: -1;
+  object-fit: cover;
+  top: 0;
+}
+.patentsCarouselh1{
+  /* margin-top: -50vh !important; */
+  font-size: 6em;
+  color: white;
+  text-align: center !important;
+}
+
+@media screen and (max-width:600px) {
+  .patents-text{ 
+    height: 1em;
+    margin-top: 15% !important;
+  }
+  .patents_video_bg{
+    height: 50vh;
+  }
+  .patentlandingpage{
+    height: 50vh;
+  }
+  
+}
+@media screen and (max-width: 600px) {
+  .patentsCarouselh1 {
+    font-size: 1.5em;
+    /* text-align: center;
+    justify-content: center; */
+ }
+ 
+ .patents_text_1{
+  margin-left: 27% ;
+  }
+  .patents_text_2{
+    margin-left: 5% !important;
+    }
+}
+@media screen and (max-width:768px) and (min-width:601px) {
+  .patents-text{ 
+    height: 1em;
+    /* margin-top: 15% !important; */
+  }
+  .patents_video_bg{
+    height: 50vh;
+  }
+  .patentlandingpage{
+    height: 50vh;
+  }
+  .patentsCarouselh1 {
+    font-size: 2em !important;
+    /* text-align: center;
+    justify-content: center; */
+ }
+ 
+ .patents_text_1{
+  margin-left: 32% ;
+  }
+  .patents_text_2{
+    margin-left: 12% !important;
+    }
+}
+
+.patentsCarouselh1>*{
+  animation: fade;
+  animation-duration: 2s;
+}
+
+@keyframes fade {
+  0%{
+    opacity: 0;
+    margin-left: 35em;
+  }
+  100%{
+    opacity: 1;
+  }
+}
 
 .Desc{
   display: flex;
