@@ -2,6 +2,9 @@ function PT(){
    document.title = 'Platform Technologies - Cellix Bio';
     return(
         <>
+        <div className='patentlandingpage'>
+              <video src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Pills.mp4" autoPlay muted loop className='patents_video_bg' type="video/mp4"/>
+              </div>
             <div className="PT">
             <div className="PTContainerh2h3h4">
                 <div className='DescContainerh3'><span></span>
