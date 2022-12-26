@@ -5,10 +5,18 @@ function Contact() {
   document.title = 'Contact - Cellix Bio';
   return (
     <>
-    <div className='ContactCont'>
+    <div className='patentlandingpage'>
+              <video src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Planet.mp4" autoPlay muted loop className='patents_video_bg' type="video/mp4"/>
+              <div className='pipeline-text'>
+                            <div className='patents_text_1'>
+                                <h1 className='pipelineCarouselh1'>SEND YOUR QUERIES</h1>
+                            </div>
+                            </div>
+              </div>
+    {/* <div className='ContactCont'>
       <div className='DescContainerh3'><span></span>
                 <span className="WWDh3">Send your Queries</span><span></span>
-                </div></div>
+                </div></div> */}
       {/* <Address></Address> */}
       <SendUsEmail></SendUsEmail>
     </>

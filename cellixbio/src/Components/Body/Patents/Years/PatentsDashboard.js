@@ -30,14 +30,21 @@ function PatentsDashboard(){
 
     return(
         <div>
-            <div className="PDcontainer">
+            <div className='patentlandingpage'>
+              <img  className='patents_video_bg' src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/gruene-chemie.PNG" alt='image'/>
+              <div className='pipeline-text'>
+                            <div className='patents_text_1'>
+                                <h1 className='pipelineCarouselh1'>Patents filed by Cellix Bio in {years}</h1>
+                            </div>
+                            </div>
+              </div>
+            {/* <div className="PDcontainer">
                 <div className="PDcontainerh2">
                     <div className='DescContainerh3'><span></span>
                 <span className="PDhead">Patents filed by Cellix Bio in {years}</span><span></span>
                 </div>
-                    {/* <h3 className="PDh2">No of Patents in {years} are {patents.data && patents.data.length}</h3> */}
                 </div>
-            </div>
+            </div> */}
             {loading ? (<PatentCardSkeleton></PatentCardSkeleton>) : (
                 patents.data.map((patent) => (
                     <div className='CardContainer'>

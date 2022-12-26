@@ -20,12 +20,20 @@ function IP(){
     document.title = 'Intellectual Property - Cellix Bio';
     return(
         <>
+        <div className='patentlandingpage'>
+              <video src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Microscope.mp4" autoPlay muted loop className='patents_video_bg' type="video/mp4"/>
+              <div className='pipeline-text'>
+                            <div className='patents_text_1'>
+                                <h1 className='pipelineCarouselh1'>INTELLECTUAL PROPERTY</h1>
+                            </div>
+                            </div>
+              </div>
             <div className='IPContainer'>
-               <div className='IPContainerh3'>
+               {/* <div className='IPContainerh3'>
                     <div className='DescContainerh3'><span></span>
                         <span className="WWDh3">INTELLECTUAL PROPERTY</span><span></span>
                     </div>
-                </div>
+                </div> */}
                 <div className="IPpContainerp">
                     <p className="IPp"><span className="AboutSpan">Cellix Bio</span> has a portfolio of over 640+ international patents published. The Company has obtained 117 Composition of Matter Allowed / Issued U.S Patents from the US Patent & Trademark Office and 28 U.S Patent Pending Applications in diverse therapeutic areas. We are also committed to protecting our intellectual property estate of patent rights and trade secrets and the potential commercial and clinical advantages this protection provides for our proprietary technology.</p>
                 </div>

@@ -10,13 +10,18 @@ function Pipeline(){
         <>
         <div className='patentlandingpage'>
               <video src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Pills+Brown.mp4" autoPlay muted loop className='patents_video_bg' type="video/mp4"/>
+              <div className='pipeline-text'>
+                            <div className='patents_text_1'>
+                                <h1 className='pipelineCarouselh1'>PIPELINE</h1>
+                            </div>
+                            </div>
               </div>
             <div className='PLContainer'>
-               <div className='PLContainerh3'>
+               {/* <div className='PLContainerh3'>
                     <div className='DescContainerh3'><span></span>
                         <span className="WWDh3">PIPELINE</span><span></span>
                     </div>
-                </div>
+                </div> */}
                 <div className="PLpContainerp">
                   <p className="PLp"><span>Cellix Bio</span>research & drug programmes focus on the understanding of the underlying mechanisms of diseases. Our proprietary technology platform currently focusses to improve success rates, minimise drug discovery costs and speed up development timelines by converging on targets that have been independently validated in diseases.</p>
                 </div>

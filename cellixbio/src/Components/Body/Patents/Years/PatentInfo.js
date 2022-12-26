@@ -34,6 +34,15 @@ function PatentInfo(){
     });
     
     return(
+        <>
+        <div className='patentlandingpage'>
+              <img  className='patents_video_bg' src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Tablets.PNG" alt='image'/>
+              <div className='pipeline-text'>
+                            <div className='patents_text_1'>
+                                <h1 className='pipelineCarouselh1'>PATENTS</h1>
+                            </div>
+                            </div>
+              </div>
         <div>
                 <h2 className='heading-primary'><p className='PatentInfoh2'>{wno}</p></h2>
                 <p className='PatentInfoh3'>Publication Date: {pubDate}</p>
@@ -44,7 +53,7 @@ function PatentInfo(){
                 fill
                 >
                 <Tab eventKey="Therapeutic Area" title="Therapeutic Area" active hide>
-                    <TherapeuticArea therapeuticArea = {therapeuticArea} diseases = {diseases}></TherapeuticArea>
+                    <TherapeuticArea  therapeuticArea = {therapeuticArea} diseases = {diseases}></TherapeuticArea>
                 </Tab>
                 <Tab eventKey="Formulas" title="Formulas">
                     <Formulas formula = {patentFormulas}></Formulas>
@@ -58,6 +67,7 @@ function PatentInfo(){
             </Tabs>
             <p className='PatentInfoh3link'>For more Information : <a className='PatentInfoa' target="_blank" href='https://patentscope.wipo.int/search/en/search.jsf'>WIPO Patent Scope</a></p>
         </div>
+        </>
     );
 }
 export default PatentInfo;

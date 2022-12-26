@@ -4,12 +4,17 @@ function PT(){
         <>
         <div className='patentlandingpage'>
               <video src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Pills.mp4" autoPlay muted loop className='patents_video_bg' type="video/mp4"/>
+              <div className='pipeline-text'>
+                            <div className='patents_text_1'>
+                                <h1 className='pipelineCarouselh1'>PLATFORM TECHNOLOGIES</h1>
+                            </div>
+                            </div>
               </div>
             <div className="PT">
             <div className="PTContainerh2h3h4">
-                <div className='DescContainerh3'><span></span>
+                {/* <div className='DescContainerh3'><span></span>
                 <span className="WWDh3">PLATFORM TECHNOLOGIES</span><span></span>
-                </div>
+                </div> */}
                 </div>
 
                 <div className="PTh2">

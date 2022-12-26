@@ -1267,7 +1267,7 @@ text-decoration: underline;
 }
 
 .YearsLinks:hover{
-  color: white;
+  color: white !important;
 }
 
 /* ....................... */
@@ -1276,7 +1276,7 @@ text-decoration: underline;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  margin-top: 5% ;
+  /* margin-top: 5% ; */
 }
 
 @media screen and (max-width: 600px) {
@@ -1285,12 +1285,9 @@ text-decoration: underline;
   }
   .PTh2{
     margin-top: 3% !important;
-
-  }
-  .PT{
-    margin-top: 25% !important;
   }
 }
+
 @media screen and (max-width:768px) and (min-width:601px) {
   h2.PTh2 {
     font-size: 3vh;
@@ -1309,7 +1306,7 @@ text-decoration: underline;
     font-size: 2vh;
   }
   .PT{
-    margin-top: 15% !important;
+    /* margin-top: 15% !important; */
   }
 }
 @media screen and (max-width: 600px) {
@@ -1428,7 +1425,7 @@ text-decoration: underline;
    /*  Animation decalaration   */
     animation-name: moveInleft;
     animation-duration: 3s;
-    margin-top: 5%;
+    margin-top: 2%;
 }
 
 @keyframes moveInleft {
@@ -1449,7 +1446,7 @@ text-decoration: underline;
 @media screen and (max-width: 600px) {
   .PatentInfoh2 {
     font-size: 2vh;
-    margin-top: 25%;
+    /* margin-top: 25%; */
   }
 }
 
@@ -1461,6 +1458,7 @@ text-decoration: underline;
     width: 50vh !important;
     margin-left: 17% !important;
     font-size: 2vh !important;
+    color: #15B39D !important;
   }
   .PatentInfoh3{
     font-size: 2vh !important;
@@ -1521,6 +1519,10 @@ text-decoration: underline;
   .Tabs {
     width: 45vh;
     margin-left: 3%;
+  }
+  .testing{
+    color: #15B39D !important;
+    /* background-color: red !important; */
   }
 }
 /* ....................... */
@@ -1688,7 +1690,7 @@ span.ClaimsText{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  margin-top: 5%;
+  /* margin-top: 5%; */
 }
 
 .IPContainerh3{
@@ -1715,9 +1717,9 @@ span.ClaimsText{
     font-size: 2vh;
     text-align: justify;
   }
-  .IPContainer{
+  /* .IPContainer{
     margin-top: 15% !important;
-  }
+  } */
 
 }
 
@@ -1737,9 +1739,9 @@ span.ClaimsText{
     font-size: 2vh;
     text-align: justify;
   }
-  .IPContainer{
+  /* .IPContainer{
     margin-top: 25% !important;
-  }
+  } */
 }
 
 .IPpContainerp{
@@ -1842,14 +1844,56 @@ span.ClaimsText{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  margin-top: 5%;
+  /* margin-top: 5%; */
+}
+.pipeline-text{
+  width: 80%;
+  /* height: 60%; */
+  text-align: center;
+  align-items: center;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  z-index: 2;
+  height: 10em; 
+  position: absolute;
+  top: 5;
+  left: 0px;
+  /* margin-top: 2%; */
+  /* margin-left: 5%; */
+}
+@media screen and (max-width: 600px) {
+  .pipelineCarouselh1 {
+    font-size: 1.5em !important;
+    /* text-align: center;
+    justify-content: center; */
+ }
+ .pipeline-text{ 
+  height: 1em;
+  margin-top: 15% !important;
+  margin-left: 2% !important;
+}
+}
+@media screen and (max-width:768px) and (min-width:601px) {
+  .pipelineCarouselh1 {
+    font-size: 2.3em !important;
+    /* text-align: center;
+    justify-content: center; */
+ }
+}
+.pipelineCarouselh1{
+  /* margin-top: -50vh !important; */
+  font-size: 6em;
+  color: white;
+  text-align: center !important;
+  margin-left: -20% !important;
 }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   .PLContainer{
     margin-top: 20%;
   }
-} 
+}  */
 
 .PLContainerh3{
   text-align: center;
@@ -1870,14 +1914,15 @@ span.ClaimsText{
   h3.PLh3 {
     font-size: 3vh;
   }
-  .PLContainer{
+  /* .PLContainer{
     margin-top: 25% !important;
-  }
+  } */
 }
 @media screen and (max-width:768px) and (min-width:601px) {
-  .PLContainer{
+  /* .PLContainer{
     margin-top: 15% !important;
-  } p.PLp {
+  }  */
+  p.PLp {
     font-size: 2vh;
     text-align: justify;
   }
@@ -2074,7 +2119,7 @@ tbody,thead{
     height: 60vh !important;
     display: block !important;
     box-shadow: none !important;
-    margin-top: 35% !important;
+    /* margin-top: 35% !important; */
     margin-bottom: 45% !important;
   }
   .LeaderContainer1{
@@ -2134,7 +2179,7 @@ tbody,thead{
     width: 70vh !important;
     height: 30vh !important;
     margin-left: 3% !important;
-    margin-top: 25% !important;
+    /* margin-top: 25% !important; */
   }
   .LeaderContainer1{
     width: 20vh !important;
@@ -2228,7 +2273,7 @@ text-align: center !important;
   display: flex;
   width: 80vw;
   height: 22vw;
-  margin-top: 10%;
+  margin-top: 3%;
   margin-bottom: 15%;
   margin-left: 10%;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
