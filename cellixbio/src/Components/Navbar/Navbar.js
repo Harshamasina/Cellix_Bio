@@ -5,14 +5,15 @@ import PT from "./PT";
 // import About from "./About";
 import IP from "./IP";
 import Pipeline from "./Pipeline";
-import Leadership from "./Leadership";
 import Contact from "./Contact";
 import Logo from "./Logo";
 import Patents from "../Body/Patents/Patents";
 import PatentsDashboard from '../Body/Patents/Years/PatentsDashboard';
 import Error404 from '../Body/Error404';
 import PatentInfo from '../Body/Patents/Years/PatentInfo';
+import Leadership from './Leadership';
 import './Navbar.css';
+import Inventor from './Inventor';
 
 function NavBar() {
         return (
@@ -36,7 +37,8 @@ function NavBar() {
                                 <Nav.Link className='navbar_link' as={Link} to="/Pipeline" eventKey="6">Pipeline</Nav.Link>
                                 <Nav.Link className='navbar_link' as={Link} to="/Patents" eventKey="4">Patents</Nav.Link>
                                 <Nav.Link className='navbar_link' as={Link} to="/IP" eventKey="5">Intellectual Property</Nav.Link>
-                                <Nav.Link className='navbar_link' as={Link} to="/Leadership" eventKey="7">INVENTOR</Nav.Link>
+                                <Nav.Link className='navbar_link' as={Link} to="/Inventor" eventKey="7">INVENTOR</Nav.Link>
+                                <Nav.Link className='navbar_link' as={Link} to="/Leadership" eventKey="7">Leadership</Nav.Link>
                                 <Nav.Link className='navbar_link' as={Link} to="/Contact" eventKey="8">Contact</Nav.Link>
 
                             </Nav>
@@ -53,6 +55,7 @@ function NavBar() {
                         <Route path='/PT' element = {<PT></PT>}></Route>
                         <Route path='/IP' element = {<IP></IP>}></Route>
                         <Route path='/Pipeline' element = {<Pipeline></Pipeline>}></Route>
+                        <Route path='/Inventor' element = {<Inventor></Inventor>}></Route>
                         <Route path='/Leadership' element = {<Leadership></Leadership>}></Route>
                         <Route path='/Contact' element = {<Contact></Contact>}></Route>
                         <Route path='/PatentsDashboard/:years' element = {<PatentsDashboard></PatentsDashboard>}></Route>
