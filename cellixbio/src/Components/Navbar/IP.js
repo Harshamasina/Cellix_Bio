@@ -16,7 +16,7 @@ function IP(){
         };
         fetchData();
     },[]);
-    console.log(usPatents);
+    // console.log(usPatents);
     document.title = 'Intellectual Property - Cellix Bio';
     return(
         <>
