@@ -10,7 +10,7 @@ function Leadership() {
                   <img className='LeaderImg' src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Leadership.Mahesh.PNG" alt='Limage'/>
               </div>
               <div className='LeaderTitleContainer'>
-                  <h1 className='LeaderTitle'>Mahesh Kandula</h1><p className='Leadertext'> Inventor & IPFounder</p>
+                  <h1 className='LeaderTitle'>Mahesh Kandula</h1><p className='Leadertext'>Inventor</p>
               </div>
             </div>
             <div className='LeaderContainer2'>
