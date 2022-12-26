@@ -187,6 +187,8 @@ body{
   }
   .homeBtn{
     margin-bottom: 2% !important;
+    width: 40vh !important;
+    font-size: 1em !important;
   }
 }
 @media screen and (max-width:768px) and (min-width:601px){
@@ -1740,7 +1742,18 @@ span.ClaimsText{
   h3.PLh3 {
     font-size: 3vh;
   }
+  .PLContainer{
+    margin-top: 25% !important;
+  }
 }
+@media screen and (max-width:768px) and (min-width:601px) {
+  .PLContainer{
+    margin-top: 15% !important;
+  } p.PLp {
+    font-size: 2vh;
+    text-align: justify;
+  }
+  }
 @media screen and (max-width: 600px) {
   p.PLp {
     font-size: 2vh;
