@@ -38,9 +38,9 @@ const Footer = () => {
                                 </p> */}
                                 <CDBBox flex="column" display="flex" style={{ cursor: 'pointer', padding: '0'}}>
                                         <NavLink className={"Navlink"} to="/Home">Home</NavLink>
+                                        <NavLink className={"Navlink"} to="/Pipeline">Pipeline</NavLink>
                                         <NavLink className={"Navlink"} to="/Patents">Patents</NavLink>
                                         <NavLink className={"Navlink"} to="/IP">Intellectual Property</NavLink>
-                                        {/* <NavLink className={"Navlink"} to="/Pipeline">Pipeline</NavLink> */}
                                 </CDBBox>
                               </CDBBox>
                               <CDBBox>

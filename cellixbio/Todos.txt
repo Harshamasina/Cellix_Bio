@@ -15,13 +15,14 @@ CHANGES REQUIRED:
 -> Build should be worked (Done)
 -> Carousel Text should be responsive (Done)
 -> Deploy React App in AWS using EC2 in multiple instances (Done in Default VPC)
--> Require Testing
--> Implement React Memoization
--> Make it SEO 
+-> All Pipeline data to website. 
+-> Require Testing.
+-> Implement React Memoization.
+-> Claims Images should not have Links.
+-> Add Image tags to the claims links.
+-> Make it SEO
 -> Lazy Loading
 -> Add .env files to backend and change it in services Instance also. 
--> All Pipeline data to website. 
 -> Deploy Instance in Route 53 and host it in GoDaddy
--> 
 
 
