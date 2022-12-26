@@ -8,6 +8,9 @@ function Pipeline(){
     document.title = 'Pipeline - Cellix Bio';
     return(
         <>
+        <div className='patentlandingpage'>
+              <video src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Pills+Brown.mp4" autoPlay muted loop className='patents_video_bg' type="video/mp4"/>
+              </div>
             <div className='PLContainer'>
                <div className='PLContainerh3'>
                     <div className='DescContainerh3'><span></span>
