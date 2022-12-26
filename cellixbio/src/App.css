@@ -1203,6 +1203,10 @@ text-decoration: underline;
 @media screen and (max-width: 600px) {
   ul.PTUL {
     font-size: 2vh;
+    /* margin-right: 5%; */
+    width: 80%;
+    text-align: left;
+    /* margin-right: -9%; */
   }
 }
 
@@ -1315,6 +1319,7 @@ text-decoration: underline;
 @media screen and (max-width: 600px) {
   .PatentInfoh2 {
     font-size: 2vh;
+    margin-top: 25%;
   }
 }
 
@@ -1495,6 +1500,7 @@ span.ClaimsText{
     font-size: 1vh;
  }  
 }
+
 @media screen and (max-width:768px) and (min-width:601px) {
   .ClaimsContainer{
     width:55vh;
@@ -1503,11 +1509,21 @@ span.ClaimsText{
  .ClaimsText{
   font-size: 1.5vh;
 } 
+
 }
 .claimsdatanotfound{
   align-items: center;
   margin-left: 10vw;
 }
+
+@media screen and (max-width: 600px){
+  .claimsdatanotfound{
+    width: 80%;
+    text-align: center;
+    align-items: center;
+ }  
+}
+
 /* ............... */
 /* Used for Compounds */
 .CompoundsImgContainer{
@@ -1698,6 +1714,12 @@ span.ClaimsText{
   flex-wrap: wrap;
   margin-top: 5%;
 }
+
+@media screen and (max-width: 600px) {
+  .PLContainer{
+    margin-top: 20%;
+  }
+} 
 
 .PLContainerh3{
   text-align: center;
