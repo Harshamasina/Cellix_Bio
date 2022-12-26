@@ -38,8 +38,8 @@ function NavBar() {
                                 <Nav.Link className='navbar_link' as={Link} to="/Patents" eventKey="4">Patents</Nav.Link>
                                 <Nav.Link className='navbar_link' as={Link} to="/IP" eventKey="5">Intellectual Property</Nav.Link>
                                 <Nav.Link className='navbar_link' as={Link} to="/Inventor" eventKey="7">INVENTOR</Nav.Link>
-                                <Nav.Link className='navbar_link' as={Link} to="/Leadership" eventKey="7">Leadership</Nav.Link>
-                                <Nav.Link className='navbar_link' as={Link} to="/Contact" eventKey="8">Contact</Nav.Link>
+                                <Nav.Link className='navbar_link' as={Link} to="/Leadership" eventKey="8">Leadership</Nav.Link>
+                                <Nav.Link className='navbar_link' as={Link} to="/Contact" eventKey="9">Contact</Nav.Link>
 
                             </Nav>
                         </Navbar.Collapse>

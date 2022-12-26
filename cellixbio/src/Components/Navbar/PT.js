@@ -21,9 +21,9 @@ function PT(){
                    <h3 className="PTh3">SYNERGIX AI<sup>TM</sup></h3>
                 </div>
 
-                <div className="PTh2">
+                {/* <div className="PTh2">
                    <h4 className="PTh3">CELLIX BIO's SCIENCE OF DRUG INNOVATION</h4>
-                </div>
+                </div> */}
                 
                 <div className="PTpContainer">
                     <p className="PTp">By leveraging clinical, biomedical public databases, scientific literature and proprietary curated data, the technologies that make up our AI platform Synergix AITM unlocks the critical knowledge gaps in molecular design. They also cross-validate each other's results and present preformed, data-driven hypotheses synchronizing in-life validation with unmatched speed and accuracy. This enables us to discover and potentially deliver novel therapies to patients living with serious medical needs in our therapeutic areas of focus at a great velocity and precision.</p>

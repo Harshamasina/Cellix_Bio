@@ -23,7 +23,7 @@ function Pipeline(){
                     </div>
                 </div> */}
                 <div className="PLpContainerp">
-                  <p className="PLp"><span>Cellix Bio</span>research & drug programmes focus on the understanding of the underlying mechanisms of diseases. Our proprietary technology platform currently focusses to improve success rates, minimise drug discovery costs and speed up development timelines by converging on targets that have been independently validated in diseases.</p>
+                  <p className="PLp"><span>Cellix Bio</span> research & drug programmes focus on the understanding of the underlying mechanisms of diseases. Our proprietary technology platform currently focusses to improve success rates, minimise drug discovery costs and speed up development timelines by converging on targets that have been independently validated in diseases.</p>
                 </div>
             </div>
 
