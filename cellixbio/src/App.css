@@ -1682,23 +1682,28 @@ font-size: 2vh;
   margin-left: 25%;
   border-radius: 15px;
 }
+
 .ClaimstextCon{
   font-size: 0.8vw;
   text-align: left;
   margin-left: 2%;
 }
+
 .ClaimsImgCon{
   align-items: center;
 }
+
 span.ClaimsText{
   text-align: left;
 }
+
 @media screen and (max-width: 600px){
   .ClaimsContainer{
     width:45vh;
     margin-left: 3% !important;
  }  
 }
+
 @media screen and (max-width: 600px){
   .ClaimsText{
     font-size: 1vh;
@@ -1910,6 +1915,7 @@ span.ClaimsText{
   text-transform: uppercase;
   text-align: left;
 }
+
 /* .......................... */
 /* Used for Pipeline */
 .PLContainer{
@@ -1918,6 +1924,7 @@ span.ClaimsText{
   flex-wrap: wrap;
   /* margin-top: 5%; */
 }
+
 .pipeline-text{
   width: 80%;
   /* height: 60%; */
@@ -1934,6 +1941,7 @@ span.ClaimsText{
   /* margin-top: 2%; */
   /* margin-left: 5%; */
 }
+
 @media screen and (max-width: 600px) {
   .pipelineCarouselh1 {
     font-size: 1.5em !important;
@@ -1944,8 +1952,9 @@ span.ClaimsText{
   height: 1em;
   margin-top: 15% !important;
   margin-left: 2% !important;
+ }
 }
-}
+
 @media screen and (max-width:768px) and (min-width:601px) {
   .pipelineCarouselh1 {
     font-size: 2.3em !important;
@@ -1953,6 +1962,7 @@ span.ClaimsText{
     justify-content: center; */
  }
 }
+
 .pipelineCarouselh1{
   /* margin-top: -50vh !important; */
   font-size: 6em;
@@ -1982,6 +1992,7 @@ span.ClaimsText{
   margin-bottom: 20px;
   font-size: 2vw;
 }
+
 @media screen and (max-width: 600px) {
   h3.PLh3 {
     font-size: 3vh;
@@ -1990,6 +2001,7 @@ span.ClaimsText{
     margin-top: 25% !important;
   } */
 }
+
 @media screen and (max-width:768px) and (min-width:601px) {
   /* .PLContainer{
     margin-top: 15% !important;
@@ -1998,7 +2010,8 @@ span.ClaimsText{
     font-size: 2vh;
     text-align: justify;
   }
-  }
+}
+
 @media screen and (max-width: 600px) {
   p.PLp {
     font-size: 2vh;
@@ -2018,12 +2031,14 @@ span.ClaimsText{
   padding: 10px;
   font-size: 1vw;
 }
+
 .Ptable{
   width: 65% !important;
   margin-left: 18% !important;
   margin-top: 2% !important;
   box-shadow:0 1rem 3rem rgba(0,0,0,.175)!important;
 }
+
 @media screen and (max-width: 600px) {
   .Ptable {
     margin-left: 2% !important;
@@ -2053,6 +2068,7 @@ tbody,thead{
 .ContactCont{
   margin-top: 5%;
 }
+
 .CUForm{
   width: 24.7vw !important;
   height: 2.5vw !important;
@@ -2080,6 +2096,7 @@ tbody,thead{
     margin-bottom: 10% !important;
   }
 }
+
 @media screen and (max-width:768px) and (min-width:601px) {
   .CUForm{
     width: 40vh !important;
@@ -2104,9 +2121,11 @@ tbody,thead{
     height: 10vh !important;
   }
 }
+
 .CUForm:hover{
   background-position: right center !important ;
 }
+
 .CUFormContainer{
   width: 25%;
   margin-top: 1%;
@@ -2152,14 +2171,17 @@ tbody,thead{
   color: #282c34;
   margin-top: 5%;
 }
+
 @media screen and (max-width: 600px) {
   .CUCard {
     margin-left: 8% !important;
   }
 }
+
 .form-control[name^=me]{
   height: 100px;
 }
+
 @media screen and (max-width: 600px) {
   .CUFormContainer{
     width: 40vh;
@@ -2185,6 +2207,7 @@ tbody,thead{
   border-radius: 5px !important;
   box-shadow: 0 1rem 3rem rgba(0,0,0,.175) !important;
 }
+
 @media screen and (max-width:600px) {
   .LeaderContainer{
     width:35vh !important;
@@ -2196,10 +2219,39 @@ tbody,thead{
     /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset !important; */
 
   }
+
+  .LeadershipContainer{
+    width:35vh !important;
+    height: 60vh !important;
+    display: block !important;
+    box-shadow: none !important;
+    /* margin-top: 35% !important; */
+    margin-bottom: 30% !important;
+  }
+
+  .LeadershipContainerBN{
+    width:35vh !important;
+    height: 60vh !important;
+    display: block !important;
+    box-shadow: none !important;
+    /* margin-top: 35% !important; */
+    margin-bottom: 70% !important;
+  }
+
+  .LeadershipContainerDG{
+    width:35vh !important;
+    height: 60vh !important;
+    display: block !important;
+    box-shadow: none !important;
+    /* margin-top: 35% !important; */
+    margin-bottom: 140% !important;
+  }
+
   .LeaderContainer1{
     width: 100% !important;
     height: 20vh !important;
   }
+
   .LeaderImgContainer{
     width: 20vh !important;
     margin-left: 8vh !important;
@@ -2207,6 +2259,7 @@ tbody,thead{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset !important;
 
   }
+
   .LeaderTitleContainer{
     /* left: 8vh !important; */
     top: 20vh !important;
@@ -2214,36 +2267,37 @@ tbody,thead{
     height: 4.5vh !important;
     border-radius: 0 !important;
   }
+
   h1.LeaderTitle{
     font-size: 1em !important;
     margin-bottom: -2% !important;
   }
+
   .Leadertext{
     font-size: 0.7em !important;
     display: inline;
   }
+
   .LeaderContainer2{
     width: 100% !important;
     height: 23vh !important;
     margin-top: 15% !important;
   }
+
   .LeaderMsgContainer{
     width: 100% !important;
     text-align: center !important;
   }
+
   .LeaderMsg{
     font-size: 1em !important;
     width: 33vh !important;
-  }
-  .LeaderMsg1{
-    font-size: 0.8em !important;
-    width: 33vh !important;
-
   }
   .LeaderHR{
   margin-left: 16% !important;
   width: 25vh !important;
   }
+
   .LeaderSubTitleContainer{
     margin-left: 25% !important;
   }
@@ -2367,12 +2421,43 @@ text-align: center !important;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
+.LeadershipContainer{
+  display: flex;
+  width: 80vw;
+  height: 22vw;
+  margin-top: 1%;
+  margin-bottom: 5%;
+  margin-left: 10%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.LeadershipContainerDG{
+  display: flex;
+  width: 80vw;
+  height: 40vw;
+  margin-top: 1%;
+  margin-bottom: 5%;
+  margin-left: 10%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.LeadershipContainerBN{
+  display: flex;
+  width: 80vw;
+  height: 25vw;
+  margin-top: 1%;
+  margin-bottom: 5%;
+  margin-left: 10%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
 .Leadershiph2{
   text-align: center;
   color: #034c3c;
   align-items: center;
   font-weight: bold;
   text-decoration: underline 3px solid;
+  margin-bottom: 2%;
 }
 
 .card-img-top{
