@@ -36,7 +36,7 @@ function SearchPatents(){
                         searchPatent && searchPatent.length === 0 ? 
                         <img className="searchPatentImg" src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Patent+Data+Not+Found.PNG" alt="not Found"></img> : 
                         searchPatent && searchPatent.map((patent) => (
-                            <div className='CardContainer'>
+                            <div className='CardContainer' key={patent._id}>
                                     <Card
                                         style={{ width: '90rem' }} 
                                         className = "shadow-lg PatentsCard">

@@ -93,17 +93,16 @@ body{
 .shadow{
   /* background-color: #282c34 !important;*/
   background-color: #034c3c !important;
-
   margin-top: 8% !important;
   color: white !important;
-  height: 33vh !important;
+  height: 35vh !important;
   display: flex;
   flex-direction: row;
-  
 }
+
 @media screen and (max-width:600px) {
   .shadow{
-    height: 35vh !important;
+    height: 37vh !important;
     /* position: fixed; */
     z-index: -1;
   }
@@ -153,7 +152,7 @@ body{
     margin-top: 2% !important;
   } 
   .shadow{
-    height: 33vh !important;
+    height: 35vh !important;
   }
   b.Fdetail {
     font-size: 2vh;
