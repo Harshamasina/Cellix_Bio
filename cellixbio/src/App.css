@@ -2390,8 +2390,8 @@ tbody,thead{
 
 .LeaderTitleContainer{
 position: absolute;
-bottom:0.2vw;
-/* top:20%; */
+/* bottom:0.2vw; */
+top:18vw;
 background-color: #0E6E59 !important;
 color: white;
 left: 0.25vw;
