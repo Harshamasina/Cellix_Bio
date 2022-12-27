@@ -60,7 +60,7 @@ function IP(){
                                         <tbody>
                                             {
                                                 usPatents.data && usPatents.data.map((uspatent) => (
-                                                    <tr>
+                                                    <tr key={uspatent._id}>
                                                         <td>{uspatent.sno}</td>
                                                         <td className='usPatentNumber'>{uspatent.patent_number}</td>
                                                         <td className='usPatentTitle'>{uspatent.title}</td>

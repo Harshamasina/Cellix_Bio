@@ -2,6 +2,7 @@ import React from 'react';
 import { NavLink} from "react-router-dom";
 import { CDBFooter, CDBBtn, CDBIcon, CDBBox } from 'cdbreact';
 import GoToTop from './GoToTop';
+
 const Footer = () => {
   return(
         <>
@@ -63,7 +64,7 @@ const Footer = () => {
                 <CDBBox display="flex">
                     <div className='FooterIcons'>
                         <CDBBtn href="https://www.cellixbio.com/" target={"_blank"} flat color="dark" className="p-2">
-                          <CDBIcon  className='Ficon' fab icon="google" />
+                          <CDBIcon  fab icon="google" />
                         </CDBBtn>
                         <CDBBtn href="https://www.linkedin.com/in/mahesh-kandula-b052a752/" target={"_blank"} flat color="dark" className="mx-3 p-2">
                           <CDBIcon fab icon="linkedin" />

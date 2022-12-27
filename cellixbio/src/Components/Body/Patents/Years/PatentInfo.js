@@ -15,7 +15,7 @@ function PatentInfo(){
     const [therapeuticArea, setTherapeuticArea] = useState("Therapeutic Area is Loading");
     const [diseases, setDiseases] = useState("Diseases are loading");
     const [claims, setClaims] = useState("Claims are Loading");
-    const [pubDate, setPubDate] = useState("Publication Date is Loading")
+    const [pubDate, setPubDate] = useState("Publication Date is Loading");
     document.title = `${wno} - Cellix Bio`;
 
     useEffect(() => {
@@ -35,15 +35,15 @@ function PatentInfo(){
     
     return(
         <>
-        <div className='patentlandingpage'>
-              <img  className='patents_video_bg' src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Tablets.PNG" alt='image'/>
-              <div className='pipeline-text'>
-                            <div className='patents_text_1'>
-                                <h1 className='pipelineCarouselh1'>PATENTS</h1>
-                            </div>
-                            </div>
-              </div>
-        <div>
+            <div className='patentlandingpage'>
+                <img  className='patents_video_bg' src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Tablets.PNG" alt='patentInfo'/>
+                <div className='pipeline-text'>
+                    <div className='patents_text_1'>
+                        <h1 className='pipelineCarouselh1'>{wno}</h1>
+                    </div>
+                </div>
+            </div>
+            <div>
                 <h2 className='heading-primary'><p className='PatentInfoh2'>{wno}</p></h2>
                 <p className='PatentInfoh3'>Publication Date: {pubDate}</p>
             <Tabs
@@ -65,7 +65,7 @@ function PatentInfo(){
                     <Compounds compound = {patentCompounds}></Compounds>
                 </Tab>
             </Tabs>
-            <p className='PatentInfoh3link'>For more Information : <a className='PatentInfoa' target="_blank" href='https://patentscope.wipo.int/search/en/search.jsf'>WIPO Patent Scope</a></p>
+            <p className='PatentInfoh3link'>For more Information : <a className='PatentInfoa' href='https://patentscope.wipo.int/search/en/search.jsf'>WIPO Patent Scope</a></p>
         </div>
         </>
     );

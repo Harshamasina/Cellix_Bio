@@ -15,12 +15,11 @@
 
 .color-nav-scroll{
 	background: #034c3c;
-	border-bottom: #0E6E59 0.5px solid !important;
+	border-bottom: #034c3c 0.5px solid !important;
 	z-index: 9 !important;
 	top: 0 !important;
 	width: 100% !important;
 	position: fixed !important;
-	
 }
 
 .navbar-collapse{
