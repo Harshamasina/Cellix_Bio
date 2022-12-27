@@ -6,7 +6,7 @@ function WWD(){
                  <div className='DescContainerh3'><span></span>
                 <span className="WWDh3">WHAT WE DO</span><span></span>
                 </div>
-                     <h4 className="WWDh4">REVEALING THE POWER OF AUGMENTED INTELLIGENCE AND HUMANOID INVENTIVENESS TO DISCOVER NEW THERAPEUTICS</h4>
+                     <h4 className="WWDh4">REVEALING THE POWER OF AUGMENTED INTELLIGENCE AND HUMANOID INVENTIVENESS</h4>
                  </div>
                  
                  <div className="WWDPContainer">
