@@ -6,7 +6,7 @@ const Footer = () => {
   return(
         <>
         <CDBFooter className="shadow">
-          <CDBBox display="flex" flex="column" className=" mx-auto py-5" style={{ width: '80%' }}>
+          <CDBBox display="flex" flex="column" className=" mx-auto" style={{ width: '80%' }}>
             <CDBBox display="flex" justifyContent="between" className="flex-wrap">
                   <div className='FooterInfoContainer'>
                       <CDBBox display="flex" style={{ width: '20%' }} justifyContent="around">
