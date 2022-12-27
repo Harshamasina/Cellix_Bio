@@ -9,7 +9,7 @@ const Footer = () => {
           <CDBBox display="flex" flex="column" className=" mx-auto py-5" style={{ width: '80%' }}>
             <CDBBox display="flex" justifyContent="between" className="flex-wrap">
                   <div className='FooterInfoContainer'>
-                      <CDBBox>
+                      <CDBBox display="flex" style={{ width: '20%' }} justifyContent="around">
                                 <a href="/" className="d-flex align-items-center p-0 text-dark">
                                   <img className='Fimg'
                                     alt="logo"
@@ -18,12 +18,12 @@ const Footer = () => {
                                   />
                                   {/* <span className="ml-3 h5 font-weight-bold">Cellix Bio</span> */}
                                 </a>
-                            <div className='FooterContainerp'>
+                            {/* <div className='FooterContainerp'>
                                 <p className="my-3">
                                   We are focusing to develop best-in-class therapies for the treatment of Neurological, Inflammatory and Metabolic Diseases.
                                 </p>
-                            </div>
-                            <div className='FooterContainerp'>
+                            </div> */}
+                            <div className='FooterContainerp' display="flex" justifyContent="around">
                                   <ul className='FooterUL'>
                                     <li><p className='Fdetails'>GLOBAL PATENTS: </p><b className='Fdetail'>635</b></li>
                                     <li><p className='Fdetails'>ISSUED U.S PATENTS: </p><b className='Fdetail'>184</b></li>
@@ -31,7 +31,7 @@ const Footer = () => {
                                   </ul>
                             </div>
                         </CDBBox>
-                        <CDBBox display="flex" style={{ width: '50%' }} justifyContent="between">
+                        <CDBBox display="flex" style={{ width: '20%' }} justifyContent="around" className="footernavlinks">
                               <CDBBox>
                                 {/* <p className="h5 mb-4" style={{ fontWeight: '500', color:'whitesmoke' }}>
                                   Product
