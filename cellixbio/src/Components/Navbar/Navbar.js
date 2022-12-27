@@ -2,7 +2,6 @@ import { Navbar, Nav } from 'react-bootstrap';
 import { Link, Routes, Route } from "react-router-dom";
 import Home from "./Home";
 import PT from "./PT";
-// import About from "./About";
 import IP from "./IP";
 import Pipeline from "./Pipeline";
 import Contact from "./Contact";
@@ -14,13 +13,23 @@ import PatentInfo from '../Body/Patents/Years/PatentInfo';
 import Leadership from './Leadership';
 import './Navbar.css';
 import Inventor from './Inventor';
+import { useState } from 'react';
 
 function NavBar() {
+        const [changeNavbar, setChangeNavbar] = useState(false);
+        const changeBackground = () => {
+            if(window.scrollY >= 80){
+                setChangeNavbar(true);
+            }else{
+                setChangeNavbar(false);
+            }
+        }
+        window.addEventListener('scroll', changeBackground);
         return (
             <>
                 <div>
                 
-                    <Navbar collapseOnSelect  variant={"dark"} expand="lg" sticky-top className='color-nav'><Logo></Logo>
+                    <Navbar collapseOnSelect  variant={"dark"} expand="lg" className={changeNavbar ? 'color-nav-scroll' : 'color-nav'}><Logo></Logo>
                         <Navbar.Brand href="#">
                            
                         </Navbar.Brand>
