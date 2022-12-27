@@ -637,7 +637,7 @@ margin-left: 35% ;
 
 .patents-text>*:nth-child(1) {animation-delay: 0s}
 .patents-text>*:nth-child(2) {animation-delay: 4s}
-/* .patents-text>*:nth-child(3) {animation-delay: 12s} */
+/* .patents-text>*:nth-child(3) {animation-delay: 16s} */
 
 .patents_video_bg{
   width: 100%;
@@ -647,6 +647,7 @@ margin-left: 35% ;
   object-fit: cover;
   top: 0;
 }
+
 .patentsCarouselh1{
   /* margin-top: -50vh !important; */
   font-size: 6em;
@@ -681,6 +682,7 @@ margin-left: 35% ;
     margin-left: 5% !important;
     }
 }
+
 @media screen and (max-width:768px) and (min-width:601px) {
   .patents-text{ 
     height: 1em;
@@ -2166,8 +2168,8 @@ tbody,thead{
   .LeaderSubTitleContainer{
     margin-left: 15% !important;
   }
-
 }
+
 @media screen and (max-width:768px) and (min-width:601px) {
   .LeaderImgContainer{
     width: 20vh !important;
@@ -2631,15 +2633,27 @@ img{
   }
 }
 
-
 .top-btn:hover{
   cursor: pointer;
   font-size: 2.3rem;
   color: #15B39D;
 }
 
+.NoInternetContainer{
+  text-align: center;
+  align-items: center;
+  margin-top: 2%;
+}
 
+.NoInternet{
+  color: #0E6E59;
+}
 
+@media screen and (max-width: 600px){
+  .NoInternet{
+    font-size: 1rem;
+  }
+}
 
 
 

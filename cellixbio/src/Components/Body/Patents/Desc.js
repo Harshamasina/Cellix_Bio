@@ -70,8 +70,12 @@ function Desc(){
                             </div>
                             
                             <div className='patents_text_2'>
-                                <h1 className='patentsCarouselh1'>GLOBAL PATENT'S PORTFOLIO</h1>
-                            </div>      
+                                <h1 className='patentsCarouselh1'>GLOBAL PATENT PORTFOLIO</h1>
+                            </div>
+
+                            {/* <div className='patents_text_2'>
+                                <h1 className='patentsCarouselh1'>U.S PATENT PORTFOLIO</h1>
+                            </div>                   */}
                      </div>
                     
              </div>

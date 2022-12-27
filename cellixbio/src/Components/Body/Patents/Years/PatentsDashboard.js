@@ -6,6 +6,7 @@ import { useEffect } from 'react';
 import { Link } from "react-router-dom";
 import {useParams} from 'react-router-dom';
 import PatentCardSkeleton from './PatentCardSkeleton';
+import NoInternetConnection from '../../NoInternetConn';
 
 
 function PatentsDashboard(){
@@ -45,33 +46,35 @@ function PatentsDashboard(){
                 </div>
                 </div>
             </div> */}
-            {loading ? (<PatentCardSkeleton></PatentCardSkeleton>) : (
-                patents.data.map((patent) => (
-                    <div className='CardContainer'>
-                            <Card
-                                style={{ width: '90rem' }} 
-                                className = "shadow-lg PatentsCard">
-                               <Card.Body>
-                                    <Card.Title>
-                                        <Link className='Wno' to= {"/patentInfo/"+patent.wno} target={"_blank"}>{patent.wno}</Link>
-                                    </Card.Title>
-                                    <div className='cardTextContainer'>
-                                        <div className='cardTextInfoContainer'>
-                                            <Card.Text className='CardTextInfo'>
-                                                <p>{patent.diseases}</p>
-                                            </Card.Text>
+            <NoInternetConnection>
+                {loading ? (<PatentCardSkeleton></PatentCardSkeleton>) : (
+                    patents.data.map((patent) => (
+                        <div className='CardContainer'>
+                                <Card
+                                    style={{ width: '90rem' }} 
+                                    className = "shadow-lg PatentsCard">
+                                <Card.Body>
+                                        <Card.Title>
+                                            <Link className='Wno' to= {"/patentInfo/"+patent.wno} target={"_blank"}>{patent.wno}</Link>
+                                        </Card.Title>
+                                        <div className='cardTextContainer'>
+                                            <div className='cardTextInfoContainer'>
+                                                <Card.Text className='CardTextInfo'>
+                                                    <p>{patent.diseases}</p>
+                                                </Card.Text>
+                                            </div>
+                                            <div className='cardTextDateContainer'>
+                                                <Card.Text>
+                                                    <p><span className='CardTextSpan'>Publication Date: </span>{patent.publication_date}</p>
+                                                </Card.Text>
+                                            </div>
                                         </div>
-                                        <div className='cardTextDateContainer'>
-                                            <Card.Text>
-                                                <p><span className='CardTextSpan'>Publication Date: </span>{patent.publication_date}</p>
-                                            </Card.Text>
-                                        </div>
-                                    </div>
-                                </Card.Body>
-                            </Card>
-                    </div>
-                ))
-            )}   
+                                    </Card.Body>
+                                </Card>
+                        </div>
+                    ))
+                )}
+            </NoInternetConnection>   
         </div>
     );
 }

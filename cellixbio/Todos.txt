@@ -15,8 +15,8 @@ CHANGES REQUIRED:
 -> Build should be worked (Done)
 -> Carousel Text should be responsive (Done)
 -> Deploy React App in AWS using EC2 in multiple instances (Done in Default VPC)
--> All Pipeline data to website. 
--> Require Testing.
+-> All Pipeline data to website. (Done)
+-> Require Testing. 
 -> Implement React Memoization.
 -> Claims Images should not have Links.
 -> Add Image tags to the claims links.
