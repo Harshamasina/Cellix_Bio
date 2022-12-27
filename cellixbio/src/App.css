@@ -75,7 +75,7 @@ body{
   display: flex;
   font-size: 1vw;
   width: 50vw ;
-  margin-top: 25%;
+  margin-top: 5%;
   margin-left: -45%;
 }
 
@@ -95,14 +95,14 @@ body{
 
   margin-top: 8% !important;
   color: white !important;
-  height: 43vh !important;
+  height: 33vh !important;
   display: flex;
   flex-direction: row;
   
 }
 @media screen and (max-width:600px) {
   .shadow{
-    height: 40vh !important;
+    height: 35vh !important;
     /* position: fixed; */
     z-index: -1;
   }
@@ -152,7 +152,7 @@ body{
     margin-top: 2% !important;
   } 
   .shadow{
-    height: 40vh !important;
+    height: 33vh !important;
   }
   b.Fdetail {
     font-size: 2vh;
@@ -173,11 +173,12 @@ body{
   }
   .FooterContainerp{
     width: 35vh !important;
-    margin-top: 80% !important;
+    margin-top: 80% !important;    
     display: flex !important;
   }
   .Fimg{
     margin-left: 40%;
+    margin-top: 25%;
   }
 }
 @media screen and (max-width: 600px) {
@@ -418,7 +419,7 @@ body{
   display: block;
   margin-bottom: 20px;
   font-size: 2vw;
-  background-color: white;
+  /* background-color: white; */
   position: relative;
   animation: header 3s 1;
 }
@@ -2211,30 +2212,44 @@ tbody,thead{
 @media screen and (max-width:600px) {
   .LeaderContainer{
     width:35vh !important;
-    height: 60vh !important;
+    height: 70vh !important;
     display: block !important;
     box-shadow: none !important;
-    /* margin-top: 35% !important; */
-    margin-bottom: 35% !important;
-    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset !important; */
+    margin-top: 10% !important;
+    margin-bottom: 25% !important;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset !important;
 
+  }
+  .LeadershipImgContainer{
+    width: 20vh !important;
+    margin-left: 8vh !important;
+    height: 100% !important;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset !important;
+
+  }
+  .LeadershipTitleContainer{
+    /* left: 8vh !important; */
+    top: 20vh !important;
+    width: 35vh !important;
+    height: 4.5vh !important;
+    border-radius: 0 !important;
   }
 
   .LeadershipContainer{
     width:35vh !important;
-    height: 60vh !important;
+    height: 125vh !important;
     display: block !important;
-    box-shadow: none !important;
     /* margin-top: 35% !important; */
     margin-bottom: 30% !important;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset !important;
+
   }
 
-  .LeadershipContainerBN{
+  /* .LeadershipContainerBN{
     width:35vh !important;
     height: 60vh !important;
     display: block !important;
     box-shadow: none !important;
-    /* margin-top: 35% !important; */
     margin-bottom: 70% !important;
   }
 
@@ -2243,9 +2258,8 @@ tbody,thead{
     height: 60vh !important;
     display: block !important;
     box-shadow: none !important;
-    /* margin-top: 35% !important; */
     margin-bottom: 140% !important;
-  }
+  } */
 
   .LeaderContainer1{
     width: 100% !important;
@@ -2286,7 +2300,8 @@ tbody,thead{
 
   .LeaderMsgContainer{
     width: 100% !important;
-    text-align: center !important;
+    text-align: justify !important;
+    margin-bottom: 20% !important;
   }
 
   .LeaderMsg{
@@ -2311,7 +2326,19 @@ tbody,thead{
     text-align: center;
     /* color: white; */
   }
-  .LeadershipContainerDG{
+  .LeadershipImgContainer{
+    width: 20vh !important;
+    height: 30vh !important;
+    text-align: center;
+    margin-top: 80% !important;
+  }
+  .LeadershipTitleContainer{
+    top: 33.5vh !important;
+    width: 19.7vh !important;
+    height: 7.8vh !important;
+    border-radius: 0 !important;
+  }
+  .LeadershipContainer{
     height: 60vh !important;
     width: 70vh !important;
     margin-left: 3% !important;
@@ -2356,7 +2383,7 @@ tbody,thead{
   .LeaderMsg{
     font-size: 0.85em !important;
     margin-left: 5% !important;
-    text-align: center;
+    text-align: justify;
     /* border: red 2px solid; */
   }
   .LeaderMsg1{
@@ -2371,6 +2398,14 @@ tbody,thead{
   width: 17vw;
   height: 22vw;
   /* position: relative; */
+  text-align: center;
+  /* color: white; */
+}
+.LeadershipImgContainer{
+  width: 17vw;
+  height: 22vw;
+margin-top: 20%;
+margin-left: 0.5%;
   text-align: center;
   /* color: white; */
 }
@@ -2401,6 +2436,19 @@ border-radius: 10px 10px 0px 0px;
 text-align: center !important;
 /* font-size: 1rem; */
 }
+.LeadershipTitleContainer{
+  position: absolute;
+  /* bottom:0.2vw; */
+  top:21.7vw;
+  background-color: #0E6E59 !important;
+  color: white;
+  left: 0.25vw;
+  width: 16.65vw;
+  height: 4vw;
+  border-radius: 10px 10px 0px 0px;
+  text-align: center !important;
+  /* font-size: 1rem; */
+  }
 .LeaderTitle{
   font-size: 2rem !important;
 }
@@ -2411,18 +2459,18 @@ text-align: center !important;
 }
 
 .LeaderMsg{
-  font-size: 1.3vw;
+  font-size: 1.5em;
 }
 .LeaderMsg1{
-  font-size: 1.2vw;
+  font-size: 1em;
 }
 
 .LeaderContainer{
   display: flex;
   width: 80vw;
   height: 22vw;
-  margin-top: 1%;
-  margin-bottom: 15%;
+  margin-top: 5%;
+  margin-bottom: 5%;
   margin-left: 10%;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
@@ -2430,7 +2478,7 @@ text-align: center !important;
 .LeadershipContainer{
   display: flex;
   width: 80vw;
-  height: 22vw;
+  height: 32vw;
   margin-top: 1%;
   margin-bottom: 5%;
   margin-left: 10%;

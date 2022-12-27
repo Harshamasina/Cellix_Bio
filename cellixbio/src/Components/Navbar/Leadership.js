@@ -101,12 +101,12 @@ function Leadership(){
                 </div>
             </div>
             
-            <div className='LeadershipContainerDG'>
+            <div className='LeadershipContainer'>
                 <div className='LeaderContainer1'>
-                    <div className='LeaderImgContainer'>
+                    <div className='LeadershipImgContainer'>
                         <img className='LeaderImg' src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Leadership.Douglas.png" alt='Limage'/>
                     </div>
-                    <div className='LeaderTitleContainer'>
+                    <div className='LeadershipTitleContainer'>
                         <h1 className='LeaderTitle'>Dr. Douglas Greene</h1><p className='Leadertext'>Medical Affairs & Strategic Advisor</p>
                     </div>
                 </div>
