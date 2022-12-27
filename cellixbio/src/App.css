@@ -370,7 +370,7 @@ body{
 
 .homeBtn:hover, .homeBtn:focus, .homeBtn:active{
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  background-color: rgb(21,177,156);
+  color: rgb(21,177,156);
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
   color: #fff;
