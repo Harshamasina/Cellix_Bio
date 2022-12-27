@@ -49,7 +49,7 @@ function PatentsDashboard(){
             <NoInternetConnection>
                 {loading ? (<PatentCardSkeleton></PatentCardSkeleton>) : (
                     patents.data.map((patent) => (
-                        <div className='CardContainer'>
+                        <div className='CardContainer' key={patent._id}>
                                 <Card
                                     style={{ width: '90rem' }} 
                                     className = "shadow-lg PatentsCard">

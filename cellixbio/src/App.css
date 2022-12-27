@@ -323,7 +323,7 @@ body{
   opacity: 1;
   color: white;
   text-align: left !important;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 
 }
 
