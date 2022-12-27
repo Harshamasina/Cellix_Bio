@@ -124,15 +124,13 @@ function Leadership(){
                 </div>
             </div>
             
-            <h1 className="Leadershiph2">Advisors</h1>
-            
             <div className='LeadershipContainer'>
                 <div className='LeaderContainer1'>
                     <div className='LeaderImgContainer'>
                         <img className='LeaderImg' src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Leadership.PaulJeffery.PNG" alt='Limage'/>
                     </div>
                     <div className='LeaderTitleContainer'>
-                        <h1 className='LeaderTitle'>Paul Jeffrey</h1><p className='Leadertext'>Business Strategy</p>
+                        <h1 className='LeaderTitle'>Paul Jeffrey</h1><p className='Leadertext'>Business Strategy and Advisor</p>
                     </div>
                 </div>
                 <div className='LeaderContainer2'>
@@ -148,7 +146,7 @@ function Leadership(){
                 </div>
             </div>
 
-            <div className='LeadershipContainerBN'>
+            {/* <div className='LeadershipContainerBN'>
                 <div className='LeaderContainer1'>
                     <div className='LeaderImgContainer'>
                         <img className='LeaderImg' src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Leadership.BruceNemlich.png" alt='Limage'/>
@@ -168,7 +166,7 @@ function Leadership(){
                         <p className='LeaderMsg'>Bruce has worked across a wide range of pharmaceutical commercialization strategy, analysis, and implementation over the past 28 years at Pfizer and McKinsey. At Pfizer, he led the Management Science Group and the Resource Allocation Group where besides supporting sales and marketing optimization, he worked with business development and commercial development. He played key roles on various co-promotion deals including Lipitor, Celebrex, Spiriva, and Eliquis, especially negotiating promotion resource levels. Prior to pharmaceuticals, Bruce gained significant corporate finance experience with Morgan Stanley, Stern Stewart, and McKinsey. Bruce holds an MBA from the University of Chicago, and Bachelor of Science in Civil Engineering from the Massachusetts Institute of Technology.</p>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
        </>
     );
