@@ -70,6 +70,9 @@
 			width: 100% !important;
 			position: fixed !important;
 		}
+		.navbar-toggler{
+			margin-right: 3% !important;
+		}
 		
 	}
 	@media screen and (max-width:768px) and (min-width:601px) {
@@ -81,6 +84,9 @@
 		}
 		.nav-link{
 			color: #6CC8C2 !important;
+		}
+		.navbar-toggler{
+			margin-right: 3% !important;
 		}
 	
 	}
