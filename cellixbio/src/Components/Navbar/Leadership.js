@@ -11,7 +11,7 @@ function Leadership(){
         </div>
         
         <div>
-            <div className='LeaderContainer'>
+            <div className='LeadershipContainer'>
                 <div className='LeaderContainer1'>
                     <div className='LeaderImgContainer'>
                         <img className='LeaderImg' src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Leadership.Mahesh.PNG" alt='Limage'/>
@@ -33,7 +33,7 @@ function Leadership(){
                 </div>
             </div>
 
-            <div className='LeaderContainer'>
+            <div className='LeadershipContainer'>
                 <div className='LeaderContainer1'>
                     <div className='LeaderImgContainer'>
                         <img className='LeaderImg' src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Leadership.SubbuApparsundaram.PNG" alt='Limage'/>
@@ -55,9 +55,9 @@ function Leadership(){
                 </div>
             </div> 
             
-            <h2 className="Leadershiph2">Science Team</h2>
+            <h1 className="Leadershiph2">Science Team</h1>
             
-            <div className='LeaderContainer'>
+            <div className='LeadershipContainer'>
                 <div className='LeaderContainer1'>
                     <div className='LeaderImgContainer'>
                         <img className='LeaderImg' src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Leadership.FrankDiana.PNG" alt='Limage'/>
@@ -79,7 +79,7 @@ function Leadership(){
                 </div>
             </div>
             
-            <div className='LeaderContainer'>
+            <div className='LeadershipContainer'>
                 <div className='LeaderContainer1'>
                     <div className='LeaderImgContainer'>
                         <img className='LeaderImg' src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Leadership.Mudher.PNG" alt='Limage'/>
@@ -101,7 +101,7 @@ function Leadership(){
                 </div>
             </div>
             
-            <div className='LeaderContainer'>
+            <div className='LeadershipContainerDG'>
                 <div className='LeaderContainer1'>
                     <div className='LeaderImgContainer'>
                         <img className='LeaderImg' src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Leadership.Douglas.png" alt='Limage'/>
@@ -119,14 +119,14 @@ function Leadership(){
                                 <hr className='LeaderHR'></hr>
                     <div className='LeaderMsgContainer'>
                         <p className='LeaderMsg'>Douglas Greene, MD, served as Executive Vice President, Chief Scientific Officer and Head, Research and Development, Ikaria Pharmaceuticals; Senior Vice President and Senior Scientific Advisor and Head of Corporate Regulatory Development at Sanofi-Aventis; Executive Vice President of Clinical Sciences and Product Development at Merck Research Laboratories and Corporate Officer of Merck, Inc.; served as member of the US Food and Drug Administration's Endocrinologic and Metabolic Drug Advisory Committee and acted as Chairman of the Advisory Committee.</p>
-                        {/* <p className='LeaderMsg'>Dr. Greene was Professor of Internal Medicine, Director of the Michigan Diabetes Research and Training Center, and Chief, Division of Endocrinology & Metabolism at the University of Michigan School of Medicine. Dr. Greene was Associate Professor of Internal Medicine, Director of the Diabetes Research Laboratory and Head of the General Clinical Research Center at the University of Pittsburgh, and Assistant Professor of Internal Medicine at the University of Pennsylvania. Dr. Greene completed a post-doctoral research fellowship at the Cox Research Institute at the University of Pennsylvania, and Internal Medicine internship and residency at Johns Hopkins Hospital. Dr Greene holds an MD from the Johns Hopkins School of Medicine.</p> */}
+                        <p className='LeaderMsg'>Dr. Greene was Professor of Internal Medicine, Director of the Michigan Diabetes Research and Training Center, and Chief, Division of Endocrinology & Metabolism at the University of Michigan School of Medicine. Dr. Greene was Associate Professor of Internal Medicine, Director of the Diabetes Research Laboratory and Head of the General Clinical Research Center at the University of Pittsburgh, and Assistant Professor of Internal Medicine at the University of Pennsylvania. Dr. Greene completed a post-doctoral research fellowship at the Cox Research Institute at the University of Pennsylvania, and Internal Medicine internship and residency at Johns Hopkins Hospital. Dr Greene holds an MD from the Johns Hopkins School of Medicine.</p>
                     </div>
                 </div>
             </div>
             
-            <h2 className="Leadershiph2">Advisors</h2>
+            <h1 className="Leadershiph2">Advisors</h1>
             
-            <div className='LeaderContainer'>
+            <div className='LeadershipContainer'>
                 <div className='LeaderContainer1'>
                     <div className='LeaderImgContainer'>
                         <img className='LeaderImg' src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Leadership.PaulJeffery.PNG" alt='Limage'/>
@@ -148,7 +148,7 @@ function Leadership(){
                 </div>
             </div>
 
-            <div className='LeaderContainer'>
+            <div className='LeadershipContainerBN'>
                 <div className='LeaderContainer1'>
                     <div className='LeaderImgContainer'>
                         <img className='LeaderImg' src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Leadership.BruceNemlich.png" alt='Limage'/>
