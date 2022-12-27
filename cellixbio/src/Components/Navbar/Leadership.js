@@ -11,7 +11,7 @@ function Leadership(){
         </div>
         
         <div>
-            <div className='LeadershipContainer'>
+            <div className='LeaderContainer'>
                 <div className='LeaderContainer1'>
                     <div className='LeaderImgContainer'>
                         <img className='LeaderImg' src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Leadership.Mahesh.PNG" alt='Limage'/>
@@ -33,7 +33,7 @@ function Leadership(){
                 </div>
             </div>
 
-            <div className='LeadershipContainer'>
+            <div className='LeaderContainer'>
                 <div className='LeaderContainer1'>
                     <div className='LeaderImgContainer'>
                         <img className='LeaderImg' src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Leadership.SubbuApparsundaram.PNG" alt='Limage'/>
@@ -57,7 +57,7 @@ function Leadership(){
             
             <h1 className="Leadershiph2">Science Team</h1>
             
-            <div className='LeadershipContainer'>
+            <div className='LeaderContainer'>
                 <div className='LeaderContainer1'>
                     <div className='LeaderImgContainer'>
                         <img className='LeaderImg' src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Leadership.FrankDiana.PNG" alt='Limage'/>
@@ -79,7 +79,7 @@ function Leadership(){
                 </div>
             </div>
             
-            <div className='LeadershipContainer'>
+            <div className='LeaderContainer'>
                 <div className='LeaderContainer1'>
                     <div className='LeaderImgContainer'>
                         <img className='LeaderImg' src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Leadership.Mudher.PNG" alt='Limage'/>
@@ -124,7 +124,7 @@ function Leadership(){
                 </div>
             </div>
             
-            <div className='LeadershipContainer'>
+            <div className='LeaderContainer'>
                 <div className='LeaderContainer1'>
                     <div className='LeaderImgContainer'>
                         <img className='LeaderImg' src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Leadership.PaulJeffery.PNG" alt='Limage'/>

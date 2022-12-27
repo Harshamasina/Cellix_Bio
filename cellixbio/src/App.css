@@ -2311,6 +2311,12 @@ tbody,thead{
     text-align: center;
     /* color: white; */
   }
+  .LeadershipContainerDG{
+    height: 60vh !important;
+    width: 70vh !important;
+    margin-left: 3% !important;
+
+  }
   .LeaderContainer{
     width: 70vh !important;
     height: 30vh !important;
@@ -2324,7 +2330,7 @@ tbody,thead{
   .LeaderTitleContainer{
     /* left: 8vh !important; */
     top: 22vh !important;
-    width: 20vh !important;
+    width: 19.7vh !important;
     height: 7.8vh !important;
     border-radius: 0 !important;
   }
