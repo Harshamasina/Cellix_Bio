@@ -29,7 +29,8 @@ function NavBar() {
             <>
                 <div>
                 
-                    <Navbar collapseOnSelect  variant={"dark"} expand="lg" className={changeNavbar ? 'color-nav-scroll' : 'color-nav'}><Logo></Logo>
+                    <Navbar collapseOnSelect  variant={"dark"} expand="lg" className={changeNavbar ? 'color-nav-scroll' : 'color-nav'}>
+                        <Logo></Logo>
                         <Navbar.Brand href="#">
                            
                         </Navbar.Brand>
