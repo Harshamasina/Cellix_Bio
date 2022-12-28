@@ -3054,3 +3054,25 @@ img{
   font-size: large;
   text-align: justify;
 }
+
+@media screen and (max-width: 600px){
+  .CareersDetailsContainer{
+    width: 90%;
+    margin-left: 4%;
+  }
+  .CareersDetails{
+    margin: 2.5%;
+  }
+  .CareersDetailsh2{
+    font-size: 1.5em;
+  }
+  .CareersDetailsul{
+    font-size: 1em;
+  }
+  .CareersDetailsulCP{
+    font-size: 1em;
+  }
+  .CareersDetailsp{
+    font-size: 1em;
+  }
+}
