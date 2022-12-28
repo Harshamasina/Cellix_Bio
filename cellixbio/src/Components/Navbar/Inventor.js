@@ -9,7 +9,7 @@ function Inventor() {
                                 <h1 className='pipelineCarouselh1'>INVENTOR</h1>
                             </div>
                             </div>
-              </div>
+          </div>
            <div className='LeaderContainer'>
               <div className='LeaderContainer1'>
                 <div className='LeaderImgContainer'>

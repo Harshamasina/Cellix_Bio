@@ -14,6 +14,8 @@ import Leadership from './Leadership';
 import './Navbar.css';
 import Inventor from './Inventor';
 import { useState } from 'react';
+import Media from './Media';
+import Careers from './Careers';
 
 function NavBar() {
         const [changeNavbar, setChangeNavbar] = useState(false);
@@ -49,7 +51,8 @@ function NavBar() {
                                 <Nav.Link className='navbar_link' as={Link} to="/IP" eventKey="5">Intellectual Property</Nav.Link>
                                 <Nav.Link className='navbar_link' as={Link} to="/Inventor" eventKey="7">INVENTOR</Nav.Link>
                                 <Nav.Link className='navbar_link' as={Link} to="/Leadership" eventKey="8">Leadership</Nav.Link>
-                                <Nav.Link className='navbar_link' as={Link} to="/Contact" eventKey="9">Contact</Nav.Link>
+                                <Nav.Link className='navbar_link' as={Link} to="/Media" eventKey="9">Media</Nav.Link>
+                                <Nav.Link className='navbar_link' as={Link} to="/Contact" eventKey="10">Contact</Nav.Link>
 
                             </Nav>
                         </Navbar.Collapse>
@@ -68,6 +71,8 @@ function NavBar() {
                         <Route path='/Inventor' element = {<Inventor></Inventor>}></Route>
                         <Route path='/Leadership' element = {<Leadership></Leadership>}></Route>
                         <Route path='/Contact' element = {<Contact></Contact>}></Route>
+                        <Route path='/Media' element={<Media></Media>}></Route>
+                        <Route path='/Careers' element={<Careers></Careers>}></Route>
                         <Route path='/PatentsDashboard/:years' element = {<PatentsDashboard></PatentsDashboard>}></Route>
                         <Route path='/PatentInfo/:wno' element = {<PatentInfo></PatentInfo>}></Route>
                         <Route path='/Cellix_Bio' element={<Home></Home>}></Route>

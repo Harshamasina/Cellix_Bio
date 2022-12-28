@@ -112,6 +112,7 @@ body{
   }
   .FooterInfoContainer{
     margin-left: 15%;
+    /* margin-left: 10%; */
   }
 }
 @media screen and (max-width: 600px) {
@@ -2880,7 +2881,98 @@ img{
   }
 }
 
+.MediaCardsContainer{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
 
+.MediaCard{
+  display: block !important;
+  margin: 1.5% !important;
+}
 
+.MediaCardImage{
+  width: 40% !important;
+  height: 40% !important;
+  margin-left: 30%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.MediaCardBody{
+  text-align: center !important;
+  justify-content: space-evenly !important;
+}
+
+.MediaCardTitle{
+  text-align: center !important;
+  font-weight: bold !important;
+  margin: 1% !important;
+  background: #0E6E59;
+  border-radius: 5px;
+  display: block !important;
+}
+
+.MediaCardTitlea{
+  color: #f2f2f2;
+}
+
+.MediaCardTitlea:hover{
+  color: #f2f2f2 !important;
+  text-decoration: underline 1px solid !important;
+  text-decoration-color: #f2f2f2 !important;
+}
+
+.MediaCardText{
+  text-align: justify !important;
+  margin: 1% !important;
+}
+
+.MediaCarda{
+  color: #034c3c !important;
+  font-style: italic;
+  text-decoration: underline 1px solid !important;
+  text-decoration-color: #034c3c;
+}
+
+.MediaCarda:hover{
+  color: #15B39D;
+}
+
+@media screen and (max-width: 600px){
+  .MediaCard{
+    margin-left: 2.3% !important;
+    margin: 2% !important;
+  }
+  .MediaCardImage{
+    width: 50% !important;
+    height: 30% !important;
+  }
+  .MediaCardTitle{
+    font-size: 0.8rem !important;
+    text-align: center !important;
+  }
+  .MediaCardText{
+    font-size: 0.6rem !important;
+    text-align: justify !important;
+  }
+  .MediaCarda{
+    font-size: 0.6rem !important;
+  }
+}
+
+@media screen and (max-width:768px) and (min-width:601px){
+  .MediaCard{
+    width: 80% !important;
+  }
+}
+
+@media only screen and (min-width: 992px){
+  .MediaCard{
+    width: 80% !important;
+  }
+}
 
 
