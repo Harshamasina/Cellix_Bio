@@ -1947,7 +1947,7 @@ span.ClaimsText{
 
 @media screen and (max-width: 600px) {
   .pipelineCarouselh1 {
-    font-size: 1.5em !important;
+    font-size: 2.5em !important;
     /* text-align: center;
     justify-content: center; */
  }
@@ -1960,7 +1960,7 @@ span.ClaimsText{
 
 @media screen and (max-width:768px) and (min-width:601px) {
   .pipelineCarouselh1 {
-    font-size: 2.3em !important;
+    font-size: 4em !important;
     /* text-align: center;
     justify-content: center; */
  }
@@ -2975,4 +2975,82 @@ img{
   }
 }
 
+.CareersPContainer{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  text-align: center;
+  align-items: center;
+  margin-left: 15%;
+  margin-top: 2%;
+}
 
+.CareersP{
+  font-size: larger;
+  text-align: justify;
+}
+
+.CareersPSpan{
+  color: #15B39D;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.CareersPSpanEmail{
+  color: #15B39D;
+  font-weight: bolder;
+  cursor: pointer;
+  font-size: larger;
+}
+
+.CareersPSpanEmail:hover{
+  color: #034c3c;
+  text-decoration: underline 1px solid;
+  text-decoration-color: #034c3c;
+}
+
+.CareersDetailsContainer{
+  display: flex;
+  flex-direction: column;
+  border-color: #4e545f;
+  margin-top: 1% !important;
+  box-shadow: 0 0.5rem 3rem 0.5rem rgba(0,0,0,.175);
+  width: 80%;
+  border-radius: 5px;
+  margin-left: 12%;
+}
+
+.CareersDetails{
+  margin: 1.5%;
+}
+
+.CareersDetailsh2{
+  display: block;
+  background: #0E6E59;
+  color: #f2f2f2;
+  border-radius: 5px;
+}
+
+.CareersDetailsh3{
+  color: #0E6E59;
+  text-decoration: underline #034c3c 2px solid;
+}
+
+.CareersDetailsul{
+  list-style-type: circle;
+  margin-bottom: 0.5%;
+}
+
+.CareersDetailsulCP{
+  list-style-type: none;
+}
+
+.CareersDetailsulspan{
+  font-size: large;
+  font-weight: 600;
+}
+
+.CareersDetailsp{
+  font-size: large;
+  text-align: justify;
+}
