@@ -345,7 +345,7 @@ function Media(){
                         </Card.Title>
 
                         <Card.Text className='MediaCardText'>
-                            Cellix Bio and Texas A&M University collaboration is focused to screen Gastro-Intestinal Tolerable NSAIDs with improved efficacy and safety profile. Cellix Bio’s Patented Platform Technology driven Diclofenac Novel Long Chain Fatty acid conjugate had low GI ulceration with improved safety and tolerability profile. The collaboration is also extended to investigate the Novel Sulindac and Eflornithine novel molecular conjugates for the effective treatment of GI Polyps.
+                            Cellix Bio and Texas A&M University collaboration is focused to screen Gastro-Intestinal Tolerable NSAIDs with improved efficacy and safety profile. Cellix Bio's Patented Platform Technology driven Diclofenac Novel Long Chain Fatty acid conjugate had low GI ulceration with improved safety and tolerability profile. The collaboration is also extended to investigate the Novel Sulindac and Eflornithine novel molecular conjugates for the effective treatment of GI Polyps.
                         </Card.Text>
                     </Card.Body>
                 </Card>
