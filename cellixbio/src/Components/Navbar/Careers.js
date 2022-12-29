@@ -1,4 +1,5 @@
 function Careers(){
+    document.title = 'Careers - Cellix Bio'
     return(
         <>
             <div className='patentlandingpage'>

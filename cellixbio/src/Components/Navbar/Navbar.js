@@ -1,4 +1,5 @@
 import { Navbar, Nav } from 'react-bootstrap';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Link, Routes, Route } from "react-router-dom";
 import Home from "./Home";
 import PT from "./PT";
@@ -51,8 +52,12 @@ function NavBar() {
                                 <Nav.Link className='navbar_link' as={Link} to="/IP" eventKey="5">Intellectual Property</Nav.Link>
                                 <Nav.Link className='navbar_link' as={Link} to="/Inventor" eventKey="7">INVENTOR</Nav.Link>
                                 <Nav.Link className='navbar_link' as={Link} to="/Leadership" eventKey="8">Leadership</Nav.Link>
-                                <Nav.Link className='navbar_link' as={Link} to="/Media" eventKey="9">Media</Nav.Link>
-                                <Nav.Link className='navbar_link' as={Link} to="/Contact" eventKey="10">Contact</Nav.Link>
+                                {/* <Nav.Link className='navbar_link' as={Link} to="/Media" eventKey="9">Media</Nav.Link> */}
+                                <Nav.Link className='navbar_link' as={Link} to="/Contact" eventKey="9">Contact</Nav.Link>
+                                <NavDropdown className='navbar_link' title="MORE" id="basic-nav-dropdown">
+                                        <NavDropdown.Item className='navbar_link' as={Link} to="/Media" eventKey="10">MEDIA</NavDropdown.Item>
+                                        <NavDropdown.Item className='navbar_link' as={Link} to="/Careers" eventKey="11">CAREERS</NavDropdown.Item>
+                                </NavDropdown>
 
                             </Nav>
                         </Navbar.Collapse>

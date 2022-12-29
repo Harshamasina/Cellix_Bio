@@ -1,4 +1,5 @@
 function Leadership(){
+    document.title = 'Leadership - Cellix Bio'
     return(
       <>
         <div className='patentlandingpage'>
@@ -36,7 +37,7 @@ function Leadership(){
             <div className='LeaderContainer'>
                 <div className='LeaderContainer1'>
                     <div className='LeaderImgContainer'>
-                        <img className='LeaderImg' src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Leadership.SubbuApparsundaram.PNG" alt='Limage'/>
+                        <img className='LeaderImg1' src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Leadership.SubbuApparsundaram.PNG" alt='Limage'/>
                     </div>
                     <div className='LeaderTitleContainer'>
                         <h1 className='LeaderTitle'>Subbu Apparsundaram</h1><p className='Leadertext'>CDO & COO</p>
