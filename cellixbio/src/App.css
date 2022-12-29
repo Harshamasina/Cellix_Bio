@@ -1018,12 +1018,26 @@ font-size: 3vh;
     font-size: 1.5vh;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px){
   .SearchBarButton {
     /* margin-left: 45vh !important; */
     left: 26%;
     top: -20%;
     background-color: transparent !important;
+  }
+}
+
+/* @media screen and (min-width: 600px){
+  .SearchBarButton{
+    background-color: transparent !important;
+    right: 20%;
+  }
+} */
+
+@media screen and (min-width: 768px){
+  .SearchBarButton {
+    background-color: transparent !important;
+    left: -13% !important;
   }
 }
 
@@ -1047,7 +1061,7 @@ font-size: 3vh;
   border: 0;
   background-color: white;
   margin-bottom: 1%;
-  margin-left: 68vw;
+  margin-left: 74vw;
   margin-top: 2.7vw;
   position: relative;
 }
@@ -1291,6 +1305,7 @@ p.CardTextInfo{
   justify-content: space-between;
   /* margin-left: 15vw !important; */
 }
+
 .col-md-2{
   margin-right: 2vw !important;
   margin-bottom: 20px;
@@ -2296,7 +2311,7 @@ tbody,thead{
 
   .LeaderContainer2{
     width: 100% !important;
-    height: 23vh !important;
+    height: 26vh !important;
     margin-top: 15% !important;
   }
 
@@ -2891,6 +2906,10 @@ img{
 .MediaCard{
   display: block !important;
   margin: 1.5% !important;
+}
+
+.MediaCard:hover{
+  color: #4e545f ;
 }
 
 .MediaCardImage{

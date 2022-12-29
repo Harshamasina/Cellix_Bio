@@ -60,6 +60,7 @@
 		.color-nav{
 			background-color: #0E6E59 !important;
 			width: 100% !important;
+			position: absolute;
 
 		}
 		.color-nav-scroll{
@@ -68,7 +69,8 @@
 			z-index: 9 !important;
 			top: 0 !important;
 			width: 100% !important;
-			position: fixed !important;
+			/* position: fixed !important; */
+			position: absolute;
 		}
 		.navbar-toggler{
 			margin-right: 3% !important;
@@ -81,6 +83,7 @@
 		}
 		.color-nav{
 			background-color: #0E6E59 !important;
+			position: absolute;
 		}
 		.nav-link{
 			color: #6CC8C2 !important;

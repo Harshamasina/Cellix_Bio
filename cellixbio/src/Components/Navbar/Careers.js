@@ -44,6 +44,7 @@ function Careers(){
                         <li>Functional Area : <span className="CareersDetailsulspan">R&D, Pharmaceuticals</span></li>
                         <li>Employment Type : <span className="CareersDetailsulspan">Full Time</span></li>
                     </ul>
+                    <hr></hr>
                 </div>
 
                 <div className="CareersDetails">
@@ -73,6 +74,7 @@ function Careers(){
                         <li>Independently draft and/or review standard operating procedures (SOPs).</li>
                         <li>Maintain effective and pro-active communication and coordination of activities with multi-functional stakeholders.</li>
                     </ul>
+                    <hr></hr>
                 </div>
 
                 <div className="CareersDetails">
@@ -92,6 +94,7 @@ function Careers(){
                         <li>Independently draft and/or review standard operating procedures (SOPs).</li>
                         <li>Maintain effective and pro-active communication and coordination of activities with multi-functional stakeholders.</li>
                     </ul>
+                    <hr></hr>
                 </div>
 
                 <div className="CareersDetails">
@@ -108,6 +111,7 @@ function Careers(){
                     </ul>
                     <h4 className="CareersDetailsh4">Technical/Functional Skills : </h4>
                     <p>Sound knowledge on organic chemistry and scale up reactions from mg to gm scale</p>
+                    <hr></hr>
                 </div>
 
                 <div className="CareersDetails">
@@ -130,6 +134,7 @@ function Careers(){
                     </ul>
                     <h4 className="CareersDetailsh4">Technical/Functional Skills : </h4>
                     <p className="CareersDetailsp">Sound knowledge on organic chemistry and scale up reactions from mg to gm scale</p>
+                    <hr></hr>
                 </div>
 
                 <div className="CareersDetails">
@@ -141,18 +146,21 @@ function Careers(){
                     <p className="CareersDetailsp">Assist Senior Managers, Directors and Consultants with the planning and documentation related to recruiting thought-leaders and providing effective communications, including but not limited to:</p>
                     <p className="CareersDetailsp">Developing and updating spreadsheets and communications. Performing Internet research. Responsible for quality data management. Manage project plans, timelines, and out-of-pocket budgets. Coordinate and schedule meetings with internal team, clients, and thought-leaders. Develop accurate documents and communications for use with CROs. Supports senior project staff with larger and more complex projects. Assists senior project staff on-site, where Project Manager will act as a point-of-contact and coordinator for clients and/or thought-leaders;</p>
                     <p className="CareersDetailsp">Bachelor's Degree in Communications, Business, Marketing, or another related Health-care field. Minimum 2-5 years of experience in pharmaceutical or health-care industry. Strong project management and communications experience.</p>
+                    <hr></hr>
                 </div>
 
                 <div className="CareersDetails">
                     <h2 className="CareersDetailsh2">SENIOR MANAGER, Pre-Clinical</h2>
                     <p className="CareersDetailsp">To direct investigative safety studies that support de-risking of innovative drug targets and modalities, non-clinical compound candidate selection. Develop strategy for bringing in state of the art techniques, and apply them to prospective and retrospective in vivo, ex vivo and in vitro evaluations of drug safety, with a particular emphasis on comparative biology of innovative therapeutic targets, pathways and modalities. Nonclinical investigative safety assessment plan to support development/registration of drugs of various and novel modalities.</p>
                     <p className="CareersDetailsp">PhD in pharmacology, toxicology, immunology, molecular biology, biochemistry, cell biology or a related biological science; MD, DVM, PharmD with at least 5 years of experience in the related field. Demonstrated leadership in cross-industry organization. An understanding of the drug development process and how investigative science plays a role in quickly and efficiently addressing key questions.</p>
+                    <hr></hr>
                 </div>
 
                 <div className="CareersDetails">
                     <h2 className="CareersDetailsh2">REGULATORY AFFAIRS: Associate Director, CMC & Analytical Services</h2>
                     <p className="CareersDetailsp">Responsible for management analytical services and Chemistry, Manufacturing and Controls (CMC) function including, the development and maintenance of analytical and CMC related Quality Systems, identification, development and maintenance of contract labs, analytical method development/validation/transfer, Quality Assurance oversight of OOS investigations, analytical data review for raw materials, in-process materials and Finished Goods lot release testing, management of the stability program, and development. CMC Expert providing strategic direction and support to on-site manufacturing, Operations, R&D, Clinical and Commercial teams developing and commercializing products approved via NDA and PMA pathways.</p>
                     <p className="CareersDetailsp">Expert knowledge of cGMP for finished pharmaceuticals. MSc / PhD in chemistry or chemical engineering with 5 - 10 years of experience.</p>
+                    <hr></hr>
                 </div>
 
                 <div className="CareersDetails">
@@ -160,12 +168,14 @@ function Careers(){
                     <p className="CareersDetailsp">The candidate will be expected to prepare and review many types of documents for submission to the FDA, including the following (not an all-inclusive list), in a format compliant with FDA standards. In addition, the candidate will be expected to communicate with FDA and represent the Regulatory Affairs department in cross functional team meetings and must possess a strong understanding of regulations and guidances. The applicant will assist in determining regulatory strategy for new submissions and post-approval changes.</p>
                     <p className="CareersDetailsp">The ideal candidate must have experience with thoroughly reviewing documentation required for 505(b)(2) submissions for accuracy and completeness, and successfully communicating with FDA and other stakeholders (internal and external). The candidate must have the ability to work independently and manage/prioritize projects to ensure targeted timelines are met.</p>
                     <p className="CareersDetailsp">A minimum of 2 years' experience in Regulatory Affairs with a Bachelor's / Master's degree, preferably in Chemistry or a related, scientific discipline. Experience with Adobe Acrobat and Windows-based programs such as Microsoft Word, Excel, and SharePoint is required.</p>
+                    <hr></hr>
                 </div>
 
                 <div className="CareersDetails">
                     <h2 className="CareersDetailsh2">PATENT ASSOCIATE, Chemistry / Pharma</h2>
                     <p className="CareersDetailsp">Conducting patent & non-patent literature searches including prior art, freedom to operate, invalidation and other searches. Providing insightful analysis of search results from various sources by preparing and delivering timely, value-added patent search reports based on in-house established patent search protocols. Drafting Provisional and Complete Specifications for patent applications. Attending to Examination reports and Office Actions by giving technical arguments (written & verbal) and attending hearings at the Indian Patent Office (in case of registered patent agents).</p>
                     <p className="CareersDetailsp">Postgraduate/Doctorate in Pharma/Chemistry with good academic record. In-depth knowledge of IPR or two years of experience in IPR. Preference will be given to registered patent agents. Minimum 3 years of experience in the field of IPR for the Group Leader position.</p>
+                    <hr></hr>
                 </div>
             </div>
         </>

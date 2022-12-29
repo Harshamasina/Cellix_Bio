@@ -4,6 +4,7 @@ import { CDBFooter, CDBBtn, CDBIcon, CDBBox } from 'cdbreact';
 import GoToTop from './GoToTop';
 
 const Footer = () => {
+
   return(
         <>
         <CDBFooter className="shadow">
@@ -68,20 +69,17 @@ const Footer = () => {
                         <CDBBtn href="https://www.cellixbio.com/" target={"_blank"} flat color="dark" className="p-2">
                           <CDBIcon  fab icon="google" />
                         </CDBBtn>
-                        <CDBBtn href="https://www.linkedin.com/in/mahesh-kandula-b052a752/" target={"_blank"} flat color="dark" className="mx-3 p-2">
+                        <CDBBtn href="https://www.linkedin.com/in/cellix-bio-36813111a/" target={"_blank"} flat color="dark" className="mx-3 p-2">
                           <CDBIcon fab icon="linkedin" />
                         </CDBBtn>
-                        <CDBBtn href="https://www.facebook.com/" flat color="dark" target={"_blank"} className=" p-2">
+                        <CDBBtn href="https://www.facebook.com/profile.php?id=100089107628765&mibextid=ZbWKwL" flat color="dark" target={"_blank"} className=" p-2">
                           <CDBIcon fab icon="facebook-f" />
                         </CDBBtn>
-                        <CDBBtn href="https://www.instagram.com/" flat color="dark" target={"_blank"} className="mx-3 p-2">
+                        <CDBBtn href="https://www.instagram.com/cellix_bio/" flat color="dark" target={"_blank"} className="mx-3 p-2">
                           <CDBIcon fab icon="instagram" />
                         </CDBBtn>
-                        <CDBBtn href="https://www.twitter.com/" flat color="dark" target={"_blank"} className="p-2">
+                        <CDBBtn href="https://twitter.com/CelixBio" flat color="dark" target={"_blank"} className="p-2">
                           <CDBIcon fab icon="twitter"/>
-                        </CDBBtn>
-                        <CDBBtn href="https://www.reddit.com/" flat color="dark" target={"_blank"} className="mx-3 p-2">
-                          <CDBIcon fab icon="reddit"/>
                         </CDBBtn>
                     </div>
               </CDBBox>
