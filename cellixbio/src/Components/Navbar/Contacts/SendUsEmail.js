@@ -50,7 +50,7 @@ const PostData = async (e) => {
                             value={user.name}
                             onChange={handleInputs} 
                             className='shadow-lg'
-                            type="text" placeholder="Enter your Name" />
+                            type="text" placeholder="Your Name" />
                         </Form.Group>
 
                         <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -60,7 +60,7 @@ const PostData = async (e) => {
                             value={user.email}
                             onChange={handleInputs}
                             className='shadow-lg'
-                            type="email" placeholder="Enter your email" />
+                            type="email" placeholder="Email Address" />
                         </Form.Group>
 
                         <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -70,7 +70,7 @@ const PostData = async (e) => {
                             value={user.phone}
                             onChange={handleInputs} 
                             className='shadow-lg'
-                            type="text" placeholder="Enter your Phone Number" />
+                            type="text" placeholder="Contact Phone" />
                         </Form.Group>
 
                         <Form.Group className="mb-3" controlId="formBasicPassword">
@@ -80,7 +80,7 @@ const PostData = async (e) => {
                             value={user.subject}
                             onChange={handleInputs} 
                             className='shadow-lg'
-                            type="text" placeholder="Enter Subject"/>
+                            type="text" placeholder="Subject"/>
                         </Form.Group>
                         
                         <Form.Group className="mb-3" controlId="formBasicPassword">
@@ -91,7 +91,7 @@ const PostData = async (e) => {
                             onChange={handleInputs}
                             as="textarea" c
                             className='shadow-lg'
-                            type="text" placeholder="Enter your Message" />
+                            type="text" placeholder="Your Message" />
                         </Form.Group>
                     
                         <Button
