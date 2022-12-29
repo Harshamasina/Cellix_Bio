@@ -1,6 +1,7 @@
 import Card from 'react-bootstrap/Card';
 
 function Media(){
+    document.title = 'Media - Cellix Bio'
     return(
         <>
             <div className='patentlandingpage'>

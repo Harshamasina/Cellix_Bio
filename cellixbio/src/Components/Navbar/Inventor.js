@@ -1,5 +1,5 @@
 function Inventor() {
-  document.title = 'Leadership - Cellix Bio';
+  document.title = 'Inventor - Cellix Bio';
   return (
     <>
           <div className='patentlandingpage'>

@@ -1,4 +1,5 @@
 function Leadership(){
+    document.title = 'Leadership - Cellix Bio'
     return(
       <>
         <div className='patentlandingpage'>
