@@ -32,7 +32,7 @@ function Years(){
                             <Col xs={6} md={2}>
                                 <div className="YearsButtonContainer">
                                         <Button className='yearbtn' variant="dark" size="lg">
-                                            <Link className='YearsLinks' to="/PatentsDashboard/2020">2020<p className='yearp'>Patents: 59</p></Link>
+                                            <Link className='YearsLinks' to="/PatentsDashboard/2020">2020<p className='yearp'>Patents: 58</p></Link>
                                         </Button>
                                 </div>        
                             </Col>
@@ -56,7 +56,7 @@ function Years(){
                             <Col xs={6} md={2}>
                                 <div className="YearsButtonContainer">
                                         <Button className='yearbtn' variant="dark" size="lg">
-                                            <Link className='YearsLinks' to="/PatentsDashboard/2017">2017<p className='yearp'>Patents: 23</p></Link>
+                                            <Link className='YearsLinks' to="/PatentsDashboard/2017">2017<p className='yearp'>Patents: 25</p></Link>
                                         </Button>
                                 </div>        
                             </Col>
@@ -77,7 +77,7 @@ function Years(){
                             <Col xs={6} md={2}>
                                 <div className="YearsButtonContainer">
                                         <Button className='yearbtn' variant="dark" size="lg">
-                                            <Link className='YearsLinks' to="/PatentsDashboard/2014">2014<p className='yearp'>Patents: 88</p></Link>
+                                            <Link className='YearsLinks' to="/PatentsDashboard/2014">2014<p className='yearp'>Patents: 90</p></Link>
                                         </Button>
                                 </div>        
                             </Col>

@@ -1659,6 +1659,7 @@ font-size: 2vh;
 .FormulaImgContainer{
   display: flex;
   flex-direction: column;
+  text-align: center;
   align-items: center;
   border-color: #4e545f;
   box-shadow: 0 0.5rem 3rem 0.5rem rgba(0,0,0,.175);
@@ -1684,6 +1685,15 @@ font-size: 2vh;
     width:40vh;
  }  
 }
+
+/* @media only screen and (min-width: 1200px) {
+  .FormulaImgContainer{
+    margin-left: 8%;
+  }
+  .CompoundsImgContainer{
+    
+  }
+} */
 
 .PatentImages{
   margin: 1%;
@@ -2129,7 +2139,7 @@ tbody,thead{
   .CUFormContainer{
     width: 40vh;
     margin-top: 5% !important;
-    margin-left: 22% !important;
+    margin-left: 30% !important;
     margin-bottom: 15%;
   }
   .form-control{
@@ -2204,8 +2214,8 @@ tbody,thead{
 @media screen and (max-width: 600px) {
   .CUFormContainer{
     width: 40vh;
-    margin-top: 1%;
-    margin-left: 4%;
+    margin-top: 3%;
+    margin-left: 12%;
     margin-bottom: 15%;
   }
 }
