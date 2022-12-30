@@ -40,7 +40,7 @@ function NavBar() {
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" className='toggle'/>
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav
-                                className="ms-auto my-2 my-xxl-0 gap-4 me-5"
+                                className="ms-auto my-2 my-xxl-0 gap-2 me-3"
                                 style={{ maxHeight: '100%',fontSize:'17px'}}
                                 responsive-navbar-nav
                             >
@@ -52,12 +52,13 @@ function NavBar() {
                                 <Nav.Link className='navbar_link' as={Link} to="/IP" eventKey="5">Intellectual Property</Nav.Link>
                                 <Nav.Link className='navbar_link' as={Link} to="/Inventor" eventKey="7">INVENTOR</Nav.Link>
                                 <Nav.Link className='navbar_link' as={Link} to="/Leadership" eventKey="8">Leadership</Nav.Link>
-                                {/* <Nav.Link className='navbar_link' as={Link} to="/Media" eventKey="9">Media</Nav.Link> */}
-                                <Nav.Link className='navbar_link' as={Link} to="/Contact" eventKey="9">Contact</Nav.Link>
-                                <NavDropdown className='navbar_link' title="MORE" id="basic-nav-dropdown">
+                                <Nav.Link className='navbar_link' as={Link} to="/Media" eventKey="9">Media</Nav.Link>
+                                <Nav.Link className='navbar_link' as={Link} to="/Media" eventKey="10">CAREERS</Nav.Link>
+                                <Nav.Link className='navbar_link' as={Link} to="/Contact" eventKey="11">Contact</Nav.Link>
+                                {/* <NavDropdown className='navbar_link' title="MORE" id="basic-nav-dropdown">
                                         <NavDropdown.Item className='navbar_link' as={Link} to="/Media" eventKey="10">MEDIA</NavDropdown.Item>
                                         <NavDropdown.Item className='navbar_link' as={Link} to="/Careers" eventKey="11">CAREERS</NavDropdown.Item>
-                                </NavDropdown>
+                                </NavDropdown> */}
 
                             </Nav>
                         </Navbar.Collapse>
