@@ -52,13 +52,12 @@ function NavBar() {
                                 <Nav.Link className='navbar_link' as={Link} to="/Inventor" eventKey="7">INVENTOR</Nav.Link>
                                 <Nav.Link className='navbar_link' as={Link} to="/Leadership" eventKey="8">Leadership</Nav.Link>
                                 <Nav.Link className='navbar_link' as={Link} to="/Media" eventKey="9">Media</Nav.Link>
-                                <Nav.Link className='navbar_link' as={Link} to="/Media" eventKey="10">CAREERS</Nav.Link>
+                                <Nav.Link className='navbar_link' as={Link} to="/Careers" eventKey="10">CAREERS</Nav.Link>
                                 <Nav.Link className='navbar_link' as={Link} to="/Contact" eventKey="11">Contact</Nav.Link>
                                 {/* <NavDropdown className='navbar_link' title="MORE" id="basic-nav-dropdown">
                                         <NavDropdown.Item className='navbar_link' as={Link} to="/Media" eventKey="10">MEDIA</NavDropdown.Item>
                                         <NavDropdown.Item className='navbar_link' as={Link} to="/Careers" eventKey="11">CAREERS</NavDropdown.Item>
                                 </NavDropdown> */}
-
                             </Nav>
                         </Navbar.Collapse>
                     </Navbar>
@@ -68,7 +67,6 @@ function NavBar() {
                 <div>
                     <Routes>
                         <Route path='/Home' element = {<Home></Home>}></Route>
-                        {/* <Route path='/About' element = {<About></About>}></Route> */}
                         <Route path='/Patents' element = {<Patents></Patents>}></Route>
                         <Route path='/PT' element = {<PT></PT>}></Route>
                         <Route path='/IP' element = {<IP></IP>}></Route>
