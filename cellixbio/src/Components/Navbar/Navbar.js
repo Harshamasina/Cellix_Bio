@@ -1,5 +1,4 @@
 import { Navbar, Nav } from 'react-bootstrap';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Link, Routes, Route } from "react-router-dom";
 import Home from "./Home";
 import PT from "./PT";
