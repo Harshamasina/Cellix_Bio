@@ -2109,7 +2109,18 @@ tbody,thead{
 /* ............................ */
 /* Used for Contact Us */
 .ContactCont{
-  margin-top: 5%;
+  margin-top: 2%;
+}
+
+.contactCard{
+  height: 390px !important;
+}
+
+.CCImg{
+  width: 150px !important;
+  height: 150px !important;
+  margin-top: 4%;
+  text-align: center !important;
 }
 
 .CUForm{
@@ -2135,7 +2146,7 @@ tbody,thead{
     margin-bottom:25% !important;
   }
   .ContactCont{
-    margin-top: 30% !important;
+    margin-top: 25% !important;
     margin-bottom: 10% !important;
   }
 }
@@ -2148,7 +2159,7 @@ tbody,thead{
     margin-bottom:25% !important;
   }
   .ContactCont{
-    margin-top: 15% !important;
+    margin-top: 10% !important;
   }
   .CUFormContainer{
     width: 40vh;
@@ -2183,12 +2194,13 @@ tbody,thead{
 
 .CULI{
   font-weight: bold;
-  color: #282c34;
+  color: #034c3c;
 }
 
 .CUCT{
-  font-weight: bolder;
-  color: #282c34;
+  font-weight: bolder !important;
+  font-size: larger;
+  color: #0E6E59;
   text-align: center !important;
   margin-bottom: 5% !important;
   text-decoration: underline !important;
