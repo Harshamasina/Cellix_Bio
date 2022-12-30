@@ -10,7 +10,7 @@ function Pipeline(){
         <>
         <div className='patentlandingpage'>
               <video src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Abstract+.mp4" autoPlay muted loop className='patents_video_bg' type="video/mp4"/>
-              <div className='pipeline-text'>
+            <div className='pipeline-text'>
                             <div className='patents_text_1'>
                                 <h1 className='pipelineCarouselh1'>PIPELINE</h1>
                             </div>
@@ -39,8 +39,8 @@ function Pipeline(){
                                         <th className='IPPatentTableHead'>BIOLOGY</th>
                                         <th className='IPPatentTableHead'>CLASS</th>
                                         <th className='IPPatentTableHead'>DOSAGE</th>
-                                        <th className='IPPatentTableHead'>STATUS</th>
-                                        <th className='IPPatentTableHead'>TIMELINES</th>
+                                        {/* <th className='IPPatentTableHead'>STATUS</th>
+                                        <th className='IPPatentTableHead'>TIMELINES</th> */}
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -50,8 +50,8 @@ function Pipeline(){
                                         <td className='PPTableData'>H1-receptor antagonist</td>
                                         <td className='PPTableData'>Antihistamines</td>
                                         <td>Lotion</td>
-                                        <td>Phase IIa</td>
-                                        <td>2023</td>
+                                        {/* <td>Phase IIa</td>
+                                        <td>2023</td> */}
                                     </tr>
                                     <tr>
                                         <td className='PPTargetId'>CLX-A0131</td>
@@ -59,8 +59,8 @@ function Pipeline(){
                                         <td className='PPTableData'>H1 and Immuno-modulatory</td>
                                         <td className='PPTableData'>Antihistamines and Corticosteroid</td>
                                         <td>Lotion</td>
-                                        <td>pre-IND</td>
-                                        <td>2023</td>
+                                        {/* <td>pre-IND</td>
+                                        <td>2023</td> */}
                                     </tr>
                                     <tr>
                                         <td className='PPTargetId'>CLX-A836</td>
@@ -68,8 +68,8 @@ function Pipeline(){
                                         <td className='PPTableData'>Inverse agonist H1 and H1 antagonist</td>
                                         <td className='PPTableData'>Dual-Antihistamine</td>
                                         <td>Cream</td>
-                                        <td>pre-IND</td>
-                                        <td>2023</td>
+                                        {/* <td>pre-IND</td>
+                                        <td>2023</td> */}
                                     </tr>
                                     <tr>
                                         <td className='PPTargetId'>CLX-AC140</td>
@@ -77,8 +77,8 @@ function Pipeline(){
                                         <td className='PPTableData'>C-, Aβ- and Aδ-type peripheral nerve fiber</td>
                                         <td className='PPTableData'>Tricyclic antidepressant</td>
                                         <td>Cream</td>
-                                        <td>pre-IND</td>
-                                        <td>2023</td>
+                                        {/* <td>pre-IND</td>
+                                        <td>2023</td> */}
                                     </tr>
                                     <tr>
                                         <td className='PPTargetId'>CLX-A134</td>
@@ -86,8 +86,8 @@ function Pipeline(){
                                         <td className='PPTableData'>C-, Aβ- and Aδ-type and COX inhibitor</td>
                                         <td className='PPTableData'>Tricyclic antidepressant and NSAID</td>
                                         <td>Lotion</td>
-                                        <td>pre-IND</td>
-                                        <td>2023</td>
+                                        {/* <td>pre-IND</td>
+                                        <td>2023</td> */}
                                     </tr>
                                     <tr>
                                         <td className='PPTargetId'>CLX-A1021</td>
@@ -95,8 +95,8 @@ function Pipeline(){
                                         <td className='PPTableData'>Inverse agonist H1</td>
                                         <td className='PPTableData'>Antihistamines</td>
                                         <td>Cream</td>
-                                        <td>pre-IND</td>
-                                        <td>2023</td>
+                                        {/* <td>pre-IND</td>
+                                        <td>2023</td> */}
                                     </tr>
                                 </tbody>
                             </Table>
@@ -116,8 +116,8 @@ function Pipeline(){
                                         <th className='IPPatentTableHead'>BIOLOGY</th>
                                         <th className='IPPatentTableHead'>CLASS</th>
                                         <th className='IPPatentTableHead'>DOSAGE</th>
-                                        <th className='IPPatentTableHead'>STATUS</th>
-                                        <th className='IPPatentTableHead'>TIMELINES</th>
+                                        {/* <th className='IPPatentTableHead'>STATUS</th>
+                                        <th className='IPPatentTableHead'>TIMELINES</th> */}
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -127,8 +127,8 @@ function Pipeline(){
                                         <td className='PPTableData'>Nrf2</td>
                                         <td className='PPTableData'>KEAP1 inhibitors</td>
                                         <td>Capsule</td>
-                                        <td>IND Enabling </td>
-                                        <td>2023</td>
+                                        {/* <td>IND Enabling </td>
+                                        <td>2023</td> */}
                                     </tr>
                                     <tr>
                                         <td className='PPTargetId'>CLX-A107</td>
@@ -136,8 +136,8 @@ function Pipeline(){
                                         <td className='PPTableData'>GABA</td>
                                         <td className='PPTableData'>Blocks the VGCC</td>
                                         <td>Tablet</td>
-                                        <td>pre-IND</td>
-                                        <td>2023</td>
+                                        {/* <td>pre-IND</td>
+                                        <td>2023</td> */}
                                     </tr>
                                     <tr>
                                         <td className='PPTargetId'>CLX-A144</td>
@@ -145,8 +145,8 @@ function Pipeline(){
                                         <td className='PPTableData'>Nrf2</td>
                                         <td className='PPTableData'>KEAP1 inhibitors</td>
                                         <td>Tablet</td>
-                                        <td>pre-IND</td>
-                                        <td>2023</td>
+                                        {/* <td>pre-IND</td>
+                                        <td>2023</td> */}
                                     </tr>
                                     <tr>
                                         <td className='PPTargetId'>CLX-A542</td>
@@ -154,8 +154,8 @@ function Pipeline(){
                                         <td className='PPTableData'>DOPA</td>
                                         <td className='PPTableData'>Dopamine receptor</td>
                                         <td>Tablet</td>
-                                        <td>pre-IND</td>
-                                        <td>2023</td>
+                                        {/* <td>pre-IND</td>
+                                        <td>2023</td> */}
                                     </tr>
                                     <tr>
                                         <td className='PPTargetId'>CLX-A120</td>
@@ -163,8 +163,8 @@ function Pipeline(){
                                         <td className='PPTableData'>NDRI</td>
                                         <td className='PPTableData'>Anti-Depressants</td>
                                         <td>Lozenge</td>
-                                        <td>Pre-Clinical</td>
-                                        <td>2024</td>
+                                        {/* <td>Pre-Clinical</td>
+                                        <td>2024</td> */}
                                     </tr>
                                     <tr>
                                         <td className='PPTargetId'>CLX-A102</td>
@@ -172,8 +172,8 @@ function Pipeline(){
                                         <td className='PPTableData'>D2 and 5HT2</td>
                                         <td className='PPTableData'>Antipsychotic</td>
                                         <td>Suspension</td>
-                                        <td>Pre-Clinical</td>
-                                        <td>2023</td>
+                                        {/* <td>Pre-Clinical</td>
+                                        <td>2023</td> */}
                                     </tr>
                                     <tr>
                                         <td className='PPTargetId'>CLX-A133</td>
@@ -181,8 +181,8 @@ function Pipeline(){
                                         <td className='PPTableData'>Free radical scavenger</td>
                                         <td className='PPTableData'>Cytoprotective</td>
                                         <td>Suspension</td>
-                                        <td>Pre-Clinical</td>
-                                        <td>2024</td>
+                                        {/* <td>Pre-Clinical</td>
+                                        <td>2024</td> */}
                                     </tr>
                                     <tr>
                                         <td className='PPTargetId'>CLX-A131</td>
@@ -190,8 +190,8 @@ function Pipeline(){
                                         <td className='PPTableData'>D2 and 5HT2</td>
                                         <td className='PPTableData'>antipsychotic</td>
                                         <td>Nasal Spray</td>
-                                        <td>Pre-Clinical</td>
-                                        <td>2024</td>
+                                        {/* <td>Pre-Clinical</td>
+                                        <td>2024</td> */}
                                     </tr>
                                 </tbody>
                             </Table>
@@ -211,8 +211,8 @@ function Pipeline(){
                                         <th className='IPPatentTableHead'>BIOLOGY</th>
                                         <th className='IPPatentTableHead'>CLASS</th>
                                         <th className='IPPatentTableHead'>DOSAGE</th>
-                                        <th className='IPPatentTableHead'>STATUS</th>
-                                        <th className='IPPatentTableHead'>TIMELINES</th>
+                                        {/* <th className='IPPatentTableHead'>STATUS</th>
+                                        <th className='IPPatentTableHead'>TIMELINES</th> */}
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -222,8 +222,8 @@ function Pipeline(){
                                         <td className='PPTableData'>COX Inhibitor</td>
                                         <td className='PPTableData'>NSAID</td>
                                         <td>Tablet</td>
-                                        <td>pre-IND</td>
-                                        <td>2023</td>
+                                        {/* <td>pre-IND</td>
+                                        <td>2023</td> */}
                                     </tr>
                                     <tr>
                                         <td className='PPTargetId'>CLX-A133</td>
@@ -231,8 +231,8 @@ function Pipeline(){
                                         <td className='PPTableData'>COX Inhibitor</td>
                                         <td className='PPTableData'>NSAID</td>
                                         <td>Tablet</td>
-                                        <td>pre-IND</td>
-                                        <td>2023</td>
+                                        {/* <td>pre-IND</td>
+                                        <td>2023</td> */}
                                     </tr>
                                     <tr>
                                         <td className='PPTargetId'>CLX-C102</td>
@@ -240,8 +240,8 @@ function Pipeline(){
                                         <td className='PPTableData'>5-HT2 receptor antagonist</td>
                                         <td className='PPTableData'>Skeletal muscle relaxants</td>
                                         <td>Lozenge</td>
-                                        <td>pre-IND</td>
-                                        <td>2024</td>
+                                        {/* <td>pre-IND</td>
+                                        <td>2024</td> */}
                                     </tr>
                                     <tr>
                                         <td className='PPTargetId'>CLX-A103</td>
@@ -249,8 +249,8 @@ function Pipeline(){
                                         <td className='PPTableData'>5-HT2 and GABA</td>
                                         <td className='PPTableData'>Skeletal muscle relaxants</td>
                                         <td>Lozenge</td>
-                                        <td>pre-IND</td>
-                                        <td>2024</td>
+                                        {/* <td>pre-IND</td>
+                                        <td>2024</td> */}
                                     </tr>
                                     <tr>
                                         <td className='PPTargetId'>CLX-N104</td>
@@ -258,8 +258,8 @@ function Pipeline(){
                                         <td className='PPTableData'>5-HT2 and M receptor type 1A</td>
                                         <td className='PPTableData'>Muscle Relaxant and Hormone</td>
                                         <td>Nasal Spray</td>
-                                        <td>pre-IND</td>
-                                        <td>2024</td>
+                                        {/* <td>pre-IND</td>
+                                        <td>2024</td> */}
                                     </tr>
                                 </tbody>
                             </Table>
@@ -279,8 +279,8 @@ function Pipeline(){
                                         <th className='IPPatentTableHead'>BIOLOGY</th>
                                         <th className='IPPatentTableHead'>CLASS</th>
                                         <th className='IPPatentTableHead'>DOSAGE</th>
-                                        <th className='IPPatentTableHead'>STATUS</th>
-                                        <th className='IPPatentTableHead'>TIMELINES</th>
+                                        {/* <th className='IPPatentTableHead'>STATUS</th>
+                                        <th className='IPPatentTableHead'>TIMELINES</th> */}
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -290,8 +290,8 @@ function Pipeline(){
                                         <td className='PPTableData'>AMPK</td>
                                         <td className='PPTableData'>Biguanides</td>
                                         <td>Tablet</td>
-                                        <td>pre-IND</td>
-                                        <td>2023</td>
+                                        {/* <td>pre-IND</td>
+                                        <td>2023</td> */}
                                     </tr>
                                     <tr>
                                         <td className='PPTargetId'>CLX-A13101</td>
@@ -299,8 +299,8 @@ function Pipeline(){
                                         <td className='PPTableData'>AMPK and SGLT2</td>
                                         <td className='PPTableData'>Biguanide and Gliflozins</td>
                                         <td>Tablet</td>
-                                        <td>pre-IND</td>
-                                        <td>2024</td>
+                                        {/* <td>pre-IND</td>
+                                        <td>2024</td> */}
                                     </tr>
                                     <tr>
                                         <td className='PPTargetId'>CLX-A44102</td>
@@ -308,8 +308,8 @@ function Pipeline(){
                                         <td className='PPTableData'>AMPK and DPP 4</td>
                                         <td className='PPTableData'>Biguanide and Gliptins</td>
                                         <td>Tablet</td>
-                                        <td>pre-IND</td>
-                                        <td>2024</td>
+                                        {/* <td>pre-IND</td>
+                                        <td>2024</td> */}
                                     </tr>
                                     <tr>
                                         <td className='PPTargetId'>CLX-A4C102</td>
@@ -317,8 +317,8 @@ function Pipeline(){
                                         <td className='PPTableData'>COX-1</td>
                                         <td className='PPTableData'>Salicylates</td>
                                         <td>Tablet</td>
-                                        <td>IND Enabling</td>
-                                        <td>2023</td>
+                                        {/* <td>IND Enabling</td>
+                                        <td>2023</td> */}
                                     </tr>
                                 </tbody>
                             </Table>
@@ -338,8 +338,8 @@ function Pipeline(){
                                         <th className='IPPatentTableHead'>BIOLOGY</th>
                                         <th className='IPPatentTableHead'>CLASS</th>
                                         <th className='IPPatentTableHead'>DOSAGE</th>
-                                        <th className='IPPatentTableHead'>STATUS</th>
-                                        <th className='IPPatentTableHead'>TIMELINES</th>
+                                        {/* <th className='IPPatentTableHead'>STATUS</th>
+                                        <th className='IPPatentTableHead'>TIMELINES</th> */}
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -349,8 +349,8 @@ function Pipeline(){
                                         <td className='PPTableData'>Selective H1 - receptor antagonist</td>
                                         <td className='PPTableData'>Antihistamines</td>
                                         <td>Nasal Spray</td>
-                                        <td>IND Enabling</td>
-                                        <td>2023</td>
+                                        {/* <td>IND Enabling</td>
+                                        <td>2023</td> */}
                                     </tr>
                                     <tr>
                                         <td className='PPTargetId'>CLX-A38C102</td>
@@ -358,8 +358,8 @@ function Pipeline(){
                                         <td className='PPTableData'>Serotonin and Histamine antagonist</td>
                                         <td className='PPTableData'>Anticholinergic and Sedative Effects</td>
                                         <td>Oral Solution</td>
-                                        <td>pre-IND</td>
-                                        <td>2023</td>
+                                        {/* <td>pre-IND</td>
+                                        <td>2023</td> */}
                                     </tr>
                                     <tr>
                                         <td className='PPTargetId'>CLX-A731</td>
@@ -367,8 +367,8 @@ function Pipeline(){
                                         <td className='PPTableData'>Selective H1 - receptor & GR</td>
                                         <td className='PPTableData'>Antihistamines & Corticosteroid</td>
                                         <td>Nasal Spray</td>
-                                        <td>IND Enabling</td>
-                                        <td>2023</td>
+                                        {/* <td>IND Enabling</td>
+                                        <td>2023</td> */}
                                     </tr>
                                     <tr>
                                         <td className='PPTargetId'>CLX-AP131</td>
@@ -376,8 +376,8 @@ function Pipeline(){
                                         <td className='PPTableData'>Selective H1 - receptor & GR</td>
                                         <td className='PPTableData'>Antihistamines & Corticosteroid</td>
                                         <td>Nasal Spray</td>
-                                        <td>pre-IND</td>
-                                        <td>2024</td>
+                                        {/* <td>pre-IND</td>
+                                        <td>2024</td> */}
                                     </tr>
                                     <tr>
                                         <td className='PPTargetId'>CLX-A38103</td>
@@ -385,8 +385,8 @@ function Pipeline(){
                                         <td className='PPTableData'>Selective H1 - receptor antagonist</td>
                                         <td className='PPTableData'>Antihistamines</td>
                                         <td>Nasal Spray</td>
-                                        <td>pre-IND</td>
-                                        <td>2023</td>
+                                        {/* <td>pre-IND</td>
+                                        <td>2023</td> */}
                                     </tr>
                                     <tr>
                                         <td className='PPTargetId'>CLX-A39102</td>
@@ -394,8 +394,8 @@ function Pipeline(){
                                         <td className='PPTableData'>Second Generation Antihistamine</td>
                                         <td className='PPTableData'>Antihistamines</td>
                                         <td>Nasal Spray</td>
-                                        <td>IND Enabling</td>
-                                        <td>2023</td>
+                                        {/* <td>IND Enabling</td>
+                                        <td>2023</td> */}
                                     </tr>
                                 </tbody>
                             </Table>
@@ -415,8 +415,8 @@ function Pipeline(){
                                         <th className='IPPatentTableHead'>BIOLOGY</th>
                                         <th className='IPPatentTableHead'>CLASS</th>
                                         <th className='IPPatentTableHead'>DOSAGE</th>
-                                        <th className='IPPatentTableHead'>STATUS</th>
-                                        <th className='IPPatentTableHead'>TIMELINES</th>
+                                        {/* <th className='IPPatentTableHead'>STATUS</th>
+                                        <th className='IPPatentTableHead'>TIMELINES</th> */}
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -426,8 +426,8 @@ function Pipeline(){
                                         <td className='PPTableData'>COX and PG</td>
                                         <td className='PPTableData'>Anti-Inflammatory</td>
                                         <td>Capsule</td>
-                                        <td>IND Enabling</td>
-                                        <td>2023</td>
+                                        {/* <td>IND Enabling</td>
+                                        <td>2023</td> */}
                                     </tr>
                                     <tr>
                                         <td className='PPTargetId'>CLX-AC141412</td>
@@ -435,8 +435,8 @@ function Pipeline(){
                                         <td className='PPTableData'>COX and PG</td>
                                         <td className='PPTableData'>Anti-Inflammatory</td>
                                         <td>Tablet</td>
-                                        <td>pre-IND</td>
-                                        <td>2024</td>
+                                        {/* <td>pre-IND</td>
+                                        <td>2024</td> */}
                                     </tr>
                                     <tr>
                                         <td className='PPTargetId'>CLX-ACALT</td>
@@ -444,8 +444,8 @@ function Pipeline(){
                                         <td className='PPTableData'>5-HT3 + H1 receptor</td>
                                         <td className='PPTableData'>Serotonin Receptor + Antihistamines</td>
                                         <td>Tablet</td>
-                                        <td>pre-IND</td>
-                                        <td>2024</td>
+                                        {/* <td>pre-IND</td>
+                                        <td>2024</td> */}
                                     </tr>
                                     <tr>
                                         <td className='PPTargetId'>CLX-AC46102</td>
@@ -453,8 +453,8 @@ function Pipeline(){
                                         <td className='PPTableData'>ACH and D2 receptors</td>
                                         <td className='PPTableData'>Acetylcholine and dopamine receptor antagonist</td>
                                         <td>Tablet</td>
-                                        <td>pre-IND</td>
-                                        <td>2024</td>
+                                        {/* <td>pre-IND</td>
+                                        <td>2024</td> */}
                                     </tr>
                                     <tr>
                                         <td className='PPTargetId'>CLX-AC2620</td>
@@ -462,8 +462,8 @@ function Pipeline(){
                                         <td className='PPTableData'>Nerve Block</td>
                                         <td className='PPTableData'>Local Anesthetics and Immunosuppressant</td>
                                         <td>Lozenge</td>
-                                        <td>pre-IND</td>
-                                        <td>2024</td>
+                                        {/* <td>pre-IND</td>
+                                        <td>2024</td> */}
                                     </tr>
                                     <tr>
                                         <td className='PPTargetId'>CLX-AC45102</td>
@@ -471,8 +471,8 @@ function Pipeline(){
                                         <td className='PPTableData'> D2 and D3 antagonist</td>
                                         <td className='PPTableData'>Anti-Emetics</td>
                                         <td>Lozenge & Tablet</td>
-                                        <td>pre-IND</td>
-                                        <td>2024</td>
+                                        {/* <td>pre-IND</td>
+                                        <td>2024</td> */}
                                     </tr>
                                 </tbody>
                             </Table>
@@ -492,8 +492,8 @@ function Pipeline(){
                                         <th className='IPPatentTableHead'>BIOLOGY</th>
                                         <th className='IPPatentTableHead'>CLASS</th>
                                         <th className='IPPatentTableHead'>DOSAGE</th>
-                                        <th className='IPPatentTableHead'>STATUS</th>
-                                        <th className='IPPatentTableHead'>TIMELINES</th>
+                                        {/* <th className='IPPatentTableHead'>STATUS</th>
+                                        <th className='IPPatentTableHead'>TIMELINES</th> */}
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -503,8 +503,8 @@ function Pipeline(){
                                         <td className='PPTableData'>RNA synthesis inhibition </td>
                                         <td className='PPTableData'>Antineoplastics</td>
                                         <td>Tablet</td>
-                                        <td>IND Enabling</td>
-                                        <td>2023</td>
+                                        {/* <td>IND Enabling</td>
+                                        <td>2023</td> */}
                                     </tr>
                                     <tr>
                                         <td className='PPTargetId'>CLX-155A</td>
@@ -512,8 +512,8 @@ function Pipeline(){
                                         <td className='PPTableData'>RNA synthesis and HDAC inhibitor</td>
                                         <td className='PPTableData'>Antineoplastics</td>
                                         <td>Tablet</td>
-                                        <td>pre-IND</td>
-                                        <td>2024</td>
+                                        {/* <td>pre-IND</td>
+                                        <td>2024</td> */}
                                     </tr>
                                     <tr>
                                         <td className='IPPatentTableHead' colSpan={7}>SPECIALITY</td>
@@ -524,8 +524,8 @@ function Pipeline(){
                                         <td className='PPTableData'>Nerve Receptor</td>
                                         <td className='PPTableData'>Local Anesthetics</td>
                                         <td>Lozenge</td>
-                                        <td>pre-IND</td>
-                                        <td>2024</td>
+                                        {/* <td>pre-IND</td>
+                                        <td>2024</td> */}
                                     </tr>
                                     <tr>
                                         <td className='PPTargetId'>CLX-G161C11</td>
@@ -533,8 +533,8 @@ function Pipeline(){
                                         <td className='PPTableData'>Nerve Block</td>
                                         <td className='PPTableData'>Local Anesthetics</td>
                                         <td>Lozenge</td>
-                                        <td>IND Enabling</td>
-                                        <td>2024</td>
+                                        {/* <td>IND Enabling</td>
+                                        <td>2024</td> */}
                                     </tr>
                                     <tr>
                                         <td className='PPTargetId'>CLX-156</td>
@@ -542,8 +542,8 @@ function Pipeline(){
                                         <td className='PPTableData'>Cholinergic agonists</td>
                                         <td className='PPTableData'>Muscarinic agent</td>
                                         <td>Buccal Tablet</td>
-                                        <td>IND Enabling</td>
-                                        <td>2023</td>
+                                        {/* <td>IND Enabling</td>
+                                        <td>2023</td> */}
                                     </tr>
                                     <tr>
                                         <td className='PPTargetId'>CLX-APORA</td>
@@ -551,8 +551,8 @@ function Pipeline(){
                                         <td className='PPTableData'>Nerve Receptor</td>
                                         <td className='PPTableData'>Local Anesthetics</td>
                                         <td>Oral Rinse</td>
-                                        <td>IND Enabling</td>
-                                        <td>2023</td>
+                                        {/* <td>IND Enabling</td>
+                                        <td>2023</td> */}
                                     </tr>
                                 </tbody>
                             </Table>
@@ -572,8 +572,8 @@ function Pipeline(){
                                         <th className='IPPatentTableHead'>BIOLOGY</th>
                                         <th className='IPPatentTableHead'>CLASS</th>
                                         <th className='IPPatentTableHead'>DOSAGE</th>
-                                        <th className='IPPatentTableHead'>STATUS</th>
-                                        <th className='IPPatentTableHead'>TIMELINES</th>
+                                        {/* <th className='IPPatentTableHead'>STATUS</th>
+                                        <th className='IPPatentTableHead'>TIMELINES</th> */}
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -583,8 +583,8 @@ function Pipeline(){
                                         <td className='PPTableData'>Muscarinic agent</td>
                                         <td className='PPTableData'>Cholinergic agent</td>
                                         <td>Solution</td>
-                                        <td>IND Enabling</td>
-                                        <td>2023</td>
+                                        {/* <td>IND Enabling</td>
+                                        <td>2023</td> */}
                                     </tr>
                                     <tr>
                                         <td className='PPTargetId'>CLX-1622</td>
@@ -592,8 +592,8 @@ function Pipeline(){
                                         <td className='PPTableData'>Alpha Adrenergic Agonist</td>
                                         <td className='PPTableData'>Ocular Hypotensive</td>
                                         <td>Solution</td>
-                                        <td>IND Enabling</td>
-                                        <td>2023</td>
+                                        {/* <td>IND Enabling</td>
+                                        <td>2023</td> */}
                                     </tr>
                                     <tr>
                                         <td className='PPTargetId'>CLX-1623</td>
@@ -601,8 +601,8 @@ function Pipeline(){
                                         <td className='PPTableData'>Muscarinic Antagonist</td>
                                         <td className='PPTableData'>Cholinergic agent</td>
                                         <td>Solution</td>
-                                        <td>IND Enabling</td>
-                                        <td>2023</td>
+                                        {/* <td>IND Enabling</td>
+                                        <td>2023</td> */}
                                     </tr>
                                     <tr>
                                         <td className='PPTargetId'>CLX-1624</td>
@@ -610,8 +610,8 @@ function Pipeline(){
                                         <td className='PPTableData'>Alpha-adrenoceptor agonist</td>
                                         <td className='PPTableData'>Adrenoreceptors in Mueller's muscle</td>
                                         <td>Solution</td>
-                                        <td>IND Enabling</td>
-                                        <td>2023</td>
+                                        {/* <td>IND Enabling</td>
+                                        <td>2023</td> */}
                                     </tr>
                                     <tr>
                                         <td className='PPTargetId'>CLX-A43125</td>
@@ -619,8 +619,8 @@ function Pipeline(){
                                         <td className='PPTableData'>IMPDH</td>
                                         <td className='PPTableData'>Immunosuppressant</td>
                                         <td>Solution</td>
-                                        <td>Pre-IND</td>
-                                        <td>2024</td>
+                                        {/* <td>Pre-IND</td>
+                                        <td>2024</td> */}
                                     </tr>
                                 </tbody>
                             </Table>
