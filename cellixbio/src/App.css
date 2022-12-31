@@ -1006,12 +1006,14 @@ font-size: 3vh;
   -webkit-box-shadow: none;
   outline: none;
 }
+
 @media screen and (max-width: 600px) {
   .SearchPatentContainer {
     margin-left: -10vh;
     height: 10vh;
   }
 }
+
 @media screen and (max-width: 600px) {
   input.SearchBarPatents {
     width: 37vh !important;
@@ -1101,8 +1103,15 @@ font-size: 3vh;
 
 
 .PatentsCard{
-  width:75vw !important;
+  width: 75vw !important;
 }
+
+/* @media screen and (max-width: 600px) {
+  .PatentsCard{
+    width: 5vw !important;
+  }
+} */
+
 .skPatentCard{
   width: 75vw !important;
 }
@@ -1110,11 +1119,13 @@ font-size: 3vh;
 .PatentsCard:hover{
   background-color: #f2f2f2 !important;
 }
+
 @media screen and (max-width: 600px) {
   .CardContainer {
-    margin-left: 13% !important;
+    margin-left: 6% !important;
   }
 }
+
 .CardContainer{
   height: 20% !important;
   margin-left: 10%;
