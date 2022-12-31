@@ -1261,7 +1261,16 @@ p.CardTextInfo{
 }
 /* ................... */
 /* Used for Years */
-
+.yearscontainer{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  /* background-color: #2196F3; */
+  padding: 20px;
+  justify-content: space-between;
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-inline-end: 20%;
+}
 .YearsContainerh2{
   display: flex;
   flex-direction: column;
@@ -1284,6 +1293,11 @@ p.CardTextInfo{
   h2.Yearsh2 {
     font-size: 2vh; 
  }
+ .yearscontainer{
+  display: grid;
+  grid-template-columns: auto;
+
+ }
 }
 @media screen and (max-width:768px) and (min-width:601px) {
   h2.Yearsh2 {
@@ -1297,6 +1311,11 @@ p.CardTextInfo{
   margin-left: -2.5vh !important;
   font-size: 3vh !important;
  }
+ .yearscontainer{
+  display: grid;
+  grid-template-columns: auto auto auto;
+
+ }
 }
 
 .yearcontainer{
@@ -1307,11 +1326,6 @@ p.CardTextInfo{
   /* margin-left: 15vw !important; */
 }
 
-.col-md-2{
-  margin-right: 2vw !important;
-  margin-bottom: 20px;
-
-}
 .yearbtn{
   width:10vw !important;
   height: 100px;
@@ -1348,8 +1362,8 @@ text-decoration: underline;
 }
 
 .YearsButtonContainer{
-  margin-top: 1%;
-  margin-left: 30%;
+  margin-top: 3%;
+  /* margin-left: 10%; */
 }
 
 .YearsLinks{
