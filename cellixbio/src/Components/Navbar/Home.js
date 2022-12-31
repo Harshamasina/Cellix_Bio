@@ -6,7 +6,7 @@ function Home(){
     return(
         <>
             <div className='landingpage'>
-              <video src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/DNA.mp4" autoPlay muted loop className='video-bg' type="video/mp4"/>
+              <video src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/DNA+HElical+Doule.mp4" autoPlay muted loop className='video-bg' type="video/mp4"/>
                 {/* <div className='bg-overlay'></div> */}
                     <div className='home-text'>
                             <div>

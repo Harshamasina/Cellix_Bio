@@ -410,7 +410,7 @@ body{
 .WWDP{
   text-align: justify;
   padding: 10;
-  font-size: 1vw;
+  font-size: 1.2vw;
   }
 
 .WWDh3{
@@ -985,10 +985,10 @@ font-size: 3vh;
 
 .SearchPatentsh2{
   font-weight: bold;
-  color: #282c34;
+  color: #0E6E59;
   display: block;
   font-size: 2vw;
-  margin: 1%;
+  margin-top: 1%;
 }
 
 @media screen and (max-width: 600px) {
@@ -1000,7 +1000,7 @@ font-size: 3vh;
 .SearchPatentContainer{
   display: flex;
   flex-direction: row;
-  margin-top: 1%;
+  margin-top: -1% !important;
   margin-bottom: 2%;
   position: relative;
   -webkit-box-shadow: none;
@@ -1479,7 +1479,7 @@ text-decoration: underline;
 .PTp{
   text-align: justify;
   padding: 5px;
-  font-size: 1vw;
+  font-size: 1.2vw;
 }
 
 /* .PTUL{
@@ -1489,7 +1489,7 @@ text-decoration: underline;
 } */
 
 .PTUL{
-  font-size: 1vw;
+  font-size: 1.2vw;
   display: flex;
   flex-direction: column;
   list-style: none;
@@ -1856,12 +1856,11 @@ span.ClaimsText{
   justify-content: center;
   width: 70%;
   margin-left: 16%;
-
 }
 
 .IPp{
   padding: 10px;
-  font-size: 1vw;
+  font-size: 1.2vw;
 }
 
 .IPContainerh4{
@@ -2058,7 +2057,7 @@ span.ClaimsText{
 
 .PLp{
   padding: 10px;
-  font-size: 1vw;
+  font-size: 1.2vw;
 }
 
 .Ptable{
@@ -2099,12 +2098,12 @@ tbody,thead{
 }
 
 .contactCard{
-  height: 390px !important;
+  height: 490px !important;
 }
 
 .CCImg{
-  width: 150px !important;
-  height: 150px !important;
+  width: 300px !important;
+  height: 300px !important;
   margin-top: 4%;
   text-align: center !important;
 }
@@ -2188,7 +2187,7 @@ tbody,thead{
   font-size: larger;
   color: #0E6E59;
   text-align: center !important;
-  margin-bottom: 5% !important;
+  margin-bottom: 2% !important;
   text-decoration: underline !important;
 }
 
@@ -2196,7 +2195,7 @@ tbody,thead{
   font-weight: 500;
   color: #282c34;
   text-align: center;
-  margin-top: 2%;
+  margin-top: 1%;
 }
 
 .CUh2{
@@ -2215,7 +2214,7 @@ tbody,thead{
 
 @media screen and (max-width: 600px) {
   .CUCard {
-    margin-left: 8% !important;
+    margin-left: 12% !important;
   }
 }
 
@@ -2592,9 +2591,9 @@ text-align: center !important;
 }
 
 .card-img-top{
-  width: 50% !important;
-  height: 40% !important;
-  margin-left: 25%;
+  width: 70% !important;
+  height: 60% !important;
+  margin-left: 14% !important;
   border-radius: 5px !important;
   box-shadow: 0 1rem 3rem rgba(0,0,0,.175) !important;
 }
@@ -2975,9 +2974,9 @@ img{
 .MediaCardImage{
   width: 40% !important;
   height: 40% !important;
-  margin-left: 30%;
-  margin-top: 1%;
-  margin-bottom: 1%;
+  margin-left: 30% !important;
+  margin-top: 1% !important;
+  margin-bottom: 1% !important;
 }
 
 .MediaCardBody{
@@ -3065,9 +3064,16 @@ img{
 }
 
 .CareersP{
-  font-size: larger;
+  font-size: 1.2vw;
   text-align: justify;
 }
+
+@media screen and (max-width: 600px){
+  .CareersP{
+    font-size: 1.1rem;
+  }
+}
+
 
 .CareersPSpan{
   color: #15B39D;

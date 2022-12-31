@@ -22,7 +22,7 @@ function IP(){
     return(
         <>
         <div className='patentlandingpage'>
-              <video src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Microscope.mp4" autoPlay muted loop className='patents_video_bg' type="video/mp4"/>
+              <video src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Brain.mp4" autoPlay muted loop className='patents_video_bg' type="video/mp4"/>
               <div className='pipeline-text'>
                             <div className='patents_text_1'>
                                 <h1 className='pipelineCarouselh1'>INTELLECTUAL PROPERTY</h1>
@@ -38,9 +38,9 @@ function IP(){
                 <div className="IPpContainerp">
                     <p className="IPp"><span className="AboutSpan">Cellix Bio</span> has a portfolio of over 640+ international patents published. The Company has 184 U.S Patent Portfolio comprising Composition of Matter, Formulation Patents in diverse therapeutic areas. We are also committed to protect our intellectual property estate of patent rights and trade secrets for our proprietary technology.</p>
                 </div>
-                <div className='IPContainerh4'>
+                {/* <div className='IPContainerh4'>
                     <h4 className="IPh3">Our patent portfolio includes issued patents and patent applications in the world’s major markets</h4>
-                </div>
+                </div> */}
             </div>
             
                 <Accordion defaultActiveKey="0">
