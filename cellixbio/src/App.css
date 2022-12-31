@@ -1073,25 +1073,24 @@ font-size: 3vh;
   margin-left: 46%;
 }
 
-.searchPatentsp{
-  /* display: flex; */
+/* .searchPatentsp{
+  display: flex;
   color: #282c34;
   font-size: larger;
   font-weight: bold;
-}
+} */
 
-.searchPatentspan{
+/* .searchPatentspan{
   color: #15B39D;
   font-size: larger;
   font-weight: bold;
-}
+} */
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   .searchPatentsp{
-    /* margin-right: 80px; */
     margin-left: -60px;
   }
-}
+} */
 
 .searchPatentImg{
   width: 20%;
