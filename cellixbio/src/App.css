@@ -1299,9 +1299,22 @@ p.CardTextInfo{
   margin-bottom: 20px;
   font-size: 2vw;
 }
+
+.InventorIPh2{
+  text-align: center;
+  font-weight: bolder;
+  color: #282c34;
+  display: block;
+  margin-bottom: 2%;
+  font-size: 2vw;
+}
+
 @media screen and (max-width: 600px) {
   h2.Yearsh2 {
     font-size: 2vh; 
+ }
+ .InventorIPh2{
+  font-size: 2vh;;
  }
  .yearscontainer{
   display: grid;
@@ -1309,6 +1322,7 @@ p.CardTextInfo{
 
  }
 }
+
 @media screen and (max-width:768px) and (min-width:601px) {
   h2.Yearsh2 {
     font-size: 2vh; 

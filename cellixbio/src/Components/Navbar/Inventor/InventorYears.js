@@ -1,14 +1,13 @@
 import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
-import NoInternetConnection from '../../NoInternetConn';
-function Years(){
+
+function InventorYears(){
     return(
         <>
-            <div className="YearsContainerh2">
-                <h2 className="Yearsh2">Cellix Bio's Patents Yearwise (2022 to 2014)</h2>
-            </div>
-            
-            <NoInternetConnection>
+                <div className="YearsContainerh2">
+                    <h2 className="Yearsh2">Mahesh Kandula's Patents International Year Wise (2022 to 2009)</h2>
+                </div>
+                
                 <div className='yearscontainer'>
                     {/* <Container className='yearcontainer'> */}
                         
@@ -66,7 +65,7 @@ function Years(){
                                         </Button>
                                 </div>        
                             
-                                {/* <div className="YearsButtonContainer">
+                                <div className="YearsButtonContainer">
                                         <Button className='yearbtn' variant="dark" size="lg">
                                             <Link className='YearsLinks' to="/PatentsDashboard/2013">2013<p className='yearp'>Patents: 74</p></Link>
                                         </Button>
@@ -94,11 +93,10 @@ function Years(){
                                         <Button className='yearbtn' variant="dark" size="lg">
                                             <Link className='YearsLinks' to="/PatentsDashboard/2009">2009<p className='yearp'>Patents: 3</p></Link>
                                         </Button>
-                                </div> */}
+                                </div>
                     {/* </Container> */}
                 </div>
-            </NoInternetConnection>
         </>
     );
 }
-export default Years;
+export default InventorYears;

@@ -2,9 +2,8 @@ import Table from 'react-bootstrap/Table';
 import Accordion from 'react-bootstrap/Accordion';
 import axios from 'axios';
 import { useState, useEffect } from 'react';
-import NoInternetConnection from '../Body/NoInternetConn';
 
-function IP(){
+function InventorIP(){
     const [usPatents, setUSPatents] = useState([]);
     useEffect(() => {
         const fetchData = async () => {
@@ -21,25 +20,13 @@ function IP(){
     document.title = 'Intellectual Property - Cellix Bio';
     return(
         <>
-        <div className='patentlandingpage'>
-              <video src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Brain.mp4" autoPlay muted loop className='patents_video_bg' type="video/mp4"/>
-              <div className='pipeline-text'>
-                            <div className='patents_text_1'>
-                                <h1 className='pipelineCarouselh1'>INTELLECTUAL PROPERTY</h1>
-                            </div>
-                            </div>
-              </div>
-            <div className='IPContainer'>
-                <div className="IPpContainerp">
-                    <p className="IPp"><span className="AboutSpan">Cellix Bio</span> has a portfolio of over 600+ international patents published. The Company has 160+ U.S Patent Portfolio comprising Composition of Matter, Formulation Patents in diverse therapeutic areas. We are also committed to protect our intellectual property estate of patent rights and trade secrets for our proprietary technology.</p>
+                <div className="YearsContainerh2">
+                    <h2 className="InventorIPh2">Mahesh Kandula has a portfolio of over 180+ U.S Patents</h2>
                 </div>
-            </div>
-            
-                <Accordion defaultActiveKey="0">
+                <Accordion>
                     <Accordion.Item eventKey="0">
                         <Accordion.Header><h4>U.S PATENT PORTFOLIO</h4></Accordion.Header>
                             <Accordion.Body className='IPAB'>
-                                <NoInternetConnection>
                                     <Table striped bordered hover responsive className='mt-3 shadow-sm'>
                                         <thead>
                                             <tr>
@@ -62,11 +49,10 @@ function IP(){
                                             }
                                         </tbody>
                                     </Table>
-                                </NoInternetConnection>
                             </Accordion.Body>
                         </Accordion.Item>
                 </Accordion>           
         </>
     )
 }
-export default IP;
+export default InventorIP;
