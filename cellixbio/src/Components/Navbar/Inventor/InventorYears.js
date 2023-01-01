@@ -5,7 +5,7 @@ function InventorYears(){
     return(
         <>
                 <div className="YearsContainerh2">
-                    <h2 className="Yearsh2">Mahesh Kandula's Patents International Year Wise (2022 to 2009)</h2>
+                    <h2 className="Yearsh2">Mahesh Kandula's World Wide Patents (2022 to 2009)</h2>
                 </div>
                 
                 <div className='yearscontainer'>
