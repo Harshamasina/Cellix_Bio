@@ -1122,7 +1122,7 @@ font-size: 3vh;
 
 @media screen and (max-width: 600px) {
   .CardContainer {
-    margin-left: 6% !important;
+    margin-left: 13% !important;
   }
 }
 
