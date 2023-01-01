@@ -22,11 +22,11 @@ function SearchPatents(){
     return(
         <div>
             <div className="SearchPatentsh2Container">
-                <h3 className="SearchPatentsh2">Search Patents of Cellix Bio by entering Patent Application Number or Therapeutic Area</h3>
+                <h3 className="SearchPatentsh2">Cellix Bio Patent Intelligence</h3>
             </div>
             <div>
                 <div className="SearchPatentContainer">
-                   <input onChange={searchHandle} className="SearchBarPatents" type="search" placeholder="ENTER PATENT NUMBER OR THERAPEUTIC AREA"></input>
+                   <input onChange={searchHandle} className="SearchBarPatents" type="search" placeholder="ENTER PATENT APPLICATION NUMBER OR THERAPEUTIC AREA"></input>
                    {/* <button className="SearchBarButton"><TfiSearch /></button> */}
                 </div>
                 {/* <div className="PatentsFoundContainer">
