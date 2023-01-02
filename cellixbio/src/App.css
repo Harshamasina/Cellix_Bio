@@ -2489,7 +2489,7 @@ tbody,thead{
 .LeadershipImgContainer{
   width: 17vw;
   height: 22vw;
-margin-top: 20%;
+margin-top: 12%;
 margin-left: 0.5%;
   text-align: center;
   /* color: white; */
@@ -2530,7 +2530,7 @@ text-align: center !important;
 .LeadershipTitleContainer{
   position: absolute;
   /* bottom:0.2vw; */
-  top:21.7vw;
+  top:20.1vw;
   background-color: #0E6E59 !important;
   color: white;
   left: 0.25vw;
@@ -2541,7 +2541,7 @@ text-align: center !important;
   /* font-size: 1rem; */
   }
 .LeaderTitle{
-  font-size: 2rem !important;
+  font-size: 1.5rem !important;
 }
 .LeaderSubTitleContainer{
   margin-left: 9%;
@@ -2550,16 +2550,18 @@ text-align: center !important;
 }
 
 .LeaderMsg{
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 .LeaderMsg1{
   font-size: 1em;
 }
 
-.LeaderContainer{
+div.LeaderContainer{
   display: flex;
+  resize: both;
+  /* overflow: auto; */
   width: 80vw;
-  height: 22vw;
+  height: calc(100vh-10vmax);
   margin-top: 5%;
   margin-bottom: 5%;
   margin-left: 10%;
@@ -2568,8 +2570,9 @@ text-align: center !important;
 
 .LeadershipContainer{
   display: flex;
+  resize: both;
   width: 80vw;
-  height: 32vw;
+  height: calc(100vh-10vmax);
   margin-top: 1%;
   margin-bottom: 5%;
   margin-left: 10%;

@@ -34,7 +34,7 @@ function Leadership(){
                 </div>
             </div>
 
-            <div className='LeaderContainer'>
+            <div className='LeaderContainer'>   
                 <div className='LeaderContainer1'>
                     <div className='LeaderImgContainer'>
                         <img className='LeaderImg1' src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Leadership.SubbuApparsundaram.PNG" alt='Limage'/>
