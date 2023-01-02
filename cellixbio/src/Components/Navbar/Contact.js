@@ -6,7 +6,7 @@ function Contact() {
   return (
     <>
       <div className='patentlandingpage'>
-        <video src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Planet.mp4" autoPlay muted loop className='patents_video_bg' type="video/mp4"/>
+        <video src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Earth+-+1236.mp4" autoPlay muted loop className='patents_video_bg' type="video/mp4"/>
         <div className='pipeline-text'>
           <div className='patents_text_1'>
             <h1 className='pipelineCarouselh1'>CONTACT</h1>

@@ -11,9 +11,9 @@ function Address(){
                         <Card.Text>
                             <ul className='CUUL'>
                                 <li className='CULI'>Cellix Bio Private Limited,</li>
-                                <li>Plot No.24, MSR Pride, Flat No.502,</li>
-                                <li>Miyapur, Hyderabad, TG</li>
-                                <li>Pin: 500049, <span className='CUSpan'>India.</span></li>
+                                <li className='CUSpan'>Plot No.24, MSR Pride, Flat No.502,</li>
+                                <li className='CUSpan'>Miyapur, Hyderabad, TG</li>
+                                <li className='CUSpan'>Pin : 500049, <span className='CUSpan'>India.</span></li>
                             </ul>
                             {/* <ul className='CUUL'>
                                 <li className='CULI'>Cellix Biosciences Inc,</li>
@@ -29,9 +29,9 @@ function Address(){
                         <Card.Title className='CUCT'>Contact No:</Card.Title>
                         <Card.Text>
                         <ul className='CUUL'>
-                            <li className='CUSpan'>Phone: (+91) 40 23545946</li>
-                            <li className='CUSpan'>Fax: (+91) 40 23545949</li>
-                            <li className='CUSpan'>Email: info@cellixbio.com</li>
+                            <li className='CUSpan'>Phone : (+91) 40 23545946</li>
+                            <li className='CUSpan'>Fax : (+91) 40 23545949</li>
+                            <li className='CUSpan'>Email : info@cellixbio.com</li>
                         
                         </ul>
                         {/* <ul className='CUUL'>
@@ -48,7 +48,7 @@ function Address(){
                         <Card.Title className='CUCT'>Business Hours:</Card.Title>
                         <Card.Text>
                         <ul className='CUUL'>
-                            <li className='CUSpan'>Monday - Tuesday: 9:30AM to 6:00PM</li>
+                            <li className='CUSpan'>Monday - Tuesday : 9:00AM to 6:00PM</li>
                             <li className='CUSpan'>Sunday - Closed</li>
                             {/* <li className='CUSpan'>Wednesday: 9:30AM to 6:00PM</li>
                             <li className='CUSpan'>Thursday: 9:30AM to 6:00PM</li>

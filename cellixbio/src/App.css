@@ -12,6 +12,11 @@ body{
   display: inline;
 }
 
+::selection {
+  color: #f2f2f2;
+  background: #0E6E59;
+}
+
 /* Used for Footer */
 .p-2:hover{
   background-color: #15B39D !important;
@@ -410,7 +415,7 @@ body{
 .WWDP{
   text-align: justify;
   padding: 10;
-  font-size: 1vw;
+  font-size: 1.2vw;
   }
 
 .WWDh3{
@@ -985,10 +990,10 @@ font-size: 3vh;
 
 .SearchPatentsh2{
   font-weight: bold;
-  color: #282c34;
+  color: #0E6E59;
   display: block;
   font-size: 2vw;
-  margin: 1%;
+  margin-top: 1%;
 }
 
 @media screen and (max-width: 600px) {
@@ -1000,18 +1005,21 @@ font-size: 3vh;
 .SearchPatentContainer{
   display: flex;
   flex-direction: row;
-  margin-top: 1%;
-  margin-bottom: 2%;
+  margin-top: -1% !important;
+  margin-bottom: 8% !important;
   position: relative;
   -webkit-box-shadow: none;
   outline: none;
 }
+
 @media screen and (max-width: 600px) {
   .SearchPatentContainer {
     margin-left: -10vh;
     height: 10vh;
+    margin-bottom: -4% !important;
   }
 }
+
 @media screen and (max-width: 600px) {
   input.SearchBarPatents {
     width: 37vh !important;
@@ -1058,6 +1066,26 @@ font-size: 3vh;
   outline: none;
 }
 
+.SearchBarPatents::placeholder {
+  color: #4e545f;
+  letter-spacing: 2px;
+  font-size: 1vw !important;
+}
+
+@media screen and (max-width: 600px){
+  .SearchBarPatents::placeholder {
+    font-size: 2vw !important;
+    letter-spacing: normal; 
+  }
+}
+
+@media screen and (min-width: 768px){
+  .SearchBarPatents::placeholder {
+    font-size: 1.2vh;
+    letter-spacing: normal; 
+  }
+}
+
 .SearchBarButton{
   border: 0;
   background-color: white;
@@ -1073,25 +1101,24 @@ font-size: 3vh;
   margin-left: 46%;
 }
 
-.searchPatentsp{
-  /* display: flex; */
+/* .searchPatentsp{
+  display: flex;
   color: #282c34;
   font-size: larger;
   font-weight: bold;
-}
+} */
 
-.searchPatentspan{
+/* .searchPatentspan{
   color: #15B39D;
   font-size: larger;
   font-weight: bold;
-}
+} */
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   .searchPatentsp{
-    /* margin-right: 80px; */
     margin-left: -60px;
   }
-}
+} */
 
 .searchPatentImg{
   width: 20%;
@@ -1102,8 +1129,15 @@ font-size: 3vh;
 
 
 .PatentsCard{
-  width:75vw !important;
+  width: 75vw !important;
 }
+
+/* @media screen and (max-width: 600px) {
+  .PatentsCard{
+    width: 5vw !important;
+  }
+} */
+
 .skPatentCard{
   width: 75vw !important;
 }
@@ -1111,11 +1145,13 @@ font-size: 3vh;
 .PatentsCard:hover{
   background-color: #f2f2f2 !important;
 }
+
 @media screen and (max-width: 600px) {
   .CardContainer {
     margin-left: 13% !important;
   }
 }
+
 .CardContainer{
   height: 20% !important;
   margin-left: 10%;
@@ -1289,9 +1325,22 @@ p.CardTextInfo{
   margin-bottom: 20px;
   font-size: 2vw;
 }
+
+.InventorIPh2{
+  text-align: center;
+  font-weight: bolder;
+  color: #282c34;
+  display: block;
+  margin-bottom: 2%;
+  font-size: 2vw;
+}
+
 @media screen and (max-width: 600px) {
   h2.Yearsh2 {
     font-size: 2vh; 
+ }
+ .InventorIPh2{
+  font-size: 2vh;;
  }
  .yearscontainer{
   display: grid;
@@ -1299,6 +1348,7 @@ p.CardTextInfo{
 
  }
 }
+
 @media screen and (max-width:768px) and (min-width:601px) {
   h2.Yearsh2 {
     font-size: 2vh; 
@@ -1493,7 +1543,7 @@ text-decoration: underline;
 .PTp{
   text-align: justify;
   padding: 5px;
-  font-size: 1vw;
+  font-size: 1.2vw;
 }
 
 /* .PTUL{
@@ -1503,7 +1553,7 @@ text-decoration: underline;
 } */
 
 .PTUL{
-  font-size: 1vw;
+  font-size: 1.2vw;
   display: flex;
   flex-direction: column;
   list-style: none;
@@ -1870,12 +1920,11 @@ span.ClaimsText{
   justify-content: center;
   width: 70%;
   margin-left: 16%;
-
 }
 
 .IPp{
   padding: 10px;
-  font-size: 1vw;
+  font-size: 1.2vw;
 }
 
 .IPContainerh4{
@@ -2072,7 +2121,7 @@ span.ClaimsText{
 
 .PLp{
   padding: 10px;
-  font-size: 1vw;
+  font-size: 1.2vw;
 }
 
 .Ptable{
@@ -2113,12 +2162,12 @@ tbody,thead{
 }
 
 .contactCard{
-  height: 390px !important;
+  height: 490px !important;
 }
 
 .CCImg{
-  width: 150px !important;
-  height: 150px !important;
+  width: 300px !important;
+  height: 300px !important;
   margin-top: 4%;
   text-align: center !important;
 }
@@ -2202,7 +2251,7 @@ tbody,thead{
   font-size: larger;
   color: #0E6E59;
   text-align: center !important;
-  margin-bottom: 5% !important;
+  margin-bottom: 2% !important;
   text-decoration: underline !important;
 }
 
@@ -2210,7 +2259,7 @@ tbody,thead{
   font-weight: 500;
   color: #282c34;
   text-align: center;
-  margin-top: 2%;
+  margin-top: 1%;
 }
 
 .CUh2{
@@ -2229,7 +2278,7 @@ tbody,thead{
 
 @media screen and (max-width: 600px) {
   .CUCard {
-    margin-left: 8% !important;
+    margin-left: 12% !important;
   }
 }
 
@@ -2609,9 +2658,9 @@ div.LeaderContainer{
 }
 
 .card-img-top{
-  width: 50% !important;
-  height: 40% !important;
-  margin-left: 25%;
+  width: 70% !important;
+  height: 60% !important;
+  margin-left: 14% !important;
   border-radius: 5px !important;
   box-shadow: 0 1rem 3rem rgba(0,0,0,.175) !important;
 }
@@ -2992,9 +3041,9 @@ img{
 .MediaCardImage{
   width: 40% !important;
   height: 40% !important;
-  margin-left: 30%;
-  margin-top: 1%;
-  margin-bottom: 1%;
+  margin-left: 30% !important;
+  margin-top: 1% !important;
+  margin-bottom: 1% !important;
 }
 
 .MediaCardBody{
@@ -3082,9 +3131,16 @@ img{
 }
 
 .CareersP{
-  font-size: larger;
+  font-size: 1.2vw;
   text-align: justify;
 }
+
+@media screen and (max-width: 600px){
+  .CareersP{
+    font-size: 1.1rem;
+  }
+}
+
 
 .CareersPSpan{
   color: #15B39D;

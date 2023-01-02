@@ -27,8 +27,8 @@ const Footer = () => {
                             </div> */}
                             <div className='FooterContainerp' display="flex" justifyContent="around">
                                   <ul className='FooterUL'>
-                                    <li><p className='Fdetails'>GLOBAL PATENTS: </p><b className='Fdetail'>645</b></li>
-                                    <li><p className='Fdetails'>ISSUED U.S PATENTS: </p><b className='Fdetail'>184</b></li>
+                                    {/* <li><p className='Fdetails'>GLOBAL PATENTS: </p><b className='Fdetail'>645</b></li>
+                                    <li><p className='Fdetails'>ISSUED U.S PATENTS: </p><b className='Fdetail'>184</b></li> */}
                                     {/* <li><p className='Fdetails'>PENDING U.S. PATENETS: </p><b className='Fdetail'>28</b></li> */}
                                   </ul>
                             </div>

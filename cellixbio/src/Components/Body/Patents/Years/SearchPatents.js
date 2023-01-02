@@ -22,16 +22,16 @@ function SearchPatents(){
     return(
         <div>
             <div className="SearchPatentsh2Container">
-                <h3 className="SearchPatentsh2">Search Patents of Cellix Bio by entering WIPO Number or Therapeutic Area</h3>
+                <h3 className="SearchPatentsh2">Cellix Bio Patent Intelligence</h3>
             </div>
             <div>
                 <div className="SearchPatentContainer">
-                   <input onChange={searchHandle} className="SearchBarPatents" type="search" placeholder="ENTER WIPO NUMBER OR THERAPEUTIC AREA"></input>
+                   <input onChange={searchHandle} className="SearchBarPatents" type="search" placeholder="ENTER PATENT APPLICATION NUMBER OR THERAPEUTIC AREA"></input>
                    {/* <button className="SearchBarButton"><TfiSearch /></button> */}
                 </div>
-                <div className="PatentsFoundContainer">
+                {/* <div className="PatentsFoundContainer">
                     <p className="searchPatentsp">Search Results : <span className="searchPatentspan">{searchPatent && searchPatent.length}</span></p> 
-                </div>
+                </div> */}
                 {     
                         searchPatent && searchPatent.length === 0 ? 
                         <img className="searchPatentImg" src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Patent+Data+Not+Found.PNG" alt="not Found"></img> : 
