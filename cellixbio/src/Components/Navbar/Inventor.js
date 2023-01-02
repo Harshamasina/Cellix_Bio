@@ -30,7 +30,7 @@ function Inventor() {
             </div>  
             <hr className='LeaderHR'></hr>
             <div className='LeaderMsgContainer'>
-                <p className='LeaderMsg'>Mahesh brings over 18 years of scientific and entrepreneurial experience in the life science industry. Mr. Kandula has been named an inventor on 112 United States Patents and Applications and, more than 635 International Patent Applications. Mr. Kandula received his Master of Technology degree from IIT Kharagpur.</p>
+                <p className='LeaderMsg'>Mahesh brings over 18 years of scientific and entrepreneurial experience in the life science industry. Mr. Kandula has been named an inventor on 184 United States Patents and Applications and, more than 645 International Patent Applications. Mr. Kandula received his Master of Technology degree from IIT Kharagpur.</p>
             </div>
         </div>
       </div>

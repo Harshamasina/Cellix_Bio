@@ -21,7 +21,7 @@ function InventorIP(){
     return(
         <>
                 <div className="YearsContainerh2">
-                    <h2 className="InventorIPh2">Mahesh Kandula has a portfolio of over 180+ U.S Patents</h2>
+                    <h2 className="InventorIPh2">Mahesh Kandula has a portfolio of over 180+ U.S Patents and Applications</h2>
                 </div>
                 <Accordion>
                     <Accordion.Item eventKey="0">

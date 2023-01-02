@@ -12,6 +12,11 @@ body{
   display: inline;
 }
 
+::selection {
+  color: #f2f2f2;
+  background: #0E6E59;
+}
+
 /* Used for Footer */
 .p-2:hover{
   background-color: #15B39D !important;
@@ -1011,6 +1016,7 @@ font-size: 3vh;
   .SearchPatentContainer {
     margin-left: -10vh;
     height: 10vh;
+    margin-bottom: -4% !important;
   }
 }
 
@@ -1058,6 +1064,26 @@ font-size: 3vh;
   margin-top: 2vw;
   position: absolute;
   outline: none;
+}
+
+.SearchBarPatents::placeholder {
+  color: #4e545f;
+  letter-spacing: 2px;
+  font-size: 1vw !important;
+}
+
+@media screen and (max-width: 600px){
+  .SearchBarPatents::placeholder {
+    font-size: 2vw !important;
+    letter-spacing: normal; 
+  }
+}
+
+@media screen and (min-width: 768px){
+  .SearchBarPatents::placeholder {
+    font-size: 1.2vh;
+    letter-spacing: normal; 
+  }
 }
 
 .SearchBarButton{
