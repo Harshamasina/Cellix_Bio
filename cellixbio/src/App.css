@@ -26,13 +26,17 @@ body{
   margin-left: 50% ;
   margin-top: 5%;
 }
+.p-2{
+  width: 2vw !important;
+  height: 2vw !important;
+}
 
 .Navlink{
   /* color: #4e545f !important; */
   color: white !important;
   /* color: #034c3c !important; */
   /* margin-left: 250% !important; */
-  font-size: 1.2rem !important;
+  font-size: 1vw !important;
 }
 
 .Navlink:hover{
@@ -72,7 +76,7 @@ body{
 .FooterIcons{
   display: flex;
   flex-direction: row;
-  height: 30px;
+  /* height: 50%; */
   margin-left: 20% !important;
   margin-top: 20px;
   /* max-width: 100%;
@@ -91,7 +95,7 @@ body{
 .Fimg{
   width:150px;
   height: 80px;
-  margin-top: 20px ;
+  /* margin-top: 20px ; */
   display: block;
 }
 .text-dark{
