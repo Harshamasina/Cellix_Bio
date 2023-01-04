@@ -47,9 +47,9 @@ function Inventor() {
                   <div class="team">
                     <div class="team_member1">
                         <div class="team_img">
-                            <img src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Leadership.Mahesh.PNG" alt="Team_image"></img>
+                            <img class="team-img" src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Leadership.Mahesh.PNG" alt="Team_image"></img>
                         </div>
-                        <h3>Mahesh Kandula</h3>
+                        <h3 class="team-lead-h3">Mahesh Kandula</h3>
                         <h5 class="role">Inventor</h5>
                         <p>Mahesh brings over 18 years of scientific and entrepreneurial experience in the life science industry. Mr. Kandula has been named an inventor on 180+ United States Patents and Applications and, more than 640+ International Patent Applications. Mr. Kandula received his Master of Technology degree from IIT Kharagpur.</p>
                     </div>
