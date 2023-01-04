@@ -60,7 +60,7 @@ const Footer = () => {
                         </CDBBox>
                   </div>
             </CDBBox>
-              <CDBBox display="flex" className="mt-4">
+              <CDBBox display="flex" className="mt-4" justifyContent="around">
                 <div className='smallContainer'>
                   <small className="ml-2">&copy; Cellix Bio, 2022. All rights reserved.</small>
                 </div>
