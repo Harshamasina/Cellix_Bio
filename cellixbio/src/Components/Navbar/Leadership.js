@@ -156,7 +156,7 @@ function Leadership(){
                         </div>
                         <h3>Mahesh Kandula</h3>
                         <h5 class="role">Founder</h5>
-                        <p>Mahesh brings over 18 years of scientific and entrepreneurial experience in the life science industry. Mr. Kandula has been named an inventor on 112 United States Patents and Applications and, more than 635 International Patent Applications. Mr. Kandula received his Master of Technology degree from IIT Kharagpur.</p>
+                        <p>Mahesh brings over 18 years of scientific and entrepreneurial experience in the life science industry. Mr. Kandula has been named an inventor on 180+ United States Patents and Applications and, more than 640+ International Patent Applications. Mr. Kandula received his Master of Technology degree from IIT Kharagpur.</p>
                     </div>
                     
                     <div class="team_member">

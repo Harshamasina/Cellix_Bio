@@ -3254,7 +3254,7 @@ img{
   background: #fff;
   margin: 30px;
   margin-bottom: 50px;
-  width: 900px;
+  width: 60%;
   padding: 20px;
   line-height: 20px;
   color: #282c34;  
@@ -3265,6 +3265,7 @@ img{
 
 .team .team_member p{
   text-align: justify;
+  font-size: 18px;
 }
 
 .team .team_member h3{
