@@ -16,14 +16,15 @@ CHANGES REQUIRED:
 -> Carousel Text should be responsive (Done)
 -> Deploy React App in AWS using EC2 in multiple instances (Done in Default VPC)
 -> All Pipeline data to website. (Done)
--> Search Query should be Optimized(Indexing)
+-> Search Query should be Optimized (Indexing)
 -> Require Testing. 
 -> Implement React Memoization.
--> Claims Images should not have Links.
--> Add Image tags to the claims links.
+-> Add Image tags to the claims links.(Done upto 2017)
 -> Make it SEO
 -> Lazy Loading
--> Add .env files to backend and change it in services Instance also. 
--> Deploy Instance in Route 53 and host it in GoDaddy
-
+-> Add .env files to backend and change it in services Instance also.
+-> Deploy Instance in Route 53 and host it in GoDaddy (Done without SSL)
+-> Add Sign Up and Log In in the page
+-> Add pipeline dashboard after logging in
+-> Limit Access to certain Employees to certain Target Id.
 

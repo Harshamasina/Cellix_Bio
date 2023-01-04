@@ -175,8 +175,8 @@
 	
 	.nav-link.active{
 		color:#6CC8C2 !important;
-		font-weight: 500 !important;
-		border-bottom: #15B39D 3px solid !important;
+		/* font-weight: 500 !important;
+		border-bottom: #15B39D 3px solid !important; */
 		/* border-top: #15B39D 2px solid !important; */
 	}
 	.dropdown-item:hover{
