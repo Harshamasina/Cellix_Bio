@@ -73,6 +73,8 @@ body{
   display: flex;
   flex-direction: row;
   height: 30px;
+  margin-left: 860px !important;
+  margin-top: 20px;
   /* max-width: 100%;
   min-width: 100%; */
 }
@@ -89,7 +91,7 @@ body{
 .Fimg{
   width:150px;
   height: 80px;
-  margin-top: -40px ;
+  margin-top: 20px ;
   display: block;
 }
 .text-dark{
@@ -3259,7 +3261,7 @@ img{
   line-height: 20px;
   color: #282c34;  
   position: relative;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
   border-radius: 15px;
 }
 
@@ -3320,6 +3322,9 @@ img{
   font-size: 26px;
   margin-top: 50px;
 }
+.team-lead-h3{
+  margin-top: 85px!important;
+}
 
 .team .team_member1 h5.role{
   color: #15B39D;
@@ -3342,6 +3347,15 @@ img{
 
 .team_img{
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width:150px !important;
+  height: 150px !important;
+}
+.team-img{
+  width: 100% !important;
+  height: 100% !important;
+  border-radius: 50% !important;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
 }
 
 .team .team_member1 .team_img img{
