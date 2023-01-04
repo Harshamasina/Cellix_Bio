@@ -44,7 +44,6 @@ function NavBar() {
                                 responsive-navbar-nav
                             >
                                 <Nav.Link className='navbar_link' as={Link} to="/Home" eventKey="1">Home</Nav.Link>
-                                {/* <Nav.Link className='navbar_link' as={Link} to="/About" eventKey="2">About</Nav.Link> */}
                                 <Nav.Link className='navbar_link' as={Link} to="/PT" eventKey="3">Platform Technology</Nav.Link>
                                 <Nav.Link className='navbar_link' as={Link} to="/Pipeline" eventKey="6">Pipeline</Nav.Link>
                                 <Nav.Link className='navbar_link' as={Link} to="/Patents" eventKey="4">Patents</Nav.Link>
@@ -54,10 +53,6 @@ function NavBar() {
                                 <Nav.Link className='navbar_link' as={Link} to="/Media" eventKey="9">Media</Nav.Link>
                                 <Nav.Link className='navbar_link' as={Link} to="/Careers" eventKey="10">CAREERS</Nav.Link>
                                 <Nav.Link className='navbar_link' as={Link} to="/Contact" eventKey="11">Contact</Nav.Link>
-                                {/* <NavDropdown className='navbar_link' title="MORE" id="basic-nav-dropdown">
-                                        <NavDropdown.Item className='navbar_link' as={Link} to="/Media" eventKey="10">MEDIA</NavDropdown.Item>
-                                        <NavDropdown.Item className='navbar_link' as={Link} to="/Careers" eventKey="11">CAREERS</NavDropdown.Item>
-                                </NavDropdown> */}
                             </Nav>
                         </Navbar.Collapse>
                     </Navbar>

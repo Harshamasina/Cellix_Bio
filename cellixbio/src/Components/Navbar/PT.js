@@ -12,22 +12,11 @@ function PT(){
               </div>
             <div className="PT">
             <div className="PTContainerh2h3h4">
-                {/* <div className='DescContainerh3'><span></span>
-                <span className="WWDh3">PLATFORM TECHNOLOGIES</span><span></span>
-                </div> */}
                 </div>
-
-                {/* <div className="PTh2">
-                   <h3 className="PTh3">SYNERGIX AUGMENTED INTELLIGENCE<sup>TM</sup></h3>
-                </div> */}
 
                      <div className='DescContainerh3'><span></span>
                         <span className="WWDh3">SYNERGIX AUGMENTED INTELLIGENCE</span><span></span>
                     </div>
-
-                {/* <div className="PTh2">
-                   <h4 className="PTh3">CELLIX BIO's SCIENCE OF DRUG INNOVATION</h4>
-                </div> */}
                 
                 <div className="PTpContainer">
                     <p className="PTp">By leveraging clinical, biomedical public databases, scientific literature and proprietary curated data, the technologies that make up our AI platform Synergix AI<sup>TM</sup> unlocks the critical knowledge gaps in molecular design. They also cross-validate each other's results and present preformed, data-driven hypotheses synchronizing in-life validation with unmatched speed and accuracy. This enables us to discover and potentially deliver novel therapies to patients living with serious medical needs in our therapeutic areas of focus at a great velocity and precision.</p>
@@ -41,8 +30,6 @@ function PT(){
                    <p className="PTp"><span className="AboutSpan">Cellix Bio's Synergix AI<sup>TM</sup></span> platform technology has the capability to deliver both clinical and commercial successes. Our approach is unique and enables important functional capabilities.</p>
                 </div>
              </div>
-
-                    {/* <h3 className="PTh3">Some key benefits are</h3> */}
                     <ul className="PTUL">
                         <li>Relatively rapid clinical development</li>
                         <li>Low drug development risk</li>

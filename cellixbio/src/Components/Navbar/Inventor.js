@@ -5,7 +5,7 @@ function Inventor() {
   document.title = 'Inventor - Cellix Bio';
   return (
     <>
-      <div className='patentlandingpage'>
+      {/* <div className='patentlandingpage'>
           <video src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Neurons.mp4" autoPlay muted loop className='patents_video_bg' type="video/mp4"/>
             <div className='pipeline-text'>
                <div className='patents_text_1'>
@@ -13,6 +13,7 @@ function Inventor() {
                 </div>
               </div>
            </div>
+           
            <div className='LeaderContainer'>
               <div className='LeaderContainer1'>
                 <div className='LeaderImgContainer'>
@@ -27,13 +28,33 @@ function Inventor() {
                   <div className='DescContainerh3'><span></span>
                     <span className="WWDh3">About Mahesh Kandula</span><span></span>
                 </div>
-            </div>  
-            <hr className='LeaderHR'></hr>
-            <div className='LeaderMsgContainer'>
-                <p className='LeaderMsg'>Mahesh brings over 18 years of scientific and entrepreneurial experience in the life science industry. Mr. Kandula has been named an inventor on 184 United States Patents and Applications and, more than 640 International Patent Applications. Mr. Kandula received his Master of Technology degree from IIT Kharagpur.</p>
+              </div>  
+              <hr className='LeaderHR'></hr>
+              <div className='LeaderMsgContainer'>
+                  <p className='LeaderMsg'>Mahesh brings over 18 years of scientific and entrepreneurial experience in the life science industry. Mr. Kandula has been named an inventor on 184 United States Patents and Applications and, more than 640 International Patent Applications. Mr. Kandula received his Master of Technology degree from IIT Kharagpur.</p>
             </div>
         </div>
-      </div>
+      </div> */}
+        <div className='patentlandingpage'>
+            <video src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Neurons.mp4" autoPlay muted loop className='patents_video_bg' type="video/mp4"/>
+            <div className='pipeline-text'>
+              <div className='patents_text_1'>
+                <h1 className='pipelineCarouselh1'>MEDIA</h1>
+              </div>
+            </div>
+        </div>
+        <div class="wrapper">
+                  <div class="team">
+                    <div class="team_member1">
+                        <div class="team_img">
+                            <img src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Leadership.Mahesh.PNG" alt="Team_image"></img>
+                        </div>
+                        <h3>Mahesh Kandula</h3>
+                        <h5 class="role">Inventor</h5>
+                        <p>Mahesh brings over 18 years of scientific and entrepreneurial experience in the life science industry. Mr. Kandula has been named an inventor on 180+ United States Patents and Applications and, more than 640+ International Patent Applications. Mr. Kandula received his Master of Technology degree from IIT Kharagpur.</p>
+                    </div>
+                </div>
+            </div>
       <InventorYears></InventorYears>
       <InventorIP></InventorIP>
     </>
