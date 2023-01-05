@@ -129,6 +129,13 @@ body{
     margin-left: 15%;
     /* margin-left: 10%; */
   }
+  .Navlink{
+  /* color: #4e545f !important; */
+  color: white !important;
+  /* color: #034c3c !important; */
+  /* margin-left: 250% !important; */
+  font-size: 1.5vh !important;
+}
 }
 @media screen and (max-width: 600px) {
   .Fdetails {
@@ -197,6 +204,13 @@ body{
     margin-left: 40%;
     margin-top: 25%;
   }
+  .Navlink{
+  /* color: #4e545f !important; */
+  color: white !important;
+  /* color: #034c3c !important; */
+  /* margin-left: 250% !important; */
+  font-size: 1.5vh !important;
+}
 }
 @media screen and (max-width: 600px) {
   b.Fdetail {
