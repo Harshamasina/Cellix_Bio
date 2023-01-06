@@ -76,8 +76,7 @@ function NavBar() {
                         <Route path='/Cellix_Bio' element={<Home></Home>}></Route>
                         <Route path='/' element={<Home></Home>}></Route>
                         <Route path='*' element={<Error404/>}></Route>
-                    </Routes>
-                </div>
+                    </Routes>                </div>
             </>
         );
     }
