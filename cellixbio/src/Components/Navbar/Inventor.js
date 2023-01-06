@@ -39,7 +39,7 @@ function Inventor() {
             <video src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Neurons.mp4" autoPlay muted loop className='patents_video_bg' type="video/mp4"/>
             <div className='pipeline-text'>
               <div className='patents_text_1'>
-                <h1 className='pipelineCarouselh1'>MEDIA</h1>
+                <h1 className='pipelineCarouselh1'>INVENTOR</h1>
               </div>
             </div>
         </div>
