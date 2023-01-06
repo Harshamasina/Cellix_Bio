@@ -30,7 +30,7 @@ const PostData = async (e) => {
       body: JSON.stringify({name, email, phone, subject, message})
     });
     const data = await res.json();
-    if(data.status === 422 || !data ){
+    if(res.status === 422 || !data ){
         window.alert("Invalid Form");
         console.log("Invalid Form");
     } else {

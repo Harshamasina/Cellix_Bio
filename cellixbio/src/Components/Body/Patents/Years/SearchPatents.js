@@ -48,7 +48,7 @@ function SearchPatents(){
                                                 <div className='cardTextInfoContainer'>
                                                     <Card.Text className='CardTextInfo'>
                                                         <p>{patent.diseases}</p>
-                                                        <p><span className='CardTextSpan'>Therapeutic Area: </span>{patent.therapeutic_area}</p>
+                                                        <p className='CardTextSpanTA'><span className='CardTextSpan'>Therapeutic Area: </span>{patent.therapeutic_area}</p>
                                                     </Card.Text>
                                                 </div>
                                                 <div className='cardTextDateContainer'>

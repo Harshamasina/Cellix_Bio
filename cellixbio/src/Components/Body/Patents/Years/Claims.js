@@ -3,8 +3,8 @@ import NoInternetConnection from "../../NoInternetConn";
 function Claims({claim}){
     // console.log(claim);
     const ClaimArray = claim.split("\n");
-    console.log(ClaimArray);
-    console.log("Array Length: ", ClaimArray.length);
+    // console.log(ClaimArray);
+    // console.log("Array Length: ", ClaimArray.length);
     return(
         <div>
             <h1 className="PITBh4">CLAIMS</h1>

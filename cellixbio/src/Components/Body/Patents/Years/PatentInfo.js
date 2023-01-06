@@ -47,12 +47,12 @@ function PatentInfo(){
                 <h2 className='heading-primary'><p className='PatentInfoh2'>{wno}</p></h2>
                 <p className='PatentInfoh3'>Publication Date: {pubDate}</p>
             <Tabs
-                defaultActiveKey="Formulas"
+                defaultActiveKey="Therapeutic Area"
                 id="uncontrolled-tab-example"
                 className="mb-3 shadow-lg Tabs"
                 fill
                 >
-                <Tab eventKey="Therapeutic Area" title="Therapeutic Area" active hide>
+                <Tab eventKey="Therapeutic Area" title="Therapeutic Area">
                     <TherapeuticArea  therapeuticArea = {therapeuticArea} diseases = {diseases}></TherapeuticArea>
                 </Tab>
                 <Tab eventKey="Formulas" title="Formulas">

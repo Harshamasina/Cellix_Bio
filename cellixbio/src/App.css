@@ -1208,6 +1208,10 @@ p.CardTextInfo{
 .CardTextSpan{
   font-weight: 500;
 }
+
+.CardTextSpanTA{
+  text-transform: uppercase !important;
+}
 /* .card-title.h5{
   text-align: left !important;
 } */
@@ -1715,6 +1719,7 @@ text-decoration: underline;
   color: #282c34;
   display: block;
   font-size: 1vw;
+  text-transform: uppercase;
 }
 @media screen and (max-width: 600px){
   .PITBh4{
