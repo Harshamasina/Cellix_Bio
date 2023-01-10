@@ -1334,6 +1334,7 @@ p.CardTextInfo{
   margin-left: 20%;
   margin-inline-end: 20%;
 }
+
 .YearsContainerh2{
   display: flex;
   flex-direction: column;
@@ -1429,11 +1430,24 @@ p.CardTextInfo{
    font-size: 3vh !important;
   } 
  }
+
 .yearp{
   margin-top: 7px !important;
   font-size: 15px;
   color:#f2f2f2;
 }
+
+@media screen and (min-width:2500px) {
+  .yearbtn{
+    height: 180px !important;
+  }
+
+  .yearp{
+    margin-top: -10px !important;
+    font-size: 30px;
+  }
+ }
+
 .yearp:hover{
 text-decoration: underline;
 }

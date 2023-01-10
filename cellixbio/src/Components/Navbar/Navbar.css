@@ -4,7 +4,7 @@
 	box-sizing: border-box;
   }
 
-  .color-nav{
+.color-nav{
 	border-bottom: #0E6E59 0.5px solid !important;
 	background: transparent !important;
 	z-index: 9 !important;
@@ -30,6 +30,7 @@
 	position: relative !important;
 
 }
+
 /* .navbar-collapse[aria-expanded="true"] {
 	color: #9933CC!important;
 	} */

@@ -23,7 +23,7 @@ function Home(){
                             </div>
                      </div>
                     <Link className='homeBtn' to="/Patents">Search For Patents and Therapeutic Areas</Link>
-             </div>
+            </div>
             <WWD></WWD>
         </>
     )
