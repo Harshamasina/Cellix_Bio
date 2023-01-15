@@ -23,7 +23,9 @@ function Pipeline(){
                     </div>
                 </div> */}
                 <div className="PLpContainerp">
-                  <p className="PLp"><span>Cellix Bio</span> research & drug programmes focus on the understanding of the underlying mechanisms of diseases. Our proprietary technology platform currently focusses to improve success rates, minimise drug discovery costs and speed up development timelines by converging on targets that have been independently validated in diseases.</p>
+                  <p className="PLp"><span>Cellix Bio</span> research and development converges on the understanding of the underlying mechanisms of diseases. Our proprietary technology platform currently focusses to improve success rates, minimise drug discovery costs and speed up development timelines by advancing on the targets that have been independently validated in diseases.</p>
+                  <p className='PLp'>One of the most exciting things we do is coming up with ideas that will affect patients in the long-term that can make the biggest impact.</p>
+                  <p className='PLp'>Our broad array of customized delivery technologies, including oral delayed-release, extended-release, immediate-release as well as dermal, nasal delivery, solutions, parenteral dosage forms enable us to customize specific drug-release profiles.</p>
                 </div>
             </div>
 

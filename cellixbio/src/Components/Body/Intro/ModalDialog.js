@@ -1,5 +1,6 @@
 import React from 'react'
 import { Modal, Button } from 'react-bootstrap'
+
 function ModalDialog() {
   const [isShow, invokeModal] = React.useState(!false)
   const initModal = () => {
@@ -36,4 +37,5 @@ function ModalDialog() {
     </>
   )
 }
+
 export default ModalDialog;
