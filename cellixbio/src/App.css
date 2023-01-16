@@ -2207,6 +2207,13 @@ tbody,thead{
   height: 490px !important;
 }
 
+@media screen and (min-width: 2500px) {
+  .contactCard{
+    height: 600px !important;
+  }
+}
+
+
 .CCImg{
   width: 300px !important;
   height: 300px !important;
