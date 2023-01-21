@@ -35,6 +35,12 @@ body{
   width: 15px;
 }
 
+@media screen and (max-width:600px) {
+  ::-webkit-scrollbar {
+    width: -1px !important;
+  }
+}
+
 /* ::-webkit-scrollbar-button{
   background: #15B39D;
 } */
@@ -2043,7 +2049,7 @@ span.ClaimsText{
 }
 
 .accordion-button:hover{
-  color: #0E6E59 !important;
+  color: #034c3c !important;
   background-color: #15B39D !important;
 }
 
@@ -2187,6 +2193,223 @@ span.ClaimsText{
   padding: 10px;
   font-size: 1.2vw;
 }
+
+.PatentTableContainer Table{
+  width: 70%;
+  margin-left: 15%;
+  font-size: 1.2vw !important;
+  /* border: 1px solid #15B39D; */
+}
+
+.PatentTableContainer th{
+  vertical-align: middle;
+}
+
+.PatentTableTA{
+  font-weight: 600 !important;
+  vertical-align: middle;
+}
+
+.progress {
+  background: rgba(255,255,255,0.1);
+  justify-content: flex-start;
+  border-radius: 100px !important;
+  /* border-radius: none !important; */
+  align-items: center;
+  position: relative;
+  display: flex;
+  height: 15px !important;
+  width: 300px;
+}
+
+.progress-value1 {
+  animation: load1 3s normal forwards;
+  box-shadow: 0 10px 40px -10px #fff;
+  /* background: #15B39D; */
+  background: linear-gradient(to right, #034c3c, #0E6E59 , #15B39D);
+  height: 30px;
+  width: 0;
+}
+
+@keyframes load1 {
+  0% { width: 0; }
+  100% { width: 80%; }
+}
+
+.progress-value2 {
+  animation: load2 3s normal forwards;
+  box-shadow: 0 10px 40px -10px #fff;
+  /* background: #15B39D; */
+  background: linear-gradient(to right, #034c3c, #0E6E59 , #15B39D);
+  height: 30px;
+  width: 0;
+}
+
+@keyframes load2 {
+  0% { width: 0; }
+  100% { width: 80%; }
+}
+
+.progress-value3 {
+  animation: load3 3s normal forwards;
+  box-shadow: 0 10px 40px -10px #fff;
+  /* background: #15B39D; */
+  background: linear-gradient(to right, #034c3c, #0E6E59 , #15B39D);
+  height: 30px;
+  width: 0;
+}
+
+@keyframes load3 {
+  0% { width: 0; }
+  100% { width: 90%; }
+}
+
+
+.progress-value4 {
+  animation: load4 3s normal forwards;
+  box-shadow: 0 10px 40px -10px #fff;
+  /* background: #15B39D; */
+  background: linear-gradient(to right, #034c3c, #0E6E59 , #15B39D);
+  height: 30px;
+  width: 0;
+}
+
+@keyframes load4 {
+  0% { width: 0; }
+  100% { width: 90%; }
+}
+
+.progress-value5 {
+  animation: load5 3s normal forwards;
+  box-shadow: 0 10px 40px -10px #fff;
+  /* background: #15B39D; */
+  background: linear-gradient(to right, #034c3c, #0E6E59 , #15B39D);
+  height: 30px;
+  width: 0;
+}
+
+@keyframes load5 {
+  0% { width: 0; }
+  100% { width: 80%; }
+}
+
+.progress-value6 {
+  animation: load6 3s normal forwards;
+  box-shadow: 0 10px 40px -10px #fff;
+  /* background: #15B39D; */
+  background: linear-gradient(to right, #034c3c, #0E6E59 , #15B39D);
+  height: 30px;
+  width: 0;
+}
+
+@keyframes load6 {
+  0% { width: 0; }
+  100% { width: 90%; }
+}
+
+.progress-value7 {
+  animation: load7 3s normal forwards;
+  box-shadow: 0 10px 40px -10px #fff;
+  /* background: #15B39D; */
+  background: linear-gradient(to right, #034c3c, #0E6E59 , #15B39D);
+  height: 30px;
+  width: 0;
+}
+
+@keyframes load7 {
+  0% { width: 0; }
+  100% { width: 80%; }
+}
+
+.progress-value8 {
+  animation: load8 3s normal forwards;
+  box-shadow: 0 10px 40px -10px #fff;
+  /* background: #15B39D; */
+  background: linear-gradient(to right, #034c3c, #0E6E59 , #15B39D);
+  height: 30px;
+  width: 0;
+}
+
+@keyframes load8 {
+  0% { width: 0; }
+  100% { width: 51%; }
+}
+
+.progress-value9 {
+  animation: load9 3s normal forwards;
+  box-shadow: 0 10px 40px -10px #fff;
+  /* background: #15B39D; */
+  background: linear-gradient(to right, #034c3c, #0E6E59 , #15B39D);
+  height: 30px;
+  width: 0;
+}
+
+@keyframes load9 {
+  0% { width: 0; }
+  100% { width: 60%; }
+}
+
+.progress-value10 {
+  animation: load10 3s normal forwards;
+  box-shadow: 0 10px 40px -10px #fff;
+  /* background: #15B39D; */
+  background: linear-gradient(to right, #034c3c, #0E6E59 , #15B39D);
+  height: 30px;
+  width: 0;
+}
+
+@keyframes load10 {
+  0% { width: 0; }
+  100% { width: 20%; }
+}
+
+.progress-value11 {
+  animation: load11 3s normal forwards;
+  box-shadow: 0 10px 40px -10px #fff;
+  /* background: #15B39D; */
+  background: linear-gradient(to right, #034c3c, #0E6E59 , #15B39D);
+  height: 30px;
+  width: 0;
+}
+
+@keyframes load11 {
+  0% { width: 0; }
+  100% { width: 100%; }
+}
+
+.progress-value12 {
+  animation: load12 3s normal forwards;
+  box-shadow: 0 10px 40px -10px #fff;
+  /* background: #15B39D; */
+  background: linear-gradient(to right, #034c3c, #0E6E59 , #15B39D);
+  height: 30px;
+  width: 0;
+}
+
+@keyframes load12 {
+  0% { width: 0; }
+  100% { width: 10%; }
+}
+
+@media screen and (max-width: 600px) {
+  .PatentTableContainer th{
+    font-size: 0.6rem !important;
+  }
+  .PatentTableContainer td{
+    font-size: 0.5rem !important;
+  }
+  .progress{
+    width: 150px;
+    height: 10px !important;
+  }
+}
+
+@media screen and (max-width:768px) and (min-width:601px) {
+  .PatentTableContainer{
+    margin-right: 5% !important;
+  }
+}
+
 
 .Ptable{
   width: 65% !important;
