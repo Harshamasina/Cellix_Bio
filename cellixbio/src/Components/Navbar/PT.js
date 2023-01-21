@@ -3,7 +3,7 @@ function PT(){
     return(
         <>
         <div className='patentlandingpage'>
-              <video src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Pills.mp4" autoPlay muted loop className='patents_video_bg' type="video/mp4"/>
+              <video src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Hexagons+-+140199.mp4" autoPlay muted loop className='patents_video_bg' type="video/mp4"/>
               <div className='pipeline-text'>
                             <div className='patents_text_1'>
                                 <h1 className='pipelineCarouselh1'>PLATFORM TECHNOLOGIES</h1>
