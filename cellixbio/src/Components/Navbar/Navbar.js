@@ -47,7 +47,7 @@ function NavBar() {
                                 <Nav.Link className='navbar_link' as={Link} to="/PT" eventKey="3">Platform Technology</Nav.Link>
                                 <Nav.Link className='navbar_link' as={Link} to="/Pipeline" eventKey="6">Pipeline</Nav.Link>
                                 <Nav.Link className='navbar_link' as={Link} to="/Patents" eventKey="4">Patents</Nav.Link>
-                                <Nav.Link className='navbar_link' as={Link} to="/IP" eventKey="5">Intellectual Property</Nav.Link>
+                                <Nav.Link className='navbar_link' as={Link} to="/IP" eventKey="5">Portfolio</Nav.Link>
                                 <Nav.Link className='navbar_link' as={Link} to="/Inventor" eventKey="7">INVENTOR</Nav.Link>
                                 <Nav.Link className='navbar_link' as={Link} to="/Leadership" eventKey="8">Leadership</Nav.Link>
                                 <Nav.Link className='navbar_link' as={Link} to="/Media" eventKey="9">Media</Nav.Link>

@@ -23,17 +23,17 @@ function IP(){
         <>
         <div className='patentlandingpage'>
               <video src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Brain.mp4" autoPlay muted loop className='patents_video_bg' type="video/mp4"/>
-              <div className='pipeline-text'>
-                            <div className='patents_text_1'>
-                                <h1 className='pipelineCarouselh1'>INTELLECTUAL PROPERTY</h1>
-                            </div>
-                            </div>
-              </div>
+                <div className='pipeline-text'>
+                        <div className='patents_text_1'>
+                            <h1 className='pipelineCarouselh1'>INTELLECTUAL PROPERTY PORTFOLIO</h1>
+                        </div>
+                    </div>
+                </div>
             <div className='IPContainer'>
                 <div className="IPpContainerp">
-                    <p className="IPp"><span className="AboutSpan">Cellix Bio</span> has a portfolio of over 600+ international patents published. The Company has 160+ U.S Patent Portfolio comprising Composition of Matter, Formulation Patents in diverse therapeutic areas. We are also committed to protect our intellectual property estate of patent rights and trade secrets for our proprietary technology.</p>
-                </div>
+                <p className="IPp"><span className="AboutSpan">Cellix Bio</span> has a portfolio of over 600+ international patents published. The Company has 160+ U.S Patent Portfolio comprising Composition of Matter, Formulation Patents in diverse therapeutic areas. We are also committed to protect our intellectual property estate of patent rights and trade secrets for our proprietary technology.</p>
             </div>
+        </div>
             
                 <Accordion defaultActiveKey="0">
                     <Accordion.Item eventKey="0">
