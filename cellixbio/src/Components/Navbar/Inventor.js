@@ -47,7 +47,7 @@ function Inventor() {
                   <div class="team">
                     <div class="team_member1">
                         <div class="team_img">
-                            <img class="team-img" src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Leadership.Mahesh.PNG" alt="Team_image"></img>
+                            <img class="team-img" src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Cellix+Mahesh+Kandula+-+1.jpg" alt="Team_image"></img>
                         </div>
                         <h3 class="team-lead-h3">Mahesh Kandula</h3>
                         <h5 class="role">Inventor</h5>

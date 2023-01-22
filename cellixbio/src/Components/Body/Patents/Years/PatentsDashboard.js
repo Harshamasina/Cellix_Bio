@@ -19,7 +19,7 @@ function PatentsDashboard(){
         const fetchData = async () => {
             setLoading(true);
             try {
-                const data = await axios.get(`http://13.233.51.172/patents/years/${years}`);
+                const data = await axios.get(`/patents/years/${years}`);
                 setPatents(data);
             } catch (err) {}
             setLoading(false);

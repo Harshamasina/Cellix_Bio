@@ -3,7 +3,7 @@
   "name": "cellixbio",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://13.233.51.172/",
+  "proxy": "https://backend.cellixbio.info",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",

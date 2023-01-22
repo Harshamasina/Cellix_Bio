@@ -8,7 +8,7 @@ function SearchPatents(){
     const searchHandle = async (e) => {
         let key = e.target.value;
         if(key){
-            let result = await fetch(`http://13.233.51.172/patents/${key}`);
+            let result = await fetch(`/patents/${key}`);
             result = await result.json()
             if(result){
                 setSearchPatent(result);

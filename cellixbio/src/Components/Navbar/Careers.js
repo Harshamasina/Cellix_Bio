@@ -3,7 +3,7 @@ function Careers(){
     return(
         <>
             <div className='patentlandingpage'>
-                <img  className='patents_video_bg' src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Careers+-+1.jpg" alt='Careers'/>
+                <video src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/HR+Notes.mp4" autoPlay muted loop className='patents_video_bg' type="video/mp4"/>
                 <div className='pipeline-text'>
                     <div className='patents_text_1'>
                         <h1 className='pipelineCarouselh1'>JOIN US</h1>
@@ -111,7 +111,7 @@ function Careers(){
                         <li>Characterization of a compound using LCMS, NMR and purity by HPLC.</li>
                     </ul>
                     <h4 className="CareersDetailsh4">Technical/Functional Skills : </h4>
-                    <p>Sound knowledge on organic chemistry and scale up reactions from mg to gm scale</p>
+                    <p className="CareersDetailsp">Sound knowledge on organic chemistry and scale up reactions from mg to gm scale</p>
                     <hr></hr>
                 </div>
 

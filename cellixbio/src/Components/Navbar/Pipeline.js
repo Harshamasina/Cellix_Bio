@@ -30,7 +30,7 @@ function Pipeline(){
             </div>
 
             <div className='PatentTableContainer'>
-                <Table responsive className='mt-3 shadow-sm'>
+                <Table responsive>
                     <thead>
                         <tr>
                             <th className='IPPatentTableHead'>THERAPEUTIC AREA</th>

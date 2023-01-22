@@ -30,7 +30,7 @@ function Address(){
                         <Card.Text>
                         <ul className='CUUL'>
                             <li className='CUSpan'>Phone : (+91) 40 23545946</li>
-                            <li className='CUSpan'>Fax : (+91) 40 23545949</li>
+                            {/* <li className='CUSpan'>Fax : (+91) 40 23545949</li> */}
                             <li className='CUSpan'>Email : info@cellixbio.com</li>
                         
                         </ul>
