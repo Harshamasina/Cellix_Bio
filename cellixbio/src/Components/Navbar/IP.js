@@ -9,7 +9,7 @@ function IP(){
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const data = await axios.get(`/cbuspatents`);
+                const data = await axios.get(`http://13.233.51.172/cbuspatents`);
                 setUSPatents(data);
             } catch (err) {
                 console.log(err);

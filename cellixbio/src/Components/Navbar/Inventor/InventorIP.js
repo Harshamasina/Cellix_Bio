@@ -8,7 +8,7 @@ function InventorIP(){
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const data = await axios.get(`/uspatents`);
+                const data = await axios.get(`http://13.233.51.172/uspatents`);
                 setUSPatents(data);
             } catch (err) {
                 console.log(err);
