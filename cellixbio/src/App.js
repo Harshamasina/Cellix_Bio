@@ -7,6 +7,7 @@ import React from 'react';
 import GoToTopButton from './Components/Body/Patents/Years/GoToTopButton';
 
 function App() {
+  
   return (
     <div className="App">
         <BrowserRouter>
