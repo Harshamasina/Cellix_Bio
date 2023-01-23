@@ -1,0 +1,127 @@
+<.......Ubuntu.......>
+sudo apt update
+curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+sudo apt install nodejs
+node --version
+git clone yourproject.git
+npm install
+sudo npm i pm2 -g
+sudo npm i serve -g
+pm2 show app
+pm2 status
+pm2 restart app
+pm2 stop app
+pm2 logs (Show log stream)
+pm2 flush (Clear logs)
+pm2 kill
+# To make sure app starts when reboot
+pm2 startup ubuntu
+# Firewall (Optional)
+sudo ufw enable
+sudo ufw status
+sudo ufw allow ssh (Port 22)
+sudo ufw allow http (Port 80)
+sudo ufw allow https (Port 443)
+sudo apt install nginx
+nginx -version
+sudo service nginx start
+sudo service nginx restart
+sudo service nginx status
+sudo nano /etc/nginx/nginx.conf
+# inside http
+server {
+    server_name <domain name>;
+    location / {
+        proxy_pass http://localhost:<port>; # your app's port
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host $host;
+        proxy_cache_bypass $http_upgrade;
+    }
+}
+sudo service nginx restart
+nginx -t
+sudo snap install core
+sudo snap refresh core
+sudo apt remove certbot
+sudo snap install --classic certbot
+sudo ln -s /snap/bin/certbot /usr/bin/certbot
+sudo certbot --nginx
+certbot renew --dry-run
+# alternate nginx
+sudo add-apt-repository ppa:certbot/certbot
+sudo apt-get update
+sudo apt-get install python-certbot-nginx
+sudo certbot --nginx -d yourdomain.com -d www.yourdomain.com
+
+
+<.......Amazon Linux 2.......>
+For Ubuntu:
+sudo yum update
+curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+sudo yum install nodejs
+node --version
+git clone yourproject.git
+npm install
+sudo npm i pm2 -g
+sudo npm i serve -g
+pm2 show app
+pm2 status
+pm2 restart app
+pm2 stop app
+pm2 logs (Show log stream)
+pm2 flush (Clear logs)
+pm2 kill
+# To make sure app starts when reboot
+pm2 startup
+# Firewall (Optional)
+sudo ufw enable
+sudo ufw status
+sudo ufw allow ssh (Port 22)
+sudo ufw allow http (Port 80)
+sudo ufw allow https (Port 443)
+sudo amazon-linux-extras list | grep nginx
+ 38  nginx1=latest            disabled      [ =stable ]
+sudo amazon-linux-extras enable nginx1
+ 38  nginx1=latest            enabled      [ =stable ]
+Now you can install:
+sudo yum clean metadata
+sudo yum -y install nginx
+nginx -v
+sudo systemctl start nginx
+sudo systemctl enable nginx
+sudo systemctl status nginx
+sudo systemctl restart nginx
+sudo nano /etc/nginx/nginx.conf
+# inside http
+server {
+    server_name <domain name>;
+    location / {
+        proxy_pass http://localhost:<port>; # your app's port
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host $host;
+        proxy_cache_bypass $http_upgrade;
+    }
+}
+sudo systemctl restart nginx
+nginx -t
+sudo snap install core
+sudo snap refresh core
+sudo yum remove certbot
+sudo yum update
+sudo yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+sudo yum-config-manager --enable epel
+sudo yum install certbot python3-certbot-nginx
+sudo yum install certbot python-certbot-nginx
+certbot --version
+sudo certbot --nginx
+sudo certbot renew --dry-run
+
+
+<.......Amazon Linux 2.......>
+# Error: Please, commit your changes or stash them before you can merge.
+git checkout origin/master -f
+git checkout master -f
