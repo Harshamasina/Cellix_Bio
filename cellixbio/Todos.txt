@@ -21,6 +21,7 @@ CHANGES REQUIRED:
 -> Implement React Memoization.
 -> Add Image tags to the claims links.(Done upto 2017)
 -> Make it SEO
+-> Add React - Helmet to each page in React App
 -> Lazy Loading
 -> Add .env files to backend and change it in services Instance also.
 -> Deploy Instance in Route 53 and host it in GoDaddy (Done)
