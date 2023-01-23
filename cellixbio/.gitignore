@@ -18,8 +18,8 @@
 .env.development.local
 .env.test.local
 .env.production.local
-ServerCmds.txt
-Todos.txt
+/ServerCmds.txt
+/Todos.txt
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
