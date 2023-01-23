@@ -9,7 +9,7 @@ function IP(){
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const data = await axios.get(`http://13.233.51.172/cbuspatents`);
+                const data = await axios.get(`https://backend.cellixbio.info/cbuspatents`);
                 setUSPatents(data);
             } catch (err) {
                 console.log(err);

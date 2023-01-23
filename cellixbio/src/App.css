@@ -27,7 +27,7 @@ body{
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #034c3c;
+  background: #0E6E59;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -3533,7 +3533,7 @@ img{
 
 
 .wrapper{
-  margin-top: 5%;
+  margin-top: 6%;
 }
 
 .wrapper h1{
