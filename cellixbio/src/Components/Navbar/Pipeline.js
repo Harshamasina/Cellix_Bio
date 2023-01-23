@@ -179,7 +179,7 @@ function Pipeline(){
             <Accordion defaultActiveKey={0}>
                 <AccordionItem>
                     <Accordion.Header><h4>EARLY STAGE PIPELINE</h4></Accordion.Header>
-                        <AccordionBody className='IPAB'>
+                        <AccordionBody className='PIAB'>
 
                             <Accordion>
                                 <AccordionItem eventKey="0">
