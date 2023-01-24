@@ -1514,8 +1514,8 @@ p.CardTextInfo{
 
 .Wno:hover{
   color: #15B39D;
-  font-size: 1.3rem;
-  text-decoration: underline solid !important;
+  font-size: 1.1vw;
+  text-decoration: underline 2px solid !important;
 }
 @media screen and (max-width:600px) {
   .Wno:hover{
@@ -3565,6 +3565,9 @@ img{
   .Wno {
   font-size: 1rem;
   }
+  .Wno:hover {
+    font-size: 1rem;
+    }
 }
 
 .top-btn:hover{

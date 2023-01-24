@@ -43,16 +43,16 @@ function NavBar() {
                                 style={{ maxHeight: '100%',fontSize:'17px'}}
                                 responsive-navbar-nav
                             >
-                                <Nav.Link className='navbar_link' as={Link} to="/Home" eventKey="1">Home</Nav.Link>
-                                <Nav.Link className='navbar_link' as={Link} to="/PT" eventKey="3">Platform Technology</Nav.Link>
-                                <Nav.Link className='navbar_link' as={Link} to="/Pipeline" eventKey="6">Pipeline</Nav.Link>
-                                <Nav.Link className='navbar_link' as={Link} to="/Patents" eventKey="4">Patents</Nav.Link>
-                                <Nav.Link className='navbar_link' as={Link} to="/IP" eventKey="5">Portfolio</Nav.Link>
-                                <Nav.Link className='navbar_link' as={Link} to="/Inventor" eventKey="7">INVENTOR</Nav.Link>
-                                <Nav.Link className='navbar_link' as={Link} to="/Leadership" eventKey="8">Leadership</Nav.Link>
-                                <Nav.Link className='navbar_link' as={Link} to="/Media" eventKey="9">Media</Nav.Link>
-                                <Nav.Link className='navbar_link' as={Link} to="/Careers" eventKey="10">CAREERS</Nav.Link>
-                                <Nav.Link className='navbar_link' as={Link} to="/Contact" eventKey="11">Contact</Nav.Link>
+                                <Nav.Link className='navbar_link' as={Link} to="/Home" eventKey="0">Home</Nav.Link>
+                                <Nav.Link className='navbar_link' as={Link} to="/PT" eventKey="1">Platform Technology</Nav.Link>
+                                <Nav.Link className='navbar_link' as={Link} to="/Pipeline" eventKey="2">Pipeline</Nav.Link>
+                                <Nav.Link className='navbar_link' as={Link} to="/Patents" eventKey="3">Patents</Nav.Link>
+                                <Nav.Link className='navbar_link' as={Link} to="/IP" eventKey="4">Portfolio</Nav.Link>
+                                <Nav.Link className='navbar_link' as={Link} to="/Inventor" eventKey="5">INVENTOR</Nav.Link>
+                                <Nav.Link className='navbar_link' as={Link} to="/Leadership" eventKey="6">Leadership</Nav.Link>
+                                <Nav.Link className='navbar_link' as={Link} to="/Media" eventKey="7">Media</Nav.Link>
+                                <Nav.Link className='navbar_link' as={Link} to="/Careers" eventKey="8">CAREERS</Nav.Link>
+                                <Nav.Link className='navbar_link' as={Link} to="/Contact" eventKey="9">Contact</Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
                     </Navbar>

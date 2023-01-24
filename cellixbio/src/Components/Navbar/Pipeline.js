@@ -9,7 +9,7 @@ function Pipeline(){
     return(
         <>
         <Helmet>
-            <title>Pipeline - Cellix Bio</title>
+            <title>Pipeline | Cellix Bio</title>
             <meta name="description" content="Pipeline of Cellix Bio, cellix bio's progress of pre-clinical and clinical trails"/>
             <meta name="keywords" content="cellix bio Pipeline, progress of pre-clinical and clinical trails, AvacaPharma pipeline, cellixbio pharma pipeline" />
         </Helmet>

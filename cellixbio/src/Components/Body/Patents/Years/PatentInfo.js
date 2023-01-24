@@ -3,7 +3,7 @@ import Tabs from 'react-bootstrap/Tabs';
 import Claims from './Claims';
 import Compounds from './Compounds';
 import Formulas from './Formulas';
-import {useParams} from 'react-router-dom'
+import {useParams} from 'react-router-dom';
 import TherapeuticArea from './TherapeuticArea';
 import axios from 'axios';
 import { useEffect, useState } from 'react';
@@ -38,10 +38,14 @@ function PatentInfo(){
             <Helmet>
                 <title>{wno} | Cellix Bio</title>
                 <meta name='description' content={wno}/>
+                <meta name='description' content={therapeuticArea} />
+                <meta name='description' content={diseases} />
                 <meta name='keywords' content={wno}/>
-                <meta name='keywords' content="Therapeutic Area, Formulas, Claims, Compounds and Methods of patents  filed by cellix bio,
+                <meta name='keywords' content="Therapeutic Area, Formulas, Claims, Compounds and Methods of patents filed by cellix bio,
                     cellix bio patent, patentscope, cellix bio patents"
                 />
+                <meta name='keywords' content={therapeuticArea} />
+                <meta name='keywords' content={diseases} />
             </Helmet>
             <div className='patentlandingpage'>
                 <img  className='patents_video_bg' src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Tablets.PNG" alt='patentInfo'/>
@@ -73,7 +77,7 @@ function PatentInfo(){
                     <Compounds compound = {patentCompounds}></Compounds>
                 </Tab>
             </Tabs>
-            <p className='PatentInfoh3link'>For more Information : <a className='PatentInfoa' href='https://patentscope.wipo.int/search/en/search.jsf'>WIPO Patent Scope</a></p>
+            <p className='PatentInfoh3link'>For more Information : <a className='PatentInfoa' href='https://patentscope.wipo.int/search/en/search.jsf' target="_blank" rel="noreferrer">WIPO Patent Scope</a></p>
         </div>
         </>
     );
