@@ -1,13 +1,20 @@
-// import error from "../Assets/Images/404.png"
 import Button from 'react-bootstrap/Button';
-import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import { AiOutlineArrowRight } from "react-icons/ai";
 
 function Error404(){
-    const navigate = useNavigate();
     return(
-        <div className="Errorcont">
-            <img className="Errorpage" src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Error+Page.jpg" alt="Teamwork"></img>   
-            <Button onClick={() => navigate('/Home')}className="Errorbutton" variant="outline-primary">Go to Home Page</Button>
+        <div>
+            <div className='landingpage'>
+              <img src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Error+New+404_2.jpg" className='video-bg' type="video/mp4"/>
+                    <div className='home-text'>
+                            <div>
+                                <h1 className='Carouselh1'>ERROR 404</h1>
+                                <p className='Carouselp'>The page you are looking for doesn't exist or has been moved.</p>
+                            </div>
+                     </div>
+                    <Link to="/Home"><Button className='Errorbutton'>BACK TO HOME PAGE <AiOutlineArrowRight></AiOutlineArrowRight></Button></Link>
+            </div>
         </div>
     );
 }

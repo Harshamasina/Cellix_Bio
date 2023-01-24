@@ -17,7 +17,6 @@ function InventorIP(){
         fetchData();
     },[]);
     // console.log(usPatents);
-    document.title = 'Intellectual Property - Cellix Bio';
     return(
         <>
                 <div className="YearsContainerh2">

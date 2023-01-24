@@ -4,7 +4,7 @@ import NoInternetConn from '../Body/NoInternetConn';
 import { Helmet } from 'react-helmet';
 
 function Inventor() {
-  // document.title = 'Inventor - Cellix Bio';
+
   return (
     <>
             <Helmet>
