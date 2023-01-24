@@ -17,7 +17,6 @@ function PatentInfo(){
     const [diseases, setDiseases] = useState("Diseases are loading");
     const [claims, setClaims] = useState("Claims are Loading");
     const [pubDate, setPubDate] = useState("Publication Date is Loading");
-    // document.title = `${wno} - Cellix Bio`;
 
     useEffect(() => {
         const fetchData = async () => {

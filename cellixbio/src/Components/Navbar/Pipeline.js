@@ -14,7 +14,7 @@ function Pipeline(){
             <meta name="keywords" content="cellix bio Pipeline, progress of pre-clinical and clinical trails, AvacaPharma pipeline, cellixbio pharma pipeline" />
         </Helmet>
         <div className='patentlandingpage'>
-              <video src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Polygon+-+1.mp4" autoPlay muted loop className='patents_video_bg' type="video/mp4"/>
+              <video src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Polygon+-+1.mp4" autoPlay muted loop playsinline className='patents_video_bg' type="video/mp4"/>
             <div className='pipeline-text'>
                             <div className='patents_text_1'>
                                 <h1 className='pipelineCarouselh1'>PIPELINE</h1>

@@ -1299,7 +1299,7 @@ font-size: 3vh;
 
 @media screen and (max-width: 600px) {
   .SearchPatentsh2 {
-font-size: 3vh; 
+    font-size: 3vh; 
   }
 }
 
@@ -1495,10 +1495,11 @@ p.CardTextInfo{
 } */
 
 .Wno{
-  font-weight: bolder;
+  font-weight: bold;
   text-align: left !important;
   text-decoration-color: #282c34;
   cursor: pointer;
+  font-size: 1.1vw;
   display: inline !important;
   color: #282c34;
 }
@@ -1778,9 +1779,6 @@ text-decoration: underline;
   }
   ul.PTUL {
     font-size: 2vh;
-  }
-  .PT{
-    /* margin-top: 15% !important; */
   }
 }
 @media screen and (max-width: 600px) {
@@ -3556,9 +3554,16 @@ img{
     width: 2rem;
   }
 }
+
 @media screen and (max-width: 600px) {
   .Wno {
   margin-right: 55% !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Wno {
+  font-size: 1rem;
   }
 }
 
