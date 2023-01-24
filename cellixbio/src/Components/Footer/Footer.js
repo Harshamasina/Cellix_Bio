@@ -147,7 +147,7 @@ const Footer = () => {
               </div>
             </div>
             <div className='footercopyright'>
-               <div className='footercopyrighttext'> <p>&copy; Cellix Bio, 2022. All rights reserved.</p></div>
+               <div className='footercopyrighttext'> <p>&copy; Cellix Bio, 2014 - {new Date().getFullYear()}. All rights reserved.</p></div>
             </div>
         </div>
       <GoToTop/>
