@@ -1,7 +1,13 @@
+import { Helmet } from "react-helmet";
+
 function PT(){
-   document.title = 'Platform Technologies - Cellix Bio';
     return(
         <>
+        <Helmet>
+            <title>Platform Technologies | Cellix Bio</title>
+            <meta name="description" content="Platform Technology of Cellix Bio"/>
+            <meta name="keywords" content="Platform technology, Platform Technology of Cellix Bio, Technology" />
+        </Helmet>
         <div className='patentlandingpage'>
               <video src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Hexagons+-+140199.mp4" autoPlay muted loop className='patents_video_bg' type="video/mp4"/>
               <div className='pipeline-text'>

@@ -6,11 +6,6 @@ import Footer from './Components/Footer/Footer';
 import React from 'react';
 import GoToTopButton from './Components/Body/Patents/Years/GoToTopButton';
 import { Helmet } from 'react-helmet';
-{/* <Helmet>
-  <title>Cellix Bio</title>
-  <meta name="description" content="Cellix Bio's Informative Web Application for its Intellectual Property"/>
-</Helmet> */}
-
 
 function App() {
   
@@ -20,6 +15,7 @@ function App() {
           <Helmet>
             <title>Cellix Bio</title>
             <meta name="description" content="Cellix Bio's Informative Web Application for its Intellectual Property"/>
+            <meta property="og:image" content="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/cellix+bio+meta+img.png" />
           </Helmet>
           <NavBar></NavBar>
           <Footer></Footer>

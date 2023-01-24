@@ -1,9 +1,17 @@
 import Card from 'react-bootstrap/Card';
+import { Helmet } from 'react-helmet';
 
 function Media(){
-    document.title = 'Media - Cellix Bio'
     return(
         <>
+            <Helmet>
+                <title>Media | Cellix Bio</title>
+                <meta name="description" content="Achievements and Business and News Updates of Cellix Bio"/>
+                <meta name="keywords" content="Achievements and Business Updates of Cellix Bio,
+                    cellix bio media, accquisitions of cellix bio, cellix bio tie ups with parma companies 
+                    Media of Cellix bio, Media of AvacaPharma, Media of Cellix Bio Pharma " 
+                />
+            </Helmet>
             <div className='patentlandingpage'>
                 <video src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Graph.mp4" autoPlay muted loop className='patents_video_bg' type="video/mp4"/>
                 <div className='pipeline-text'>

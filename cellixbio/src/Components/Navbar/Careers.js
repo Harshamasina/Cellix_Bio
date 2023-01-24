@@ -1,7 +1,16 @@
+import { Helmet } from "react-helmet";
+
 function Careers(){
-    document.title = 'Careers - Cellix Bio'
+    
     return(
         <>
+            <Helmet>
+                <title>Careers - Cellix Bio</title>
+                <meta name="description" content="Openings in Cellix Bio Avaca Pharma Cellix Bio Pharma"/>
+                <meta name="keywords" content="Careers cellix bio, cellix bio job openings, cellix bio careers
+                    AvacaPharma job openings, AvacaPharma jobs, AvacaPharma Careers" 
+                />
+            </Helmet>
             <div className='patentlandingpage'>
                 <video src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/HR+Notes.mp4" autoPlay muted loop className='patents_video_bg' type="video/mp4"/>
                 <div className='pipeline-text'>

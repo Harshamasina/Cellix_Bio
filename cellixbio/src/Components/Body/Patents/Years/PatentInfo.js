@@ -7,6 +7,7 @@ import {useParams} from 'react-router-dom'
 import TherapeuticArea from './TherapeuticArea';
 import axios from 'axios';
 import { useEffect, useState } from 'react';
+import { Helmet } from 'react-helmet';
 
 function PatentInfo(){
     const {wno} = useParams();
@@ -16,7 +17,7 @@ function PatentInfo(){
     const [diseases, setDiseases] = useState("Diseases are loading");
     const [claims, setClaims] = useState("Claims are Loading");
     const [pubDate, setPubDate] = useState("Publication Date is Loading");
-    document.title = `${wno} - Cellix Bio`;
+    // document.title = `${wno} - Cellix Bio`;
 
     useEffect(() => {
         const fetchData = async () => {
@@ -35,6 +36,14 @@ function PatentInfo(){
     
     return(
         <>
+            <Helmet>
+                <title>{wno} | Cellix Bio</title>
+                <meta name='description' content={wno}/>
+                <meta name='keywords' content={wno}/>
+                <meta name='keywords' content="Therapeutic Area, Formulas, Claims, Compounds and Methods of patents  filed by cellix bio,
+                    cellix bio patent, patentscope, cellix bio patents"
+                />
+            </Helmet>
             <div className='patentlandingpage'>
                 <img  className='patents_video_bg' src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Tablets.PNG" alt='patentInfo'/>
                 <div className='pipeline-text'>

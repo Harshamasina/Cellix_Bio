@@ -6,8 +6,8 @@ function Home(){
     return(
         <>
             <Helmet>
-                <title>Home - Cellix Bio</title>
-                <meta name="description" content="Access the Cellix Bio's Home Page"/>
+                <title>Home | Cellix Bio</title>
+                <meta name="description" content="Cellix Bio's Home Page"/>
                 <meta name="keywords" content="cellix home page, avaca home page, cellix bio pharma home page" />
             </Helmet>
             <div className='landingpage'>

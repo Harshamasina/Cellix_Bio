@@ -2,12 +2,17 @@ import Table from 'react-bootstrap/Table';
 import Accordion from 'react-bootstrap/Accordion';
 import AccordionItem from 'react-bootstrap/esm/AccordionItem';
 import AccordionBody from 'react-bootstrap/esm/AccordionBody';
+import { Helmet } from 'react-helmet';
 
 
 function Pipeline(){
-    document.title = 'Pipeline - Cellix Bio';
     return(
         <>
+        <Helmet>
+            <title>Pipeline - Cellix Bio</title>
+            <meta name="description" content="Pipeline of Cellix Bio, cellix bio's progress of pre-clinical and clinical trails"/>
+            <meta name="keywords" content="cellix bio Pipeline, progress of pre-clinical and clinical trails, AvacaPharma pipeline, cellixbio pharma pipeline" />
+        </Helmet>
         <div className='patentlandingpage'>
               <video src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Polygon+-+1.mp4" autoPlay muted loop className='patents_video_bg' type="video/mp4"/>
             <div className='pipeline-text'>

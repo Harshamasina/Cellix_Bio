@@ -24,7 +24,7 @@ function IP(){
     return(
         <>
             <Helmet>
-                <title>Portfolio - Cellix Bio</title>
+                <title>Portfolio | Cellix Bio</title>
                 <meta name="description" content="U.S Patent Portfolio of Cellix Bio"/>
                 <meta name="keywords" content="cellix bio US Patents, Avaca Us Patents , cellix bio pharma us patents" />
             </Helmet>

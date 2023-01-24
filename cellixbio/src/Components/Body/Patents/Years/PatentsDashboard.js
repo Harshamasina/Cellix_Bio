@@ -7,13 +7,13 @@ import { Link } from "react-router-dom";
 import {useParams} from 'react-router-dom';
 import PatentCardSkeleton from './PatentCardSkeleton';
 import NoInternetConnection from '../../NoInternetConn';
+import { Helmet } from 'react-helmet';
 
 
 function PatentsDashboard(){
     const [patents, setPatents] = useState("");
     const {years} = useParams();
     const [loading, setLoading] = useState(true);
-    document.title = `${years} - Cellix Bio Patents`;
 
     useEffect(() => {
         const fetchData = async () => {
@@ -31,6 +31,12 @@ function PatentsDashboard(){
 
     return(
         <div>
+            <Helmet>
+                <title>{years} | Patents | Cellix Bio</title>
+                <meta name="description" content={years}/>
+                <meta name='keywords' content='2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, years' />
+                <meta name='keywords' content='years wise cellix bio patents from 2014 - 2022, cellix bio patents yearly'/>
+            </Helmet>
             <div className='patentlandingpage'>
               <img  className='patents_video_bg' src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/gruene-chemie.PNG" alt='image'/>
               <div className='pipeline-text'>
