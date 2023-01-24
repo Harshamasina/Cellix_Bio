@@ -1,11 +1,17 @@
 import InventorYears from "./Inventor/InventorYears";
 import InventorIP from "./Inventor/InventorIP";
 import NoInternetConn from '../Body/NoInternetConn';
+// import { Helmet } from 'react-helmet';
 
 function Inventor() {
   document.title = 'Inventor - Cellix Bio';
   return (
     <>
+            {/* <Helmet>
+                <title>Inventor - Cellix Bio</title>
+                <meta name="description" content="U.S Patent Portfolio of Cellix Bio"/>
+                <meta name="keywords" content="cellix bio US Patents, Avaca Us Patents , cellix bio pharma us patents" />
+            </Helmet> */}
         <div className='patentlandingpage'>
             <video src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Neurons.mp4" autoPlay muted loop className='patents_video_bg' type="video/mp4"/>
             <div className='pipeline-text'>

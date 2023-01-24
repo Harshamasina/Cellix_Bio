@@ -3,6 +3,8 @@ import Accordion from 'react-bootstrap/Accordion';
 import axios from 'axios';
 import { useState, useEffect } from 'react';
 import NoInternetConnection from '../Body/NoInternetConn';
+import { Helmet } from 'react-helmet';
+
 
 function IP(){
     const [usPatents, setUSPatents] = useState([]);
@@ -18,22 +20,27 @@ function IP(){
         fetchData();
     },[]);
     // console.log(usPatents);
-    document.title = 'Intellectual Property - Cellix Bio';
+ 
     return(
         <>
-        <div className='patentlandingpage'>
-              <video src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Brain.mp4" autoPlay muted loop className='patents_video_bg' type="video/mp4"/>
-                <div className='pipeline-text'>
-                        <div className='patents_text_1'>
-                            <h1 className='pipelineCarouselh1'>INTELLECTUAL PROPERTY PORTFOLIO</h1>
+            <Helmet>
+                <title>Portfolio - Cellix Bio</title>
+                <meta name="description" content="U.S Patent Portfolio of Cellix Bio"/>
+                <meta name="keywords" content="cellix bio US Patents, Avaca Us Patents , cellix bio pharma us patents" />
+            </Helmet>
+            <div className='patentlandingpage'>
+                <video src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Brain.mp4" autoPlay muted loop className='patents_video_bg' type="video/mp4"/>
+                    <div className='pipeline-text'>
+                            <div className='patents_text_1'>
+                                <h1 className='pipelineCarouselh1'>INTELLECTUAL PROPERTY PORTFOLIO</h1>
+                            </div>
                         </div>
                     </div>
+                <div className='IPContainer'>
+                    <div className="IPpContainerp">
+                    <p className="IPp"><span className="AboutSpan">Cellix Bio</span> has a portfolio of over 600+ international patents published. The Company has 160+ U.S Patent Portfolio comprising Composition of Matter, Formulation Patents in diverse therapeutic areas. We are also committed to protect our intellectual property estate of patent rights and trade secrets for our proprietary technology.</p>
                 </div>
-            <div className='IPContainer'>
-                <div className="IPpContainerp">
-                <p className="IPp"><span className="AboutSpan">Cellix Bio</span> has a portfolio of over 600+ international patents published. The Company has 160+ U.S Patent Portfolio comprising Composition of Matter, Formulation Patents in diverse therapeutic areas. We are also committed to protect our intellectual property estate of patent rights and trade secrets for our proprietary technology.</p>
             </div>
-        </div>
             
                 <Accordion defaultActiveKey="0">
                     <Accordion.Item eventKey="0">
