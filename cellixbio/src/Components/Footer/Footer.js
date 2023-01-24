@@ -50,7 +50,7 @@ const Footer = () => {
             </CDBBox>
               <CDBBox display="flex" className="mt-4" justifyContent="between">
                 <div className='smallContainer'>
-                  <small className="ml-2">&copy; Cellix Bio, 2022. All rights reserved.</small>
+                  <small className="ml-2">&copy; Cellix Bio, 2014 - {new Date().getFullYear()}. All rights reserved.</small>
                 </div>
                 <CDBBox display="flex">
                     <div className='FooterIcons'>
