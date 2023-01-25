@@ -2,6 +2,7 @@ import Table from 'react-bootstrap/Table';
 import Accordion from 'react-bootstrap/Accordion';
 import axios from 'axios';
 import { useState, useEffect } from 'react';
+import { Helmet } from 'react-helmet';
 
 function InventorIP(){
     const [usPatents, setUSPatents] = useState([]);
@@ -19,6 +20,11 @@ function InventorIP(){
     // console.log(usPatents);
     return(
         <>
+                <Helmet>
+                    <meta name="keywords" content="Cellix Bio U.S Patents, Applied and Published patents of Cellix Bio in U.S, 
+                        Mahesh Kandula's Patents Applied and Published U.S Patents from 2009 to 2023, Cellix Bio US Patent Portfolio"
+                    />
+                </Helmet>
                 <div className="YearsContainerh2">
                     <h2 className="InventorIPh2">Mahesh Kandula has a portfolio of over 180+ U.S Patents and Applications</h2>
                 </div>

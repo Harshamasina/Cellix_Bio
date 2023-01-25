@@ -34,8 +34,10 @@ function PatentsDashboard(){
             <Helmet>
                 <title>{years} | Patents | Cellix Bio</title>
                 <meta name="description" content={years}/>
-                <meta name='keywords' content='2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, years' />
-                <meta name='keywords' content='years wise cellix bio patents from 2014 - 2022, cellix bio patents yearly'/>
+                <meta name='description' content='Patents filed by Cellix Bio in 2023 to 2014' />
+                <meta name='keywords' content='2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, years years wise cellix bio patents from 2014 - 2022, cellix bio patents yearly
+                    Cellix Bio Patents DashBoard from 2023 to 2014' 
+                />
             </Helmet>
             <div className='patentlandingpage'>
               <img  className='patents_video_bg' src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/gruene-chemie.PNG" alt='image'/>

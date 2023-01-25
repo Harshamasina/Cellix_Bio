@@ -7,13 +7,13 @@ function Leadership(){
         <Helmet>
             <title>Leadership | Cellix Bio</title>
             <meta name="description" content="Board of Members and directors of Cellix Bio"/>
-            <meta name="keywords" content="cellix bio Founder CEO, COO and Scientific Team and Advisors, 
-                Avaca CEO, COO and Scientific Team and Advisors , 
-                cellix bio pharma Founder CEO, COO and Scientific Team and Advisors" 
+            <meta name="keywords" content="Board of Members and directors of Cellix Bio, cellix bio Founder CEO, COO and Scientific Team and Advisors, 
+                Avaca CEO, COO and Scientific Team and Advisors , cellix bio pharma Founder CEO, COO and Scientific Team and Advisors, 
+                Mahesh Kandula, Subbu Apparsundaram, Frank Diana, Mudher Albassam, Douglas Greene, Paul Jeffrey, Mahesh Kandula Founder CEO Inventor" 
             />
         </Helmet>
         <div className='patentlandingpage'>
-            <video src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Bulbs.mp4" autoPlay muted loop playsinline className='patents_video_bg' type="video/mp4"/>
+            <video src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Bulbs.mp4" autoPlay muted loop playsInline className='patents_video_bg' type="video/mp4"/>
             <div className='pipeline-text'>
                 <div className='patents_text_1'>
                     <h1 className='pipelineCarouselh1'>LEADERSHIP</h1>

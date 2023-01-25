@@ -14,8 +14,10 @@ function App() {
         <BrowserRouter>
           <Helmet>
             <title>Cellix Bio</title>
-            <meta name="description" content="Cellix Bio's Informative Web Application for its Intellectual Property"/>
+            <meta name="description" content="Cellix Bio's Informative Web Application for its Intellectual Property" />
             <meta property="og:image" content="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/cellix+bio+meta+img.png" />
+            <meta name='description' content='Cellix Bio Informative Web Application for its Patents and Infrastructure' />
+            <meta name='keywords' content='Cellix Bio, AvacaPharma, Cellix Bio Pharma, Mahesh Kandula, Mahesh Kandula Patents, Cellix Bio Net Worth, Prism Science' />
           </Helmet>
           <NavBar></NavBar>
           <Footer></Footer>

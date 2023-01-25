@@ -5,11 +5,16 @@ function InventorYears(){
     return(
         <>
                 <div className="YearsContainerh2">
-                    <h2 className="Yearsh2">Mahesh Kandula's World Wide Patents (2022 to 2009)</h2>
+                    <h2 className="Yearsh2">Mahesh Kandula's World Wide Patents (2023 to 2009)</h2>
                 </div>
                 
                 <div className='yearscontainer'>
                     {/* <Container className='yearcontainer'> */}
+                                <div className="YearsButtonContainer">
+                                        <Button className='yearbtn' variant="dark" size="lg">
+                                            <Link className='YearsLinks' to="/PatentsDashboard/2023">2023<p className='yearp'>Patents: 1</p></Link>
+                                        </Button>
+                                </div> 
                         
                                 <div className="YearsButtonContainer">
                                         <Button className='yearbtn' variant="dark" size="lg">

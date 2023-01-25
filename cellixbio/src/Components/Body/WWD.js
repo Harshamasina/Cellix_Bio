@@ -1,10 +1,16 @@
+import { Helmet } from "react-helmet";
+
 function WWD(){
     return(
      <>
+            <Helmet>
+                <meta name="description" content="What we do in cellix bio, Introduction to Cellix Bio"/>
+                <meta name="keywords" content="About Cellix Bio, Cellix Bio Founded Year, Cellix Bio's Introduction and Summary, What We Do Cellix Bio" />
+            </Helmet>
             <div className="c">
                  <div className="WWDContainerh34">
                  <div className='DescContainerh3'><span></span>
-                <span className="WWDh3">WHAT WE DO</span><span></span>
+                <span className="WWDh3"><h1>WHAT WE DO</h1></span><span></span>
             </div>
                      <h4 className="WWDh4">REVEALING THE POWER OF AUGMENTED INTELLIGENCE AND HUMANOID INVENTIVENESS</h4>
                  </div>

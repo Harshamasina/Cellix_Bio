@@ -11,7 +11,7 @@ function Home(){
                 <meta name="keywords" content="cellix home page, avaca home page, cellix bio pharma home page" />
             </Helmet>
             <div className='landingpage'>
-              <video src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/DNA+HElical+Doule.mp4" autoPlay muted loop playsinline className='video-bg' type="video/mp4"/>
+              <video src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/DNA+HElical+Doule.mp4" autoPlay muted loop playsInline className='video-bg' type="video/mp4"/>
                 {/* <div className='bg-overlay'></div> */}
                     <div className='home-text'>
                             <div>

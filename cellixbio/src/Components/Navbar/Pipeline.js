@@ -11,10 +11,14 @@ function Pipeline(){
         <Helmet>
             <title>Pipeline | Cellix Bio</title>
             <meta name="description" content="Pipeline of Cellix Bio, cellix bio's progress of pre-clinical and clinical trails"/>
-            <meta name="keywords" content="cellix bio Pipeline, progress of pre-clinical and clinical trails, AvacaPharma pipeline, cellixbio pharma pipeline" />
+            <meta name="keywords" content="cellix bio Pipeline, progress of pre-clinical and clinical trails, AvacaPharma pipeline, cellixbio pharma pipeline
+                Cellix Bio Research, Cellix Bio Ongoing Research, Cellix Bio Employees, Pipeline of Cellix Bio, Cellix Bio Target ID's, Cellix Bio Compounds,
+                Cellix Bio Fexotopic, Cellix Bio ONCOLOGY, Cellix Bio OPHTHALMOLOGY, Cellix Bio NEUROLOGY, Cellix Bio INFECTIOUS DISEASES, Cellix Bio PULMONOLOGY,
+                Cellix Bio DERMATOLOGY, Cellix Bio Atopic Dermatitis" 
+            />
         </Helmet>
         <div className='patentlandingpage'>
-              <video src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Polygon+-+1.mp4" autoPlay muted loop playsinline className='patents_video_bg' type="video/mp4"/>
+              <video src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Polygon+-+1.mp4" autoPlay muted loop playsInline className='patents_video_bg' type="video/mp4"/>
             <div className='pipeline-text'>
                             <div className='patents_text_1'>
                                 <h1 className='pipelineCarouselh1'>PIPELINE</h1>

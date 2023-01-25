@@ -6,10 +6,13 @@ function PT(){
         <Helmet>
             <title>Platform Technologies | Cellix Bio</title>
             <meta name="description" content="Platform Technology of Cellix Bio"/>
-            <meta name="keywords" content="Platform technology, Platform Technology of Cellix Bio, Technology" />
+            <meta name="keywords" content="Cellix Bio Platform technology, Platform Technology of Cellix Bio,Cellix Bio Technology, 
+                Synergix Augmented Intelligence, Synergix AI, Cellix Bio's applied and Published U.S Patents, Cellix Bio U.S Patent Data,
+                Cellix Bio U.S Patent Portfolio, Mahesh Kandula U.S Patents Data Cellix Bio's COMPOSITIONS AND METHODS" 
+            />
         </Helmet>
         <div className='patentlandingpage'>
-              <video src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Hexagons+-+140199.mp4" autoPlay muted loop playsinline className='patents_video_bg' type="video/mp4"/>
+              <video src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Hexagons+-+140199.mp4" autoPlay muted loop playsInline className='patents_video_bg' type="video/mp4"/>
               <div className='pipeline-text'>
                             <div className='patents_text_1'>
                                 <h1 className='pipelineCarouselh1'>PLATFORM TECHNOLOGIES</h1>
@@ -21,7 +24,7 @@ function PT(){
                 </div>
 
                      <div className='DescContainerh3'><span></span>
-                        <span className="WWDh3">SYNERGIX AUGMENTED INTELLIGENCE</span><span></span>
+                        <span className="WWDh3"><h1>SYNERGIX AUGMENTED INTELLIGENCE</h1></span><span></span>
                     </div>
                 
                 <div className="PTpContainer">

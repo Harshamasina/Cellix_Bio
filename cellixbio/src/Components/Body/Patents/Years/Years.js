@@ -5,17 +5,23 @@ function Years(){
     return(
         <>
             <div className="YearsContainerh2">
-                <h2 className="Yearsh2">Cellix Bio's Intellectual Property (2022 to 2014)</h2>
+                <h2 className="Yearsh2">Cellix Bio's Intellectual Property (2023 to 2014)</h2>
             </div>
             
             <NoInternetConnection>
                 <div className='yearscontainer'>
                     {/* <Container className='yearcontainer'> */}
+
+                                <div className="YearsButtonContainer">
+                                    <Button className='yearbtn' variant="dark" size="lg">
+                                        <Link className='YearsLinks' to="/PatentsDashboard/2023">2023<p className='yearp'>Patents: 1</p></Link>
+                                    </Button>
+                                </div> 
                         
                                 <div className="YearsButtonContainer">
-                                        <Button className='yearbtn' variant="dark" size="lg">
-                                            <Link className='YearsLinks' to="/PatentsDashboard/2022">2022<p className='yearp'>Patents: 51</p></Link>
-                                        </Button>
+                                    <Button className='yearbtn' variant="dark" size="lg">
+                                        <Link className='YearsLinks' to="/PatentsDashboard/2022">2022<p className='yearp'>Patents: 51</p></Link>
+                                    </Button>
                                 </div>        
                             
                                 <div className="YearsButtonContainer">

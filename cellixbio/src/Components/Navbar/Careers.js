@@ -8,11 +8,14 @@ function Careers(){
                 <title>Careers - Cellix Bio</title>
                 <meta name="description" content="Openings in Cellix Bio Avaca Pharma Cellix Bio Pharma"/>
                 <meta name="keywords" content="Careers cellix bio, cellix bio job openings, cellix bio careers
-                    AvacaPharma job openings, AvacaPharma jobs, AvacaPharma Careers" 
+                    AvacaPharma job openings, AvacaPharma jobs, AvacaPharma Careers, Join Cellix Bio, Cellix Bio Analytical R&D : Scientist, 
+                    Cellix Bio Formulation R&D Scientist : Pharma, Cellix Bio SCIENTIST - Medicinal Chemistry, Cellix Bio SENIOR RESEARCH ASSOCIATE - Medicinal Chemistry, 
+                    Cellix Bio TEAM LEADER - Medicinal Chemistry, Cellix Bio PROJECT MANAGER (Pharma/strategic/agency experience), Cellix Bio SENIOR MANAGER, Pre-Clinical, 
+                    Cellix Bio REGULATORY AFFAIRS: Associate Director, CMC & Analytical Services, Cellix Bio REGULATORY AFFAIRS, Associate, Cellix Bio PATENT ASSOCIATE, Chemistry / Pharma" 
                 />
             </Helmet>
             <div className='patentlandingpage'>
-                <video src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/HR+Notes.mp4" autoPlay muted loop playsinline className='patents_video_bg' type="video/mp4"/>
+                <video src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/HR+Notes.mp4" autoPlay muted loop playsInline className='patents_video_bg' type="video/mp4"/>
                 <div className='pipeline-text'>
                     <div className='patents_text_1'>
                         <h1 className='pipelineCarouselh1'>JOIN US</h1>

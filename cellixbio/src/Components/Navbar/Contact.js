@@ -9,11 +9,11 @@ function Contact() {
         <title>Contact | Cellix Bio</title>
           <meta name="description" content="Contact and Address of Cellix Bio Avaca Pharma Cellix Bio Pharma"/>
             <meta name="keywords" content="Contact Number of Cellix Bio, 
-              Phone Number of Cellix Bio, address of cellix bio, business hours of cellix bio" 
+              Phone Number of Cellix Bio, address of cellix bio, business hours of cellix bio, Messages and Queries to Cellix Bio" 
           />
       </Helmet>
       <div className='patentlandingpage'>
-        <video src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Ball.mp4" autoPlay muted loop playsinline className='patents_video_bg' type="video/mp4"/>
+        <video src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Ball.mp4" autoPlay muted loop playsInline className='patents_video_bg' type="video/mp4"/>
         <div className='pipeline-text'>
           <div className='patents_text_1'>
             <h1 className='pipelineCarouselh1'>CONTACT</h1>
