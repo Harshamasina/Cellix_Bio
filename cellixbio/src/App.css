@@ -148,7 +148,7 @@ body{
   background-color: #034c3c !important;
   margin-top: 8% !important;
   color: white !important;
-  height: 47vh !important;
+  height: 50vh !important;
   display: flex;
   flex-direction: row;
 }
@@ -751,7 +751,8 @@ padding: 0px !important;
   transition: 0.5s;
 }
 .patents_text_1{
-margin-left: 35% ;
+margin-left: 40% ;
+/* margin-top: 2%; */
 }
 .patents_text_2{
   margin-left: 10% ;
@@ -798,7 +799,7 @@ margin-left: 35% ;
 
 .patentsCarouselh1{
   /* margin-top: -50vh !important; */
-  font-size: 6em;
+  font-size: 5em;
   color: white;
   text-align: center !important;
 }
@@ -2153,17 +2154,9 @@ span.ClaimsText{
  }
 }
 
-@media screen and (max-width:768px) and (min-width:601px) {
-  .pipelineCarouselh1 {
-    font-size: 4em !important;
-    /* text-align: center;
-    justify-content: center; */
- }
-}
-
 .pipelineCarouselh1{
   /* margin-top: -50vh !important; */
-  font-size: 6em;
+  font-size: 4.5em;
   color: white;
   text-align: center !important;
   margin-left: -20% !important;
