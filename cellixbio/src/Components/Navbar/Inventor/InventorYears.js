@@ -12,7 +12,7 @@ function InventorYears(){
                     {/* <Container className='yearcontainer'> */}
                                 <div className="YearsButtonContainer">
                                         <Button className='yearbtn' variant="dark" size="lg">
-                                            <Link className='YearsLinks' to="/PatentsDashboard/2023">2023<p className='yearp'>Patents: 1</p></Link>
+                                            <Link className='YearsLinks' to="/PatentsDashboard/2023">2023<p className='yearp'>Patents: 2</p></Link>
                                         </Button>
                                 </div> 
                         

@@ -48,7 +48,7 @@ function Address(){
                         <Card.Title className='CUCT'>Business Hours:</Card.Title>
                         <Card.Text>
                         <ul className='CUUL'>
-                            <li className='CUSpan'>Monday - Tuesday : 9:00AM to 6:00PM</li>
+                            <li className='CUSpan'>Monday - Saturday : 9:00AM to 6:00PM</li>
                             <li className='CUSpan'>Sunday - Closed</li>
                             {/* <li className='CUSpan'>Wednesday: 9:30AM to 6:00PM</li>
                             <li className='CUSpan'>Thursday: 9:30AM to 6:00PM</li>
