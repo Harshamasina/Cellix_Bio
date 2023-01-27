@@ -23,8 +23,8 @@ function PT(){
             <div className="PTContainerh2h3h4">
                 </div>
 
-                     <div className='DescContainerh3'><span></span>
-                        <span className="WWDh3"><h1>SYNERGIX AUGMENTED INTELLIGENCE</h1></span><span></span>
+                     <div className='DescContainerh3'>
+                        <h1 className="WWDh3">SYNERGIX AUGMENTED INTELLIGENCE</h1>
                     </div>
                 
                 <div className="PTpContainer">

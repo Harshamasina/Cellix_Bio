@@ -21,8 +21,10 @@ const Footer = () => {
                             <div className='FooterContainerp' display="flex" justifyContent="around">
                                   <ul className='FooterUL'>
                                     <li><p>Our subsidiaries : </p></li>
-                                    <li><a href='http://www.avacapharma.com/' rel="noreferrer" target="_blank"><img src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Avaca+Pharma+Main+Logo.png" className='FooterAP' alt="avaca"></img></a></li>
-                                    <li><a href='https://www.cellixbiopharma.com/' rel="noreferrer" target="_blank"><img src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/cellix+bio+pharma.png" className='FooterCBP' alt="cellix bio pharma"></img></a></li>
+                                    <div className='FooterLogosContainer'>
+                                      <li><a href='https://www.cellixbiopharma.com/' rel="noreferrer" target="_blank"><img src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/cellix+bio+pharma.png" className='FooterCBP' alt="cellix bio pharma"></img></a></li>
+                                      <li><a href='http://www.avacapharma.com/' rel="noreferrer" target="_blank"><img src="https://avaca-pharma-assets.s3.ap-south-1.amazonaws.com/Avaca+Pharma+Main+Logo.png" className='FooterAP' alt="avaca"></img></a></li>
+                                    </div>
                                   </ul>
                             </div>
                         </CDBBox>
