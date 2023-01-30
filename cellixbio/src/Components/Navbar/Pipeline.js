@@ -87,7 +87,7 @@ function Pipeline(){
                         </tr>
 
                         <tr>
-                            <td className='PPTargetId'>CLX-OPH-561</td>
+                            <td className='PPTargetId'>CLX-OPH-162</td>
                             <td>Presbyopia</td>
                             <td>
                                 <div class="progress">
@@ -168,7 +168,7 @@ function Pipeline(){
 
                         <tr>
                             <td className="PatentTableTA">DERMATOLOGY</td>
-                            <td className='PPTargetId'>FEXOTOPIC</td>
+                            <td className='PPTargetId'>ATOFEX</td>
                             <td>Atopic Dermatitis</td>
                             <td>
                                 <div class="progress">

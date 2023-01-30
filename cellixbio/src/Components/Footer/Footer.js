@@ -30,7 +30,6 @@ const Footer = () => {
                         </CDBBox>
                         <CDBBox display="flex" style={{ width: '20%' }} justifyContent="around" className="footernavlinks">
                               <CDBBox>
-                             
                                 <CDBBox flex="column" display="flex" style={{ cursor: 'pointer', padding: '0'}}>
                                         <NavLink className={"Navlink"} to="/Home">Home</NavLink>
                                         <NavLink className={"Navlink"} to="/Pipeline">Pipeline</NavLink>

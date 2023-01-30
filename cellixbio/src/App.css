@@ -2114,6 +2114,15 @@ span.ClaimsText{
   text-align: left;
 }
 
+.auto-index{
+  counter-reset: Serial;
+}
+
+.auto-index td:first-child:before{
+  counter-increment: Serial;
+  content: counter(Serial);
+}
+
 /* .......................... */
 /* Used for Pipeline */
 .PLContainer{
