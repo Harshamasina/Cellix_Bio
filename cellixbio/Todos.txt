@@ -1,4 +1,5 @@
 CHANGES REQUIRED:
+
 -> Connect to DB. (Done)
 -> Use React Fragments (Done)
 -> Add dynamic Routing to years and patentDashboard (Done)
@@ -20,12 +21,14 @@ CHANGES REQUIRED:
 -> Require Testing. 
 -> Implement React Memoization.
 -> Add Image tags to the claims links.(Done upto 2017)
--> Make it SEO
--> Add React - Helmet to each page in React App
--> Lazy Loading
+-> Make it SEO (Done 60%)
+-> Add React - Helmet to each page in React App (Done)
+-> Lazy Loading 
 -> Add .env files to backend and change it in services Instance also.
 -> Deploy Instance in Route 53 and host it in GoDaddy (Done)
 -> Add Sign Up and Log In in the page
--> Add pipeline dashboard after logging in
+-> Add pipeline dashboard after logging in 
 -> Limit Access to certain Employees to certain Target Id.
+-> Add MIS Data into Database
+-> Schema should be implemented first.
 
