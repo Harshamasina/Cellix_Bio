@@ -22,7 +22,7 @@ let handleInputs = (e) => {
 const PostData = async (e) => {
     e.preventDefault();
     const { name, email, phone, subject, message } = user;
-    const res = await fetch("http://13.233.51.172/contact", {
+    const res = await fetch("https://backend.cellixbio.info/contact", {
       method: "POST",
       headers: {
         "Content-Type" : "application/json"
