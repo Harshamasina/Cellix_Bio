@@ -1763,7 +1763,8 @@ text-decoration: underline;
 }
 @media screen and (max-width: 600px) {
   .Tabs {
-    width: 45vh;
+    position: initial;
+    width: 47vh;
     margin-left: 3%;
   }
   .testing{
