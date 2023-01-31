@@ -1752,6 +1752,9 @@ text-decoration: underline;
   margin-left: 22%;
   color: #4e545f !important;
   border-radius: 10px;
+  position: sticky;
+  top: 75px;
+  background: white;
 }
 .nav-link{
   color: #15B39D !important;
@@ -2102,6 +2105,7 @@ span.ClaimsText{
   font-size: larger;
   text-align: center;
   align-items: center;
+  vertical-align: middle;
 }
 
 .usPatentNumber{
@@ -2116,6 +2120,12 @@ span.ClaimsText{
 
 .auto-index{
   counter-reset: Serial;
+}
+
+.auto-index thead{
+  position: sticky;
+  top: 75px;
+  background: white;
 }
 
 .auto-index td:first-child:before{
