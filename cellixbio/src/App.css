@@ -3688,6 +3688,11 @@ img{
   flex-direction: row;
 }
 
+.TeamsContainer1{
+  display: flex;
+  flex-direction: column;
+}
+
 .InventorContainer{
   display: flex;
   flex-direction: column;
@@ -3733,7 +3738,7 @@ img{
 .TeamMember1 {
   display: flex;
   flex-direction: column;
-  margin-left: 20%;
+  /* margin-left: 20%; */
 }
 
 .TeamMember1 img{
@@ -3742,6 +3747,7 @@ img{
   height: 18vw;
   width: 20vw;
   border-radius: 10px;
+  margin-left: 40%;
 }
 
 .TeamMember1 img:hover{
@@ -3812,6 +3818,10 @@ img{
     flex-direction: column;
     margin-right: 10% !important;
   }
+  .TeamsContainer1{
+    display: flex;
+    flex-direction: column;
+  }
   .TeamMember1{
     margin-top: 5%;
   }
@@ -3861,6 +3871,11 @@ img{
     flex-direction: column;
     margin-right: 18% !important;
   }
+  .TeamsContainer1{
+    display: flex;
+    flex-direction: column;
+    margin-right: 18% !important;
+  }
   .TeamMember1{
     margin-top: 5%;
   }
@@ -3906,6 +3921,11 @@ img{
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
   .TeamsContainer{
+    display: flex;
+    flex-direction: column;
+    margin-right: 18% !important;
+  }
+  .TeamsContainer1{
     display: flex;
     flex-direction: column;
     margin-right: 18% !important;

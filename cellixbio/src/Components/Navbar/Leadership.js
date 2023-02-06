@@ -21,7 +21,7 @@ const Leadership = () => {
                 </div>
             </div>
             <div className="Teams">
-                <div className="TeamsContainer">
+                <div className="TeamsContainer1">
                     <div className="TeamMember1">
                         <Link to='/mahesh_k'><img src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Cellix+Mahesh+Kandula+-+1.jpg" alt="Leaders"></img></Link>
                         <Link to='/mahesh_k'><h2>Mahesh Kandula</h2></Link>
