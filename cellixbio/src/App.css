@@ -148,7 +148,7 @@ body{
   background-color: #034c3c !important;
   margin-top: 8% !important;
   color: white !important;
-  height: 51vh !important;
+  height: 51vh;
   display: flex;
   flex-direction: row;
 }
@@ -210,6 +210,12 @@ body{
     margin-left: 100% !important;
   }
   
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
+  .shadow{
+    height: 58vh;
+  }
 }
 
 .FooterLogosContainer{
@@ -3600,137 +3606,6 @@ img{
   }
 }
 
-
-.wrapper{
-  margin-top: 6%;
-}
-
-.wrapper h1{
-  /* font-size: larger; */
-  color: #0E6E59;
-  margin-bottom: 60px;
-  text-align: center;
-  text-decoration: underline 3px solid #0E6E59;
-}
-
-.team{
-  display: flex;
-  justify-content: center;
-  width: auto;
-  text-align: center;
-  flex-wrap: wrap;
-}
-
-.team .team_member{
-  background: #fff;
-  margin: 30px;
-  margin-bottom: 50px;
-  width: 60%;
-  padding: 20px;
-  line-height: 20px;
-  color: #282c34;  
-  position: relative;
-  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
-  border-radius: 15px;
-}
-
-.team .team_member p{
-  text-align: justify;
-  font-size: 18px;
-}
-
-.team .team_member h3{
-  color: #0E6E59;
-  font-size: 26px;
-  margin-top: 50px;
-}
-
-.team .team_member h5.role{
-  color: #15B39D;
-  margin: 12px 0;
-  font-size: 15px;
-  text-transform: uppercase;
-}
-
-.team .team_member .team_img{
-  position: absolute;
-  top: -50px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  background: #fff;
-}
-
-.team .team_member .team_img img{
-  width: 100px;
-  height: 100px;
-}
-
-.team .team_member1{
-  background: #fff;
-  margin: 30px;
-  margin-bottom: 50px;
-  width: 70%;
-  padding: 20px;
-  line-height: 20px;
-  color: #282c34;  
-  position: relative;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  border-radius: 15px;
-}
-
-.team .team_member1 p{
-  text-align: justify;
-  font-size: large;
-}
-
-.team .team_member1 h3{
-  color: #0E6E59;
-  font-size: 26px;
-  margin-top: 50px;
-}
-.team-lead-h3{
-  margin-top: 85px!important;
-}
-
-.team .team_member1 h5.role{
-  color: #15B39D;
-  margin: 12px 0;
-  font-size: 15px;
-  text-transform: uppercase;
-}
-
-.team .team_member1 .team_img{
-  position: absolute;
-  top: -50px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  background: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.team_img{
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width:150px !important;
-  height: 150px !important;
-}
-.team-img{
-  width: 100% !important;
-  height: 100% !important;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-
-}
-
-.team .team_member1 .team_img img{
-  width: 100px;
-  height: 100px;
-}
-
 .LeaderContainerPage{
   display: flex;
   flex-direction: row;
@@ -3815,9 +3690,37 @@ img{
 
 .InventorContainer{
   display: flex;
-  flex-direction: row;
-  margin-left: 25%;
+  flex-direction: column;
   margin-top: 3%;
+}
+
+.InventorContainer img{
+  height: 325px;
+  width: 310px;
+  border-radius: 10px;
+  margin-left: 41%
+}
+
+.InventorContainer img:hover{
+  opacity: 0.8;
+}
+
+.InventorContainer h2{
+  color: #0E6E59;
+  font-size: 3vh;
+  text-align: center;
+  margin-top: 1%;
+}
+
+.InventorContainer h2:hover{
+  color: #034c3c;
+  text-decoration: underline 2px solid #034c3c;
+}
+
+.InventorContainer h3{
+  color: #15B39D;
+  font-size: 2.5vh;
+  text-align: center;
 }
 
 .Teamsh1{
@@ -3836,8 +3739,8 @@ img{
 .TeamMember1 img{
   align-items: center;
   text-align: center;
-  height: 325px;
-  width: 330px;
+  height: 18vw;
+  width: 20vw;
   border-radius: 10px;
 }
 
@@ -3868,14 +3771,14 @@ img{
 .TeamMember2 {
   display: flex;
   flex-direction: column;
-  margin-left: 5.5%;
+  margin-left: 3%;
 }
 
 .TeamMember2 img{
   align-items: center;
   text-align: center;
-  height: 325px;
-  width: 310px;
+  height: 18vw;
+  width: 20vw;
   border-radius: 10px;
 }
 
@@ -3944,8 +3847,11 @@ img{
     text-align: center !important;
     font-size: 1.5vh;
   }
-  .InventorContainer{
-    margin-left: 0% !important;
+  .InventorContainer img{
+    height: 150px;
+    width: 180px;
+    margin-top: 5%;
+    margin-left: 27% !important;
   }
 }
 
@@ -3990,7 +3896,59 @@ img{
     text-align: center !important;
     font-size: 1.5vh;
   }
-  .InventorContainer{
-    margin-left: 0% !important;
+  .InventorContainer img{
+    height: 250px;
+    width: 280px;
+    margin-top: 2%;
+    margin-left: 32% !important;
+  }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
+  .TeamsContainer{
+    display: flex;
+    flex-direction: column;
+    margin-right: 18% !important;
+  }
+  .TeamMember1{
+    margin-top: 5%;
+  }
+  .TeamMember1 img{
+    height: 250px;
+    width: 280px;
+    margin-left: 25% !important;
+  }
+  .TeamMember1 h2{
+    text-align: center !important;
+    font-size: 2.3vh;
+  }
+  .TeamMember1 h3{
+    text-align: center !important;
+    font-size: 1.5vh;
+  }
+  .Teamsh1{
+    font-size: 2.5vh;
+  }
+  .TeamMember2{
+    margin-top: 5%;
+  }
+  .TeamMember2 img{
+    height: 250px;
+    width: 280px;
+    margin-left: 27% !important;
+  }
+  .TeamMember2 h2{
+    text-align: center !important;
+    font-size: 2.3vh;
+  }
+  .TeamMember2 h3{
+    text-align: center !important;
+    font-size: 1.5vh;
+  }
+  .InventorContainer img{
+    height: 250px;
+    width: 280px;
+    margin-top: 2%;
+    margin-left: 32% !important;
   }
 }

@@ -20,7 +20,7 @@ const Subbu = () => {
                 </div>
             </div>
             <div className="LeaderContainerPage">
-                <img className="LeaderImgPage" src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Leadership.SubbuApparsundaram.PNG" alt="leader"></img>
+                <img className="LeaderImgPage" src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Leadership.SubbuApparsundaram+(edit).png" alt="leader"></img>
                 <div className="LeaderContentPage">
                     <h1>Subbu Apparsundaram</h1>
                     <h2>CDO & COO</h2>

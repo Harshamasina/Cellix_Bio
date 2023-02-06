@@ -20,7 +20,7 @@ const Paul = () => {
                 </div>
             </div>
             <div className="LeaderContainerPage">
-                <img className="LeaderImgPage" src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Leadership.PaulJeffery.PNG" alt="leader"></img>
+                <img className="LeaderImgPage" src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Leadership.PaulJeffery(edit).png" alt="leader"></img>
                 <div className="LeaderContentPage">
                     <h1>Paul Jeffrey</h1>
                     <h2>BUSINESS STRATEGY AND ADVISOR</h2>

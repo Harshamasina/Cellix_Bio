@@ -29,7 +29,7 @@ const Leadership = () => {
                     </div>
 
                     <div className="TeamMember1">
-                        <Link to="/subbu_a"><img src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Leadership.SubbuApparsundaram.PNG" alt="Leaders"></img></Link>
+                        <Link to="/subbu_a"><img src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Leadership.SubbuApparsundaram+(edit).png" alt="Leaders"></img></Link>
                         <Link to="/subbu_a"><h2>Subbu Apparsundaram</h2></Link>
                         <h3>CDO & COO</h3>
                     </div>
@@ -49,12 +49,12 @@ const Leadership = () => {
                         <h3>PRE-CLINICAL DEVELOPMENT</h3>
                     </div>
                     <div className="TeamMember2">
-                        <Link to='/douglas_g'><img src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Leadership.Douglas(edit).png" alt="Leaders"></img></Link>
+                        <Link to='/douglas_g'><img src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Leadership.Douglas(edit+bg).png" alt="Leaders"></img></Link>
                         <Link to='/douglas_g'><h2>Dr. Douglas Greene</h2></Link>
                         <h3>MEDICAL AFFAIRS & STRATEGIC ADVISOR</h3>
                     </div>
                     <div className="TeamMember2">
-                        <Link to='/paul_j'><img src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Leadership.PaulJeffery.PNG" alt="Leaders"></img></Link>
+                        <Link to='/paul_j'><img src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Leadership.PaulJeffery(edit).png" alt="Leaders"></img></Link>
                         <Link to='/paul_j'><h2>Paul Jeffrey</h2></Link>
                         <h3>BUSINESS STRATEGY AND ADVISOR</h3>
                     </div>

@@ -41,11 +41,9 @@ function Inventor() {
                 </div>
             </div> */}
             <div className="InventorContainer">
-              <div className="TeamMember1">
-                  <Link to='/mahesh_k'><img src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Cellix+Mahesh+Kandula+-+1.jpg" alt="Leaders"></img></Link>
-                  <Link to='/mahesh_k'><h2>Mahesh Kandula</h2></Link>
-                  <h3>INVENTOR</h3>
-              </div>
+                <Link to='/mahesh_k'><img src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Cellix+Mahesh+Kandula+-+1.jpg" alt="Leaders"></img></Link>
+                <Link to='/mahesh_k'><h2>Mahesh Kandula</h2></Link>
+                <h3>INVENTOR</h3>
             </div>
             <NoInternetConn>
               <InventorYears></InventorYears>

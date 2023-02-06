@@ -20,7 +20,7 @@ const Douglas = () => {
                 </div>
             </div>
             <div className="LeaderContainerPage">
-                <img className="LeaderImgPage" src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Leadership.Douglas(edit).png" alt="leader"></img>
+                <img className="LeaderImgPage" src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Leadership.Douglas(edit+bg).png" alt="leader"></img>
                 <div className="LeaderContentPage">
                     <h1>Dr. Douglas Greene</h1>
                     <h2>MEDICAL AFFAIRS & STRATEGIC ADVISOR</h2>
