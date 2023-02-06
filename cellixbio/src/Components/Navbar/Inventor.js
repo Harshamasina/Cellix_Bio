@@ -2,6 +2,7 @@ import InventorYears from "./Inventor/InventorYears";
 import InventorIP from "./Inventor/InventorIP";
 import NoInternetConn from '../Body/NoInternetConn';
 import { Helmet } from 'react-helmet';
+import { Link } from "react-router-dom";
 
 function Inventor() {
 
@@ -27,7 +28,7 @@ function Inventor() {
               </div>
             </div>
         </div>
-        <div class="wrapper">
+                {/* <div class="wrapper">
                   <div class="team">
                     <div class="team_member1">
                         <div class="team_img">
@@ -38,6 +39,13 @@ function Inventor() {
                         <p>Mahesh brings over 18 years of scientific and entrepreneurial experience in the life science industry. Mr. Kandula has been named an inventor on 180+ United States Patents and Applications and, more than 640+ International Patent Applications. Mr. Kandula received his Master of Technology degree from IIT Kharagpur.</p>
                     </div>
                 </div>
+            </div> */}
+            <div className="InventorContainer">
+              <div className="TeamMember1">
+                  <Link to='/mahesh_k'><img src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Cellix+Mahesh+Kandula+-+1.jpg" alt="Leaders"></img></Link>
+                  <Link to='/mahesh_k'><h2>Mahesh Kandula</h2></Link>
+                  <h3>INVENTOR</h3>
+              </div>
             </div>
             <NoInternetConn>
               <InventorYears></InventorYears>

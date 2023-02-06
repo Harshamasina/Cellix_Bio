@@ -16,6 +16,12 @@ import Inventor from './Inventor';
 import { useState } from 'react';
 import Media from './Media';
 import Careers from './Careers';
+import Mahesh from './Leadership/Mahesh';
+import Subbu from './Leadership/Subbu';
+import Frank from './Leadership/Frank';
+import Mudher from './Leadership/Mudher';
+import Douglas from './Leadership/Douglas';
+import Paul from './Leadership/Paul';
 
 function NavBar() {
         const [changeNavbar, setChangeNavbar] = useState(false);
@@ -74,6 +80,12 @@ function NavBar() {
                         <Route path='/PatentsDashboard/:years' element = {<PatentsDashboard></PatentsDashboard>}></Route>
                         <Route path='/PatentInfo/:wno' element = {<PatentInfo></PatentInfo>}></Route>
                         <Route path='/Cellix_Bio' element={<Home></Home>}></Route>
+                        <Route path='/mahesh_k' element={<Mahesh></Mahesh>}></Route>
+                        <Route path='/subbu_a' element={<Subbu></Subbu>}></Route>
+                        <Route path='/frank_d' element={<Frank></Frank>}></Route>
+                        <Route path='/mudher_a' element={<Mudher></Mudher>}></Route>
+                        <Route path='/douglas_g' element={<Douglas></Douglas>}></Route>
+                        <Route path='/paul_j' element={<Paul></Paul>}></Route>
                         <Route path='/' element={<Home></Home>}></Route>
                         <Route path='*' element={<Error404/>}></Route>
                     </Routes>

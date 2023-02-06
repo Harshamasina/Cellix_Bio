@@ -3730,3 +3730,267 @@ img{
   width: 100px;
   height: 100px;
 }
+
+.LeaderContainerPage{
+  display: flex;
+  flex-direction: row;
+  margin-left: 19%;
+  margin-top: 5%;
+  width: 70%;
+}
+
+.LeaderImgPage{
+  height: 300px;
+  width: 350px;
+}
+
+.LeaderContentPage{
+  margin-left: 3%;
+}
+
+.LeaderContentPage h1 {
+  color: #0E6E59;
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+
+.LeaderContentPage h2 {
+  color: #15B39D;
+  font-size: 1.2vw;
+}
+
+.LeaderContentPage p{
+  font-size: 1.2vw;
+}
+
+@media screen and (max-width: 600px) {
+  .LeaderContainerPage{
+    flex-direction: column !important;
+  }
+  .LeaderImgPage{
+    height: 200px;
+    width: 200px;
+    margin-left: 10% !important;
+    margin-bottom: 3% !important;
+  }
+  .LeaderContentPage h1{
+    font-size: 2vh !important;
+    text-align: center !important;
+  }
+  .LeaderContentPage h2{
+    font-size: 2vh !important;
+    text-align: center !important;
+  }
+  .LeaderContentPage p{
+    font-size: 2vh !important;
+    text-align: justify;
+  }
+}
+
+@media screen and (max-width:768px) and (min-width:601px) {
+  .LeaderImgPage{
+    height: 220px;
+    width: 250px;
+  }
+  .LeaderContentPage h1{
+    font-size: 3vh !important;
+  }
+  .LeaderContentPage h2{
+    font-size: 2vh !important;
+  }
+  .LeaderContentPage p{
+    font-size: 2vh !important;
+    text-align: justify;
+  }
+}
+
+.Teams{
+  margin-top: 3%;
+}
+
+.TeamsContainer{
+  display: flex;
+  flex-direction: row;
+}
+
+.InventorContainer{
+  display: flex;
+  flex-direction: row;
+  margin-left: 25%;
+  margin-top: 3%;
+}
+
+.Teamsh1{
+  font-size: 2.5vw;
+  color: #034c3c;
+  text-align: center;
+  margin: 3%;
+}
+
+.TeamMember1 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20%;
+}
+
+.TeamMember1 img{
+  align-items: center;
+  text-align: center;
+  height: 325px;
+  width: 330px;
+  border-radius: 10px;
+}
+
+.TeamMember1 img:hover{
+  opacity: 0.85;
+}
+
+.TeamMember1 h2{
+  text-align: center;
+  font-size: 1.5vw;
+  font-weight: 600;
+  color: #0E6E59;
+  margin-top: 2%;
+}
+
+.TeamMember1 h2:hover{
+  color: #034c3c;
+  text-decoration: underline 2px solid #034c3c;
+}
+
+.TeamMember1 h3{
+  text-align: center;
+  font-size: 1.3vw;
+  font-weight: 500;
+  color: #15B39D;
+}
+
+.TeamMember2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5.5%;
+}
+
+.TeamMember2 img{
+  align-items: center;
+  text-align: center;
+  height: 325px;
+  width: 310px;
+  border-radius: 10px;
+}
+
+.TeamMember2 img:hover{
+  opacity: 0.85;
+}
+
+.TeamMember2 h2{
+  text-align: center;
+  font-size: 1.5vw;
+  font-weight: 600;
+  color: #0E6E59;
+  margin-top: 2%;
+}
+
+.TeamMember2 h2:hover{
+  color: #034c3c;
+  text-decoration: underline 2px solid #034c3c;
+}
+
+.TeamMember2 h3{
+  text-align: center;
+  font-size: 0.8vw;
+  font-weight: 500;
+  color: #15B39D;
+}
+
+@media screen and (max-width: 600px) {
+  .TeamsContainer{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10% !important;
+  }
+  .TeamMember1{
+    margin-top: 5%;
+  }
+  .TeamMember1 img{
+    height: 150px;
+    width: 180px;
+    margin-left: 18% !important;
+  }
+  .TeamMember1 h2{
+    text-align: center !important;
+    font-size: 2.3vh;
+  }
+  .TeamMember1 h3{
+    text-align: center !important;
+    font-size: 1.5vh;
+  }
+  .Teamsh1{
+    font-size: 2.5vh;
+  }
+  .TeamMember2{
+    margin-top: 5%;
+  }
+  .TeamMember2 img{
+    height: 150px;
+    width: 180px;
+    margin-left: 25% !important;
+  }
+  .TeamMember2 h2{
+    text-align: center !important;
+    font-size: 2.3vh;
+  }
+  .TeamMember2 h3{
+    text-align: center !important;
+    font-size: 1.5vh;
+  }
+  .InventorContainer{
+    margin-left: 0% !important;
+  }
+}
+
+@media screen and (max-width:768px) and (min-width:601px) {
+  .TeamsContainer{
+    display: flex;
+    flex-direction: column;
+    margin-right: 18% !important;
+  }
+  .TeamMember1{
+    margin-top: 5%;
+  }
+  .TeamMember1 img{
+    height: 250px;
+    width: 280px;
+    margin-left: 25% !important;
+  }
+  .TeamMember1 h2{
+    text-align: center !important;
+    font-size: 2.3vh;
+  }
+  .TeamMember1 h3{
+    text-align: center !important;
+    font-size: 1.5vh;
+  }
+  .Teamsh1{
+    font-size: 2.5vh;
+  }
+  .TeamMember2{
+    margin-top: 5%;
+  }
+  .TeamMember2 img{
+    height: 250px;
+    width: 280px;
+    margin-left: 27% !important;
+  }
+  .TeamMember2 h2{
+    text-align: center !important;
+    font-size: 2.3vh;
+  }
+  .TeamMember2 h3{
+    text-align: center !important;
+    font-size: 1.5vh;
+  }
+  .InventorContainer{
+    margin-left: 0% !important;
+  }
+}
