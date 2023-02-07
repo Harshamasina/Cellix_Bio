@@ -25,6 +25,40 @@ function Media(){
             </div>
             <div className="MediaCardsContainer">
                 <Card style={{ width: '85rem' }} className="MediaCard">
+                    <Card.Img className='MediaCardImage1' variant="top" src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/cellix+bio+media+edit.jpg" />
+                    <Card.Body className='MediaCardBody'>
+                        <Card.Title className='MediaCardTitle'>
+                            <a className='MediaCardTitlea' href='/'>ATOFEX, OUR PIPELINE DRUG FOR ATOPIC DERMATITIS </a>
+                        </Card.Title>
+                        <Card.Text className='MediaCardDateText'>
+                            Cellix Bio, 06-Feb-2023, Hyderabad
+                        </Card.Text>
+                        <Card.Text className='MediaCardText'>
+                            Finding the right emollient has been a matter of trial and error, and urea-based lotions are notoriously irritant to the sensitive atopic skin of a child, making the mainstay of daily skin care a burden for patients and families. In eczema flair-ups, the addition of topical steroids, calcineurin inhibitors, and antibiotics, the treatment gets even more complex, often adding to the confusion of the patients. It´s not surprising that treatment failure often stems from the misconceptions of current treatment regimens.
+                        </Card.Text>
+                        <Card.Text className='MediaCardText'>
+                            With ATOFEX we have taken a multipronged approach to decomplexify treatment and increase patient compliance. ATOFEX is envisaged as an Eczema "EASE & PREVENT" monotherapy for adults and children with mild to moderate Atopic Dermatitis. 
+                       </Card.Text>
+                       <Card.Text className='MediaCardText'>
+                            Atopic Dermatitis is a complex disease, consequently, ATOFEX is designed to target six of its main pathological pillars. With itch representing the most burdensome symptom, the main objective is fast and efficient itch relief. We have also raised the bar for topical tolerability and are aiming for a pleasant skin feel in a patient group that has been forced to accept that effective treatment usually comes with discomfort. To monitor this aspiration, we have designed a proprietary study questionnaire inspired by the cosmetics industry. 
+                        </Card.Text>
+                        <Card.Text className='MediaCardText'>
+                            At the heart of our ambition with ATOFEX is fast and efficient itch relief. Not only because it´s the primary distress for the patients, but because the "itch-scratch cycle" is a disease driver. To achieve this, we have repositioned H1 receptor antagonist which has documented high safety and tolerability in adults as well as children. Oral H1 receptor antagonist is widely used off-label for the same reason even though the efficacy remains controversial in the lack of convincing trials.
+                        </Card.Text>
+                        <Card.Text className='MediaCardText'>
+                            However, recent models have indicated that H1 receptor antagonist might be an immunomodulatory agent that attenuates multiple inflammatory mediators, such as interleukins 1, 4, 5, 6, 10, 12, 13, 31, TNF alfa, and IFN-gamma. Significance has been shown in-vitro on human blood T-cells as well as in-vivo models in mice. A theory has been presented that H1 receptor antagonist might exert its anti-inflammatory property by blocking cPLA. It has also been suggested that Histamine might impair the skin barrier function. An argument for this is the fact that several T-cell-derived cytokines found in skin afflicted by Atopic Dermatitis, can inhibit the epidermal expression of key barrier proteins such as filaggrin, loricrin, and involucrin.
+                        </Card.Text>
+                        <Card.Text className='MediaCardText'>
+                            Our studies on topical H1 receptor antagonist for Atopic Dermatitis are based on the thesis that the anti-pruritic, anti-inflammatory, and skin barrier-supporting properties will be manifested in a dose-response dependent way by means of high topical concentration in proximity to the pathological process directly in the skin. We are now starting the phase 2A proof of concept study on mild and moderate pediatric atopic dermatitis. With fast and efficient itch relief and long-term safe anti-inflammation, we hope to provide the first "EASE AND PREVENT" monotherapy solution for both children and adults with Atopic Dermatitis.
+                        </Card.Text>
+                        <Card.Text className='MediaCardText'>
+                            Thank you for taking the time to read and please look out for news on our proof-of-concept study on ATOFEX. 
+                        </Card.Text>
+                        <a className='MediaCarda' href='/'>Read More</a>
+                    </Card.Body>
+                </Card>
+
+                <Card style={{ width: '85rem' }} className="MediaCard">
                     <Card.Img className='MediaCardImage' variant="top" src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Media.CII.png" />
                     <Card.Body className='MediaCardBody'>
                         <Card.Title className='MediaCardTitle'>
@@ -50,7 +84,7 @@ function Media(){
                             <a className='MediaCardTitlea' href='https://www.businesswire.com/news/home/20200804006078/en/Cellix-Bio-Pharma-Completes-Acquisition-Avaca-Pharma'>CELLIX BIO PHARMA COMPLETES THE ACQUISITION OF AVACA PHARMA</a>
                         </Card.Title>
 
-                        <Card.Text className='MediaCardText'>
+                        <Card.Text className='MediaCardDateText'>
                             HYDERABAD, India--(BUSINESS WIRE), August 04, 2020 06:30 PM
                         </Card.Text>
 
@@ -80,7 +114,7 @@ function Media(){
                             <a className='MediaCardTitlea' href='http://www.avacapharma.com/'>CELLIX BIO PHARMA COMPLETES THE ACQUISITION OF AVACA PHARMA</a>
                         </Card.Title>
 
-                        <Card.Text className='MediaCardText'>
+                        <Card.Text className='MediaCardDateText'>
                             Hyderabad, 03-August-2020
                         </Card.Text>
 
@@ -102,7 +136,7 @@ function Media(){
                             <a className='MediaCardTitlea' href='https://www.frost.com/about/'>FROST & SULLIVAN IS PLEASED TO ANNOUNCE THAT CELLIX BIO HAS BEEN SELECTED AS THE RECIPIENT OF THE 2020 INDIAN DRUG DISCOVERY PLATFORM TECHNOLOGY INNOVATION AWARD</a>
                         </Card.Title>
 
-                        <Card.Text className='MediaCardText'>
+                        <Card.Text className='MediaCardDateText'>
                             JUNE 2020
                         </Card.Text>
 
@@ -121,7 +155,7 @@ function Media(){
                             <a className='MediaCardTitlea' href='https://www.tclarity.com/pulmonomy-and-cellix-bio-announce-exclusive-development-agreement-for-anti-fungal-inhalation-therapeutics/'>PULMONOMY AND CELLIX BIO ANNOUNCE EXCLUSIVE DEVELOPMENT AGREEMENT FOR ANTI-FUNGAL INHALATION THERAPEUTICS</a>
                         </Card.Title>
 
-                        <Card.Text className='MediaCardText'>
+                        <Card.Text className='MediaCardDateText'>
                         Lexington, Mass. - Mar.6,2020
                         </Card.Text>
 
@@ -143,7 +177,7 @@ function Media(){
                             <a className='MediaCardTitlea' href='http://www.avacapharma.com/'>CELLIX BIO PHARMA INITIATES ACQUISITION OF AVACA PHARMA: FORMULATION DEVELOPMENT CRO</a>
                         </Card.Title>
 
-                        <Card.Text className='MediaCardText'>
+                        <Card.Text className='MediaCardDateText'>
                             Hyderabad, 06-March-2020
                         </Card.Text>
 
@@ -169,7 +203,7 @@ function Media(){
                             <a className='MediaCardTitlea' href='https://today.uconn.edu/2019/03/new-therapy-targets-painful-side-effect-cancer-treatment/'>NEW THERAPY TARGETS PAINFUL SIDE EFFECT OF CANCER TREATMENT</a>
                         </Card.Title>
 
-                        <Card.Text className='MediaCardText'>
+                        <Card.Text className='MediaCardDateText'>
                         Lexington, Mass. - Mar.6,2020
                         </Card.Text>
 
@@ -191,7 +225,7 @@ function Media(){
                             <a className='MediaCardTitlea' href='https://www.frost.com/about/'>LOGIC BIOSCIENCES ANNOUNCES INTERNATIONAL AWARD FOR LBS-101 PROGRAM</a>
                         </Card.Title>
 
-                        <Card.Text className='MediaCardText'>
+                        <Card.Text className='MediaCardDateText'>
                             July 29, 2018 08:00 AM Eastern Daylight Time
                         </Card.Text>
 
@@ -210,7 +244,7 @@ function Media(){
                             <a className='MediaCardTitlea' href='https://www.businesswire.com/news/home/20180729005024/en/Logic-Biosciences-Announces-International-Award-LBS-101-Program'>FROST & SULLIVAN IS PLEASED TO ANNOUNCE THAT CELLIX BIO HAS BEEN SELECTED AS THE RECIPIENT OF THE 2020 INDIAN DRUG DISCOVERY PLATFORM TECHNOLOGY INNOVATION AWARD</a>
                         </Card.Title>
 
-                        <Card.Text className='MediaCardText'>
+                        <Card.Text className='MediaCardDateText'>
                             JUNE 2020
                         </Card.Text>
 
@@ -229,7 +263,7 @@ function Media(){
                             <a className='MediaCardTitlea' href='https://www.frost.com/about/'>CELLIX BIOSCIENCES ANNOUNCES REGULATORY PATHWAY CONFIRMATION FOR CLX-106 IN THE U.S.</a>
                         </Card.Title>
 
-                        <Card.Text className='MediaCardText'>
+                        <Card.Text className='MediaCardDateText'>
                             July 11, 2018 02:09 PM Eastern Daylight Time
                         </Card.Text>
 
@@ -248,7 +282,7 @@ function Media(){
                             <a className='MediaCardTitlea' href='https://www.globenewswire.com/news-release/2018/02/06/1333834/0/en/V-ClinBio-Acquires-49-98-Stake-in-Cellix-to-Advance-Synergix-a-Transformative-Pro-drug-Technology-Platform.html'>V CLINBIO ACQUIRES 49.98% STAKE IN CELLIX TO ADVANCE SYNERGIX, A TRANSFORMATIVE PRO-DRUG TECHNOLOGY PLATFORM</a>
                         </Card.Title>
 
-                        <Card.Text className='MediaCardText'>
+                        <Card.Text className='MediaCardDateText'>
                             PRINCETON, N.J., Feb. 06, 2018 (GLOBE NEWSWIRE)
                         </Card.Text>
 

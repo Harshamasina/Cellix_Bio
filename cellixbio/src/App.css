@@ -3418,6 +3418,14 @@ img{
   margin-bottom: 1% !important;
 }
 
+.MediaCardImage1{
+  width: 20% !important;
+  height: 20% !important;
+  margin-left: 40% !important;
+  margin-top: 1% !important;
+  margin-bottom: 1% !important;
+}
+
 .MediaCardBody{
   text-align: center !important;
   justify-content: space-evenly !important;
@@ -3447,6 +3455,13 @@ img{
   margin: 1% !important;
 }
 
+.MediaCardDateText{
+  text-align: justify !important;
+  margin: 1% !important;
+  font-style: italic;
+  font-weight: 500;
+}
+
 .MediaCarda{
   color: #034c3c !important;
   font-style: italic;
@@ -3472,6 +3487,10 @@ img{
     text-align: center !important;
   }
   .MediaCardText{
+    font-size: 0.6rem !important;
+    text-align: justify !important;
+  }
+  .MediaCardDateText{
     font-size: 0.6rem !important;
     text-align: justify !important;
   }
