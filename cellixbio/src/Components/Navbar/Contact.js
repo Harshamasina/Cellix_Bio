@@ -25,7 +25,7 @@ function Contact() {
       
       <div className='ContactCont'>
         <div className='DescContainerh3'>
-          <span></span><span className="WWDh3">Send your Queries</span><span></span>
+          <span></span><span className="WWDh3"><h1>Send your Queries</h1></span><span></span>
         </div>
       </div>
       <SendUsEmail></SendUsEmail>
