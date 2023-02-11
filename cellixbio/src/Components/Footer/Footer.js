@@ -34,7 +34,7 @@ const Footer = () => {
                                         <NavLink className={"Navlink"} to="/Home">Home</NavLink>
                                         <NavLink className={"Navlink"} to="/Pipeline">Pipeline</NavLink>
                                         <NavLink className={"Navlink"} to="/Patents">Patents</NavLink>
-                                        <NavLink className={"Navlink"} to="/IP">Intellectual Property</NavLink>
+                                        <NavLink className={"Navlink"} to="/IP">IP</NavLink>
                                 </CDBBox>
                               </CDBBox>
                               <CDBBox>
