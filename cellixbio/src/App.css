@@ -3663,11 +3663,12 @@ img{
 @media screen and (max-width: 600px) {
   .LeaderContainerPage{
     flex-direction: column !important;
+    margin-left: 13% !important;
   }
   .LeaderImgPage{
     height: 200px;
     width: 200px;
-    margin-left: 15% !important;
+    margin-left: 17% !important;
     margin-bottom: 3% !important;
   }
   .LeaderContentPage h1{
