@@ -2,7 +2,8 @@ import './App.css';
 import NavBar from './Components/Navbar/Navbar';
 import { BrowserRouter } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Footer from './Components/Footer/Footer';
+// import Footer from './Components/Footer/Footer';
+import Footer1 from './Components/Footer/Footer1';
 import React from 'react';
 import GoToTopButton from './Components/Body/Patents/Years/GoToTopButton';
 import { Helmet } from 'react-helmet';
@@ -20,7 +21,8 @@ function App() {
             <meta name='keywords' content='Cellix Bio, AvacaPharma, Cellix Bio Pharma, Mahesh Kandula, Mahesh Kandula Patents, Cellix Bio Net Worth, Prism Science' />
           </Helmet>
           <NavBar></NavBar>
-          <Footer></Footer>
+          {/* <Footer></Footer> */}
+          <Footer1></Footer1>
         </BrowserRouter>
         <GoToTopButton></GoToTopButton>
     </div>
