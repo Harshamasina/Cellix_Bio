@@ -16,8 +16,8 @@ const Footer = () => {
                     <Link to='/'><img src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Icon.png" alt="cellix logo" /></Link>
                     <p>Our Subsidiaries: </p>
                     <div className="footer-logos">
-                        <a href='https://www.cellixbiopharma.com/' target="_blank" rel="noreferrer"><img src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/cbp+footer.png" alt="cbp"/></a>
-                        <a href='https://www.avacapharma.com/' target="_blank" rel="noreferrer"><img src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/ap+footer+1.png" alt="ap" style={{width: '37%'}} className="footeraplogo"/></a>
+                        <a href='https://www.cellixbiopharma.com/' target="_blank" rel="noreferrer"><img src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/cbp+-+2.png" alt="cbp" style={{width: '19%'}}/></a>
+                        <a href='https://www.avacapharma.com/' target="_blank" rel="noreferrer"><img src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/ap+footer+1.png" alt="ap" style={{width: '35%'}} /></a>
                     </div>
                 </div>
                 <ul className='footer-right'>
