@@ -5,7 +5,7 @@ function Careers(){
     return(
         <>
             <Helmet>
-                <title>Careers - Cellix Bio</title>
+                <title>Careers | Cellix Bio</title>
                 <meta name="description" content="Openings in Cellix Bio Avaca Pharma Cellix Bio Pharma"/>
                 <meta name="keywords" content="Careers cellix bio, cellix bio job openings, cellix bio careers
                     AvacaPharma job openings, AvacaPharma jobs, AvacaPharma Careers, Join Cellix Bio, Cellix Bio Analytical R&D : Scientist, 
