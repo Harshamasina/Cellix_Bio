@@ -10,7 +10,7 @@ function Pipeline(){
         <>
         <Helmet>
             <title>Pipeline | Cellix Bio</title>
-            <meta name="description" content="Pipeline of Cellix Bio, cellix bio's progress of pre-clinical and clinical trails"/>
+            <meta name="description" content="Pipeline of Cellix Bio, cellix bio's progress of pre-clinical and clinical trails. Our proprietary technology platform currently focusses to improve success rates, minimise drug discovery costs and speed up development timelines by converging Drugs."/>
             <meta name="keywords" content="cellix bio Pipeline, progress of pre-clinical and clinical trails, AvacaPharma pipeline, cellixbio pharma pipeline
                 Cellix Bio Research, Cellix Bio Ongoing Research, Cellix Bio Employees, Pipeline of Cellix Bio, Cellix Bio Target ID's, Cellix Bio Compounds,
                 Cellix Bio Fexotopic, Cellix Bio ONCOLOGY, Cellix Bio OPHTHALMOLOGY, Cellix Bio NEUROLOGY, Cellix Bio INFECTIOUS DISEASES, Cellix Bio PULMONOLOGY,
@@ -54,7 +54,7 @@ function Pipeline(){
                         <tr>
                             <td rowSpan={2} className="PatentTableTA">ONCOLOGY</td>
                             <td className='PPTargetId'>CLX-ONC-5516</td>
-                            <td>Colorectal Cancer</td>
+                            <td className='PPTargetId'>Colorectal Cancer</td>
                             <td>
                                 <div class="progress">
                                     <div class="progress-value1"></div>
@@ -65,7 +65,7 @@ function Pipeline(){
 
                         <tr>
                             <td className='PPTargetId'>CLX-ONC-55A9</td>
-                            <td>Advanced Breast Cancer</td>
+                            <td className='PPTargetId'>Advanced Breast Cancer</td>
                             <td>
                                 <div class="progress">
                                     <div class="progress-value2"></div>
@@ -77,7 +77,7 @@ function Pipeline(){
                         <tr>
                             <td rowSpan={4} className="PatentTableTA">OPHTHALMOLOGY</td>
                             <td className='PPTargetId'>CLX-OPH-56</td>
-                            <td>Glaucoma</td>
+                            <td className='PPTargetId'>Glaucoma</td>
                             <td>
                                 <div class="progress">
                                     <div class="progress-value3"></div>
@@ -88,7 +88,7 @@ function Pipeline(){
 
                         <tr>
                             <td className='PPTargetId'>CLX-OPH-162</td>
-                            <td>Presbyopia</td>
+                            <td className='PPTargetId'>Presbyopia</td>
                             <td>
                                 <div class="progress">
                                     <div class="progress-value4"></div>
@@ -99,7 +99,7 @@ function Pipeline(){
 
                         <tr>
                             <td className='PPTargetId'>CLX-OPH-62D</td>
-                            <td>Myopia</td>
+                            <td className='PPTargetId'>Myopia</td>
                             <td>
                                 <div class="progress">
                                     <div class="progress-value5"></div>
@@ -110,7 +110,7 @@ function Pipeline(){
 
                         <tr>
                             <td className='PPTargetId'>CLX-OPH-62</td>
-                            <td>Glaucoma</td>
+                            <td className='PPTargetId'>Glaucoma</td>
                             <td>
                                 <div class="progress">
                                     <div class="progress-value6"></div>
@@ -122,7 +122,7 @@ function Pipeline(){
                         <tr>
                             <td className="PatentTableTA">NEUROLOGY</td>
                             <td className='PPTargetId'>CLX-NEU-06</td>
-                            <td>Multiple Sclerosis</td>
+                            <td className='PPTargetId'>Multiple Sclerosis</td>
                             <td>
                                 <div class="progress">
                                     <div class="progress-value7"></div>
@@ -134,7 +134,7 @@ function Pipeline(){
                         <tr>
                             <td className="PatentTableTA">INFECTIOUS DISEASES</td>
                             <td className='PPTargetId'>CLX-IFN-59</td>
-                            <td>Systemic Fungal Infections</td>
+                            <td className='PPTargetId'>Systemic Fungal Infections</td>
                             <td>
                                 <div class="progress">
                                     <div class="progress-value8"></div>
@@ -146,7 +146,7 @@ function Pipeline(){
                         <tr>
                             <td rowSpan={2} className="PatentTableTA">PULMONOLOGY</td>
                             <td className='PPTargetId'>CLX-PUL-597E</td>
-                            <td>Allergic Bronchopulmonary Aspergillosis</td>
+                            <td className='PPTargetId'>Allergic Bronchopulmonary Aspergillosis</td>
                             <td>
                                 <div class="progress">
                                     <div class="progress-value9"></div>
@@ -157,7 +157,7 @@ function Pipeline(){
 
                         <tr>
                             <td className='PPTargetId'>CLX-PUL-5910E</td>
-                            <td>Invasive Pulmonary Aspergillosis</td>
+                            <td className='PPTargetId'>Invasive Pulmonary Aspergillosis</td>
                             <td>
                                 <div class="progress">
                                     <div class="progress-value10"></div>
@@ -169,7 +169,7 @@ function Pipeline(){
                         <tr>
                             <td className="PatentTableTA">DERMATOLOGY</td>
                             <td className='PPTargetId'>ATOFEX</td>
-                            <td>Atopic Dermatitis</td>
+                            <td className='PPTargetId'>Atopic Dermatitis</td>
                             <td>
                                 <div class="progress">
                                     <div class="progress-value11"></div>

@@ -14,7 +14,7 @@ body{
 
 ::selection {
   color: #f2f2f2;
-  background: #0E6E59;
+  background: rgba(14, 110, 89, .85);
 }
 
 ::-webkit-scrollbar {
@@ -1287,9 +1287,10 @@ p.CardTextInfo{
   text-align: left !important;
   text-decoration-color: #282c34;
   cursor: pointer;
-  font-size: 1.1vw;
+  font-size: 1.3vw;
   display: inline !important;
   color: #282c34;
+  transition: .5s ease-in-out;
 }
 .skwno{
   width: 10vw !important;
@@ -1302,8 +1303,8 @@ p.CardTextInfo{
 
 .Wno:hover{
   color: #15B39D;
-  font-size: 1.1vw;
-  text-decoration: underline 2px solid !important;
+  font-size: 1.31vw;
+  letter-spacing: 0.5px;
 }
 @media screen and (max-width:600px) {
   .Wno{
@@ -2536,7 +2537,7 @@ tbody,thead{
 }
 
 .PPTargetId{
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .PPDiseaseFocus{

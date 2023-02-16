@@ -2,6 +2,7 @@
   "homepage": "https://cellixbio.info/",
   "name": "cellixbio",
   "version": "0.1.0",
+  "author": "Mani Harsha",
   "private": true,
   "proxy": "https://backend.cellixbio.info/",
   "dependencies": {

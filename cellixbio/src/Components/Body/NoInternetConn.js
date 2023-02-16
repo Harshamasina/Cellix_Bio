@@ -13,14 +13,14 @@ function NoInternetConnection(props){
     });
     if(isOnline){
         return(props.children)
-        } else {
-            return(
-                <div className='NoInternetContainer'>
-                    <h1 className='NoInternetIcon'>⚠</h1>
-                    <h2 className='NoInternet'>Database got Disconnected</h2>
-                    <h2 className='NoInternet'>Please Check your Internet Connection</h2>
-                </div>
-            )
-        }
+    } else {
+        return(
+            <div className='NoInternetContainer'>
+                <h1 className='NoInternetIcon'>⚠</h1>
+                <h2 className='NoInternet'>Database got Disconnected</h2>
+                <h2 className='NoInternet'>Please Check your Internet Connection</h2>
+            </div>
+        )
+    }
 }
 export default NoInternetConnection;

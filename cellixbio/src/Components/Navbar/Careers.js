@@ -6,7 +6,7 @@ function Careers(){
         <>
             <Helmet>
                 <title>Careers | Cellix Bio</title>
-                <meta name="description" content="Openings in Cellix Bio Avaca Pharma Cellix Bio Pharma"/>
+                <meta name="description" content="Openings in Cellix Bio Avaca Pharma Cellix Bio Pharma. Cellix Bio employees and teams apply sound science to develop and deliver medicines that focus on unmet medical needs around the world."/>
                 <meta name="keywords" content="Careers cellix bio, cellix bio job openings, cellix bio careers
                     AvacaPharma job openings, AvacaPharma jobs, AvacaPharma Careers, Join Cellix Bio, Cellix Bio Analytical R&D : Scientist, 
                     Cellix Bio Formulation R&D Scientist : Pharma, Cellix Bio SCIENTIST - Medicinal Chemistry, Cellix Bio SENIOR RESEARCH ASSOCIATE - Medicinal Chemistry, 

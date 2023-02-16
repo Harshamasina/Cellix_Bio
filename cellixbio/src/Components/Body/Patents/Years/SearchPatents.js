@@ -6,6 +6,7 @@ import Highlighter from "react-highlight-words";
 function SearchPatents(){
     const [searchPatent, setSearchPatent] = useState();
     const [searchKey, setSearchKey] = useState();
+
     const searchHandle = async (e) => {
         let key = e.target.value;
         setSearchKey(key);
@@ -19,6 +20,7 @@ function SearchPatents(){
             console.log("No Patent Found");
         }
     }
+
     const highlightStyle = {
         backgroundColor: 'rgba(14, 110, 89, 0.15)',
         fontWeight: '600',
