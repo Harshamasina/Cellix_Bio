@@ -17,6 +17,7 @@ function PatentInfo(){
     const [diseases, setDiseases] = useState("Diseases are loading");
     const [claims, setClaims] = useState("Claims are Loading");
     const [pubDate, setPubDate] = useState("Publication Date is Loading");
+    const [PCT, setPCT] = useState("PCT is Loading");
 
     useEffect(() => {
         const fetchData = async () => {
@@ -29,6 +30,7 @@ function PatentInfo(){
             setDiseases(data.data[0].diseases);
             setClaims(data.data[0].claims);
             setPubDate(data.data[0].publication_date);
+            setPCT(data.data[0].pct);
         };
         fetchData();
     });
@@ -37,10 +39,11 @@ function PatentInfo(){
         <>
             <Helmet>
                 <title>{wno} | Cellix Bio</title>
-                <meta name='description' content={wno}/>
+                <meta name='description' content={wno} />
                 <meta name='description' content={therapeuticArea} />
                 <meta name='description' content={diseases} />
-                <meta name='keywords' content={wno}/>
+                <meta name='keywords' content={wno} />
+                <meta name='keywords' content={PCT} />
                 <meta name='keywords' content="Therapeutic Area, Formulas, Claims, Compounds and Methods of patents filed by cellix bio,
                     cellix bio patent, patentscope, cellix bio patents"
                 />
@@ -57,7 +60,8 @@ function PatentInfo(){
             </div>
             <div>
                 <h2 className='heading-primary'><p className='PatentInfoh2'>{wno}</p></h2>
-                <p className='PatentInfoh3'>Publication Date: {pubDate}</p>
+                <p className='PatentInfoh3'>Publication Date: <span>{pubDate}</span></p>
+                <p className='PatentInfoh3'>PCT / Application Number: <span>{PCT}</span></p>
             <Tabs
                 defaultActiveKey="Therapeutic Area"
                 id="uncontrolled-tab-example"

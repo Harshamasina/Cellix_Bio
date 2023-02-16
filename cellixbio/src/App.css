@@ -1146,8 +1146,9 @@ font-size: 3vh;
 
 .SearchBarPatents::placeholder {
   color: #4e545f;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   font-size: 1vw !important;
+  font-weight: 600;
 }
 
 @media screen and (max-width: 600px){
@@ -1665,7 +1666,7 @@ text-decoration: underline;
 /* Used for Patent Info */
 
 .heading-primary {
-  color:#0E6E59;
+  color: #0E6E59;
   text-transform: uppercase;
 }
 
@@ -1675,13 +1676,12 @@ text-decoration: underline;
   color: #0E6E59;
   display: block;
   font-size: 2vw;
-  text-decoration: underline;
   cursor: pointer;
-    letter-spacing: 2px;
-   /*  Animation decalaration   */
-    animation-name: moveInleft;
-    animation-duration: 3s;
-    margin-top: 2%;
+  letter-spacing: 1px;
+  /*  Animation decalaration   */
+  animation-name: moveInleft;
+  animation-duration: 3s;
+  margin-top: 2%;
 }
 
 @keyframes moveInleft {
@@ -1735,8 +1735,13 @@ text-decoration: underline;
   text-align: center;
   align-items: center;
   color: #282c34;
-  font-weight: bold;
-  font-size: medium;
+  font-weight: 700;
+  font-size: 1.2vw;
+}
+
+.PatentInfoh3 span{
+  font-size: 1.1vw;
+  font-weight: 600;
 }
 
 .PatentInfoh3link{
@@ -1767,6 +1772,7 @@ text-decoration: underline;
   border-radius: 10px;
   position: sticky;
   top: 75px;
+  font-size: 1.05vw;
   background: white;
 }
 .nav-link{
@@ -1775,16 +1781,35 @@ text-decoration: underline;
   font-weight: 500 !important;
 }
 @media screen and (max-width: 600px) {
+  .PatentInfoh3{
+    font-size: 1.5vh !important;
+  }
+  .PatentInfoh3 span{
+    font-size: 1.5vh !important;
+  }
   .Tabs {
     position: initial;
-    width: 47vh;
+    width: 42vh;
     margin-left: 3%;
+    font-size: 1.8vh !important;
   }
   .testing{
     color: #15B39D !important;
     /* background-color: red !important; */
   }
 }
+
+@media screen and (max-width:768px) and (min-width:601px) {
+  .Tabs{
+    position: initial;
+    width: 65vh !important;
+  }
+  .PatentInfoh3 span{
+    font-size: 1.8vh !important;
+  }
+}
+
+
 /* ....................... */
 /* Used for Therapuetic Area */
 .TAContainer{
@@ -1796,12 +1821,12 @@ text-decoration: underline;
   font-weight: bold;
   color: #282c34;
   display: block;
-  font-size: 1vw;
+  font-size: 1.2vw;
   text-transform: uppercase;
 }
 @media screen and (max-width: 600px){
   .PITBh4{
-font-size: 2vh;
+    font-size: 2vh;
    }  
 }
 
@@ -1812,17 +1837,25 @@ font-size: 2vh;
   align-items: center;
   margin-left: 22%;
 }
-@media screen and (max-width: 600px){
-  .PITBpContainer{
-    width:40vh;
-    margin-left: 8%; 
- }  
-}
 
 .PITBp{
   text-align: justify;
   text-transform: capitalize;
   margin-top: 1%;
+  font-size: 1.1vw;
+}
+
+@media screen and (max-width: 600px){
+  .PITBpContainer{
+    width:40vh;
+    margin-left: 8%; 
+ }
+ .PITBh4{
+  font-size: 1.5vh;
+ }
+ .PITBp{
+  font-size: 1.4vh;
+ }
 }
 /* ...................... */
 /* Used For Formulas */
@@ -1875,7 +1908,7 @@ font-size: 2vh;
   display: flex;
   flex-direction: column;
   border-color: #4e545f;
-  margin-top: 1% !important;
+  margin-top: 1%;
   box-shadow: 0 0.5rem 3rem 0.5rem rgba(0,0,0,.175);
   width: 50%;
   margin-left: 25%;
@@ -1883,9 +1916,10 @@ font-size: 2vh;
 }
 
 .ClaimstextCon{
-  font-size: 0.8vw;
+  font-size: 1.05vw;
   text-align: left;
   margin-left: 2%;
+  margin-top: 2%;
 }
 
 .ClaimsImgCon{

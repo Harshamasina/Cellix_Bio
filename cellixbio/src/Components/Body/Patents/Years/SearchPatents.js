@@ -1,14 +1,16 @@
 import { useState } from "react";
 import Card from 'react-bootstrap/Card';
 import { Link } from "react-router-dom";
-// import { TfiSearch } from "react-icons/tfi";
+import Highlighter from "react-highlight-words";
 
 function SearchPatents(){
     const [searchPatent, setSearchPatent] = useState();
+    const [searchKey, setSearchKey] = useState();
     const searchHandle = async (e) => {
         let key = e.target.value;
+        setSearchKey(key);
         if(key){
-            let result = await fetch(`https://backend.cellixbio.info/patents/${key}`);
+            let result = await fetch(`https://backend.cellixbio.info/patents/${key.replaceAll("/", "%2F")}`);
             result = await result.json()
             if(result){
                 setSearchPatent(result);
@@ -17,7 +19,12 @@ function SearchPatents(){
             console.log("No Patent Found");
         }
     }
-    // console.log(searchPatent);
+    const highlightStyle = {
+        backgroundColor: 'rgba(14, 110, 89, 0.8)',
+        fontWeight: '600',
+        borderRadius: '5px',
+        color: 'white'
+    };
 
     return(
         <div>
@@ -26,8 +33,7 @@ function SearchPatents(){
             </div>
             <div>
                 <div className="SearchPatentContainer">
-                   <input onChange={searchHandle} className="SearchBarPatents" type="search" placeholder="ENTER PATENT APPLICATION NUMBER OR THERAPEUTIC AREA"></input>
-                   {/* <button className="SearchBarButton"><TfiSearch /></button> */}
+                   <input onChange={searchHandle} className="SearchBarPatents" type="search" spellCheck="off" placeholder="ENTER PATENT APPLICATION NUMBER / PCT NUMBER / THERAPEUTIC AREA / DISEASES"></input>
                 </div>
                 {/* <div className="PatentsFoundContainer">
                     <p className="searchPatentsp">Search Results : <span className="searchPatentspan">{searchPatent && searchPatent.length}</span></p> 
@@ -42,13 +48,22 @@ function SearchPatents(){
                                         className = "shadow-lg PatentsCard">
                                         <Card.Body>
                                             <Card.Title>
-                                                <Link className='Wno' to = {"/patentInfo/"+patent.wno} target={"_blank"}>{patent.wno}</Link>
+                                                <Link className='Wno' to = {"/patentInfo/"+patent.wno} target={"_blank"}>
+                                                    <Highlighter searchWords={searchKey.split('/')} autoEscape={true} textToHighlight={patent.wno} highlightStyle={highlightStyle} />
+                                                </Link>
                                             </Card.Title>
                                             <div className='cardTextContainer'>
                                                 <div className='cardTextInfoContainer'>
                                                     <Card.Text className='CardTextInfo'>
-                                                        <p>{patent.diseases}</p>
-                                                        <p className='CardTextSpanTA'><span className='CardTextSpan'>Therapeutic Area: </span>{patent.therapeutic_area}</p>
+                                                        <p>
+                                                            <Highlighter searchWords={searchKey.split('/')} autoEscape={true} textToHighlight={patent.diseases} highlightStyle={highlightStyle} />
+                                                        </p>
+                                                        <p className='CardTextSpanTA'><span className='CardTextSpan'>Therapeutic Area: </span>
+                                                            <Highlighter searchWords={searchKey.split('/')} autoEscape={true} textToHighlight={patent.therapeutic_area} highlightStyle={highlightStyle}/>
+                                                        </p>
+                                                        <p className='CardTextSpanTA'><span className='CardTextSpan'>PCT / Application Number: </span>
+                                                            <Highlighter searchWords={searchKey.split('/')} autoEscape={true} textToHighlight={patent.pct} highlightStyle={highlightStyle}/>
+                                                        </p>
                                                     </Card.Text>
                                                 </div>
                                                 <div className='cardTextDateContainer'>

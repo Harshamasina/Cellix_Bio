@@ -69,6 +69,10 @@
     /* padding-top: 20px; */
 }
 
+.footer-bottom p{
+    font-size: 1.05vw;
+}
+
 .socials a {
     margin-right: 10px;
     color: #e7f2f4 ;
@@ -107,7 +111,13 @@
         margin-left: 10% !important;
         /* text-align: center; */
     }
-    .footeraplogo{
-        width: 75% !important;
+    .footer-cbp{
+        width: 35% !important;
+    }
+    .footer-ap{
+        width: 60% !important;
+    }
+    .footer-bottom p{
+        font-size: 1.4vh;
     }
 }
