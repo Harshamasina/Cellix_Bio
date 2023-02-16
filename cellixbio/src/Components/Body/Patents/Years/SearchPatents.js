@@ -20,10 +20,9 @@ function SearchPatents(){
         }
     }
     const highlightStyle = {
-        backgroundColor: 'rgba(14, 110, 89, 0.8)',
+        backgroundColor: 'rgba(14, 110, 89, 0.15)',
         fontWeight: '600',
         borderRadius: '5px',
-        color: 'white'
     };
 
     return(
