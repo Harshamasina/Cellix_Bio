@@ -3437,10 +3437,11 @@ img{
 @media screen and (max-width: 600px) {
   .Wno {
   margin-right: 55% !important;
+  font-size: 1.2rem !important;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width:768px) and (min-width:601px) {
   .Wno {
   font-size: 1rem;
   }
