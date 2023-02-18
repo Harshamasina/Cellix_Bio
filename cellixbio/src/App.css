@@ -1100,7 +1100,7 @@ font-size: 3vh;
 
 @media screen and (max-width: 600px) {
   input.SearchBarPatents {
-    width: 46.5vh !important;
+    width: 40vh !important;
     height: 5vh !important;
     font-size: 1.5vh;
   }
@@ -2571,6 +2571,12 @@ tbody,thead{
 
 .contactCard{
   height: 490px !important;
+}
+
+@media screen and (max-width: 600px) {
+  .CUCard{
+    width: 40% !important;
+  }
 }
 
 @media screen and (min-width: 2500px) {
