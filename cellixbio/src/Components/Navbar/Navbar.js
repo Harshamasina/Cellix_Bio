@@ -39,9 +39,7 @@ function NavBar() {
                 
                     <Navbar collapseOnSelect  variant={"dark"} expand="lg" className={changeNavbar ? 'color-nav-scroll' : 'color-nav'}>
                         <Logo></Logo>
-                        <Navbar.Brand href="#">
-                           
-                        </Navbar.Brand>
+                        <Navbar.Brand></Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" className='toggle'/>
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav

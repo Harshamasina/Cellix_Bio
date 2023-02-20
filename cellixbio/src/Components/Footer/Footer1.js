@@ -42,11 +42,11 @@ const Footer = () => {
                 </ul>
                 <div className='footer-bottom'>
                     <div className="socials">
-                        <a href="https://www.cellixbio.com/" target="_blank" rel="noreferrer"><BsGoogle /></a>
-                        <a href="https://www.linkedin.com/in/cellix-bio-36813111a/" target="_blank" rel="noreferrer"><BsLinkedin /></a>
-                        <a href="https://www.facebook.com/profile.php?id=100089107628765&mibextid=ZbWKwL" target="_blank" rel="noreferrer"><BsFacebook /></a>
-                        <a href="https://www.instagram.com/cellix_bio/" target="_blank" rel="noreferrer"><BsInstagram /></a>
-                        <a href="https://twitter.com/CelixBio" target="_blank" rel="noreferrer"><BsTwitter /></a>
+                        <a href="https://www.cellixbio.com/" target="_blank" rel="noreferrer" aria-label="Navigate to Cellix Bio Webpage"><BsGoogle /></a>
+                        <a href="https://www.linkedin.com/in/cellix-bio-36813111a/" target="_blank" rel="noreferrer" aria-label="Navigate to Cellix Bio Linkedin Webpage"><BsLinkedin /></a>
+                        <a href="https://www.facebook.com/profile.php?id=100089107628765&mibextid=ZbWKwL" target="_blank" rel="noreferrer" aria-label="Navigate to Cellix Bio Facebook Page"><BsFacebook /></a>
+                        <a href="https://www.instagram.com/cellix_bio/" target="_blank" rel="noreferrer" aria-label="Navigate to Cellix Bio Instagram Page"><BsInstagram /></a>
+                        <a href="https://twitter.com/CelixBio" target="_blank" rel="noreferrer" aria-label="Navigate to Cellix Bio Twitter Page"><BsTwitter /></a>
                     </div>
                     <p>&copy; Cellix Bio, 2014 - {new Date().getFullYear()}. All rights reserved.</p>
                 </div>

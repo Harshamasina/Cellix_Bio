@@ -12,7 +12,7 @@ function WWD(){
                  <div className='DescContainerh3'><span></span>
                 <span className="WWDh3"><h1>WHAT WE DO</h1></span><span></span>
             </div>
-                     <h4 className="WWDh4">REVEALING THE POWER OF AUGMENTED INTELLIGENCE AND HUMANOID INVENTIVENESS</h4>
+                     <h2 className="WWDh4">REVEALING THE POWER OF AUGMENTED INTELLIGENCE AND HUMANOID INVENTIVENESS</h2>
                  </div>
                  
                  <div className="WWDPContainer">
