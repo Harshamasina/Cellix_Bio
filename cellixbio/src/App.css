@@ -4078,3 +4078,27 @@ img{
     margin-left: 32% !important;
   }
 }
+
+.error-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.error-icon{
+  font-size: 15vw;
+  margin-top: 10%;
+  color: #034c3c;
+  margin-left: 40%;
+}
+
+.error-container p{
+  text-align: center;
+  font-size: 4vw;
+  color: #034c3c;
+}
+
+@media screen and (max-width: 600px){
+  .error-container{
+    margin-top: 10% !important;
+  }
+}

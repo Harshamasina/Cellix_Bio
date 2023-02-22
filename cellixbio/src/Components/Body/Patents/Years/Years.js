@@ -58,7 +58,7 @@ function Years(){
     return(
         <>
             <div className="YearsContainerh2">
-                <h2 className="Yearsh2">Cellix Bio's Patents Yearwise (2022 to 2014)</h2>
+                <h2 className="Yearsh2">Cellix Bio's Patents Yearwise ({new Date().getFullYear()} to 2014)</h2>
             </div>
             
             <NoInternetConnection>

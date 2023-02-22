@@ -8,27 +8,34 @@ import {useParams} from 'react-router-dom';
 import PatentCardSkeleton from './PatentCardSkeleton';
 import NoInternetConnection from '../../NoInternetConn';
 import { Helmet } from 'react-helmet';
+import { MdSignalWifiConnectedNoInternet0 } from "react-icons/md";
 
 
 function PatentsDashboard(){
-    const [patents, setPatents] = useState("");
+    const [patents, setPatents] = useState([]);
     const {years} = useParams();
     const [loading, setLoading] = useState(true);
+    const [error, setError] = useState(null);
 
     useEffect(() => {
         const fetchData = async () => {
             setLoading(true);
             try {
                 const data = await axios.get(`https://backend.cellixbio.info/patents/years/${years}`);
-                setPatents(data);
-            } catch (err) {}
+                setPatents(data.data);
+            } catch (err) {
+                console.error(err);
+                setError(err);
+            }
             setLoading(false);
         };
         fetchData();
-    }, []);
-    // console.log(patents.data);
-    // console.log(patents.data.length);
-
+    }, [years]);
+    console.log(patents);
+    console.log(patents.length);
+    if(error){
+        return <div className='error-container'><MdSignalWifiConnectedNoInternet0 className='error-icon' /><p>{error.message}</p></div>;
+    }
     return(
         <div>
             <Helmet>
@@ -40,23 +47,16 @@ function PatentsDashboard(){
                 />
             </Helmet>
             <div className='patentlandingpage'>
-              <img  className='patents_video_bg' src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/gruene-chemie.PNG" alt='image'/>
+              <img  className='patents_video_bg' src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/gruene-chemie.PNG" alt='benzene rings'/>
               <div className='pipeline-text'>
                             <div className='patents_text_1'>
                                 <h1 className='pipelineCarouselh1'>Patents filed by Cellix Bio in {years}</h1>
                             </div>
                             </div>
               </div>
-            {/* <div className="PDcontainer">
-                <div className="PDcontainerh2">
-                    <div className='DescContainerh3'><span></span>
-                <span className="PDhead">Patents filed by Cellix Bio in {years}</span><span></span>
-                </div>
-                </div>
-            </div> */}
             <NoInternetConnection>
                 {loading ? (<PatentCardSkeleton></PatentCardSkeleton>) : (
-                    patents.data.map((patent) => (
+                    patents.map((patent) => (
                         <div className='CardContainer' key={patent._id}>
                                 <Card
                                     style={{ width: '90rem' }} 
