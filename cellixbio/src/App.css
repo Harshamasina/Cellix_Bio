@@ -4108,7 +4108,7 @@ img{
   text-align: center;
   box-shadow: none !important;
   border: none !important;
-  margin-left: 40% !important;
+  margin-left: 38.5% !important;
   width: 18rem !important;
 }
 
@@ -4180,7 +4180,7 @@ img{
   }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1900px) {
   .inventor-card{
     margin-top: 1%;
     text-align: center;
