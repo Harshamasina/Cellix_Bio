@@ -4102,3 +4102,91 @@ img{
     margin-top: 10% !important;
   }
 }
+
+.inventor-card{
+  margin-top: 1%;
+  text-align: center;
+  box-shadow: none !important;
+  border: none !important;
+  margin-left: 40% !important;
+  width: 18rem !important;
+}
+
+.Inventor-image{
+  border-radius: 10px !important;
+  transition: .2s;
+}
+
+.Inventor-image:hover{
+  opacity: .85;
+}
+
+.inventor-body h2{
+  color: #0E6E59;
+  font-size: 3vh;
+  text-align: center;
+  margin-top: 1%;
+  transition: .5s !important;
+}
+
+.inventor-body h2:hover{
+  color: #034c3c;
+  text-decoration: underline 2px solid #034c3c;
+}
+
+.inventor-body h3{
+  color: #15B39D;
+  font-size: 2.5vh;
+  text-align: center;
+}
+
+.InventorContainer h2{
+  color: #0E6E59;
+  font-size: 3vh;
+  text-align: center;
+  margin-top: 1%;
+}
+
+@media screen and (max-width: 600px){
+  .inventor-card{
+    width: 14rem !important;
+    margin-top: 5% !important;
+    margin-left: 20% !important;
+    font-size: 2vh !important;
+  }
+  .inventor-body h2{
+    font-size: 2.6vh !important;
+  }
+  .inventor-body h3{
+    font-size: 2vh !important;
+  }
+}
+
+@media screen and (max-width:768px) and (min-width:601px){
+  .inventor-card{
+    width: 14rem !important;
+    margin-top: 5% !important;
+    margin-left: 35% !important;
+    font-size: 2vh !important;
+  }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
+  .inventor-card{
+    width: 14rem !important;
+    margin-top: 5% !important;
+    margin-left: 40% !important;
+    font-size: 2vh !important;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .inventor-card{
+    margin-top: 1%;
+    text-align: center;
+    box-shadow: none !important;
+    border: none !important;
+    margin-left: 40% !important;
+    width: 25rem !important;
+  }
+}

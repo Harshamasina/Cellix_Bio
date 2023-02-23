@@ -3,6 +3,8 @@ import InventorIP from "./Inventor/InventorIP";
 import NoInternetConn from '../Body/NoInternetConn';
 import { Helmet } from 'react-helmet';
 import { Link } from "react-router-dom";
+import Card from 'react-bootstrap/Card';
+
 
 function Inventor() {
   return (
@@ -27,11 +29,18 @@ function Inventor() {
             </div>
           </div>
       </div>
-      <div className="InventorContainer">
-          <Link to='/mahesh_k'><img src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Cellix+Mahesh+Kandula+-+1.jpg" alt="Leaders"></img></Link>
+      {/* <div className="InventorContainer">
+        <Link to='/mahesh_k'><img src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Cellix+Mahesh+Kandula+-+1.jpg" alt="Leaders"></img></Link>
+        <Link to='/mahesh_k'><h2>Mahesh Kandula</h2></Link>
+        <h3>INVENTOR</h3>
+      </div> */}
+      <Card className="inventor-card">
+        <Link to='/mahesh_k'><Card.Img src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Cellix+Mahesh+Kandula+-+1.jpg" alt="Leaders" className="Inventor-image"/></Link>
+        <Card.Body className="inventor-body">
           <Link to='/mahesh_k'><h2>Mahesh Kandula</h2></Link>
           <h3>INVENTOR</h3>
-      </div>
+        </Card.Body>
+      </Card>
       <NoInternetConn>
         <InventorYears></InventorYears>
         <InventorIP></InventorIP>
