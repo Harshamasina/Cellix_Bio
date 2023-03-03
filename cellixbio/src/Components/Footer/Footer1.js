@@ -36,7 +36,7 @@ const Footer = () => {
                             <li><NavLink to='/Leadership'>Leadership</NavLink></li>
                             <li><NavLink to='/Media'>Media</NavLink></li>
                             <li><NavLink to='/Careers'>Careers</NavLink></li>
-                            <li><NavLink to='/Contact'>Conatct</NavLink></li>
+                            <li><NavLink to='/Contact'>Contact</NavLink></li>
                         </ul>
                     </li>
                 </ul>
