@@ -31,11 +31,11 @@ function PatentsDashboard(){
         };
         fetchData();
     }, [years]);
-    console.log(patents);
-    console.log(patents.length);
+
     if(error){
         return <div className='error-container'><MdSignalWifiConnectedNoInternet0 className='error-icon' /><p>{error.message}</p></div>;
     }
+    
     return(
         <div>
             <Helmet>
@@ -46,6 +46,7 @@ function PatentsDashboard(){
                     Cellix Bio Patents DashBoard from 2023 to 2014' 
                 />
             </Helmet>
+
             <div className='patentlandingpage'>
                 <img  className='patents_video_bg' src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/gruene-chemie.PNG" alt='benzene rings'/>
                 <div className='pipeline-text'>
@@ -54,11 +55,13 @@ function PatentsDashboard(){
                     </div>
                 </div>
             </div>
+
             <Breadcrumbs separator="\" className='bread-crumb'>
                 <Link to="/home" className='BC-Links'>Home</Link>
                 <Link to="/Patents" className='BC-Links'>Patents</Link>
                 <Link to={"/PatentsDashboard/"+years} className='BC-Links'>{years}</Link>
             </Breadcrumbs>
+
             <NoInternetConnection>
                 {loading ? (<PatentCardSkeleton></PatentCardSkeleton>) : (
                     patents.map((patent) => (

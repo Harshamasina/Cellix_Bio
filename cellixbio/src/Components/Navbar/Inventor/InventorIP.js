@@ -17,7 +17,7 @@ function InventorIP(){
         };
         fetchData();
     },[]);
-    // console.log(usPatents);
+
     return(
         <>
                 <Helmet>

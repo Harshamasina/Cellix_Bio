@@ -5,7 +5,6 @@ function Teamwork(){
 
     return(
         <>
-            {/* <h3 className="TeamWorkh3">TEAM WORK</h3> */}
             <div className="TeamWorkContainer">
                 <div className="TeamWorkImgdiv">
                   <img className="TeamWorkImg"

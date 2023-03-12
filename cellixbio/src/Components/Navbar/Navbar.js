@@ -36,7 +36,6 @@ function NavBar() {
         return (
             <>
                 <div>
-                
                     <Navbar collapseOnSelect  variant={"dark"} expand="lg" className={changeNavbar ? 'color-nav-scroll' : 'color-nav'}>
                         <Logo></Logo>
                         <Navbar.Brand></Navbar.Brand>

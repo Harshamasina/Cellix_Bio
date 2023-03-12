@@ -32,11 +32,10 @@ const PostData = async (e) => {
     const data = await res.json();
     if(res.status === 422 || !data ){
         window.alert("Invalid Form");
-        console.log("Invalid Form");
     } else {
       window.alert("Submitted Successfully");
-      console.log("Submitted Successfully");
-  }
+      window.location.reload();
+    }
 }
     return(
         <>

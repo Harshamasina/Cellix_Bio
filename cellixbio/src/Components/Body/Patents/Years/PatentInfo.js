@@ -59,37 +59,39 @@ function PatentInfo(){
                     </div>
                 </div>
             </div>
+
             <Breadcrumbs separator="\" className='bread-crumb'>
                 <Link to="/home" className='BC-Links'>Home</Link>
                 <Link to="/Patents" className='BC-Links'>Patents</Link>
                 <Link to={"/PatentsDashboard/"+patent.year} className='BC-Links'>{patent.year}</Link>
                 <Link to={"/patentinfo/"+wno} className='BC-Links'>{wno}</Link>
             </Breadcrumbs>
+
             <div>
                 <h2 className='heading-primary'><p className='PatentInfoh2'>{wno}</p></h2>
                 <p className='PatentInfoh3'>Publication Date: <span>{pubDate}</span></p>
                 <p className='PatentInfoh3'>PCT / Application Number: <span>{PCT}</span></p>
-            <Tabs
-                defaultActiveKey="Therapeutic Area"
-                id="uncontrolled-tab-example"
-                className="mb-3 shadow-lg Tabs"
-                fill
-                >
-                <Tab eventKey="Therapeutic Area" title="Therapeutic Area">
-                    <TherapeuticArea  therapeuticArea = {therapeuticArea} diseases = {diseases}></TherapeuticArea>
-                </Tab>
-                <Tab eventKey="Formulas" title="Formulas">
-                    <Formulas formula = {patentFormulas}></Formulas>
-                </Tab>
-                <Tab eventKey="Claims" title="Claims">
-                    <Claims claim = {claims}></Claims>
-                </Tab>
-                <Tab eventKey="Compounds" title="Compounds and Methods">
-                    <Compounds compound = {patentCompounds}></Compounds>
-                </Tab>
-            </Tabs>
-            <p className='PatentInfoh3link'>For more Information : <a className='PatentInfoa' href='https://patentscope.wipo.int/search/en/search.jsf' target="_blank" rel="noreferrer">WIPO Patent Scope</a></p>
-        </div>
+                <Tabs
+                    defaultActiveKey="Therapeutic Area"
+                    id="uncontrolled-tab-example"
+                    className="mb-3 shadow-lg Tabs"
+                    fill
+                    >
+                    <Tab eventKey="Therapeutic Area" title="Therapeutic Area">
+                        <TherapeuticArea  therapeuticArea = {therapeuticArea} diseases = {diseases}></TherapeuticArea>
+                    </Tab>
+                    <Tab eventKey="Formulas" title="Formulas">
+                        <Formulas formula = {patentFormulas}></Formulas>
+                    </Tab>
+                    <Tab eventKey="Claims" title="Claims">
+                        <Claims claim = {claims}></Claims>
+                    </Tab>
+                    <Tab eventKey="Compounds" title="Compounds and Methods">
+                        <Compounds compound = {patentCompounds}></Compounds>
+                    </Tab>
+                </Tabs>
+                <p className='PatentInfoh3link'>For more Information : <a className='PatentInfoa' href='https://patentscope.wipo.int/search/en/search.jsf' target="_blank" rel="noreferrer">WIPO Patent Scope</a></p>
+            </div>
         </>
     );
 }

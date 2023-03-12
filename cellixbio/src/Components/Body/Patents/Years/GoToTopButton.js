@@ -22,10 +22,11 @@ function GoToTopButton(){
         window.addEventListener('scroll', listenToScroll);
         return () => window.removeEventListener("scroll", listenToScroll);
     },[])
+
     return(
-            <div className="top-btn" onClick={goToBtn}>
-                {isVisible && (<FaArrowUp className="top-btn--icon"></FaArrowUp>)}
-            </div>
+        <div className="top-btn" onClick={goToBtn}>
+            {isVisible && (<FaArrowUp className="top-btn--icon"></FaArrowUp>)}
+        </div>
     );
 };
 export default GoToTopButton;

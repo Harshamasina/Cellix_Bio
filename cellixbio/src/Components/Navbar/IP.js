@@ -5,7 +5,6 @@ import { useState, useEffect } from 'react';
 import NoInternetConnection from '../Body/NoInternetConn';
 import { Helmet } from 'react-helmet';
 
-
 function IP(){
     const [usPatents, setUSPatents] = useState([]);
     useEffect(() => {
@@ -19,7 +18,6 @@ function IP(){
         };
         fetchData();
     },[]);
-    // console.log(usPatents);
  
     return(
         <>
@@ -42,37 +40,37 @@ function IP(){
                 </div>
             </div>
             
-                <Accordion defaultActiveKey="0">
-                    <Accordion.Item eventKey="0">
-                        <Accordion.Header><h4>U.S PATENT PORTFOLIO</h4></Accordion.Header>
-                            <Accordion.Body className='IPAB'>
-                                <NoInternetConnection>
-                                    <Table striped hover className='mt-3 shadow-sm auto-index'>
-                                        <thead>
-                                            <tr>
-                                                <th className='IPPatentTableHead'>S.NO</th>
-                                                <th className='IPPatentTableHead'>PATENT NUMBER</th>
-                                                <th className='IPPatentTableHead'>TITLE</th>
-                                                <th className='IPPatentTableHead'>PUBLICATION DATE</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            {
-                                                usPatents.data && usPatents.data.map((uspatent) => (
-                                                    <tr key={uspatent._id}>
-                                                        <td></td>
-                                                        <td className='usPatentNumber'>{uspatent.patent_number}</td>
-                                                        <td className='usPatentTitle'>{uspatent.title}</td>
-                                                        <td>{uspatent.publication_date}</td>
-                                                    </tr>
-                                                ))
-                                            }
-                                        </tbody>
-                                    </Table>
-                                </NoInternetConnection>
-                            </Accordion.Body>
-                        </Accordion.Item>
-                </Accordion>           
+            <Accordion defaultActiveKey="0">
+                <Accordion.Item eventKey="0">
+                    <Accordion.Header><h4>U.S PATENT PORTFOLIO</h4></Accordion.Header>
+                        <Accordion.Body className='IPAB'>
+                            <NoInternetConnection>
+                                <Table striped hover className='mt-3 shadow-sm auto-index'>
+                                    <thead>
+                                        <tr>
+                                            <th className='IPPatentTableHead'>S.NO</th>
+                                            <th className='IPPatentTableHead'>PATENT NUMBER</th>
+                                            <th className='IPPatentTableHead'>TITLE</th>
+                                            <th className='IPPatentTableHead'>PUBLICATION DATE</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {
+                                            usPatents.data && usPatents.data.map((uspatent) => (
+                                                <tr key={uspatent._id}>
+                                                    <td></td>
+                                                    <td className='usPatentNumber'>{uspatent.patent_number}</td>
+                                                    <td className='usPatentTitle'>{uspatent.title}</td>
+                                                    <td>{uspatent.publication_date}</td>
+                                                </tr>
+                                            ))
+                                        }
+                                    </tbody>
+                                </Table>
+                            </NoInternetConnection>
+                        </Accordion.Body>
+                    </Accordion.Item>
+            </Accordion>           
         </>
     )
 }
