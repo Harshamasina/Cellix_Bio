@@ -1,4 +1,6 @@
 import { Helmet } from "react-helmet";
+import { Breadcrumbs } from '@mui/material';
+import { Link } from "react-router-dom";
 
 const Frank = () => {
     return(
@@ -19,6 +21,11 @@ const Frank = () => {
                     </div>
                 </div>
             </div>
+            <Breadcrumbs separator="\" className='bread-crumb'>
+                <Link to="/home" className='BC-Links'>Home</Link>
+                <Link to="/Leadership" className='BC-Links'>Leadership</Link>
+                <Link to="/frank_d" className='BC-Links'>Frank Diana</Link>
+            </Breadcrumbs>
             <div className="LeaderContainerPage">
                 <img className="LeaderImgPage" src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.Leadership.FrankDiana.PNG" alt="leader"></img>
                 <div className="LeaderContentPage">

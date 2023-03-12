@@ -3,14 +3,16 @@ import Tabs from 'react-bootstrap/Tabs';
 import Claims from './Claims';
 import Compounds from './Compounds';
 import Formulas from './Formulas';
-import {useParams} from 'react-router-dom';
+import {Link, useParams} from 'react-router-dom';
 import TherapeuticArea from './TherapeuticArea';
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 import { Helmet } from 'react-helmet';
+import { Breadcrumbs } from '@mui/material';
 
 function PatentInfo(){
     const {wno} = useParams();
+    const [patent, setPatent] = useState({});
     const [patentFormulas, setPatentFormulas] = useState("formulas are loading");
     const [patentCompounds, setPatentCompounds] = useState("Compounds are Loading");
     const [therapeuticArea, setTherapeuticArea] = useState("Therapeutic Area is Loading");
@@ -21,9 +23,8 @@ function PatentInfo(){
 
     useEffect(() => {
         const fetchData = async () => {
-            const data = await axios.get(`https://backend.cellixbio.info/patents/wipo/${wno}`);
-            console.log(data.data[0].formula);
-            // console.log(patents[0].formula);
+            const data = await axios.get(`https://backend.cellixbio.info/patents/wipo/${wno.replaceAll("/", "%2F")}`);
+            setPatent(data.data[0]);
             setPatentFormulas(data.data[0].formula);
             setPatentCompounds(data.data[0].compounds);
             setTherapeuticArea(data.data[0].therapeutic_area);
@@ -33,8 +34,8 @@ function PatentInfo(){
             setPCT(data.data[0].pct);
         };
         fetchData();
-    });
-    
+    }, [wno]);
+
     return(
         <>
             <Helmet>
@@ -58,6 +59,12 @@ function PatentInfo(){
                     </div>
                 </div>
             </div>
+            <Breadcrumbs separator="\" className='bread-crumb'>
+                <Link to="/home" className='BC-Links'>Home</Link>
+                <Link to="/Patents" className='BC-Links'>Patents</Link>
+                <Link to={"/PatentsDashboard/"+patent.year} className='BC-Links'>{patent.year}</Link>
+                <Link to={"/patentinfo/"+wno} className='BC-Links'>{wno}</Link>
+            </Breadcrumbs>
             <div>
                 <h2 className='heading-primary'><p className='PatentInfoh2'>{wno}</p></h2>
                 <p className='PatentInfoh3'>Publication Date: <span>{pubDate}</span></p>

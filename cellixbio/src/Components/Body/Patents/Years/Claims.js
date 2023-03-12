@@ -1,28 +1,40 @@
 import NoInternetConnection from "../../NoInternetConn";
 
 function Claims({claim}){
-    // console.log(claim);
     const ClaimArray = claim.split("\n");
-    // console.log(ClaimArray);
-    // console.log("Array Length: ", ClaimArray.length);
     return(
         <div>
             <h1 className="PITBh4">CLAIMS</h1>
             <div className="ClaimsContainer">
                 <NoInternetConnection>
                     {
-                        ClaimArray.length>1 ? ClaimArray.map((image) => {
-                            return(
-                            <div>
-                                <div className="ClaimstextCon">
-                                    <span className = "ClaimsText">{image}</span>
-                                </div>
-                                <div className="ClaimsImgCon">
-                                    <img className='PatentImages' src={image} alt=""></img>
-                                </div>
-                            </div>
-                            )
-                        }) : <img className="claimsdatanotfound" width={500} height={450}  src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/NoDataFound.jpg" alt="aws"></img>
+                        ClaimArray.length > 1 ? (
+                            ClaimArray.map((item, index) => {
+                                if (item.startsWith("http")) {
+                                return (
+                                    <div key={index}>
+                                    <div className="ClaimsImgCon">
+                                        <img className="PatentImages" src={item} alt={index} />
+                                    </div>
+                                    </div>
+                                );
+                                } else {
+                                return (
+                                    <div key={index}>
+                                    <div className="ClaimstextCon">
+                                        <span className="ClaimsText">{item}</span>
+                                    </div>
+                                    </div>
+                                );
+                                }
+                            })
+                        ) : (
+                            <img
+                                className="claims-image-not-found"
+                                src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Not+Found.jpg"
+                                alt="aws"
+                            />
+                        )
                     }
                 </NoInternetConnection>
             </div>

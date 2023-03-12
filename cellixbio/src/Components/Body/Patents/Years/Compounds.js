@@ -1,9 +1,7 @@
 import NoInternetConnection from "../../NoInternetConn";
 
 function Compounds({compound}){
-    console.log(compound);
     const CompoundArray = compound.split("\n");
-    // console.log(CompoundArray);
 
     return(
         <div>
@@ -11,11 +9,33 @@ function Compounds({compound}){
             <div className="CompoundsImgContainer">
                 <NoInternetConnection>
                     {
-                            CompoundArray.length>=1 ? CompoundArray.map((image) => {
-                                return(
-                                <img className='PatentImages' src={image} alt=""></img>
-                                )
-                            }) : <img width={500} height={450} src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.DataNotFound.png" alt="aws"></img>
+                        CompoundArray.length > 1 ? (
+                            CompoundArray.map((item, index) => {
+                                if (item.startsWith("http")) {
+                                return (
+                                    <div key={index}>
+                                    <div className="ClaimsImgCon">
+                                        <img className="PatentImages" src={item} alt={index} />
+                                    </div>
+                                    </div>
+                                );
+                                } else {
+                                return (
+                                    <div key={index}>
+                                    <div className="ClaimstextCon">
+                                        <span className="ClaimsText">{item}</span>
+                                    </div>
+                                    </div>
+                                );
+                                }
+                            })
+                        ) : (
+                            <img
+                                className="image-not-found"
+                                src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Not+Found.jpg"
+                                alt="aws"
+                            />
+                        )
                     }
                 </NoInternetConnection>
             </div>

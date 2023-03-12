@@ -1,10 +1,8 @@
 import NoInternetConnection from "../../NoInternetConn";
 
 function Formulas({formula}){
-    console.log(formula);
     const FormulaArray = formula.split("\n");
-    // console.log(FormulaArray);
-    // console.log("Array Length: ", FormulaArray.length);
+    const hasImage = FormulaArray.some((item) => item.startsWith("http"));
 
     return(
         <div>
@@ -12,12 +10,23 @@ function Formulas({formula}){
             <div className="FormulaImgContainer">
                 <NoInternetConnection>
                     {
-                        FormulaArray.length>=1 ? FormulaArray.map((image) => {
-                            return(
-                                
-                            <img className='PatentImages' src={image} alt=""></img>
-                            )
-                        }) : <img width={500} height={450} src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/CellixBio.DataNotFound.png" alt="aws"></img>
+                        hasImage && FormulaArray.length >= 1
+                        ? FormulaArray.map((image, index) => {
+                            return (
+                                <img
+                                    key={index}
+                                    className="PatentImages"
+                                    src={image}
+                                    alt={index}
+                                />
+                            );
+                        })
+                        :
+                        <img
+                            className="image-not-found"
+                            src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Not+Found.jpg"
+                            alt="aws"
+                        />
                     }
                 </NoInternetConnection>
             </div>

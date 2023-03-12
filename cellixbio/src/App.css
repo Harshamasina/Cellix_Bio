@@ -4190,3 +4190,65 @@ img{
     width: 25rem !important;
   }
 }
+
+.image-not-found{
+  width: 50%;
+  height: 50%;
+}
+
+@media screen and (max-width: 600px){
+  .image-not-found{
+    width: 80%;
+    text-align: center;
+    align-items: center;
+ }  
+}
+
+.claims-image-not-found{
+  width: 50%;
+  height: 50%;
+  margin-left: 23%;
+}
+
+@media screen and (max-width: 600px){
+  .claims-image-not-found{
+    width: 80%;
+    text-align: center;
+    align-items: center;
+    margin-left: 5% !important;
+ }  
+}
+
+.bread-crumb{
+  margin-left: 2% !important;
+  margin-top: 2% !important;
+}
+
+Breadcrumb.Item{
+  text-decoration: none !important;
+}
+
+.BC-Links{
+  font-size: 1.05vw;
+  font-weight: 500;
+  text-decoration: none !important;
+  color: #282c34;
+  transition: .3s;
+}
+
+.BC-Links:hover{
+  color: #0E6E59 !important;
+  text-decoration: underline 2px solid #0E6E59 !important;
+}
+
+@media screen and (max-width: 600px){
+  .BC-Links{
+    font-size: 1.2vh !important;
+  }
+}
+
+@media screen and (max-width:768px) and (min-width:601px){
+  .BC-Links{
+    font-size: 1.3vh !important;
+  }
+}

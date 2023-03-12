@@ -9,7 +9,7 @@ import PatentCardSkeleton from './PatentCardSkeleton';
 import NoInternetConnection from '../../NoInternetConn';
 import { Helmet } from 'react-helmet';
 import { MdSignalWifiConnectedNoInternet0 } from "react-icons/md";
-
+import { Breadcrumbs } from '@mui/material';
 
 function PatentsDashboard(){
     const [patents, setPatents] = useState([]);
@@ -47,13 +47,18 @@ function PatentsDashboard(){
                 />
             </Helmet>
             <div className='patentlandingpage'>
-              <img  className='patents_video_bg' src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/gruene-chemie.PNG" alt='benzene rings'/>
-              <div className='pipeline-text'>
-                            <div className='patents_text_1'>
-                                <h1 className='pipelineCarouselh1'>Patents filed by Cellix Bio in {years}</h1>
-                            </div>
-                            </div>
-              </div>
+                <img  className='patents_video_bg' src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/gruene-chemie.PNG" alt='benzene rings'/>
+                <div className='pipeline-text'>
+                    <div className='patents_text_1'>
+                        <h1 className='pipelineCarouselh1'>Patents filed by Cellix Bio in {years}</h1>
+                    </div>
+                </div>
+            </div>
+            <Breadcrumbs separator="\" className='bread-crumb'>
+                <Link to="/home" className='BC-Links'>Home</Link>
+                <Link to="/Patents" className='BC-Links'>Patents</Link>
+                <Link to={"/PatentsDashboard/"+years} className='BC-Links'>{years}</Link>
+            </Breadcrumbs>
             <NoInternetConnection>
                 {loading ? (<PatentCardSkeleton></PatentCardSkeleton>) : (
                     patents.map((patent) => (
@@ -63,7 +68,7 @@ function PatentsDashboard(){
                                     className = "shadow-lg PatentsCard">
                                 <Card.Body>
                                         <Card.Title>
-                                            <Link className='Wno' to= {"/patentInfo/"+patent.wno} target={"_blank"}>{patent.wno}</Link>
+                                            <Link className='Wno' to= {"/patentInfo/"+patent.wno.replaceAll("/", "%2F")} target={"_blank"}>{patent.wno}</Link>
                                         </Card.Title>
                                         <div className='cardTextContainer'>
                                             <div className='cardTextInfoContainer'>
