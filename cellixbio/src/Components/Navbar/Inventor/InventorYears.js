@@ -6,7 +6,7 @@ function InventorYears(){
         {
             id: 1,
             year: 2023,
-            count: 3
+            count: 4
         },
         {
             id: 2,
