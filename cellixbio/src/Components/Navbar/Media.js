@@ -26,6 +26,39 @@ function Media(){
             <div className="MediaCardsContainer">
                 <Card style={{ width: '85rem' }} className="MediaCard">
                     <Card.Img className='MediaCardImage1' variant="top" src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/cellix+bio+media+edit.jpg" />
+                    <Card.Title className='MediaCardTitle'>
+                        <a className='MediaCardTitlea' href='https://www.sciencedirect.com/science/article/abs/pii/S0378517320302222'>MUCOADHESIVE IN SITU FORMING GEL FOR ORAL MUCOSITIS PAIN CONTROL</a>
+                    </Card.Title>
+                    <Card.Text className='MediaCardDateText'>
+                        Cellix Bio, 15-march-2023
+                    </Card.Text>
+                    <Card.Body className='MediaCardBody'>
+                        <Card.Text className='MediaCardText'>
+                            <a style={{color: '#034c3c'}} href='https://www.sciencedirect.com/science/article/abs/pii/S0378517320302222'>https://www.sciencedirect.com/science/article/abs/pii/S0378517320302222</a>
+                        </Card.Text>
+                        <Card.Text className='MediaCardText'>
+                            Oral mucositis is a side effect of cancer treatments like chemotherapy and radiation therapy. It is estimated to affect nearly 400,000 people per year in the US and is characterized by intensely painful sores in the mouth that can cause difficulty talking, swallowing, and eating.                    
+                        </Card.Text>
+                        <Card.Text className='MediaCardText'>
+                            Pain from oral mucositis can become so severe that patients require feeding intravenously or through a stomach tube. Inadequate nutrition can then lead to a host of other problems for people who are already immunocompromised from undergoing traditional cancer treatments.                    
+                        </Card.Text>
+                        <Card.Text className='MediaCardText'>
+                            In addition to weight loss, patients may also heal more slowly, have decreased resistance to infection, and experience a general failure to thrive. Secondary infection and potentially life-threatening systemic sepsis have also been reported.                    
+                        </Card.Text>
+                        <Card.Text className='MediaCardText'>
+                            Starting out in liquid form, the anesthetic turns to a gel when it comes into contact with the mouth and reaches the temperature of the human body. The medication can then stay in place on mouth sores. The NME used in the dosage form is more potent than lidocaine, the researchers expect it should relieve pain for about eight times as long as the standard mouth rinse, approximately four hours.                    
+                        </Card.Text>
+                        <Card.Text className='MediaCardText'>
+                            The compound also exhibits antimicrobial and anti-inflammatory effects naturally delivered by the medium chain fatty acid, which could reduce the severity of lesions from oral mucositis.
+                        </Card.Text>
+                        <Card.Text className='MediaCardText'>
+                            Funding for this technology has been provided by the UConn SPARK Technology Commercialization Fund, the UConn Research Excellence Program, and an Innovation in Oral Care Award from the International Association for Dental Research (IADR)
+                        </Card.Text>
+                        <a className='MediaCarda' href='https://today.uconn.edu/2019/03/new-therapy-targets-painful-side-effect-cancer-treatment/'>Read More</a>
+                    </Card.Body>
+                </Card>
+                <Card style={{ width: '85rem' }} className="MediaCard">
+                    <Card.Img className='MediaCardImage1' variant="top" src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/cellix+bio+media+edit.jpg" />
                     <Card.Body className='MediaCardBody'>
                         <Card.Title className='MediaCardTitle'>
                             <a className='MediaCardTitlea' href='/'>ATOFEX, OUR PIPELINE DRUG FOR ATOPIC DERMATITIS </a>

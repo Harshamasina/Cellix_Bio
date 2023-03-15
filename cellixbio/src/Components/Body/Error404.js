@@ -6,7 +6,7 @@ function Error404(){
     return(
         <div>
             <div className='landingpage'>
-              <img src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Error+New+404_2.jpg" className='video-bg' type="video/mp4"/>
+              <img src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Error+New+404_2.jpg" className='video-bg' alt='error'/>
                     <div className='home-text'>
                             <div>
                                 <h1 className='Carouselh1'>ERROR 404</h1>
