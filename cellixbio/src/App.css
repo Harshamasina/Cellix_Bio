@@ -1250,6 +1250,7 @@ p.CardTextInfo{
   text-transform: capitalize;
   font-size: 1.05vw;
 }
+
 @media screen and (max-width: 600px) {
   p.CardTextInfo   {
     text-align: justify !important;
@@ -1269,6 +1270,7 @@ p.CardTextInfo{
 .cardTextDateContainer{
   flex: 1 !important;
   margin-left: 3%;
+  font-size: 1.05vw !important;
 }
 
 .CardTextSpan{
@@ -1278,6 +1280,8 @@ p.CardTextInfo{
 .CardTextSpanTA{
   text-transform: uppercase !important;
 }
+
+
 /* .card-title.h5{
   text-align: left !important;
 } */
@@ -1315,6 +1319,9 @@ p.CardTextInfo{
     color: #0E6E59 !important;
     font-size: 2.2vh;
     text-decoration: underline 2px solid #0E6E59 !important;
+  }
+  .cardTextDateContainer{
+    font-size: 1.5vh !important;
   }
 }
 
@@ -1355,6 +1362,9 @@ p.CardTextInfo{
 @media screen and (max-width:768px) and (min-width:601px) {
   .PDh2   {
     font-size: 1.5vh;
+  }
+  .cardTextDateContainer{
+    font-size: 2vh !important;
   }
 }
 
@@ -1787,7 +1797,6 @@ text-decoration: underline;
   text-decoration: underline 2px solid !important;
   text-decoration-color: #0E6E59;
 }
-
 
 .Tabs{
   width: 55vw;
@@ -4252,3 +4261,41 @@ Breadcrumb.Item{
     font-size: 1.3vh !important;
   }
 }
+
+/* .mis-button{
+  display: flex;
+  justify-content: center;
+  margin-top: 4%;
+}
+
+.mis-button a{
+  background: #0E6E59;
+  font-size: 1.3vw;
+  font-weight: 475;
+  color: #ffffff;
+  border: 2px solid #0E6E59;
+  border-radius: 5px;
+  padding: 10px 20px 15px 20px;
+  transition: .3s;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 4px 7px;
+}
+
+.mis-button a:hover{
+  transform: scale(1.1);
+  background: #15B39D;
+  color: #ffffff !important;
+  border: 2px solid #15B39D;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+}
+
+@media screen and (max-width: 600px){
+  .mis-button a{
+    font-size: 1.2vh !important;
+  }
+}
+
+@media screen and (max-width:768px) and (min-width:601px){
+  .mis-button a{
+    font-size: 1.3vh !important;
+  }
+} */
