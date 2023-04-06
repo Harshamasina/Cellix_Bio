@@ -3,18 +3,18 @@
   "name": "Cellix Bio",
   "icons": [
     {
-      "src": "https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/cellix+green+favicon.png",
-      "sizes": "64x64 32x32 24x24 16x16",
+      "src": "https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/cellix+favicon+64X64.png",
+      "sizes": "64x64",
       "type": "image/x-icon"
     },
     {
-      "src": "https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/cellix+green+favicon.png",
+      "src": "https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/cellix+favicon+192X192.png",
       "type": "image/png",
       "sizes": "192x192",
       "purpose": "maskable any"
     },
     {
-      "src": "https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/cellix+green+favicon.png",
+      "src": "https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/cellix+favicon+512X512.png",
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "maskable any"
