@@ -1,104 +1,42 @@
+import axios from 'axios';
+import { useEffect, useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
+import NoInternetConnection from '../../Body/NoInternetConn';
 
 function InventorYears(){
-    const data = [
-        {
-            id: 1,
-            year: 2023,
-            count: 8
-        },
-        {
-            id: 2,
-            year: 2022,
-            count: 51
-        },
-        {
-            id: 3,
-            year: 2021,
-            count: 68
-        },
-        {
-            id: 4,
-            year: 2020,
-            count: 58
-        },
-        {
-            id: 5,
-            year: 2019,
-            count: 76
-        },
-        {
-            id: 6,
-            year: 2018,
-            count: 30
-        },
-        {
-            id: 7,
-            year: 2017,
-            count: 25
-        },
-        {
-            id: 8,
-            year: 2016,
-            count: 50
-        },
-        {
-            id: 9,
-            year: 2015,
-            count: 88
-        },
-        {
-            id: 10,
-            year: 2014,
-            count: 90
-        },
-        {
-            id: 11,
-            year: 2013,
-            count: 74
-        },
-        {
-            id: 12,
-            year: 2012,
-            count: 13
-        },
-        {
-            id: 13,
-            year: 2011,
-            count: 18
-        },
-        {
-            id: 14,
-            year: 2010,
-            count: 1
-        },
-        {
-            id: 15,
-            year: 2009,
-            count: 3
-        }
-    ];
-    
+    const [yearsCount, setYearsCount] = useState([]);
+    useEffect(() => {
+        const fetchData  = async () => {
+            try {
+                const res = await axios.get('https://backend.cellixbio.info/allyearcount');
+                setYearsCount(res.data);
+            } catch (err) {
+                console.error(err);
+            }
+        };
+        fetchData();
+    }, []);
+
     return(
         <>
             <div className="YearsContainerh2">
                 <h2 className="Yearsh2">Mahesh Kandula's World Wide Patents ({new Date().getFullYear()} to 2009)</h2>
             </div>
             
-            <div className='yearscontainer'>
-                {
-                    data.map((item) => {
-                        return(
-                            <div className="YearsButtonContainer" key={item.id}>
+            <NoInternetConnection>
+                <div className='yearscontainer'>
+                    {
+                        yearsCount && yearsCount.map((item, index) => (
+                            <div className="YearsButtonContainer" key={index}>
                                 <Button className='yearbtn' variant="dark" size="lg">
                                     <Link className='YearsLinks' to={`/PatentsDashboard/${item.year}`}>{item.year}<p className='yearp'>Patents: {item.count}</p></Link>
                                 </Button>
                             </div>
-                        );
-                    })
-                }
-            </div>
+                        ))
+                    }
+                </div>
+            </NoInternetConnection>
         </>
     );
 }
