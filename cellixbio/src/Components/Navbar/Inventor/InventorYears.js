@@ -6,7 +6,7 @@ function InventorYears(){
         {
             id: 1,
             year: 2023,
-            count: 6
+            count: 8
         },
         {
             id: 2,
@@ -78,7 +78,7 @@ function InventorYears(){
             year: 2009,
             count: 3
         }
-    ]
+    ];
     
     return(
         <>
@@ -102,4 +102,5 @@ function InventorYears(){
         </>
     );
 }
+
 export default InventorYears;
