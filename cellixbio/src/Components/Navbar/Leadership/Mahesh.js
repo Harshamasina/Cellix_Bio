@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet";
 import { Breadcrumbs } from '@mui/material';
 import { Link } from "react-router-dom";
+import { BsLinkedin } from "react-icons/bs";
 
 const Mahesh = () => {
     return(
@@ -31,6 +32,7 @@ const Mahesh = () => {
                 <div className="LeaderContentPage">
                     <h1>MAHESH KANDULA</h1>
                     <h2>FOUNDER</h2>
+                    <a className="LeaderIcon" href="https://www.linkedin.com/in/mahesh-kandula-b052a752/" target="_blank" rel="noreferrer"><BsLinkedin /></a>
                     <p>Mahesh brings over 18 years of scientific and entrepreneurial experience in the life science industry. Mr. Kandula has been named an inventor on 180+ United States Patents and Applications and, more than 640+ International Patent Applications. Mr. Kandula received his Master of Technology degree from IIT Kharagpur.</p>
                 </div>
             </div>

@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet";
 import { Breadcrumbs } from '@mui/material';
 import { Link } from "react-router-dom";
+import { BsLinkedin } from "react-icons/bs";
 
 const Frank = () => {
     return(
@@ -31,6 +32,7 @@ const Frank = () => {
                 <div className="LeaderContentPage">
                     <h1>Frank Diana</h1>
                     <h2>CMC & REGULATORY</h2>
+                    <a className="LeaderIcon" href="https://www.linkedin.com/in/fjd-cmc/" target="_blank" rel="noreferrer"><BsLinkedin /></a>
                     <p>Dr. Frank Diana is experienced in the areas of CMC, Pharmaceutical and Analytical Development. Dr. Diana had a 40-year career in the Pharmaceutical Industry working for Endo Pharmaceuticals, Johnson & Johnson and DuPont Pharmaceuticals mostly in Pharmaceutical Development, Technical Operations and Quality. He obtained his PhD from St. John's University in NY and is an adjunct professor in the RA/QA graduate program at Temple University’s School of Pharmacy teaching several courses including Global CMC Issues.</p>
                 </div>
             </div>

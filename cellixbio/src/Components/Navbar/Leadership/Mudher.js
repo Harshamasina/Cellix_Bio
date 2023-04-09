@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet";
 import { Breadcrumbs } from '@mui/material';
 import { Link } from "react-router-dom";
+import { BsLinkedin } from "react-icons/bs";
 
 const Mudher = () => {
     return(
@@ -31,6 +32,7 @@ const Mudher = () => {
                 <div className="LeaderContentPage">
                     <h1>Dr. Mudher Albassam</h1>
                     <h2>PRE-CLINICAL DEVELOPMENT</h2>
+                    <a className="LeaderIcon" href="https://www.linkedin.com/in/mudher-albassam-78069923a/" target="_blank" rel="noreferrer"><BsLinkedin /></a>
                     <p>Dr. Mudher Albassam has extensive experience in nonclinical development, pathology, nonclinical safety/risk assessment and toxicology. He was a Principal Director and Senior Director in Toxicology & Pathology at Roche Pharmaceuticals. He obtained his PhD on Veterinary Pathology from Purdue University and MS in Veterinary Pathology from the University of Guelph.</p>
                 </div>
             </div>

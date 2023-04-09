@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet";
 import { Breadcrumbs } from '@mui/material';
 import { Link } from "react-router-dom";
+import { BsLinkedin } from "react-icons/bs";
 
 const Subbu = () => {
     return(
@@ -31,6 +32,7 @@ const Subbu = () => {
                 <div className="LeaderContentPage">
                     <h1>Subbu Apparsundaram</h1>
                     <h2>CDO & COO</h2>
+                    <a className="LeaderIcon" href="https://www.linkedin.com/in/subbuapparsundaram/" target="_blank" rel="noreferrer"><BsLinkedin /></a>
                     <p>Subbu Apparsundaram is an established scientist with extensive experience in drug discovery and development. Dr. Subbu founded VClinBio that entered into strategic partnership with Cellix Bio. Previously, Subbu was a Drug Discovery Scientist at Hoffmann-La Roche Pharmaceuticals, and a faculty at the University of Kentucky Medical Center. He has published several peer reviewed research papers.</p>
                 </div>
             </div>

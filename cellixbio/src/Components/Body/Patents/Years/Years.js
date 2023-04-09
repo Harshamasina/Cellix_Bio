@@ -3,21 +3,37 @@ import { useEffect, useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
 import NoInternetConnection from '../../NoInternetConn';
+import { ProgressBar } from  'react-loader-spinner';
 
 function Years(){
     const [yearsCount, setYearsCount] = useState([]);
+    const [loading, setLoading] = useState(true);
 
     useEffect(() => {
         const fetchData  = async () => {
             try {
                 const res = await axios.get('https://backend.cellixbio.info/yearcount');
                 setYearsCount(res.data);
+                setLoading(false);
             } catch (err) {
                 console.error(err);
+                setLoading(false);
             }
         };
         fetchData();
     }, []);
+
+    if(loading){
+        return <div>
+            <ProgressBar
+                visible={true}
+                borderColor = '#0E6E59'
+                barColor = '#15B39D'
+                wrapperClass='years-loading'
+
+            />
+        </div>
+    }
     
     return(
         <>

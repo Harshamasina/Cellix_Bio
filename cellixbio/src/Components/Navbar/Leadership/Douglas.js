@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet";
 import { Breadcrumbs } from '@mui/material';
 import { Link } from "react-router-dom";
+import { BsLinkedin } from "react-icons/bs";
 
 const Douglas = () => {
     return(
@@ -31,6 +32,7 @@ const Douglas = () => {
                 <div className="LeaderContentPage">
                     <h1>Dr. Douglas Greene</h1>
                     <h2>MEDICAL AFFAIRS & STRATEGIC ADVISOR</h2>
+                    <a className="LeaderIcon" href="https://www.linkedin.com/in/douglas-greene-a6942736/" target="_blank" rel="noreferrer"><BsLinkedin /></a>
                     <p>Douglas Greene, MD, served as Executive Vice President, Chief Scientific Officer and Head, Research and Development, Ikaria Pharmaceuticals; Senior Vice President and Senior Scientific Advisor and Head of Corporate Regulatory Development at Sanofi-Aventis; Executive Vice President of Clinical Sciences and Product Development at Merck Research Laboratories and Corporate Officer of Merck, Inc.; served as member of the US Food and Drug Administration's Endocrinologic and Metabolic Drug Advisory Committee and acted as Chairman of the Advisory Committee.</p>
                     <p>Dr. Greene was Professor of Internal Medicine, Director of the Michigan Diabetes Research and Training Center, and Chief, Division of Endocrinology & Metabolism at the University of Michigan School of Medicine. Dr. Greene was Associate Professor of Internal Medicine, Director of the Diabetes Research Laboratory and Head of the General Clinical Research Center at the University of Pittsburgh, and Assistant Professor of Internal Medicine at the University of Pennsylvania. Dr. Greene completed a post-doctoral research fellowship at the Cox Research Institute at the University of Pennsylvania, and Internal Medicine internship and residency at Johns Hopkins Hospital. Dr Greene holds an MD from the Johns Hopkins School of Medicine.</p>
                 </div>

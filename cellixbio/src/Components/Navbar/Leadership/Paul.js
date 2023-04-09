@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet";
 import { Breadcrumbs } from '@mui/material';
 import { Link } from "react-router-dom";
+import { BsLinkedin } from "react-icons/bs";
 
 const Paul = () => {
     return(
@@ -31,6 +32,7 @@ const Paul = () => {
                 <div className="LeaderContentPage">
                     <h1>Paul Jeffrey</h1>
                     <h2>BUSINESS STRATEGY AND ADVISOR</h2>
+                    <a className="LeaderIcon" href="https://www.linkedin.com/in/pauljeffrey10/" target="_blank" rel="noreferrer"><BsLinkedin /></a>
                     <p>Paul Jeffrey is an accomplished Pharmaceutical business consultant and leader with demonstrated new product development and business development capabilities. He has over 30 years of industry experience building product value by leading global teams and creating and implementing clinical and marketing programs to maximize commercial positioning and launch success. He has led commercial development team and alliance partnerships while at Pfizer as VP of Global Commercial Development group.</p>
                 </div>
             </div>

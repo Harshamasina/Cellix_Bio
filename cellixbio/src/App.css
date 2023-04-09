@@ -3744,6 +3744,16 @@ img{
   font-size: 1.2vw;
 }
 
+.LeaderIcon{
+  font-size: 1.5vw;
+  color: #034c3c;
+  transition: .2s;
+}
+
+.LeaderIcon:hover{
+  color: #15B39D;
+}
+
 @media screen and (max-width: 600px) {
   .LeaderContainerPage{
     flex-direction: column !important;
@@ -3767,6 +3777,10 @@ img{
     font-size: 2vh !important;
     text-align: justify;
   }
+  .LeaderIcon{
+    font-size: 3vh !important;
+    margin-left: 46% !important;
+  }
 }
 
 @media screen and (max-width:768px) and (min-width:601px) {
@@ -3781,8 +3795,11 @@ img{
     font-size: 2vh !important;
   }
   .LeaderContentPage p{
-    font-size: 2vh !important;
+    font-size: 2.4vh !important;
     text-align: justify;
+  }
+  .LeaderIcon{
+    font-size: 3vh !important;
   }
 }
 
@@ -4299,3 +4316,14 @@ Breadcrumb.Item{
     font-size: 1.3vh !important;
   }
 } */
+
+.years-loading{
+  margin-left: 46%;
+}
+
+@media screen and (max-width: 600px){
+  .years-loading{
+    margin-left: 40% !important;
+    margin-bottom: 3% !important;
+  }
+}
