@@ -1090,11 +1090,20 @@ font-size: 3vh;
   outline: none;
 }
 
+.search-count{
+  text-align: center;
+  font-size: 1.2vw;
+  font-weight: 550;
+}
+
 @media screen and (max-width: 600px) {
   .SearchPatentContainer {
     margin-left: -10vh;
     height: 10vh;
     margin-bottom: -4% !important;
+  }
+  .search-count{
+    font-size: 2vh !important;
   }
 }
 

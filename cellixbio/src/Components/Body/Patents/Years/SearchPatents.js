@@ -62,62 +62,70 @@ function SearchPatents(){
                 <div>
                     {error && <div style={{color: '#0E6E59', fontSize: '40px' }}><span style={{fontSize: "50px", color: "#FF4433"}}><BiErrorAlt /></span>{error}</div>}
                 </div>
-                {     
-                    isLoading ? (
-                        <div>
-                            <ProgressBar
-                                visible={true}
-                                borderColor = '#0E6E59'
-                                barColor = '#15B39D'
-                                wrapperClass='years-loading'
-
-                            />
-                        </div>
-                    ) : searchPatent.length === 0 && searchTerm ? (
-                        <div className="searchPatentImg-container">
-                          <img
-                            className="searchPatentImg"
-                            src="https://cellix-bio-mis.s3.ap-south-1.amazonaws.com/web+assets/Search+Not+Found.png"
-                            alt="not Found"
-                          ></img>
-                        </div>
-                    ) :
-                    (searchPatent && searchPatent.map((patent) => (
-                        <div className='CardContainer' key={patent._id}>
-                            <Card
-                                style={{ width: '90rem' }} 
-                                className = "shadow-lg PatentsCard">
-                                <Card.Body>
-                                    <Card.Title>
-                                        <Link className='Wno' to = {"/patentInfo/"+patent.wno} target={"_blank"}>
-                                            <Highlighter searchWords={searchTerm.split('/')} autoEscape={true} textToHighlight={patent.wno} highlightStyle={highlightStyle} />
-                                        </Link>
-                                    </Card.Title>
-                                    <div className='cardTextContainer'>
-                                        <div className='cardTextInfoContainer'>
-                                            <Card.Text className='CardTextInfo'>
-                                                <p>
-                                                    <Highlighter searchWords={searchTerm.split('/')} autoEscape={true} textToHighlight={patent.diseases} highlightStyle={highlightStyle} />
-                                                </p>
-                                                <p className='CardTextSpanTA'><span className='CardTextSpan'>Therapeutic Area: </span>
-                                                    <Highlighter searchWords={searchTerm.split('/')} autoEscape={true} textToHighlight={patent.therapeutic_area} highlightStyle={highlightStyle}/>
-                                                </p>
-                                                <p className='CardTextSpanTA'><span className='CardTextSpan'>PCT / Application Number: </span>
-                                                    <Highlighter searchWords={searchTerm.split('/')} autoEscape={true} textToHighlight={patent.pct} highlightStyle={highlightStyle}/>
-                                                </p>
-                                            </Card.Text>
-                                        </div>
-                                        <div className='cardTextDateContainer'>
-                                            <Card.Text>
-                                                <p><span className='CardTextSpan'>Publication Date: </span>{patent.publication_date}</p>
-                                            </Card.Text>
-                                        </div>
-                                    </div>
-                                </Card.Body>
+                {isLoading ? (
+                    <div>
+                        <ProgressBar
+                        visible={true}
+                        borderColor="#0E6E59"
+                        barColor="#15B39D"
+                        wrapperClass="years-loading"
+                        />
+                    </div>
+                ) : searchPatent.length === 0 && searchTerm ? (
+                    <div className="searchPatentImg-container">
+                        <img
+                        className="searchPatentImg"
+                        src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Patent+Data+Not+Found.PNG"
+                        alt="not Found"
+                        ></img>
+                    </div>
+                ) : (
+                    <>
+                        {searchPatent.length > 0 && (
+                            <p className="search-count">
+                                Showing <span style={{color: "#0E6E59", fontWeight: "600"}}>{searchPatent.length}</span> Patent{searchPatent.length !== 1 && 's'}
+                            </p>
+                        )}
+                        {searchPatent.map((patent) => (
+                        <div className="CardContainer" key={patent._id}>
+                            <Card style={{ width: '90rem' }} className="shadow-lg PatentsCard">
+                            <Card.Body>
+                                <Card.Title>
+                                <Link className="Wno" to={"/patentInfo/" + patent.wno} target={"_blank"}>
+                                    <Highlighter searchWords={searchTerm.split('/')} autoEscape={true} textToHighlight={patent.wno} highlightStyle={highlightStyle} />
+                                </Link>
+                                </Card.Title>
+                                <div className="cardTextContainer">
+                                <div className="cardTextInfoContainer">
+                                    <Card.Text className="CardTextInfo">
+                                    <p>
+                                        <Highlighter searchWords={searchTerm.split('/')} autoEscape={true} textToHighlight={patent.diseases} highlightStyle={highlightStyle} />
+                                    </p>
+                                    <p className="CardTextSpanTA">
+                                        <span className="CardTextSpan">Therapeutic Area: </span>
+                                        <Highlighter searchWords={searchTerm.split('/')} autoEscape={true} textToHighlight={patent.therapeutic_area} highlightStyle={highlightStyle} />
+                                    </p>
+                                    <p className="CardTextSpanTA">
+                                        <span className="CardTextSpan">PCT / Application Number: </span>
+                                        <Highlighter searchWords={searchTerm.split('/')} autoEscape={true} textToHighlight={patent.pct} highlightStyle={highlightStyle} />
+                                    </p>
+                                    </Card.Text>
+                                </div>
+                                <div className="cardTextDateContainer">
+                                    <Card.Text>
+                                    <p>
+                                        <span className="CardTextSpan">Publication Date: </span>
+                                        {patent.publication_date}
+                                    </p>
+                                    </Card.Text>
+                                </div>
+                                </div>
+                            </Card.Body>
                             </Card>
-                        </div>)
-                    ))
-                }
+                        </div>
+                        ))}
+                    </>
+                )}
             </div>
         </div>
     );
