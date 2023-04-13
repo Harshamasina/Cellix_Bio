@@ -1,25 +1,43 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Card from 'react-bootstrap/Card';
 import { Link } from "react-router-dom";
 import Highlighter from "react-highlight-words";
+import { BiErrorAlt } from 'react-icons/bi';
+import axios from 'axios';
+import { ProgressBar } from  'react-loader-spinner';
 
 function SearchPatents(){
-    const [searchPatent, setSearchPatent] = useState();
-    const [searchKey, setSearchKey] = useState();
+    const [searchTerm, setSearchTerm] = useState('');
+    const [searchPatent, setSearchPatent] = useState([]);
+    const [error, setError] = useState('');
+    const [isLoading, setIsLoading] = useState(false);
 
-    const searchHandle = async (e) => {
-        let key = e.target.value;
-        setSearchKey(key);
-        if(key){
-            let result = await fetch(`https://backend.cellixbio.info/patents/${key.replaceAll("/", "%2F")}`);
-            result = await result.json()
-            if(result){
-                setSearchPatent(result);
+    useEffect(() => {
+        const fetchSearchResults = async () => {
+            if (searchTerm) {
+                setIsLoading(true);
+                try {
+                    const response = await axios.get(`https://backend.cellixbio.info/patents/${searchTerm.replaceAll("/", "%2F")}`);
+                    setSearchPatent(response.data);
+                    setError('');
+                } catch (error) {
+                    console.log(error);
+                    setSearchPatent([]);
+                    setError(error.message);
+                } finally {
+                    setIsLoading(false);
+                }
+            } else {
+                setSearchPatent([]);
+                setError('');
             }
-        }else{
-            console.log("No Patent Found");
-        }
-    }
+        };
+        fetchSearchResults();
+    }, [searchTerm]);
+
+    const handleSearch = (e) => {
+        setSearchTerm(e.target.value);
+    };
 
     const highlightStyle = {
         backgroundColor: 'rgba(14, 110, 89, 0.15)',
@@ -34,12 +52,37 @@ function SearchPatents(){
             </div>
             <div>
                 <div className="SearchPatentContainer">
-                   <input onChange={searchHandle} className="SearchBarPatents" type="search" spellCheck="off" placeholder="ENTER PATENT APPLICATION NUMBER / PCT NUMBER / THERAPEUTIC AREA / DISEASES"></input>
+                    <input 
+                        onChange={handleSearch} 
+                        className="SearchBarPatents" 
+                        type="search" spellCheck="off" 
+                        placeholder="ENTER PATENT APPLICATION NUMBER / PCT NUMBER / THERAPEUTIC AREA / DISEASES"
+                   />
+                </div>
+                <div>
+                    {error && <div style={{color: '#0E6E59', fontSize: '40px' }}><span style={{fontSize: "50px", color: "#FF4433"}}><BiErrorAlt /></span>{error}</div>}
                 </div>
                 {     
-                    searchPatent && searchPatent.length === 0 ? 
-                    <img className="searchPatentImg" src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Patent+Data+Not+Found.PNG" alt="not Found"></img> : 
-                    searchPatent && searchPatent.map((patent) => (
+                    isLoading ? (
+                        <div>
+                            <ProgressBar
+                                visible={true}
+                                borderColor = '#0E6E59'
+                                barColor = '#15B39D'
+                                wrapperClass='years-loading'
+
+                            />
+                        </div>
+                    ) : searchPatent.length === 0 && searchTerm ? (
+                        <div className="searchPatentImg-container">
+                          <img
+                            className="searchPatentImg"
+                            src="https://cellix-bio-mis.s3.ap-south-1.amazonaws.com/web+assets/Search+Not+Found.png"
+                            alt="not Found"
+                          ></img>
+                        </div>
+                    ) :
+                    (searchPatent && searchPatent.map((patent) => (
                         <div className='CardContainer' key={patent._id}>
                             <Card
                                 style={{ width: '90rem' }} 
@@ -47,20 +90,20 @@ function SearchPatents(){
                                 <Card.Body>
                                     <Card.Title>
                                         <Link className='Wno' to = {"/patentInfo/"+patent.wno} target={"_blank"}>
-                                            <Highlighter searchWords={searchKey.split('/')} autoEscape={true} textToHighlight={patent.wno} highlightStyle={highlightStyle} />
+                                            <Highlighter searchWords={searchTerm.split('/')} autoEscape={true} textToHighlight={patent.wno} highlightStyle={highlightStyle} />
                                         </Link>
                                     </Card.Title>
                                     <div className='cardTextContainer'>
                                         <div className='cardTextInfoContainer'>
                                             <Card.Text className='CardTextInfo'>
                                                 <p>
-                                                    <Highlighter searchWords={searchKey.split('/')} autoEscape={true} textToHighlight={patent.diseases} highlightStyle={highlightStyle} />
+                                                    <Highlighter searchWords={searchTerm.split('/')} autoEscape={true} textToHighlight={patent.diseases} highlightStyle={highlightStyle} />
                                                 </p>
                                                 <p className='CardTextSpanTA'><span className='CardTextSpan'>Therapeutic Area: </span>
-                                                    <Highlighter searchWords={searchKey.split('/')} autoEscape={true} textToHighlight={patent.therapeutic_area} highlightStyle={highlightStyle}/>
+                                                    <Highlighter searchWords={searchTerm.split('/')} autoEscape={true} textToHighlight={patent.therapeutic_area} highlightStyle={highlightStyle}/>
                                                 </p>
                                                 <p className='CardTextSpanTA'><span className='CardTextSpan'>PCT / Application Number: </span>
-                                                    <Highlighter searchWords={searchKey.split('/')} autoEscape={true} textToHighlight={patent.pct} highlightStyle={highlightStyle}/>
+                                                    <Highlighter searchWords={searchTerm.split('/')} autoEscape={true} textToHighlight={patent.pct} highlightStyle={highlightStyle}/>
                                                 </p>
                                             </Card.Text>
                                         </div>
@@ -72,7 +115,7 @@ function SearchPatents(){
                                     </div>
                                 </Card.Body>
                             </Card>
-                        </div>
+                        </div>)
                     ))
                 }
             </div>
