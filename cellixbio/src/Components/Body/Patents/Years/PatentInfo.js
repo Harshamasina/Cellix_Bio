@@ -23,7 +23,7 @@ function PatentInfo(){
 
     useEffect(() => {
         const fetchData = async () => {
-            const data = await axios.get(`https://backend.cellixbio.info/patents/wipo/${wno.replaceAll("/", "%2F")}`);
+            const data = await axios.get(`${process.env.REACT_APP_API_URL}/patents/wipo/${wno.replaceAll("/", "%2F")}`);
             setPatent(data.data[0]);
             setPatentFormulas(data.data[0].formula);
             setPatentCompounds(data.data[0].compounds);
