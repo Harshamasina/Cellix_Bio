@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "author": "Mani Harsha",
   "private": true,
-  "proxy": "https://backend.cellixbio.info/",
+  "proxy": "${REACT_APP_API_URL}",
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
