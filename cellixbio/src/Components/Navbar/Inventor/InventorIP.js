@@ -9,7 +9,7 @@ function InventorIP(){
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const data = await axios.get(`https://backend.cellixbio.info/uspatents`);
+                const data = await axios.get(`${process.env.REACT_APP_API_URL}/uspatents`);
                 setUSPatents(data);
             } catch (err) {
                 console.log(err);

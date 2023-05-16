@@ -21,7 +21,7 @@ function PatentsDashboard(){
         const fetchData = async () => {
             setLoading(true);
             try {
-                const data = await axios.get(`https://backend.cellixbio.info/patents/years/${years}`);
+                const data = await axios.get(`${process.env.REACT_APP_API_URL}/patents/years/${years}`);
                 setPatents(data.data);
             } catch (err) {
                 console.error(err);

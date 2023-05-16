@@ -17,7 +17,7 @@ function SearchPatents(){
             if (searchTerm) {
                 setIsLoading(true);
                 try {
-                    const response = await axios.get(`https://backend.cellixbio.info/patents/${searchTerm.replaceAll("/", "%2F")}`);
+                    const response = await axios.get(`${process.env.REACT_APP_API_URL}/patents/${searchTerm.replaceAll("/", "%2F")}`);
                     setSearchPatent(response.data);
                     setError('');
                 } catch (error) {

@@ -12,7 +12,7 @@ function Years(){
     useEffect(() => {
         const fetchData  = async () => {
             try {
-                const res = await axios.get('https://backend.cellixbio.info/yearcount');
+                const res = await axios.get(`${process.env.REACT_APP_API_URL}/yearcount`);
                 setYearsCount(res.data);
                 setLoading(false);
             } catch (err) {
@@ -33,7 +33,7 @@ function Years(){
 
             />
         </div>
-    }
+    };
     
     return(
         <>

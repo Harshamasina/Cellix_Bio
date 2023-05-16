@@ -12,7 +12,7 @@ function InventorYears(){
     useEffect(() => {
         const fetchData  = async () => {
             try {
-                const res = await axios.get('https://backend.cellixbio.info/allyearcount');
+                const res = await axios.get(`${process.env.REACT_APP_API_URL}/allyearcount`);
                 setYearsCount(res.data);
                 setLoading(false);
             } catch (err) {

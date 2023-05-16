@@ -10,7 +10,7 @@ function IP(){
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const data = await axios.get(`https://backend.cellixbio.info/cbuspatents`);
+                const data = await axios.get(`${process.env.REACT_APP_API_URL}/cbuspatents`);
                 setUSPatents(data);
             } catch (err) {
                 console.log(err);
