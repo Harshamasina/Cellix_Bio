@@ -24,7 +24,6 @@ function PatentInfo(){
     useEffect(() => {
         const fetchData = async () => {
             const data = await axios.get(`${process.env.REACT_APP_API_URL}/patents/wipo/${wno.replaceAll("/", "%2F")}`);
-            setPatent(data.data[0]);
             setPatentFormulas(data.data[0].formula);
             setPatentCompounds(data.data[0].compounds);
             setTherapeuticArea(data.data[0].therapeutic_area);
@@ -38,19 +37,6 @@ function PatentInfo(){
 
     return(
         <>
-            <Helmet>
-                <title>{wno} | Cellix Bio</title>
-                <meta name='description' content={wno} />
-                <meta name='description' content={therapeuticArea} />
-                <meta name='description' content={diseases} />
-                <meta name='keywords' content={wno} />
-                <meta name='keywords' content={PCT} />
-                <meta name='keywords' content="Therapeutic Area, Formulas, Claims, Compounds and Methods of patents filed by cellix bio,
-                    cellix bio patent, patentscope, cellix bio patents"
-                />
-                <meta name='keywords' content={therapeuticArea} />
-                <meta name='keywords' content={diseases} />
-            </Helmet>
             <div className='patentlandingpage'>
                 <img  className='patents_video_bg' src="https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/Tablets.PNG" alt='patentInfo'/>
                 <div className='pipeline-text'>
@@ -63,7 +49,6 @@ function PatentInfo(){
             <Breadcrumbs separator="\" className='bread-crumb'>
                 <Link to="/home" className='BC-Links'>Home</Link>
                 <Link to="/Patents" className='BC-Links'>Patents</Link>
-                <Link to={"/PatentsDashboard/"+patent.year} className='BC-Links'>{patent.year}</Link>
                 <Link to={"/patentinfo/"+wno} className='BC-Links'>{wno}</Link>
             </Breadcrumbs>
 
