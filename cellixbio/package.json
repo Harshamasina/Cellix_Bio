@@ -1,8 +1,6 @@
 {
-  "homepage": "https://cellixbio.com/",
   "name": "cellixbio",
   "version": "0.1.0",
-  "author": "Mani Harsha",
   "private": true,
   "proxy": "${REACT_APP_API_URL}",
   "dependencies": {
@@ -12,14 +10,11 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "axios": "^1.2.1",
     "bootstrap": "^5.2.2",
     "react": "^18.2.0",
     "react-bootstrap": "^2.5.0",
-    "react-dom": "^18.2.0",
     "react-dotenv": "^0.1.3",
     "react-helmet": "^6.1.0",
-    "react-highlight-words": "^0.20.0",
     "react-icons": "^4.7.1",
     "react-loader-spinner": "^5.3.4",
     "react-router-dom": "^6.4.2",
@@ -28,7 +23,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages",
     "start": "react-scripts start",
     "build": "react-scripts build && cp build/index.html build/Error404.js",
     "test": "react-scripts test",
@@ -52,7 +47,5 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "gh-pages": "^4.0.0"
-  }
+ 
 }
