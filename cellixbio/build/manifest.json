@@ -1,0 +1,15 @@
+{
+  "short_name": "Cellix Bio",
+  "name": "Cellix Bio",
+  "icons": [
+    {
+      "src": "https://cellixbio-assets.s3.ap-south-1.amazonaws.com/Web+Images/cellix+favicon+64X64.png",
+      "sizes": "64x64",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#0E6E59",
+  "background_color": "#ffffff"
+}

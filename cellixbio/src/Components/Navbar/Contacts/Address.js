@@ -12,14 +12,10 @@ function Address(){
                         <Card.Text>
                             <ul className='CUUL'>
                                 <li className='CULI'>Cellix Bio Private Limited,</li>
-                                <li className='CUSpan'>Plot No.24, MSR Pride, Flat No.502,</li>
-                                <li className='CUSpan'>Miyapur, Hyderabad, TG</li>
-                                <li className='CUSpan'>Pin : 500049, <span className='CUSpan'>India.</span></li>
+                                <li className='CUSpan'>401/a, 4th Floor, SVSS Nivas, West wing Road No.1, Czech Colony</li>
+                                <li className='CUSpan'>Sanath Nagar Colony Balanagar K.V.Rangareddy TG</li>
+                                <li className='CUSpan'>500018, <span className='CUSpan'>India.</span></li>
                             </ul>
-                            {/* <ul className='CUUL'>
-                                <li className='CULI'>Cellix Biosciences Inc,</li>
-                                <li>NJIT-Enterprise Development Center, 211 Warren Street, Newark, NJ 07103, <span className='CUSpan'>USA.</span></li>
-                            </ul> */}
                         </Card.Text>
                     </Card.Body>
                 </Card>
